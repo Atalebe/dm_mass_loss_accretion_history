@@ -1,0 +1,23 @@
+{
+  "title": "Mass-loss dependence of accretion-history correlations in dark-matter halo velocity structure: analysis materials",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "publication_date": "2026-10-21",
+  "creators": [
+    {
+      "name": "Atalebe, Stephen"
+    }
+  ],
+  "description": "<p>Reproduction materials for <em>Mass-loss dependence of accretion-history correlations in dark-matter halo velocity structure</em>, by Stephen Atalebe. This release contains the article and supplementary material, original analysis code, selected per-object catalogues and model matrices, full-precision results, saved random-stream specifications, permutation outputs, spatial deletion records, and executable verification tools.</p><p>The analysis concerns population-dependent, contemporaneous accretion-history correlations. Recorded mass-loss controls substantially attenuate the original increments. Spatial reference calculations remain pointwise and fixed-parameter; global residual-permutation comparisons require unverified exchangeability. This release does not establish a dynamical memory law, jointly calibrated spatial/search inference, or the conditional association in formation-incomplete objects.</p><p><strong>Licensing by material:</strong> original software and executable scripts are MIT. All other author-owned material, including manuscript text, documentation, figures, tables, metadata, original datasets and analytical outputs, is CC BY 4.0. These are distinct grants for distinct materials, not alternative licences. Underlying third-party simulation content retains its provider conditions; no rights over public-domain facts are claimed. See LICENSE.md and docs/licensing.json in the archive. The generic Other (Open) catalogue entry represents this mixed-licence collection, not a replacement licence.</p><p>The repository documents the tested reproduction boundary. The main and recovered numerical pipelines can be replayed from included inputs without access to the private development repository. Large raw simulation trees and certain upstream/secondary producer routes are separate; supplied summaries are not relabelled complete raw-data reconstruction. AI assistance with ChatGPT and Claude is disclosed in the manuscript. This archive is not independent human peer review.</p>",
+  "access_right": "open",
+  "license": "other-open",
+  "language": "eng",
+  "keywords": [
+    "dark-matter haloes",
+    "accretion history",
+    "recorded mass loss",
+    "reproducible numerical analysis",
+    "cosmological simulations"
+  ],
+  "notes": "MIT applies to original source code and executable scripts; CC BY 4.0 applies to all other author-owned material. Underlying IllustrisTNG and BolshoiP products retain provider conditions. Exact grants are in LICENSE.md. The package includes the checked v12 scientific manuscript; subsequent DOI-only availability updates do not alter its numerical results."
+}

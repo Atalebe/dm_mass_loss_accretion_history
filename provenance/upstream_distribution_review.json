@@ -1,0 +1,31 @@
+{
+  "schema": "halo-upstream-distribution-review-v1",
+  "status": "DOCUMENTED_FOR_SELECTED_DERIVED_RELEASE",
+  "scope": "Selected derived numerical inputs and author contributions; not raw-provider archive redistribution or legal certification.",
+  "author_rights_only": true,
+  "provider_rights_relicensed": false,
+  "cosmosim_schema_licence": "CC0-1.0",
+  "tng_specific_spdx_licence_inferred": false,
+  "raw_hdf5_or_raw_tree_files_included": false,
+  "provider_acknowledgements_retained": true,
+  "sources": [
+    {
+      "url": "https://www.cosmosim.org/metadata/bolshoip/",
+      "checked_date": "2026-10-21",
+      "retrieved_sha256": "497f7f8551238f464df5b480185c67fb9c7de3070fde6cf19d6689c69e5e32de",
+      "full_webpage_redistributed": false
+    },
+    {
+      "url": "https://www.tng-project.org/data/docs/background/",
+      "checked_date": "2026-10-21",
+      "retrieved_sha256": "764a4b8bb7897d7ec87907d2b822d4ee470313e039ba122f2fa03b468a0eb5d0",
+      "full_webpage_redistributed": false
+    },
+    {
+      "url": "https://github.com/zenodo/zenodo-rdm/blob/master/legacy/zenodo_legacy/data/legacy_licenses.json",
+      "checked_date": "2026-10-21",
+      "retrieved_sha256": "9a2d537a786056c71f36a85de14270c8a757fed6e5cc7db2eb4cbab8dbdfbae5",
+      "full_webpage_redistributed": false
+    }
+  ]
+}

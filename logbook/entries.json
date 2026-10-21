@@ -81,6 +81,21 @@
       "github_release_created": false,
       "zenodo_deposit_created": false,
       "v176_started": false
+    },
+    {
+      "entry_number": 6,
+      "id": "DM-PAPER-ARCHIVAL-RELEASE-PREPARATION-006",
+      "at_utc": "2026-10-21T08:47:36.177715+00:00",
+      "what_was_tested": "Frozen v1.0.0 archival contents, author-approved licensing, provider-source review, metadata, publication guards and clean-directory replay.",
+      "methods": "108 tests in normal/-O/-OO modes; all integrity, import and 32-asset coverage checks; combined default archived-stream replay; public-source metadata inspection; private corruption and unauthorized-local-publication tests.",
+      "results": "Prepublication checks passed;718 scientific/paper source files unchanged; existing samples and numerical settings preserved. Publication is a separate externally verified step, not assumed by this entry.",
+      "failures": "A preliminary evidence-path lookup referenced a nonexistent directory and stopped before changing the repository; the actual preflight directory was resolved and all checks completed. Intentional licence/source corruption and local-publication fixtures were rejected.",
+      "next_steps": "Commit and push the checked snapshot, push only v1.0.0 to its exact commit, verify the hosted release and resulting Zenodo record; retain exact failures rather than create a second release silently.",
+      "new_scientific_random_streams": 0,
+      "scientific_findings_closed": [],
+      "original_repository_modified": false,
+      "v176_started": false,
+      "release_publication_already_verified": false
     }
   ]
 }

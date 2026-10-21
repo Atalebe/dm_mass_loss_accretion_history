@@ -1,24 +1,13 @@
-# Rights and archival-release boundary
+# Rights and archival release
 
-The author has approved **MIT for original code and executable scripts, and CC BY 4.0 for everything else the author owns in this repository**. This includes the manuscript, supplementary text, standalone documentation, figures, tables, metadata, synthetic reference datasets and original analytical results. Inline comments, docstrings and fixtures embedded in original software follow that software's MIT licence.
+The author has approved MIT for original source code/executable scripts and CC BY 4.0 for all other author-owned material, and authorized publication of the paper-specific release. The private continuing development repository is separate and unchanged.
 
-`../LICENSE.md` and `licensing.json` define the current policy. The earlier figure-only decision is superseded by this broader author clarification. Dated verification receipts and logbook entries retain their historical scope; they are not the current licence policy.
+The source review in `upstream_data_conditions.md` covers selected numerical inputs and analysis-derived material. It retains provider attribution and does not assign new rights over upstream simulation products. `reproduction_scope.md` and the 32-asset map state the limits; publication is not scientific closure of ABA26-001 or ABA26-002.
 
-The licence choice does not replace upstream TNG/BolshoiP conditions or confer rights held by a third party. The author's original contributions to simulation-derived compilations and analysis outputs are covered by CC BY 4.0 only to the extent of rights actually held. Third-party notices and attribution remain applicable.
+The owner reports the Zenodo integration enabled and resynced. The release workflow verifies the exact tagged tree before publishing. A DOI and successful ingestion are verified from the resulting public record, not assumed from the account toggle.
 
-Before the archival release:
-1. Complete the upstream-data redistribution review and retain the provider acknowledgements and access conditions. This is distinct from the now-complete choice of licences for author-owned work.
-2. Approve the exact release source tree and the stated reproduction scope, including any external raw-data and secondary-producer boundaries.
-3. The owner reports that the intended paper repository is enabled and resynced in Zenodo; this is not independently verified here and is not a deposit or DOI.
-4. Describe the material-specific split explicitly in release and deposit metadata: MIT code; CC BY 4.0 non-code author contributions; third-party exceptions retained. Neither licence applies as an alternative blanket licence to all files.
-5. Publish only the approved release, verify the actual archive record and DOI, and then update Data Availability.
+The current Zenodo GitHub legacy metadata reader accepts one licence catalogue value. `.zenodo.json` uses **Other (Open)** for the mixed collection and explicitly states MIT software versus CC BY 4.0 non-code author material in its description and notes. `LICENSE.md` and the full texts are authoritative for file-level scope; Other (Open) is not a substitute licence. Zenodo's manual record editor supports multiple licence entries and can additionally display both identifiers without changing these grants.
 
-This licensing change creates no release tag, GitHub Release or Zenodo record, and does not change scientific findings. The continuing development repository remains separate and private.
+No author ORCID, affiliation, funding grant, journal acceptance or DOI is inferred. The article's AI disclosure remains intact. The manuscript availability statement may be updated only after the actual record is verified.
 
-Authoritative licence references:
-- https://opensource.org/license/mit
-- https://creativecommons.org/licenses/by/4.0/legalcode.en
-
-Provider references:
-- https://www.tng-project.org/data/
-- https://www.cosmosim.org/metadata/bolshoip/
+References: https://help.zenodo.org/docs/github/describe-software/zenodo-json/ ; https://help.zenodo.org/docs/deposit/describe-records/licenses/ ; https://help.zenodo.org/docs/github/archive-software/github-upload/ .

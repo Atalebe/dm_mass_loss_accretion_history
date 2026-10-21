@@ -1,10 +1,14 @@
 cff-version: 1.2.0
-message: "Please cite the manuscript and the exact repository commit. An archival DOI has not yet been issued."
+message: "Cite this software release and the associated manuscript. Mixed licensing: MIT for original software; CC BY 4.0 for other author-owned material. See LICENSE.md."
 type: software
 title: "Mass-loss dependence of accretion-history correlations in dark-matter halo velocity structure: analysis materials"
 authors:
   - family-names: "Atalebe"
     given-names: "Stephen"
 repository-code: "https://github.com/Atalebe/dm_mass_loss_accretion_history"
-version: "0.1.0-preparation"
-abstract: "Paper-specific numerical catalogues, saved search statistics, manuscript sources and portable reproduction tools. See the README for scope and release status."
+version: "1.0.0"
+date-released: "2026-10-21"
+license:
+  - MIT
+  - CC-BY-4.0
+abstract: "Versioned numerical code, selected inputs, saved permutation outputs, spatial sensitivities, manuscript sources and verification tools. Licence scope and reproduction limitations are documented in the repository."

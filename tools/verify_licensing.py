@@ -33,8 +33,8 @@ def validate_map(r):
     need(len(names) == len(set(names)), 'Duplicate code path')
     for name in names:
         q = safe_relative(name)
-        need(q.suffix in ('.py', '.sh'), 'Non-code listed as MIT software')
-        need(q.parts[0] in ['src', 'tools', 'tests', 'reference'] or (len(q.parts) == 1 and q.suffix == '.sh'), 'Unexpected code scope')
+        need(q.suffix in ('.py', '.sh') or (q.parts[:2] == ('.github', 'workflows') and q.suffix == '.yml'), 'Non-code listed as MIT software')
+        need(q.parts[0] in ['src', 'tools', 'tests', 'reference'] or (len(q.parts) == 1 and q.suffix == '.sh') or q.parts[:2] == ('.github', 'workflows'), 'Unexpected code scope')
     figures = r['figure_files']
     need(len(figures) == len(set(figures)) == 24 and len({Path(p).stem for p in figures}) == 8, 'Figure set changed')
     for name in figures:
@@ -59,7 +59,7 @@ def verify(root=ROOT):
     r = json.loads((root/'docs/licensing.json').read_text())
     validate_map(r)
     names = payload(root) + ['MANIFEST.json']
-    actual_code = sorted(n for n in names if Path(n).suffix in ('.py', '.sh'))
+    actual_code = sorted(n for n in names if Path(n).suffix in ('.py', '.sh') or (PurePosixPath(n).parts[:2] == ('.github', 'workflows') and Path(n).suffix == '.yml'))
     need(actual_code == sorted(r['licences']['original_code']['files']), 'Update code membership before licensing new scripts')
     figures = sorted(str(p.relative_to(root)) for p in (root/'paper/figures').iterdir() if p.suffix in ('.pdf', '.png', '.svg'))
     need(figures == sorted(r['figure_files']), 'Figure membership differs')
@@ -73,8 +73,12 @@ def verify(root=ROOT):
     status = json.loads((root/'docs/release_status.json').read_text())
     need(status['licences'] == {'original_code': 'MIT', 'other_author_owned_material': 'CC-BY-4.0'}, 'Release licence scope differs')
     need(status['licence_selection_complete_for_entire_package'] is True, 'Author licence choice must be recorded as complete')
-    need(status['third_party_redistribution_review_complete'] is False, 'Licensing does not itself clear upstream redistribution')
-    need(status['github_release_created'] is False and status['archive_doi'] is None, 'Unapproved archival-release claim')
+    if status['third_party_redistribution_review_complete']:
+        review = json.loads((root/'provenance/upstream_distribution_review.json').read_text())
+        need(review['author_rights_only'] and review['provider_rights_relicensed'] is False, 'Provider review must preserve upstream rights')
+    need(status.get('github_release_creation_authorized') is True, 'Archival release needs owner authorization')
+    if status['archive_doi'] is not None:
+        need((root/'provenance/zenodo_release_receipt.json').is_file(), 'DOI requires external verification evidence')
     notice = (root/'LICENSE.md').read_text().lower()
     for phrase in ['all other author-owned material', 'manuscript', 'datasets', 'underlying third-party content is not relicensed']:
         need(phrase in notice, 'Missing material-scope notice: '+phrase)

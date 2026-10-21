@@ -1,6 +1,6 @@
 {
   "schema": "halo-paper-release-status-v1",
-  "phase": "public_candidate_with_code_mit_and_noncode_cc_by_4_0",
+  "phase": "validated_snapshot_prepared_for_authorized_v1_0_0_release",
   "public_visibility_authorized_in_this_step": true,
   "licence_selected": true,
   "zenodo_deposited": false,
@@ -30,10 +30,9 @@
   "zenodo_integration_status": "OWNER_REPORTED_ENABLED_AND_RESYNCED_NOT_INDEPENDENTLY_VERIFIED",
   "github_release_created": false,
   "remaining_release_requirements": [
-    "upstream-data redistribution review",
-    "approval of explicit reproduction scope",
-    "approved release tag and GitHub Release",
-    "verified Zenodo archival record and DOI"
+    "publish authorized tag and GitHub Release",
+    "verify Zenodo archival record, file and DOI",
+    "insert the verified archive citation into the current manuscript availability statement"
   ],
   "licence_selection_complete_for_entire_package": true,
   "licence_selection_scope": "Original code/scripts: MIT; all other author-owned material: CC-BY-4.0; third-party rights preserved.",
@@ -42,5 +41,10 @@
     "other_author_owned_material": "CC-BY-4.0"
   },
   "licence_selection_completion_scope": "The author licence choice is complete for all original contributions. It is not third-party rights clearance.",
-  "third_party_redistribution_review_complete": false
+  "third_party_redistribution_review_complete": true,
+  "release_version": "1.0.0",
+  "release_tag": "v1.0.0",
+  "third_party_redistribution_review_scope": "Documented public-provider policy and selected-derived-material scope; no upstream relicensing or legal certification.",
+  "explicit_reproduction_scope_approved": true,
+  "github_release_creation_authorized": true
 }

@@ -6,9 +6,9 @@ This is a standalone repository with a new Git history. It is not a mirror of th
 
 ## Status
 
-This is a **public release-preparation repository**, made public by the author. It is not yet a tagged GitHub/Zenodo archival release and no analysis DOI has been issued. MIT is selected for original code and CC BY 4.0 for original figures. Licensing of other material and the final redistribution/release review remain pending. The checked v12 manuscript and previous scientific values are unchanged.
+This is the author-approved **v1.0.0 archival snapshot** of the paper-specific analysis. Its tag-triggered publication is described in `docs/archival_release_plan.json`. The checked v12 scientific text and numerical values are unchanged. The version-specific DOI is assigned externally by Zenodo after processing; this snapshot does not invent an identifier.
 
-The recovered formation, threshold, recorded-loss and separate spline materials are now included. See `docs/reproduction_scope.md`, the 32-asset `docs/reproducibility_map.md`, and `provenance/legacy_import_verification.json` for what was replayed and what remains a preserved or external provenance layer. Both scientific audit findings remain open despite their completed reporting actions.
+Original source code, executable scripts and the release workflow are MIT. Other author-owned material is CC BY 4.0. Provider attribution and rights are preserved in `docs/upstream_data_conditions.md`; no licence is imposed on underlying public-domain facts. See `docs/reproduction_scope.md` and the complete 32-asset reproduction map for executable and upstream boundaries. Both scientific audit findings remain open.
 
 ## Start here
 

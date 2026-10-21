@@ -1,0 +1,41 @@
+{
+  "status": "ARCHIVAL_RELEASE_PREPARATION_QUALIFIED",
+  "base_commit": "5a72400a7a356fddaf67f5e9979e679aae8f3e9b",
+  "tag": "v1.0.0",
+  "unit_tests_per_mode": 108,
+  "unit_modes": [
+    "normal",
+    "-O",
+    "-OO"
+  ],
+  "combined_default_replay": "COMBINED_REPRODUCTION_VERIFIED",
+  "scientific_files_unchanged": 718,
+  "main_max_absolute_difference": 4.217781679471955e-11,
+  "legacy_max_absolute_difference": 3.865352482534945e-12,
+  "new_scientific_random_streams": 0,
+  "raw_tree_scans": 0,
+  "scientific_findings_closed": [],
+  "failure_and_privacy_checks": {
+    "status": "PREPUBLICATION_FAILURE_AND_PRIVACY_CHECKS_PASS",
+    "unit_tests_per_mode": 108,
+    "modes": [
+      "normal",
+      "-O",
+      "-OO"
+    ],
+    "invalid_mixed_licence_rejected": true,
+    "corrupt_legal_text_rejected": true,
+    "strict_calling_shell_preserved": true,
+    "local_publication_without_workflow_rejected": true,
+    "text_files_scanned": 598,
+    "credential_or_local_path_findings": [],
+    "scientific_files_unchanged": 718,
+    "no_new_experiments": true
+  },
+  "development_unchanged": true,
+  "reservations_preserved": 18,
+  "research_packages_installed": 0,
+  "release_already_published": false,
+  "doi_assumed": false,
+  "checked_at_utc": "2026-10-21T08:47:36.177480+00:00"
+}

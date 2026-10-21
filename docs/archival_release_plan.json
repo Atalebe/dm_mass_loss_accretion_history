@@ -1,0 +1,22 @@
+{
+  "schema": "halo-archival-release-plan-v1",
+  "repository": "Atalebe/dm_mass_loss_accretion_history",
+  "tag": "v1.0.0",
+  "version": "1.0.0",
+  "publication_date": "2026-10-21",
+  "base_commit": "5a72400a7a356fddaf67f5e9979e679aae8f3e9b",
+  "authorized_action": "Publish the checked paper-specific GitHub release for the owner-enabled Zenodo integration.",
+  "scientific_changes_authorized": false,
+  "new_scientific_random_streams": 0,
+  "scientific_findings_closed": [],
+  "manuscript_snapshot": "v12",
+  "licences": {
+    "original_code": "MIT",
+    "other_author_owned_material": "CC-BY-4.0"
+  },
+  "upstream_scope_review": "provenance/upstream_distribution_review.json",
+  "reproduction_scope": "docs/reproduction_scope.md",
+  "automation": "Single tag-triggered publication; exact checkout and manifests verified before creating the draft/release. No credentials from the research machine.",
+  "github_release_creation_authorized": true,
+  "zenodo_doi_predetermined": false
+}
