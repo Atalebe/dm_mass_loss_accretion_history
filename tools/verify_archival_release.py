@@ -27,9 +27,16 @@ def verify(root=ROOT):
     root=Path(root); checks=integrity(root); cov=coverage(root); legacy=imported(root); lic=licensing(root)
     m=json.loads((root/'.zenodo.json').read_text());plan=json.loads((root/'docs/archival_release_plan.json').read_text());validate_metadata(m,plan)
     old=json.loads((root/'provenance/archival_scientific_preservation.json').read_text())
+    publication_updates = {}
+    if (root/'provenance/availability_update_verification.json').exists():
+        from verify_publication_update import verify as publication
+        publication(root)
+        publication_updates = {e['path']:e for e in json.loads((root/'provenance/availability_update_verification.json').read_text())['files']}
     for e in old['files']:
-        p=root/e['path']
-        need(p.is_file() and p.stat().st_size==e['bytes'] and hashlib.sha256(p.read_bytes()).hexdigest()==e['sha256'], 'Scientific payload altered: '+e['path'])
+        p=root/e['path'];update=publication_updates.get(e['path'])
+        expected_sha=update['current_sha256'] if update else e['sha256']
+        expected_bytes=update['current_bytes'] if update else e['bytes']
+        need(p.is_file() and p.stat().st_size==expected_bytes and hashlib.sha256(p.read_bytes()).hexdigest()==expected_sha, 'Scientific payload altered: '+e['path'])
     cff=(root/'CITATION.cff').read_text()
     need('version: "1.0.0"' in cff and 'family-names: "Atalebe"' in cff and 'MIT' in cff and 'CC-BY-4.0' in cff,'Citation metadata mismatch')
     policy=json.loads((root/'provenance/upstream_distribution_review.json').read_text())
@@ -42,7 +49,7 @@ def verify(root=ROOT):
     need("'v1.0.0'" in wf and 'contents: write' in wf and 'pull_request' not in wf,'Unsafe workflow trigger')
     need('uses:' not in wf, 'Unexpected third-party action')
     return {'status':'ARCHIVAL_SNAPSHOT_VERIFIED','tag':TAG,'version':VERSION,'files':checks['files'],
-        'scientific_files_unchanged':len(old['files']),'coverage_assets':cov['assets'],
+        'scientific_files_unchanged':len(old['files'])-len(publication_updates),'doi_only_publication_files':len(publication_updates),'coverage_assets':cov['assets'],
         'licences':{'original_code':'MIT','other_author_owned_material':'CC-BY-4.0'},
         'new_scientific_computations':0,'scientific_findings_closed':[],'release_publication_authorized':True,
         'zenodo_doi_assumed':False}

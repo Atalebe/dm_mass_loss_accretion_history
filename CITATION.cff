@@ -12,3 +12,4 @@ license:
   - MIT
   - CC-BY-4.0
 abstract: "Versioned numerical code, selected inputs, saved permutation outputs, spatial sensitivities, manuscript sources and verification tools. Licence scope and reproduction limitations are documented in the repository."
+doi: "10.5281/zenodo.23529740"

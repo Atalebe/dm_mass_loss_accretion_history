@@ -1,0 +1,37 @@
+{
+  "schema": "halo-doi-only-publication-update-v1",
+  "status": "VERIFIED_DOI_ONLY_AVAILABILITY_UPDATE",
+  "archived_tag": "v1.0.0",
+  "archived_commit": "11da155816d72342ce162ecdd7e07d9f492ce072",
+  "doi": "10.5281/zenodo.23529740",
+  "files": [
+    {
+      "path": "paper/manuscript/availability.tex",
+      "archived_sha256": "c666d94c423a4e6dd53af6a804ab225432f001bb0f30345a744122d74d551103",
+      "current_sha256": "ef0dcb81287813d9effbbeee9c5a3ed7aed8ca460ebe38853c8068675e742586",
+      "current_bytes": 482
+    },
+    {
+      "path": "paper/Mass_Loss_Accretion_History.pdf",
+      "archived_sha256": "adfeafb1231e7fe673f0d68167b2a168b62dd53581348084422a9c33d35ed8c1",
+      "current_sha256": "bf4a69639a5bc778286dd9c4d2efb39a8e4db3a3cdd08bc5501c4d660890c749",
+      "current_bytes": 250063
+    }
+  ],
+  "availability_before": "% Replace with the verified public record citation after deposit. No DOI is invented.\n\\newcommand{\\AnalysisAvailability}{The tabulated results, figure data and supplementary diagnostics are supplied in the accompanying machine-readable analysis package. The fitting and resampling code and full numerical outputs can be obtained from the author.}\n",
+  "availability_after": "% Public record verified against the exact released source archive.\n\\newcommand{\\AnalysisAvailability}{The analysis code, selected per-object input tables, saved resampling outputs and spatial diagnostics are publicly archived as version 1.0.0 at \\doi{10.5281/zenodo.23529740}. The archive also includes manuscript sources and a table-and-figure reproduction map specifying executable and upstream-data boundaries. Original code is MIT; other author-owned materials are CC BY 4.0.}\n",
+  "main_pages_before": 22,
+  "main_pages_after": 22,
+  "changed_main_pages": [
+    20
+  ],
+  "unchanged_main_pages": 21,
+  "supplementary_pages": 11,
+  "supplementary_byte_identical": true,
+  "changed_page_visually_inspected": true,
+  "rendered_doi_link": "https://doi.org/10.5281/zenodo.23529740",
+  "numerical_inputs_results_tables_figures_or_scientific_prose_changed": false,
+  "tag_or_zenodo_archive_modified": false,
+  "initial_check_correction": "The first page checker incorrectly expected a DOI in the supplement, which contains no Data Availability section. Its verified unchanged bytes are the correct requirement. No supplement source was changed.",
+  "checked_at_utc": "2026-10-21T08:56:23.754877+00:00"
+}

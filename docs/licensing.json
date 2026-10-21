@@ -29,6 +29,7 @@
         "tests/test_legacy_import.py",
         "tests/test_legacy_materials.py",
         "tests/test_licensing.py",
+        "tests/test_publication_update.py",
         "tests/test_release_coverage.py",
         "tests/test_sensitivity.py",
         "tools/build_paper.py",
@@ -41,6 +42,7 @@
         "tools/verify_legacy_import.py",
         "tools/verify_legacy_materials.py",
         "tools/verify_licensing.py",
+        "tools/verify_publication_update.py",
         "tools/verify_release_coverage.py"
       ]
     },

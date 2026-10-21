@@ -96,6 +96,21 @@
       "original_repository_modified": false,
       "v176_started": false,
       "release_publication_already_verified": false
+    },
+    {
+      "entry_number": 7,
+      "id": "DM-PAPER-ARCHIVE-VERIFIED-DOI-CITATION-007",
+      "at_utc": "2026-10-21T08:57:41.020693+00:00",
+      "what_was_tested": "Published GitHub release, actual Zenodo DOI and downloaded archive, plus citation-only manuscript update.",
+      "methods": "Verified hosted exact-tag publication; downloaded 211941475-byte Zenodo ZIP; all793 payload identities matched; author/version/licence scope and DOI resolution checked;116 tests in three interpreter modes; clean PDF rebuild and page-render comparison.",
+      "results": "Version1.0.0 DOI10.5281/zenodo.23529740 verified. Only main article page20 changes for public availability;21 other article pages and the11-page supplement remain unchanged. Scientific data,figures,tables,private repository and18 reservations preserved.",
+      "failures": "Initial PDF checker assumed the supplement contained the shared availability macro. Inspection showed no such section; the correct requirement is byte-identical supplement, which passed. No supplement text or scientific rule changed.",
+      "next_steps": "Commit/push the verified DOI-only metadata and article update on main while leaving v1.0.0 fixed. The current paper can cite the archived analysis. Preprint/journal submission is a separate author action.",
+      "doi": "10.5281/zenodo.23529740",
+      "release_tag_modified": false,
+      "scientific_findings_closed": [],
+      "original_repository_modified": false,
+      "v176_started": false
     }
   ]
 }

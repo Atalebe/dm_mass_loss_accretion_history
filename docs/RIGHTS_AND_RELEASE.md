@@ -1,5 +1,7 @@
 # Rights and archival release
 
+Version 1.0.0 has been published and its complete Zenodo archive verified at DOI 10.5281/zenodo.23529740. The following records the material-specific rights and publication procedure. The current article has a separately verified DOI-only availability amendment; the tag and archive are unchanged.
+
 The author has approved MIT for original source code/executable scripts and CC BY 4.0 for all other author-owned material, and authorized publication of the paper-specific release. The private continuing development repository is separate and unchanged.
 
 The source review in `upstream_data_conditions.md` covers selected numerical inputs and analysis-derived material. It retains provider attribution and does not assign new rights over upstream simulation products. `reproduction_scope.md` and the 32-asset map state the limits; publication is not scientific closure of ABA26-001 or ABA26-002.

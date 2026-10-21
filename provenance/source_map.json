@@ -4,9 +4,10 @@
     {
       "path": "paper/manuscript/availability.tex",
       "source": "manuscript-v12/manuscript/availability.tex",
-      "sha256": "c666d94c423a4e6dd53af6a804ab225432f001bb0f30345a744122d74d551103",
-      "bytes": 347,
-      "representation": "byte-exact"
+      "sha256": "ef0dcb81287813d9effbbeee9c5a3ed7aed8ca460ebe38853c8068675e742586",
+      "bytes": 482,
+      "representation": "Verified DOI-only Data Availability update; original archived snapshot retained",
+      "archived_v1_0_0_sha256": "c666d94c423a4e6dd53af6a804ab225432f001bb0f30345a744122d74d551103"
     },
     {
       "path": "paper/manuscript/main.tex",
@@ -705,9 +706,10 @@
     {
       "path": "paper/Mass_Loss_Accretion_History.pdf",
       "source": "manuscript-v12/Mass_Loss_Accretion_History.pdf",
-      "sha256": "adfeafb1231e7fe673f0d68167b2a168b62dd53581348084422a9c33d35ed8c1",
-      "bytes": 249821,
-      "representation": "byte-exact"
+      "sha256": "bf4a69639a5bc778286dd9c4d2efb39a8e4db3a3cdd08bc5501c4d660890c749",
+      "bytes": 250063,
+      "representation": "Verified DOI-only Data Availability update; original archived snapshot retained",
+      "archived_v1_0_0_sha256": "adfeafb1231e7fe673f0d68167b2a168b62dd53581348084422a9c33d35ed8c1"
     },
     {
       "path": "paper/Supplementary_Material.pdf",

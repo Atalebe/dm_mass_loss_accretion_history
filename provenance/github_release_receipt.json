@@ -1,0 +1,32 @@
+{
+  "release_id": 419335627,
+  "tag": "v1.0.0",
+  "source_commit": "11da155816d72342ce162ecdd7e07d9f492ce072",
+  "published_at": "2026-10-21T08:48:50Z",
+  "url": "https://github.com/Atalebe/dm_mass_loss_accretion_history/releases/tag/v1.0.0",
+  "draft": false,
+  "prerelease": false,
+  "workflow_run_id": 39572072539,
+  "workflow_job_id": 119128463088,
+  "workflow_conclusion": "success",
+  "assets": [
+    {
+      "name": "Mass_Loss_Accretion_History.pdf",
+      "size": 249821,
+      "digest": "sha256:adfeafb1231e7fe673f0d68167b2a168b62dd53581348084422a9c33d35ed8c1",
+      "url": "https://github.com/Atalebe/dm_mass_loss_accretion_history/releases/download/v1.0.0/Mass_Loss_Accretion_History.pdf"
+    },
+    {
+      "name": "RELEASE_CHECKSUMS.json",
+      "size": 439,
+      "digest": "sha256:8595ad182ede64d2f057ecb0f9b54a03996436f8081211a0b80fe69242c17bf8",
+      "url": "https://github.com/Atalebe/dm_mass_loss_accretion_history/releases/download/v1.0.0/RELEASE_CHECKSUMS.json"
+    },
+    {
+      "name": "Supplementary_Material.pdf",
+      "size": 171228,
+      "digest": "sha256:e69fbd0e66c91d57859ebfda4e557b590d550f623fc30567590eada59daa1d66",
+      "url": "https://github.com/Atalebe/dm_mass_loss_accretion_history/releases/download/v1.0.0/Supplementary_Material.pdf"
+    }
+  ]
+}

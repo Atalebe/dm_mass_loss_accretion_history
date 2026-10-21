@@ -23,8 +23,8 @@
     },
     {
       "path": "CITATION.cff",
-      "bytes": 771,
-      "sha256": "a3915cbad7dfe6b9a6ecc2b05cb2a8cbbbf2ffcdbd9aa5f4ad3a75143d346ee1"
+      "bytes": 802,
+      "sha256": "6cb564f781fc6767012c85c155e3593f51ba0797caf83025272b3bb27342ab84"
     },
     {
       "path": "LICENSE.md",
@@ -43,8 +43,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 6105,
-      "sha256": "73caf2f11476c938c62fd28f2472b2b0d01d3aa581e0a48e8e99de0701e799c1"
+      "bytes": 6471,
+      "sha256": "92c34739a992dd7d553f481bb4b99a1d2f274c74e3af14f4b66e573a6ddb0794"
     },
     {
       "path": "analysis_data/catalogues/bolshoip_tree_0_2_2/feature.csv.gz",
@@ -3103,8 +3103,8 @@
     },
     {
       "path": "docs/RIGHTS_AND_RELEASE.md",
-      "bytes": 1830,
-      "sha256": "4326b6b3d3653cf2d868bc698bb5fb38848e42bddaa09cf3dabec38eeacb3b64"
+      "bytes": 2129,
+      "sha256": "149e5ae749cc0401ce039dea0f0dd16ce8171e065c9a357ebf9509e1c6d88faf"
     },
     {
       "path": "docs/archival_release_plan.json",
@@ -3143,13 +3143,13 @@
     },
     {
       "path": "docs/licensing.json",
-      "bytes": 8337,
-      "sha256": "5737fd316b23420f1e0072bfafe194d2f4c14fc4770b7294ca43ec53418c03b9"
+      "bytes": 8427,
+      "sha256": "12279ef9e2626527eb56cdb006d6da703ed4ae8bf0b9d00f2bd9cc99a676d0b2"
     },
     {
       "path": "docs/release_status.json",
-      "bytes": 2121,
-      "sha256": "baa272c8dc2fdaa165829a6945b1481375f7977d7cd59fdf05491bf66c4baf38"
+      "bytes": 2330,
+      "sha256": "c1854544efbbe3b6eb5fe9025a15c0624516b6634e792649031547587a578b70"
     },
     {
       "path": "docs/reproducibility_map.json",
@@ -3178,8 +3178,8 @@
     },
     {
       "path": "logbook/entries.json",
-      "bytes": 9503,
-      "sha256": "9aa64813bfd7fd328eb4a68e2eb8b1b04c24e749aef4da28182b51378ff4d219"
+      "bytes": 11004,
+      "sha256": "aa7c50de29f152c0aadd9f9a39972cf08c56d61691629bfed614b67725dae502"
     },
     {
       "path": "logbook/entry_0001.tex",
@@ -3212,9 +3212,14 @@
       "sha256": "fa829501ff2334df3cc2526af439f53819db4cc34705194b24d06f968b95fac9"
     },
     {
+      "path": "logbook/entry_0007.tex",
+      "bytes": 774,
+      "sha256": "e70654fb5d9b1067acdd90e2a511862f1f83bb7d6fa9ab9f07b5c7fca6e1a3a5"
+    },
+    {
       "path": "paper/Mass_Loss_Accretion_History.pdf",
-      "bytes": 249821,
-      "sha256": "adfeafb1231e7fe673f0d68167b2a168b62dd53581348084422a9c33d35ed8c1"
+      "bytes": 250063,
+      "sha256": "bf4a69639a5bc778286dd9c4d2efb39a8e4db3a3cdd08bc5501c4d660890c749"
     },
     {
       "path": "paper/Supplementary_Material.pdf",
@@ -3578,8 +3583,8 @@
     },
     {
       "path": "paper/manuscript/availability.tex",
-      "bytes": 347,
-      "sha256": "c666d94c423a4e6dd53af6a804ab225432f001bb0f30345a744122d74d551103"
+      "bytes": 482,
+      "sha256": "ef0dcb81287813d9effbbeee9c5a3ed7aed8ca460ebe38853c8068675e742586"
     },
     {
       "path": "paper/manuscript/main.tex",
@@ -3717,6 +3722,11 @@
       "sha256": "ebcec5c61652bc2bae86f6bee66ef3ef3a31e85032dea32bbc0e5f677374eac3"
     },
     {
+      "path": "provenance/archival_completion_verification.json",
+      "bytes": 1120,
+      "sha256": "449c6af738a14d786d7188829557f7c59b585d8718c69482ac7518ed6437859d"
+    },
+    {
       "path": "provenance/archival_release_qualification.json",
       "bytes": 1285,
       "sha256": "436ed5264bb61108beb5f379a73588a2c899b173db7e30bdf4fafa3d2f5e390e"
@@ -3737,9 +3747,19 @@
       "sha256": "ee839f4c71afcac52010b921e4d2f805a2853455ae02c0be940d35d88d9619e3"
     },
     {
+      "path": "provenance/availability_update_verification.json",
+      "bytes": 2424,
+      "sha256": "02fc6752ed81f2cdd94f58c7c2d8f876b0121a4866424d5ae09f2981ec30662a"
+    },
+    {
       "path": "provenance/code_noncode_licensing_verification.json",
       "bytes": 1666,
       "sha256": "29b85bc9ee5499aca0e97e2a4f1b9b26aaf1ffd2b72ac37456a859b5e856a728"
+    },
+    {
+      "path": "provenance/github_release_receipt.json",
+      "bytes": 1292,
+      "sha256": "4932e0510529465da0196973444cd8e54fbdb662732dfcf472ab9ab2fb840e1e"
     },
     {
       "path": "provenance/legacy_import_verification.json",
@@ -3788,13 +3808,18 @@
     },
     {
       "path": "provenance/source_map.json",
-      "bytes": 163639,
-      "sha256": "345bd922561a73b9c6f4853238bbc57c3272db14db931eec83fbf1b3acb91753"
+      "bytes": 163977,
+      "sha256": "d9081bf459d711ffb5ecbeed9b007f13f820f3c7d9c31c703b43e7d180729196"
     },
     {
       "path": "provenance/upstream_distribution_review.json",
       "bytes": 1310,
       "sha256": "1ee8f94060c591e9522e1e2d7d9f699737c361d9bb4330e3ccdd6305a880cacc"
+    },
+    {
+      "path": "provenance/zenodo_release_receipt.json",
+      "bytes": 1202,
+      "sha256": "2859ed2eb4d8a575bc4f68cd0e8d24b28002aff1061dc5f456b688b12d019920"
     },
     {
       "path": "reference/original_ols.py",
@@ -3897,6 +3922,11 @@
       "sha256": "9bfe33862b2ed7891e72ed0562e38dadee37c67a9482f9fd97f4290775a9c5ef"
     },
     {
+      "path": "tests/test_publication_update.py",
+      "bytes": 1639,
+      "sha256": "f20131ed833ee92f951e5656beee417d049188f8b76389031ddfe89a93315fe7"
+    },
+    {
       "path": "tests/test_release_coverage.py",
       "bytes": 1524,
       "sha256": "4f89286587d3b671e8b1acc0cab08543df326795e9c2ecd625d729c1eb86e1ec"
@@ -3933,8 +3963,8 @@
     },
     {
       "path": "tools/verify_archival_release.py",
-      "bytes": 3620,
-      "sha256": "d384551a9993d6fb0587b4df682f1655ea20bd7132bbfe9aeede9dd0d2ae34e6"
+      "bytes": 4234,
+      "sha256": "06030f19427baa7d0b51306b5af042488c41e445f492add8c032cb4580b88c93"
     },
     {
       "path": "tools/verify_integrity.py",
@@ -3955,6 +3985,11 @@
       "path": "tools/verify_licensing.py",
       "bytes": 6207,
       "sha256": "cbc70c904282a6f474fc0d6489101a783cc34f84750f998ddc6faf9488be88b7"
+    },
+    {
+      "path": "tools/verify_publication_update.py",
+      "bytes": 2475,
+      "sha256": "9c8f7b9ea1ad288673244ab8193677ad16aabdd030057cf421104d04e5c9497d"
     },
     {
       "path": "tools/verify_release_coverage.py",

@@ -6,9 +6,11 @@ This is a standalone repository with a new Git history. It is not a mirror of th
 
 ## Status
 
-This is the author-approved **v1.0.0 archival snapshot** of the paper-specific analysis. Its tag-triggered publication is described in `docs/archival_release_plan.json`. The checked v12 scientific text and numerical values are unchanged. The version-specific DOI is assigned externally by Zenodo after processing; this snapshot does not invent an identifier.
+**Version 1.0.0 is publicly archived on Zenodo:** [10.5281/zenodo.23529740](https://doi.org/10.5281/zenodo.23529740). Cite that version-specific DOI for the exact analysis snapshot. The [all-versions DOI](https://doi.org/10.5281/zenodo.23529739) resolves to the version collection.
 
-Original source code, executable scripts and the release workflow are MIT. Other author-owned material is CC BY 4.0. Provider attribution and rights are preserved in `docs/upstream_data_conditions.md`; no licence is imposed on underlying public-domain facts. See `docs/reproduction_scope.md` and the complete 32-asset reproduction map for executable and upstream boundaries. Both scientific audit findings remain open.
+The immutable `v1.0.0` tag points to commit `11da155816d72342ce162ecdd7e07d9f492ce072`. All 793 archived files were downloaded and verified. The current main-branch article includes a DOI-only Data Availability amendment made after the deposit; the archived tag and numerical results are unchanged. The supplement is byte-identical. See `provenance/zenodo_release_receipt.json` and `provenance/availability_update_verification.json`.
+
+Original software and executable workflows are MIT; other author-owned material is CC BY 4.0. The generic Other (Open) catalogue entry on Zenodo represents this mixed collection; the description and `LICENSE.md` specify each material's grant. Third-party conditions remain separate. Reproduction boundaries are in `docs/reproduction_scope.md` and the 32-asset map. The two scientific inference/population findings remain open.
 
 ## Start here
 

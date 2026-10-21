@@ -1,0 +1,37 @@
+{
+  "status": "ARCHIVE_VERIFIED_AND_DOI_ONLY_PAPER_UPDATE_QUALIFIED",
+  "software_version": "1.0.0",
+  "tag": "v1.0.0",
+  "release_commit": "11da155816d72342ce162ecdd7e07d9f492ce072",
+  "doi": "10.5281/zenodo.23529740",
+  "archive_files_verified": 793,
+  "archive_sha256": "479fcbc3f75d809534be1b0d1f940961bbfd626b7a04472338b41e977514e58a",
+  "github_release_id": 419335627,
+  "hosted_publication_run": 39572072539,
+  "hosted_publication_conclusion": "success",
+  "unit_tests_per_mode": 116,
+  "unit_modes": [
+    "normal",
+    "-O",
+    "-OO"
+  ],
+  "main_pages": 22,
+  "supplement_pages": 11,
+  "changed_page": [
+    20
+  ],
+  "all_other_32_pages_unchanged": true,
+  "changed_page_visually_inspected": true,
+  "clean_document_rebuild_byte_identical": true,
+  "science_tables_figures_and_values_changed": false,
+  "original_repository_unchanged": true,
+  "reservations_preserved": 18,
+  "new_scientific_random_streams": 0,
+  "packages_installed": 0,
+  "v176_started": false,
+  "licences": {
+    "code": "MIT",
+    "other_author_owned_material": "CC-BY-4.0"
+  },
+  "checked_at_utc": "2026-10-21T08:57:41.020122+00:00"
+}
