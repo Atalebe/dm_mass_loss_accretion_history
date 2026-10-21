@@ -1,0 +1,16 @@
+sample,case,spline_delta_r2_reported,spline_delta_bic_reported,linear_exceedances,spline_exceedances,B
+tng_scaled,full_C4,0.010658,-14.826,2,0,10000
+tng_scaled,centrals_C4,0.013019,-16.102,2,1,10000
+tng_replication,full_C4,0.008564,-29.742,0,0,10000
+tng_replication,centrals_C4,0.012287,-36.234,0,0,10000
+tng_power_n2000,full_C4,0.002836,-22.832,0,0,10000
+tng_power_n2000,centrals_C4,0.001736,-7.504,0,3,10000
+bolshoip_tree_0_2_2,baseline,0.019342,-639.35,0,0,10000
+bolshoip_tree_0_2_2,Qpeak_ge20,0.019735,-417.08,0,0,10000
+bolshoip_tree_0_2_2,Qpeak_ge50,0.013193,-126.97,0,0,10000
+bolshoip_tree_2_3_4,baseline,0.020309,-687.39,0,0,10000
+bolshoip_tree_2_3_4,Qpeak_ge20,0.023253,-486.95,0,0,10000
+bolshoip_tree_2_3_4,Qpeak_ge50,0.014142,-150.0,0,0,10000
+bolshoip_tree_3_2_1,baseline,0.019045,-669.0,0,0,10000
+bolshoip_tree_3_2_1,Qpeak_ge20,0.018814,-424.54,0,0,10000
+bolshoip_tree_3_2_1,Qpeak_ge50,0.013744,-152.64,0,0,10000

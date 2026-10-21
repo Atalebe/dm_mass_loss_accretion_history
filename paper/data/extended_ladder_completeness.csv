@@ -1,0 +1,4 @@
+branch_id,n_full,n_extended_complete,dropped_fraction,mass_smd_retained_minus_dropped,selection_caveat_required
+tng_scaled,420,419,0.0023809523809523725,,False
+tng_replication,881,879,0.002270147559591429,0.5587903385525855,False
+tng_power_n2000,2199,2189,0.004547521600727578,1.5334357579321678,False

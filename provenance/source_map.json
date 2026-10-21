@@ -1,0 +1,3444 @@
+{
+  "schema": "halo-paper-source-map-v1",
+  "records": [
+    {
+      "path": "paper/manuscript/availability.tex",
+      "source": "manuscript-v12/manuscript/availability.tex",
+      "sha256": "c666d94c423a4e6dd53af6a804ab225432f001bb0f30345a744122d74d551103",
+      "bytes": 347,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/manuscript/main.tex",
+      "source": "manuscript-v12/manuscript/main.tex",
+      "sha256": "2c4abfe579f57587d61fa7dd6719ca4137b3d7a56f1669980b4fa7e8c9d2ed20",
+      "bytes": 60713,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/manuscript/references.tex",
+      "source": "manuscript-v12/manuscript/references.tex",
+      "sha256": "6fe0d2d404341b4771e985a7386463b4da4a274556e715be5fbb2b1c5d6898b1",
+      "bytes": 8272,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/manuscript/supplementary.tex",
+      "source": "manuscript-v12/manuscript/supplementary.tex",
+      "sha256": "f00edd9da2a3f8e34a77d0fb3a291d139e241938b5f7090a93d000153523ba64",
+      "bytes": 22825,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/manuscript/tables/bolshoip_cube_compatibility.tex",
+      "source": "manuscript-v12/manuscript/tables/bolshoip_cube_compatibility.tex",
+      "sha256": "76acdfb2cd5bec56d7b3ceaa0527e437f66037c1b1648e403f7e60d29366f391",
+      "bytes": 446,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/manuscript/tables/bp_loss_counts.tex",
+      "source": "manuscript-v12/manuscript/tables/bp_loss_counts.tex",
+      "sha256": "349981d79606aa7178e70d5b97a4c7d4d898ebf5870b8d5b7b1ee076452e4849",
+      "bytes": 376,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/manuscript/tables/bp_loss_refits.tex",
+      "source": "manuscript-v12/manuscript/tables/bp_loss_refits.tex",
+      "sha256": "7997bcb143683c82d5a76721721ea94422ba8f235b1de54e0c44bb4674583ff4",
+      "bytes": 1160,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/manuscript/tables/bp_thresholds.tex",
+      "source": "manuscript-v12/manuscript/tables/bp_thresholds.tex",
+      "sha256": "66957c8f11f34d90ea4b326ca07d796d21dd8f2aa9da23e78c8531e56b68f739",
+      "bytes": 1007,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/manuscript/tables/central_integrated.tex",
+      "source": "manuscript-v12/manuscript/tables/central_integrated.tex",
+      "sha256": "c8ac122e8260c4f410496d209189ebbf47e7ab2eb6adb30e6af341e7d3389339",
+      "bytes": 407,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/manuscript/tables/extended.tex",
+      "source": "manuscript-v12/manuscript/tables/extended.tex",
+      "sha256": "cbc2a642684ab24ff9c6595253a12f9627760c4e900fe1a4830ccd711b5ccd25",
+      "bytes": 531,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/manuscript/tables/gamma_integrated.tex",
+      "source": "manuscript-v12/manuscript/tables/gamma_integrated.tex",
+      "sha256": "d520f089ad261110528a57c632abf4878e96a6cbc865c8cb258b5a1992987ee9",
+      "bytes": 634,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/manuscript/tables/independent_spline.tex",
+      "source": "manuscript-v12/manuscript/tables/independent_spline.tex",
+      "sha256": "20de5ffb9dcbe93ac5ba7e938a1a87a780fda3d3d91605e6171123c9f655f52f",
+      "bytes": 979,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/manuscript/tables/influence_logloss.tex",
+      "source": "manuscript-v12/manuscript/tables/influence_logloss.tex",
+      "sha256": "82b127290df29ff3dfb05b5a2db944a1b05b7925f12ba47b70705f58f5bd6f5e",
+      "bytes": 328,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/manuscript/tables/logloss.tex",
+      "source": "manuscript-v12/manuscript/tables/logloss.tex",
+      "sha256": "3f56f31243f95f76ea22b3f51de01352a30c4ad10e7043ade0f80c69ddc7b049",
+      "bytes": 1494,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/manuscript/tables/loss_designs.tex",
+      "source": "manuscript-v12/manuscript/tables/loss_designs.tex",
+      "sha256": "c625e31108fe5c7dbe22b0be76987662ead7859ce23b3e4b94a867ca4f1ede8d",
+      "bytes": 1314,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/manuscript/tables/mass_ranges_audit.tex",
+      "source": "manuscript-v12/manuscript/tables/mass_ranges_audit.tex",
+      "sha256": "de6c767e57c9851dfdf9649758818c11b34fb16ba59879e359734188481abfc3",
+      "bytes": 360,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/manuscript/tables/mass_reweighting.tex",
+      "source": "manuscript-v12/manuscript/tables/mass_reweighting.tex",
+      "sha256": "4de39e48c26f4bc61780e142c19124211d97f30fbf6be33941bc3de227f9bb63",
+      "bytes": 782,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/manuscript/tables/mass_split.tex",
+      "source": "manuscript-v12/manuscript/tables/mass_split.tex",
+      "sha256": "302b9c37f3b183f41ffaf34ab6712b2f8c339e5a50b8fc6e9c38e002910ef032",
+      "bytes": 456,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/manuscript/tables/matched.tex",
+      "source": "manuscript-v12/manuscript/tables/matched.tex",
+      "sha256": "52542d50d432b14efcd6664584586cdb51f79d8f48d004ad6ebd8f23c53f1204",
+      "bytes": 418,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/manuscript/tables/particle_counts_audit.tex",
+      "source": "manuscript-v12/manuscript/tables/particle_counts_audit.tex",
+      "sha256": "5102d31b58dc4ed6810f4614109dafafef2178b5da5c331e9d71a683464d753b",
+      "bytes": 314,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/manuscript/tables/population_audit.tex",
+      "source": "manuscript-v12/manuscript/tables/population_audit.tex",
+      "sha256": "9ec6b4aaaf88a242197ce83e1b965888c93a35d9ffd3add863c6cf696df958ef",
+      "bytes": 249,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/manuscript/tables/primary.tex",
+      "source": "manuscript-v12/manuscript/tables/primary.tex",
+      "sha256": "052210475d4d3a000874b0ffbf7066390d49a534a506a89e5d53703b25dc8daa",
+      "bytes": 533,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/manuscript/tables/rank_counts.tex",
+      "source": "manuscript-v12/manuscript/tables/rank_counts.tex",
+      "sha256": "efd987099f9f4fb7e9dc9ca8cd6034652bd19c435ad352a07876d5c5e54b54ed",
+      "bytes": 757,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/manuscript/tables/samples.tex",
+      "source": "manuscript-v12/manuscript/tables/samples.tex",
+      "sha256": "776ec58dae4231adc3b233d53bd9f2e6bf8cbd2206b5fa23c63ab724ce038582",
+      "bytes": 376,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/manuscript/tables/spatial_nominal_G27.tex",
+      "source": "manuscript-v12/manuscript/tables/spatial_nominal_G27.tex",
+      "sha256": "a8c568313871a6689a0fcb0015fc1a942ee2b6e26fc80d32528d666002c4edfe",
+      "bytes": 3004,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/manuscript/tables/spatial_nominal_G8.tex",
+      "source": "manuscript-v12/manuscript/tables/spatial_nominal_G8.tex",
+      "sha256": "6f11e291748699deda6ff37d3511393a8c8e0672c60c136853cf363cbbc6e2e1",
+      "bytes": 2921,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/manuscript/tables/spatial_sensitivity.tex",
+      "source": "manuscript-v12/manuscript/tables/spatial_sensitivity.tex",
+      "sha256": "69b58d6f5e2f0ed5be478d401c858010b74f98df4621cac3a9fbee642bc8cd8f",
+      "bytes": 987,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/manuscript/tables/tng_loss_refits.tex",
+      "source": "manuscript-v12/manuscript/tables/tng_loss_refits.tex",
+      "sha256": "ebcec5c61652bc2bae86f6bee66ef3ef3a31e85032dea32bbc0e5f677374eac3",
+      "bytes": 384,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/data/DM_BolshoiP_Cube_Compatibility.csv",
+      "source": "manuscript-v12/data/DM_BolshoiP_Cube_Compatibility.csv",
+      "sha256": "5762c62ffa76c53a89f444ca0c9d2050ae5ab6e8326acd2d1806b59d6765ccee",
+      "bytes": 1168,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/data/DM_Spatial_Nominal_t_Reference.csv",
+      "source": "manuscript-v12/data/DM_Spatial_Nominal_t_Reference.csv",
+      "sha256": "6195a3cf4c78581d180148f610dbfae6e2065e1c8fea6b53f5ce1380bbd8485a",
+      "bytes": 31049,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/data/INDEPENDENT_LEAVE_ONE_OUT.csv",
+      "source": "manuscript-v12/data/INDEPENDENT_LEAVE_ONE_OUT.csv",
+      "sha256": "67aa6d8e96a1fab59f77b1d588945e3fa3d1e68fc43beb927ba695b176cbaf0e",
+      "bytes": 77036,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/data/POPULATION_BALANCE.json",
+      "source": "manuscript-v12/data/POPULATION_BALANCE.json",
+      "sha256": "21f48288a5e39d7bfd693ae3adb920aadba68de5904157a783dc2b0d726dbbbe",
+      "bytes": 1700,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/data/TNG_I_centrals_influence_after.csv",
+      "source": "manuscript-v12/data/TNG_I_centrals_influence_after.csv",
+      "sha256": "31dbb40c4050aa9c54acee8e1d9f73eeaf8c7a60919d568e158a2997a8060eb8",
+      "bytes": 70043,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/data/TNG_I_centrals_influence_before.csv",
+      "source": "manuscript-v12/data/TNG_I_centrals_influence_before.csv",
+      "sha256": "8f2fc6f15c56214656fd8bd445dd442a668d268a132691704e0b9e4020e10b63",
+      "bytes": 69925,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/data/bp_population_figure_data.csv",
+      "source": "manuscript-v12/data/bp_population_figure_data.csv",
+      "sha256": "c7d32bf9394caefce7e875664ffed42852c9d518f473d7f86d3c973e97546e56",
+      "bytes": 1643,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/data/candidate_specific_search_adjusted.csv",
+      "source": "manuscript-v12/data/candidate_specific_search_adjusted.csv",
+      "sha256": "35068fff51843b89af1fcd26f602567d8bd8033f779d198149d08b12171e6a96",
+      "bytes": 36254,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/data/censoring_binned.csv",
+      "source": "manuscript-v12/data/censoring_binned.csv",
+      "sha256": "df61ca2dc66f2c8f2310cacad724d22801ede51722f5f5637f27ffde49c53402",
+      "bytes": 1947,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/data/central_population_comparison.csv",
+      "source": "manuscript-v12/data/central_population_comparison.csv",
+      "sha256": "f46aa4c1a1269fd921345b396c90dab387916d70b1629903bc3f0b4bce8d596d",
+      "bytes": 734,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/data/continuous_logL_summary.csv",
+      "source": "manuscript-v12/data/continuous_logL_summary.csv",
+      "sha256": "1df71187fb4f3a1c9d2da7343c62ba8164c3f5ae1414bc92edfffc0f38d89eca",
+      "bytes": 16166,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/data/derived_effect_sizes.csv",
+      "source": "manuscript-v12/data/derived_effect_sizes.csv",
+      "sha256": "5bde92c4b25be933385b65afa7767cbe600cdb4c7503106e5bbec809fd192560",
+      "bytes": 1414,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/data/euler_summary.csv",
+      "source": "manuscript-v12/data/euler_summary.csv",
+      "sha256": "77c26d8289d569172e17c78c176495fdd21fa8885ff1dee252fd95a2aad435d7",
+      "bytes": 12588,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/data/extended_ladder_completeness.csv",
+      "source": "manuscript-v12/data/extended_ladder_completeness.csv",
+      "sha256": "c7bbc3fd311e1927f1c4ce3429446165ba82210bc04b6433be8bc6c12823b772",
+      "bytes": 302,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/data/extended_ladder_fits.csv",
+      "source": "manuscript-v12/data/extended_ladder_fits.csv",
+      "sha256": "c2e84e30e83d815ce1d6d66712ac7476106604ebcb24951b555d2cc8c20640ee",
+      "bytes": 2116,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/data/extended_ladder_l1_to_l2_increment.csv",
+      "source": "manuscript-v12/data/extended_ladder_l1_to_l2_increment.csv",
+      "sha256": "75db9d683527ed837e1b30bae29a75bb303700bb13bce45109190a514579594f",
+      "bytes": 442,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/data/formation_controlled_primary_yv_strict_null_distribution.csv",
+      "source": "manuscript-v12/data/formation_controlled_primary_yv_strict_null_distribution.csv",
+      "sha256": "debb30c81c1021957c304fdd64a78562e2f9496db700c40b5960568ccd4cf65e",
+      "bytes": 446029,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/data/formation_controlled_primary_yv_strict_summary.csv",
+      "source": "manuscript-v12/data/formation_controlled_primary_yv_strict_summary.csv",
+      "sha256": "b55fd38230e983e4038a87499fdd6ef397731ad569b735935780289771f3de19",
+      "bytes": 4513,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/data/formation_definition_incidence.json",
+      "source": "manuscript-v12/data/formation_definition_incidence.json",
+      "sha256": "4fc96b2965a2b2a49db3c2dfa2c5f0048b156356278df6e01b4a459d56970845",
+      "bytes": 889,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/data/gamma_sensitivity_branch_stability.csv",
+      "source": "manuscript-v12/data/gamma_sensitivity_branch_stability.csv",
+      "sha256": "5c6e0f7555d1ce95d9fb43747b760c831e444ce424af887c46f85015c9a4d34c",
+      "bytes": 1542,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/data/gamma_sensitivity_summary.csv",
+      "source": "manuscript-v12/data/gamma_sensitivity_summary.csv",
+      "sha256": "383e6b35c75743fd179cc354ed8adc49e9913ad69199200ea21ca8fbba0e6ea1",
+      "bytes": 14260,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/data/independent_replay_summary.csv",
+      "source": "manuscript-v12/data/independent_replay_summary.csv",
+      "sha256": "17a1162352b33c99ce06ea5bde497defa1843ca531f8fec152500fa2ad1dd3fa",
+      "bytes": 11879,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/data/independent_review_reported.csv",
+      "source": "manuscript-v12/data/independent_review_reported.csv",
+      "sha256": "0ad68b96df16c9bcde7765267aba5b56b1d3d20e5128bec80c52093c366beabd",
+      "bytes": 940,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/data/mass_bin_weights.csv",
+      "source": "manuscript-v12/data/mass_bin_weights.csv",
+      "sha256": "4185427b78e74c224e93b1212f45bea2cd49825635df40e58e56e72a4094d494",
+      "bytes": 1115,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/data/mass_loss_population_counts.csv",
+      "source": "manuscript-v12/data/mass_loss_population_counts.csv",
+      "sha256": "e23d40312a46799c439852f9da6acd0a8f8ffd868169e2f87bb0d5edb8259109",
+      "bytes": 3416,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/data/mass_loss_sensitivity.csv",
+      "source": "manuscript-v12/data/mass_loss_sensitivity.csv",
+      "sha256": "115060d19ae3658fc3d60946aec06bb8e45120d3ce6eb7daad8b206eb222cb07",
+      "bytes": 8706,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/data/mass_reweight_summary.csv",
+      "source": "manuscript-v12/data/mass_reweight_summary.csv",
+      "sha256": "f343da8ff6705a60b42ee625ee1f18e407e599626bda57e13e7dc006d20e48e8",
+      "bytes": 4393,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/data/population_figure_data.csv",
+      "source": "manuscript-v12/data/population_figure_data.csv",
+      "sha256": "de10bd03b09dc9bef33d6e775d18c5d7e7f3bfed2b21724e5481e02a99653f32",
+      "bytes": 648,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/data/same_sample_summary.csv",
+      "source": "manuscript-v12/data/same_sample_summary.csv",
+      "sha256": "4f7973c94e542608d5612d3c8a7b72bc8b881d6af432118e1ec366e01c7d23f0",
+      "bytes": 2696,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/data/search_population_summary.csv",
+      "source": "manuscript-v12/data/search_population_summary.csv",
+      "sha256": "d3cbf7f4669136459827f4f5d4311b10a67e1b032e6ce2fbe1cecd523a2058cd",
+      "bytes": 3132,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/data/spatial_baseline_reproduction.csv",
+      "source": "manuscript-v12/data/spatial_baseline_reproduction.csv",
+      "sha256": "68fb0dc030378e3630a8cba71fa9f3b249fdf5853f078954637190b213b293d1",
+      "bytes": 6620,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/data/spatial_summary.csv",
+      "source": "manuscript-v12/data/spatial_summary.csv",
+      "sha256": "0da7e3924553c1e8a6d0d8d2a36b616a8f329d574e771b0b74cef74124d57b03",
+      "bytes": 18972,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/data/supp001_observed_fits.csv",
+      "source": "manuscript-v12/data/supp001_observed_fits.csv",
+      "sha256": "5cd25fdd8c44e53e046bd955b15fc74006c4811b68b99880b4972dff03265ab2",
+      "bytes": 96282,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/data/supp005_loss_control_plot_data.csv",
+      "source": "manuscript-v12/data/supp005_loss_control_plot_data.csv",
+      "sha256": "60a39750a21c8c29b202c1e78b207a52d26b4f2cebc58fa338262b93fbc4d4f7",
+      "bytes": 3535,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/data/supp005_loss_design_summary.csv",
+      "source": "manuscript-v12/data/supp005_loss_design_summary.csv",
+      "sha256": "3f3d239e365d08da25e1bb2c2f7d5cab895a0fb6c4e5bfec5bb1c8e825985e89",
+      "bytes": 15027,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/data/threshold_sensitivity.csv",
+      "source": "manuscript-v12/data/threshold_sensitivity.csv",
+      "sha256": "3a5f6eb461eab602800cf7459a9abca5afedad81052d31208be4309482871042",
+      "bytes": 4597,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/data/tng_primary_yv_mass_split_analog_summary.csv",
+      "source": "manuscript-v12/data/tng_primary_yv_mass_split_analog_summary.csv",
+      "sha256": "fc1637a8729981d41634dbf3f82f04dd9a830e912b8cd5ffb89228fd86d9d224",
+      "bytes": 4394,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/data/yv_concentration_proxy_audit.csv",
+      "source": "manuscript-v12/data/yv_concentration_proxy_audit.csv",
+      "sha256": "f613864bf5f83d67bd32908ff62617b43e02a0c8438387c3a65c83565ab140c3",
+      "bytes": 4638,
+      "representation": "local-path cells replaced by basenames; all other CSV field strings unchanged",
+      "original_sha256": "2c188d0902bc32c722ef748f2ba85b3b40fc5953434a61c3633d6d606f380b5c",
+      "redacted_cells": [
+        {
+          "row": 0,
+          "column": "feature_path"
+        },
+        {
+          "row": 1,
+          "column": "feature_path"
+        },
+        {
+          "row": 2,
+          "column": "feature_path"
+        }
+      ]
+    },
+    {
+      "path": "paper/figures/01_joint_search_null.pdf",
+      "source": "manuscript-v12/figures/01_joint_search_null.pdf",
+      "sha256": "84e6557e214e3df3337fcb8b247dfb6e7a7a8b0f3c49f272b92a7be0df68706a",
+      "bytes": 19638,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/figures/01_joint_search_null.png",
+      "source": "manuscript-v12/figures/01_joint_search_null.png",
+      "sha256": "995a00f7327e2a74e997cbbcd3aeee7e644834d1fa8a5f3242efad4556f84975",
+      "bytes": 106776,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/figures/01_joint_search_null.svg",
+      "source": "manuscript-v12/figures/01_joint_search_null.svg",
+      "sha256": "7f838a4d5a46b192c5b8973efc13b33fa6c3f8556f2fe397009a28725c533751",
+      "bytes": 93250,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/figures/03_euler_multipliers.pdf",
+      "source": "manuscript-v12/figures/03_euler_multipliers.pdf",
+      "sha256": "13c7ece0127d086aba488b952b045d3c05fedf16ede214487904e4e22f2898ac",
+      "bytes": 21954,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/figures/03_euler_multipliers.png",
+      "source": "manuscript-v12/figures/03_euler_multipliers.png",
+      "sha256": "5ca1e9c170c02335ebacc5b1ef7006c5546447a37afa650c10085270c8494a4c",
+      "bytes": 90166,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/figures/03_euler_multipliers.svg",
+      "source": "manuscript-v12/figures/03_euler_multipliers.svg",
+      "sha256": "156644e22e2fba41a639e7b00430cf1c1a76cfe91fae635851c2712a444f0e0c",
+      "bytes": 75911,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/figures/04_censoring_resolution.pdf",
+      "source": "manuscript-v12/figures/04_censoring_resolution.pdf",
+      "sha256": "78aa597a6c9f446dcf9c0919b1581bd39f6417bc6ce08ef85e3f1c96400ecf0a",
+      "bytes": 20719,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/figures/04_censoring_resolution.png",
+      "source": "manuscript-v12/figures/04_censoring_resolution.png",
+      "sha256": "508222117a56263b35779a1a633e88ece626ff853ee651193d3271d0e28ea46e",
+      "bytes": 59074,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/figures/04_censoring_resolution.svg",
+      "source": "manuscript-v12/figures/04_censoring_resolution.svg",
+      "sha256": "a40a3c23743469c5aecb6f163be8c2565329721b1e5be98d87a23df9ec639b28",
+      "bytes": 64217,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/figures/bp_population_integrated.pdf",
+      "source": "manuscript-v12/figures/bp_population_integrated.pdf",
+      "sha256": "582f48cf046a5659d64b2588e1b98f5c37601584460a1bc0a5390e2db9a91ce2",
+      "bytes": 23082,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/figures/bp_population_integrated.png",
+      "source": "manuscript-v12/figures/bp_population_integrated.png",
+      "sha256": "df4e727aa70b6e33b051b33f63230093ce724d88b8933ca0a98a73c93e189526",
+      "bytes": 81363,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/figures/bp_population_integrated.svg",
+      "source": "manuscript-v12/figures/bp_population_integrated.svg",
+      "sha256": "12d5791e6121c0976d5c2084b433eb7e10c1ba5863fa98e3654d39f38fa353e7",
+      "bytes": 77052,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/figures/loss_control_comparison.pdf",
+      "source": "manuscript-v12/figures/loss_control_comparison.pdf",
+      "sha256": "792bf4f7423706a069135e63298ef6c24c86aeb015063b4b4f31aee52a1f1d2b",
+      "bytes": 28292,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/figures/loss_control_comparison.png",
+      "source": "manuscript-v12/figures/loss_control_comparison.png",
+      "sha256": "ad0bc4ae289e99223d920d184f1cea12ec287e4f68242bb788b0332fa8632697",
+      "bytes": 118620,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/figures/loss_control_comparison.svg",
+      "source": "manuscript-v12/figures/loss_control_comparison.svg",
+      "sha256": "3a613064a127cb5f6c7986751e8a0476b25eae8dcf052c1b7b0ed23c32c4a44a",
+      "bytes": 100390,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/figures/population_integrated.pdf",
+      "source": "manuscript-v12/figures/population_integrated.pdf",
+      "sha256": "6afb51c8ea8fc6f1d1bd2e875aae3123a0425959cfa8a8a5dedb4e377c2ef516",
+      "bytes": 20007,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/figures/population_integrated.png",
+      "source": "manuscript-v12/figures/population_integrated.png",
+      "sha256": "042bb7e56ebd3dd9d1123cf4f89c181ee6d56a1db46bc3f56fdd86134e3eef7a",
+      "bytes": 36081,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/figures/population_integrated.svg",
+      "source": "manuscript-v12/figures/population_integrated.svg",
+      "sha256": "1f131ea7f3793339203714db657eaf17eae2020867c24a86f18be00e0f8f014b",
+      "bytes": 46414,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/figures/spatial_sensitivity.pdf",
+      "source": "manuscript-v12/figures/spatial_sensitivity.pdf",
+      "sha256": "c196098750a5b2829e134f9be2d5c967ffa6a5092effd5a054516263dc342b0f",
+      "bytes": 16468,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/figures/spatial_sensitivity.png",
+      "source": "manuscript-v12/figures/spatial_sensitivity.png",
+      "sha256": "de446d333a28e399f866dc7823d1d4af413225ca5b59963a55797030737b7c4c",
+      "bytes": 79310,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/figures/spatial_sensitivity.svg",
+      "source": "manuscript-v12/figures/spatial_sensitivity.svg",
+      "sha256": "13e64642f1b01a067a227c983d99942aa00e795592e5857ed4e9ba057896b68c",
+      "bytes": 71889,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/figures/tng_I_influence_logL.pdf",
+      "source": "manuscript-v12/figures/tng_I_influence_logL.pdf",
+      "sha256": "f2a59fec3ae3a7d4fcff3ad8a4a5e9ab9f084b9fae22b05c07b325d6400d29bd",
+      "bytes": 26950,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/figures/tng_I_influence_logL.png",
+      "source": "manuscript-v12/figures/tng_I_influence_logL.png",
+      "sha256": "d92941362c07977ef9c018ad7d803e413bcb61ba0d5115ef4bb2e25b9f7468cd",
+      "bytes": 83760,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/figures/tng_I_influence_logL.svg",
+      "source": "manuscript-v12/figures/tng_I_influence_logL.svg",
+      "sha256": "37c41c867fa758248c8ffb460e42c26aaa3338df1adb40764ebef0d01bab0acb",
+      "bytes": 113502,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/figure_data/PLOT_VERIFICATION.json",
+      "source": "manuscript-v12/figure_data/PLOT_VERIFICATION.json",
+      "sha256": "918db3d8adae7a45b056cb73ee5afcd8a0c5305b876790735b9a24e7a531f400",
+      "bytes": 887,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/figure_data/bp_population_plot.csv",
+      "source": "manuscript-v12/figure_data/bp_population_plot.csv",
+      "sha256": "c7d32bf9394caefce7e875664ffed42852c9d518f473d7f86d3c973e97546e56",
+      "bytes": 1643,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/figure_data/influence_plot.csv",
+      "source": "manuscript-v12/figure_data/influence_plot.csv",
+      "sha256": "1f7407c685592280eab91482acf0c38174996612a129b9f7f54411c81e8dbd72",
+      "bytes": 21344,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/figure_data/joint_search_plot.csv",
+      "source": "manuscript-v12/figure_data/joint_search_plot.csv",
+      "sha256": "35b08c32df69564621eaaf972fecf91797a518a6ca5179e2fe821cbd511b74ac",
+      "bytes": 1404,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/figure_data/joint_search_quantiles.json",
+      "source": "manuscript-v12/figure_data/joint_search_quantiles.json",
+      "sha256": "04d314e85caa957aa560a6fd8408926ba9ca955eddbc9752a2b32ea1fd655b58",
+      "bytes": 7889,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/figure_data/loss_control_plot.csv",
+      "source": "manuscript-v12/figure_data/loss_control_plot.csv",
+      "sha256": "60a39750a21c8c29b202c1e78b207a52d26b4f2cebc58fa338262b93fbc4d4f7",
+      "bytes": 3535,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/figure_data/population_plot.csv",
+      "source": "manuscript-v12/figure_data/population_plot.csv",
+      "sha256": "de10bd03b09dc9bef33d6e775d18c5d7e7f3bfed2b21724e5481e02a99653f32",
+      "bytes": 648,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/figure_data/spatial_plot_data.csv",
+      "source": "manuscript-v12/figure_data/spatial_plot_data.csv",
+      "sha256": "d1774fd2e5c7725eb07ddd511994379564c3ea6f95390ab18bd429f528b0f164",
+      "bytes": 1605,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/Mass_Loss_Accretion_History.pdf",
+      "source": "manuscript-v12/Mass_Loss_Accretion_History.pdf",
+      "sha256": "adfeafb1231e7fe673f0d68167b2a168b62dd53581348084422a9c33d35ed8c1",
+      "bytes": 249821,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "paper/Supplementary_Material.pdf",
+      "source": "manuscript-v12/Supplementary_Material.pdf",
+      "sha256": "e69fbd0e66c91d57859ebfda4e557b590d550f623fc30567590eada59daa1d66",
+      "bytes": 171228,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_0_2_2__Qpeak_ge20__indicator_quadratic/CASE_COMPLETE.json",
+      "source": "loss-design-search/bolshoip_tree_0_2_2__Qpeak_ge20__indicator_quadratic/CASE_COMPLETE.json",
+      "sha256": "8c5d786670bee864ced83151e645168af802054b141704651dc3a3bafdf56b30",
+      "bytes": 886,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_0_2_2__Qpeak_ge20__indicator_quadratic/DESIGN.json",
+      "source": "loss-design-search/bolshoip_tree_0_2_2__Qpeak_ge20__indicator_quadratic/DESIGN.json",
+      "sha256": "27517255f0014c26b9166b66240a98f0d83366b017c423ef898a48ad25bb8a30",
+      "bytes": 738,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_0_2_2__Qpeak_ge20__indicator_quadratic/RNG_FINAL.json",
+      "source": "loss-design-search/bolshoip_tree_0_2_2__Qpeak_ge20__indicator_quadratic/RNG_FINAL.json",
+      "sha256": "e16d99913c65871ac59bafe33e8dd8baff93847350ddb3e5e263f23e676426db",
+      "bytes": 199,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_0_2_2__Qpeak_ge20__indicator_quadratic/RNG_INITIAL.json",
+      "source": "loss-design-search/bolshoip_tree_0_2_2__Qpeak_ge20__indicator_quadratic/RNG_INITIAL.json",
+      "sha256": "8646369678a6086ce777988777863d1cc6e6f3f7f0390d7650c9c255f3de1f74",
+      "bytes": 190,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_0_2_2__Qpeak_ge20__indicator_quadratic/RNG_SPEC.json",
+      "source": "loss-design-search/bolshoip_tree_0_2_2__Qpeak_ge20__indicator_quadratic/RNG_SPEC.json",
+      "sha256": "af3f0d780b1da98372049ab0f98afed620366f713d9e46fff015b4fe7421f1ca",
+      "bytes": 149,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_0_2_2__Qpeak_ge20__indicator_quadratic/candidate_search_comparisons.csv",
+      "source": "loss-design-search/bolshoip_tree_0_2_2__Qpeak_ge20__indicator_quadratic/candidate_search_comparisons.csv",
+      "sha256": "f79d63077d8ff446887f33cee87b320aa1ebb6dbcb49d9f427960372ac3d782f",
+      "bytes": 725,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_0_2_2__Qpeak_ge20__indicator_quadratic/matrices.npz",
+      "source": "loss-design-search/bolshoip_tree_0_2_2__Qpeak_ge20__indicator_quadratic/matrices.npz",
+      "sha256": "1057dc971fe2c109772629ab3dcc34a58df9a9f4cbe0cba67c5d765799dd37e0",
+      "bytes": 4029923,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_0_2_2__Qpeak_ge20__indicator_quadratic/null_all_gamma.npz",
+      "source": "loss-design-search/bolshoip_tree_0_2_2__Qpeak_ge20__indicator_quadratic/null_all_gamma.npz",
+      "sha256": "abd65d7edf19574988ccc4db4cc1f1515d2d33de7feb513f55ba537e36c29dde",
+      "bytes": 391001,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_0_2_2__Qpeak_ge20__indicator_quadratic/observed_all_gamma.csv",
+      "source": "loss-design-search/bolshoip_tree_0_2_2__Qpeak_ge20__indicator_quadratic/observed_all_gamma.csv",
+      "sha256": "f183163dbe201128cf1c877430046ec034ca63e7587552f9d22673c638dd2353",
+      "bytes": 5049,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_0_2_2__Qpeak_ge20__indicator_quadratic/permutations.csv",
+      "source": "loss-design-search/bolshoip_tree_0_2_2__Qpeak_ge20__indicator_quadratic/permutations.csv",
+      "sha256": "10643a9b37b7c65551a8547af9373fdd115c126df50172f0878834729c7eacca",
+      "bytes": 91325,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_0_2_2__Qpeak_ge20__linear/CASE_COMPLETE.json",
+      "source": "loss-design-search/bolshoip_tree_0_2_2__Qpeak_ge20__linear/CASE_COMPLETE.json",
+      "sha256": "3077459ddd76eb45919bba48fa60ec90a4c916f57b912f7f0f6170123c902fc5",
+      "bytes": 872,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_0_2_2__Qpeak_ge20__linear/DESIGN.json",
+      "source": "loss-design-search/bolshoip_tree_0_2_2__Qpeak_ge20__linear/DESIGN.json",
+      "sha256": "5a2b0ac36fd93a02b39290214eb8be4ae72740b0e972290a34a06dc129c41055",
+      "bytes": 681,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_0_2_2__Qpeak_ge20__linear/RNG_FINAL.json",
+      "source": "loss-design-search/bolshoip_tree_0_2_2__Qpeak_ge20__linear/RNG_FINAL.json",
+      "sha256": "9f479337d522fb5be86d6024fefa75ad58443dff33547221f7af6050d4481dfa",
+      "bytes": 196,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_0_2_2__Qpeak_ge20__linear/RNG_INITIAL.json",
+      "source": "loss-design-search/bolshoip_tree_0_2_2__Qpeak_ge20__linear/RNG_INITIAL.json",
+      "sha256": "640967073e3f48d639db2b2276d05774983181c4da940b23fedf7f980e210dc6",
+      "bytes": 188,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_0_2_2__Qpeak_ge20__linear/RNG_SPEC.json",
+      "source": "loss-design-search/bolshoip_tree_0_2_2__Qpeak_ge20__linear/RNG_SPEC.json",
+      "sha256": "b711b271111f7647157a6058a93efe7a1ea58b5ddd2336e33469fd44d4eaa94d",
+      "bytes": 148,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_0_2_2__Qpeak_ge20__linear/candidate_search_comparisons.csv",
+      "source": "loss-design-search/bolshoip_tree_0_2_2__Qpeak_ge20__linear/candidate_search_comparisons.csv",
+      "sha256": "b62e86b33163ac4782ccd73385a450add0751ca0cd8389789760bd5ce9806597",
+      "bytes": 727,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_0_2_2__Qpeak_ge20__linear/matrices.npz",
+      "source": "loss-design-search/bolshoip_tree_0_2_2__Qpeak_ge20__linear/matrices.npz",
+      "sha256": "53a4f0cbcd984df0d3fa7ab9ed3ee71814bed7421d9189411fc3f36f13f6401a",
+      "bytes": 3997390,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_0_2_2__Qpeak_ge20__linear/null_all_gamma.npz",
+      "source": "loss-design-search/bolshoip_tree_0_2_2__Qpeak_ge20__linear/null_all_gamma.npz",
+      "sha256": "db4a241dd91e05b970eb5c51389bc395b7c928b02dd290b387460edf12562067",
+      "bytes": 390850,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_0_2_2__Qpeak_ge20__linear/observed_all_gamma.csv",
+      "source": "loss-design-search/bolshoip_tree_0_2_2__Qpeak_ge20__linear/observed_all_gamma.csv",
+      "sha256": "e61dbee3a5a9bcecf63d6dc75cd8bcc69dc7476c5dbf7bb7ffb230e3e23a36a7",
+      "bytes": 5036,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_0_2_2__Qpeak_ge20__linear/permutations.csv",
+      "source": "loss-design-search/bolshoip_tree_0_2_2__Qpeak_ge20__linear/permutations.csv",
+      "sha256": "fb9087c223b2700d5128c6236ffdfa5084bc9f98b65df274c3776c1ca21a85fd",
+      "bytes": 91306,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_0_2_2__Qpeak_ge50__indicator_quadratic/CASE_COMPLETE.json",
+      "source": "loss-design-search/bolshoip_tree_0_2_2__Qpeak_ge50__indicator_quadratic/CASE_COMPLETE.json",
+      "sha256": "7945638e55d29d49f8fa9f6223f8ff713baae08177174084ee8284a56b162e10",
+      "bytes": 888,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_0_2_2__Qpeak_ge50__indicator_quadratic/DESIGN.json",
+      "source": "loss-design-search/bolshoip_tree_0_2_2__Qpeak_ge50__indicator_quadratic/DESIGN.json",
+      "sha256": "ad4e7c1a97e5718abf33a1d8cb23b63c86df09a293d1ea98bc6495ac9b2e5a97",
+      "bytes": 737,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_0_2_2__Qpeak_ge50__indicator_quadratic/RNG_FINAL.json",
+      "source": "loss-design-search/bolshoip_tree_0_2_2__Qpeak_ge50__indicator_quadratic/RNG_FINAL.json",
+      "sha256": "e9a4e7f5589d43a4b966643fd0330fd826f87661cb197bf7c59be4993019c673",
+      "bytes": 199,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_0_2_2__Qpeak_ge50__indicator_quadratic/RNG_INITIAL.json",
+      "source": "loss-design-search/bolshoip_tree_0_2_2__Qpeak_ge50__indicator_quadratic/RNG_INITIAL.json",
+      "sha256": "a84b17262cf1db5e9ebbac89d31a523e685065eb3d22059c60fa16e5ba39f210",
+      "bytes": 190,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_0_2_2__Qpeak_ge50__indicator_quadratic/RNG_SPEC.json",
+      "source": "loss-design-search/bolshoip_tree_0_2_2__Qpeak_ge50__indicator_quadratic/RNG_SPEC.json",
+      "sha256": "0f67482627ff60675dac8233b8015e40b686468ef162651421da8d7ac1b3f3b5",
+      "bytes": 148,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_0_2_2__Qpeak_ge50__indicator_quadratic/candidate_search_comparisons.csv",
+      "source": "loss-design-search/bolshoip_tree_0_2_2__Qpeak_ge50__indicator_quadratic/candidate_search_comparisons.csv",
+      "sha256": "c7ac5fa60d59bbf9bf07163e67ac5849c125e2fa9a36dcf9a271fbbd7430fcf8",
+      "bytes": 729,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_0_2_2__Qpeak_ge50__indicator_quadratic/matrices.npz",
+      "source": "loss-design-search/bolshoip_tree_0_2_2__Qpeak_ge50__indicator_quadratic/matrices.npz",
+      "sha256": "280a1ae288a70b1099312ad177518a6091623177b04b156c78e818820c531a0c",
+      "bytes": 1841793,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_0_2_2__Qpeak_ge50__indicator_quadratic/null_all_gamma.npz",
+      "source": "loss-design-search/bolshoip_tree_0_2_2__Qpeak_ge50__indicator_quadratic/null_all_gamma.npz",
+      "sha256": "8f18ee856a828e86beaaa322f82e809fc54338e588ad83fd37f20aafb742809f",
+      "bytes": 392263,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_0_2_2__Qpeak_ge50__indicator_quadratic/observed_all_gamma.csv",
+      "source": "loss-design-search/bolshoip_tree_0_2_2__Qpeak_ge50__indicator_quadratic/observed_all_gamma.csv",
+      "sha256": "496d60a21e4d7511c97e99385f54639db245cc4abd895ee76499224bf03508ae",
+      "bytes": 5011,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_0_2_2__Qpeak_ge50__indicator_quadratic/permutations.csv",
+      "source": "loss-design-search/bolshoip_tree_0_2_2__Qpeak_ge50__indicator_quadratic/permutations.csv",
+      "sha256": "4faae04a11f235ec865cfec5eb8a4513e6887205c2c9af9c1b821a439cd58c35",
+      "bytes": 91420,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_0_2_2__Qpeak_ge50__linear/CASE_COMPLETE.json",
+      "source": "loss-design-search/bolshoip_tree_0_2_2__Qpeak_ge50__linear/CASE_COMPLETE.json",
+      "sha256": "5a4bca654e899d653cbe6d19e0872eb2cedcd70161c25b35294c5acb5612683e",
+      "bytes": 874,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_0_2_2__Qpeak_ge50__linear/DESIGN.json",
+      "source": "loss-design-search/bolshoip_tree_0_2_2__Qpeak_ge50__linear/DESIGN.json",
+      "sha256": "ee9c23e6d02f7a55bd784f4ae1d06c52ea0e07955ad62fdbc36c5b3e8d88d67b",
+      "bytes": 679,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_0_2_2__Qpeak_ge50__linear/RNG_FINAL.json",
+      "source": "loss-design-search/bolshoip_tree_0_2_2__Qpeak_ge50__linear/RNG_FINAL.json",
+      "sha256": "2347648caf0e599ca63b8fb7f508c2484521f06e29fe0c9636c2e36cf38acf9a",
+      "bytes": 199,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_0_2_2__Qpeak_ge50__linear/RNG_INITIAL.json",
+      "source": "loss-design-search/bolshoip_tree_0_2_2__Qpeak_ge50__linear/RNG_INITIAL.json",
+      "sha256": "98b541aa550a417337246fd102022231f1e6c32585c311efa3e6c0a8da4d8f8f",
+      "bytes": 190,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_0_2_2__Qpeak_ge50__linear/RNG_SPEC.json",
+      "source": "loss-design-search/bolshoip_tree_0_2_2__Qpeak_ge50__linear/RNG_SPEC.json",
+      "sha256": "39c2cda08a417c1a272b559d15021dc82108cc1f8cdbe964963407e1a594951f",
+      "bytes": 149,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_0_2_2__Qpeak_ge50__linear/candidate_search_comparisons.csv",
+      "source": "loss-design-search/bolshoip_tree_0_2_2__Qpeak_ge50__linear/candidate_search_comparisons.csv",
+      "sha256": "31925025b1316f5054b2a189f76992819c545fff5070b08f985b41f6442e2821",
+      "bytes": 726,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_0_2_2__Qpeak_ge50__linear/matrices.npz",
+      "source": "loss-design-search/bolshoip_tree_0_2_2__Qpeak_ge50__linear/matrices.npz",
+      "sha256": "deec33eb68311ca2406fe8f703261e7e3d112c3a4e3a327a165a842a299b9468",
+      "bytes": 1827786,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_0_2_2__Qpeak_ge50__linear/null_all_gamma.npz",
+      "source": "loss-design-search/bolshoip_tree_0_2_2__Qpeak_ge50__linear/null_all_gamma.npz",
+      "sha256": "7d4bbf15a35bf0698bf9a1f67f1b02196c89074e96b6349e540bd32afe78770b",
+      "bytes": 392184,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_0_2_2__Qpeak_ge50__linear/observed_all_gamma.csv",
+      "source": "loss-design-search/bolshoip_tree_0_2_2__Qpeak_ge50__linear/observed_all_gamma.csv",
+      "sha256": "42a640ae83d68675a53dcf1655a7274e5733846995a9b8d6073792339b9c0f33",
+      "bytes": 5010,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_0_2_2__Qpeak_ge50__linear/permutations.csv",
+      "source": "loss-design-search/bolshoip_tree_0_2_2__Qpeak_ge50__linear/permutations.csv",
+      "sha256": "55d3c79871c0d69710e2ad9a981bf9d281d06384286e1565542d6b08a7ffb6e6",
+      "bytes": 91377,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_0_2_2__baseline__indicator_quadratic/CASE_COMPLETE.json",
+      "source": "loss-design-search/bolshoip_tree_0_2_2__baseline__indicator_quadratic/CASE_COMPLETE.json",
+      "sha256": "b2ed64f1a7c72a20383c5a4225913d894e3a15209a149490914bff8660b2813f",
+      "bytes": 886,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_0_2_2__baseline__indicator_quadratic/DESIGN.json",
+      "source": "loss-design-search/bolshoip_tree_0_2_2__baseline__indicator_quadratic/DESIGN.json",
+      "sha256": "aac6c373af7180ac34877ced915515c88dbccbd8990073bd713d04eee60d34c7",
+      "bytes": 745,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_0_2_2__baseline__indicator_quadratic/RNG_FINAL.json",
+      "source": "loss-design-search/bolshoip_tree_0_2_2__baseline__indicator_quadratic/RNG_FINAL.json",
+      "sha256": "4b34a293e40cb97fba3c96ecb48a3ad986da8a66313f9ed1b10af8852a27364c",
+      "bytes": 198,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_0_2_2__baseline__indicator_quadratic/RNG_INITIAL.json",
+      "source": "loss-design-search/bolshoip_tree_0_2_2__baseline__indicator_quadratic/RNG_INITIAL.json",
+      "sha256": "5cb4c7b83e3379217efb708ad1719bc0a4b55c3b7806db19c7d94f93f3fa1d4f",
+      "bytes": 189,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_0_2_2__baseline__indicator_quadratic/RNG_SPEC.json",
+      "source": "loss-design-search/bolshoip_tree_0_2_2__baseline__indicator_quadratic/RNG_SPEC.json",
+      "sha256": "a5c88f2c5052969588d4feca822a94e6632c93211d5c03b19bbba5548bad8794",
+      "bytes": 149,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_0_2_2__baseline__indicator_quadratic/candidate_search_comparisons.csv",
+      "source": "loss-design-search/bolshoip_tree_0_2_2__baseline__indicator_quadratic/candidate_search_comparisons.csv",
+      "sha256": "cf7ba0ef04cc25b9aa6f1f6354aeb4093ebd97b514e5604e39f666a2709b1c55",
+      "bytes": 727,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_0_2_2__baseline__indicator_quadratic/matrices.npz",
+      "source": "loss-design-search/bolshoip_tree_0_2_2__baseline__indicator_quadratic/matrices.npz",
+      "sha256": "d63898c4b6ae79102dfd54d10073d1b0551a5cf49d2eadea52ebd7fc690fdee9",
+      "bytes": 8193095,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_0_2_2__baseline__indicator_quadratic/null_all_gamma.npz",
+      "source": "loss-design-search/bolshoip_tree_0_2_2__baseline__indicator_quadratic/null_all_gamma.npz",
+      "sha256": "a0ed8e3adfeeb1a48aa083f50c0b5163ce88a18519065127dcb61b752fb50917",
+      "bytes": 390531,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_0_2_2__baseline__indicator_quadratic/observed_all_gamma.csv",
+      "source": "loss-design-search/bolshoip_tree_0_2_2__baseline__indicator_quadratic/observed_all_gamma.csv",
+      "sha256": "b41fb3bf6b507c06982352a241738c9f8fc5c07d798d190cbdbc33ba9cc16a5f",
+      "bytes": 5067,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_0_2_2__baseline__indicator_quadratic/permutations.csv",
+      "source": "loss-design-search/bolshoip_tree_0_2_2__baseline__indicator_quadratic/permutations.csv",
+      "sha256": "c79eb2809470c20eb651d97b72897982724a97ef1ce4e533da097693440bca0a",
+      "bytes": 91253,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_0_2_2__baseline__linear/CASE_COMPLETE.json",
+      "source": "loss-design-search/bolshoip_tree_0_2_2__baseline__linear/CASE_COMPLETE.json",
+      "sha256": "6b45c9b24502564547705b56027b3b065ad66364ec24892f94b649c908958828",
+      "bytes": 870,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_0_2_2__baseline__linear/DESIGN.json",
+      "source": "loss-design-search/bolshoip_tree_0_2_2__baseline__linear/DESIGN.json",
+      "sha256": "da4a1e5b51806b22c7738aae577036dd1a731e2b4570d56835a05a2a99a53c88",
+      "bytes": 684,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_0_2_2__baseline__linear/RNG_FINAL.json",
+      "source": "loss-design-search/bolshoip_tree_0_2_2__baseline__linear/RNG_FINAL.json",
+      "sha256": "679b810a12e6b6fc14e15807bd564efe996ea6fdd681c852be7e21a28fbd12ba",
+      "bytes": 198,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_0_2_2__baseline__linear/RNG_INITIAL.json",
+      "source": "loss-design-search/bolshoip_tree_0_2_2__baseline__linear/RNG_INITIAL.json",
+      "sha256": "b90805dec6678ca5ae3e4b04d397646233e4deb9681c6d0ec4ceff45b47361cf",
+      "bytes": 190,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_0_2_2__baseline__linear/RNG_SPEC.json",
+      "source": "loss-design-search/bolshoip_tree_0_2_2__baseline__linear/RNG_SPEC.json",
+      "sha256": "e76387b0b71a94b9e9601ea25ac3ef4d4682a19e2707babce6ae5db0a145d96a",
+      "bytes": 147,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_0_2_2__baseline__linear/candidate_search_comparisons.csv",
+      "source": "loss-design-search/bolshoip_tree_0_2_2__baseline__linear/candidate_search_comparisons.csv",
+      "sha256": "558fc210f67741486e5c554098dc4f505b543484602a2588ab294458f558e41c",
+      "bytes": 738,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_0_2_2__baseline__linear/matrices.npz",
+      "source": "loss-design-search/bolshoip_tree_0_2_2__baseline__linear/matrices.npz",
+      "sha256": "aae9093e04d490ea17801c8fe6220b4a954f39b178e927f695ccad2ff41885e7",
+      "bytes": 8141759,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_0_2_2__baseline__linear/null_all_gamma.npz",
+      "source": "loss-design-search/bolshoip_tree_0_2_2__baseline__linear/null_all_gamma.npz",
+      "sha256": "d1c571e7d28e2f87259c4b8748f694109f224a96435655d8bfe46b0d9ea58cc2",
+      "bytes": 390679,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_0_2_2__baseline__linear/observed_all_gamma.csv",
+      "source": "loss-design-search/bolshoip_tree_0_2_2__baseline__linear/observed_all_gamma.csv",
+      "sha256": "0e7d70ad4926f9d15409935acbcfe1106199aa82b251588f8ef6160550e49f0d",
+      "bytes": 5054,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_0_2_2__baseline__linear/permutations.csv",
+      "source": "loss-design-search/bolshoip_tree_0_2_2__baseline__linear/permutations.csv",
+      "sha256": "4406be0e27f91c78bf1f2808bd17d7dee71cb2d0e993e108c8c9cb2cba78525e",
+      "bytes": 91195,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_2_3_4__Qpeak_ge20__indicator_quadratic/CASE_COMPLETE.json",
+      "source": "loss-design-search/bolshoip_tree_2_3_4__Qpeak_ge20__indicator_quadratic/CASE_COMPLETE.json",
+      "sha256": "1c3c9f692e414b71aac524b4d1bb7360f9c9c60b49bdb942da66708b8f308283",
+      "bytes": 889,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_2_3_4__Qpeak_ge20__indicator_quadratic/DESIGN.json",
+      "source": "loss-design-search/bolshoip_tree_2_3_4__Qpeak_ge20__indicator_quadratic/DESIGN.json",
+      "sha256": "38d28fc4b7e16ff3d3dc2bac73f4e48c204379bcfc1c0f1e03b2de453e0b4442",
+      "bytes": 738,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_2_3_4__Qpeak_ge20__indicator_quadratic/RNG_FINAL.json",
+      "source": "loss-design-search/bolshoip_tree_2_3_4__Qpeak_ge20__indicator_quadratic/RNG_FINAL.json",
+      "sha256": "1b572439f2629df137c7f8b449d4b5907f03e3bd56d48731f22b37765d6ddb4d",
+      "bytes": 199,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_2_3_4__Qpeak_ge20__indicator_quadratic/RNG_INITIAL.json",
+      "source": "loss-design-search/bolshoip_tree_2_3_4__Qpeak_ge20__indicator_quadratic/RNG_INITIAL.json",
+      "sha256": "5e16efb90b56080747b611f174f46c2669d19bffd4fc907e075bb5a649fc2c56",
+      "bytes": 189,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_2_3_4__Qpeak_ge20__indicator_quadratic/RNG_SPEC.json",
+      "source": "loss-design-search/bolshoip_tree_2_3_4__Qpeak_ge20__indicator_quadratic/RNG_SPEC.json",
+      "sha256": "1dfe0aa352ef1d963b4c35be8d123dc743808a9973f0163edd8a0b7ee6d2df1f",
+      "bytes": 149,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_2_3_4__Qpeak_ge20__indicator_quadratic/candidate_search_comparisons.csv",
+      "source": "loss-design-search/bolshoip_tree_2_3_4__Qpeak_ge20__indicator_quadratic/candidate_search_comparisons.csv",
+      "sha256": "3fd4de6273ed83c8caeb5c3f03b877b5a1cf0dfe73900a5d78370c0462441ede",
+      "bytes": 740,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_2_3_4__Qpeak_ge20__indicator_quadratic/matrices.npz",
+      "source": "loss-design-search/bolshoip_tree_2_3_4__Qpeak_ge20__indicator_quadratic/matrices.npz",
+      "sha256": "4f2d8e817b70978a962e573bd417405950bdb65516dc2b98d2117f2da1f8dee2",
+      "bytes": 4024906,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_2_3_4__Qpeak_ge20__indicator_quadratic/null_all_gamma.npz",
+      "source": "loss-design-search/bolshoip_tree_2_3_4__Qpeak_ge20__indicator_quadratic/null_all_gamma.npz",
+      "sha256": "3af16ce086d747ca1e9c8dfd58abb75547be5adb77f94655739a5962ad518952",
+      "bytes": 391047,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_2_3_4__Qpeak_ge20__indicator_quadratic/observed_all_gamma.csv",
+      "source": "loss-design-search/bolshoip_tree_2_3_4__Qpeak_ge20__indicator_quadratic/observed_all_gamma.csv",
+      "sha256": "cf765a180defd880f2ee14bff1535fb40e2f627b18d3add59265da1eb8393295",
+      "bytes": 5060,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_2_3_4__Qpeak_ge20__indicator_quadratic/permutations.csv",
+      "source": "loss-design-search/bolshoip_tree_2_3_4__Qpeak_ge20__indicator_quadratic/permutations.csv",
+      "sha256": "af2745d5fdb703b40bf45437b7cfc8cd9558ff591108ddce3f4068f87c57fb2c",
+      "bytes": 91302,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_2_3_4__Qpeak_ge20__linear/CASE_COMPLETE.json",
+      "source": "loss-design-search/bolshoip_tree_2_3_4__Qpeak_ge20__linear/CASE_COMPLETE.json",
+      "sha256": "822a5e4840c8696fcbbbb850d733dc5292c7d66e8e3a194d6c0af151756a2335",
+      "bytes": 871,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_2_3_4__Qpeak_ge20__linear/DESIGN.json",
+      "source": "loss-design-search/bolshoip_tree_2_3_4__Qpeak_ge20__linear/DESIGN.json",
+      "sha256": "f6ffd4b45f040731b89768c1131c9807362e6fa654861be27cb1a69e1b7a94f6",
+      "bytes": 678,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_2_3_4__Qpeak_ge20__linear/RNG_FINAL.json",
+      "source": "loss-design-search/bolshoip_tree_2_3_4__Qpeak_ge20__linear/RNG_FINAL.json",
+      "sha256": "7d413c1c0eca498c3db5c5b628af1af45522a4115da2e342632dc640d775d324",
+      "bytes": 199,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_2_3_4__Qpeak_ge20__linear/RNG_INITIAL.json",
+      "source": "loss-design-search/bolshoip_tree_2_3_4__Qpeak_ge20__linear/RNG_INITIAL.json",
+      "sha256": "a78b725f0a7cddbbfcdb3777bde3dd4b1a5bc3efb019bb13c489f3e53a31d7fe",
+      "bytes": 188,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_2_3_4__Qpeak_ge20__linear/RNG_SPEC.json",
+      "source": "loss-design-search/bolshoip_tree_2_3_4__Qpeak_ge20__linear/RNG_SPEC.json",
+      "sha256": "2c0800d736bc1bc3079ae25136413037548dd2341505787b9bc159ac7f241c62",
+      "bytes": 148,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_2_3_4__Qpeak_ge20__linear/candidate_search_comparisons.csv",
+      "source": "loss-design-search/bolshoip_tree_2_3_4__Qpeak_ge20__linear/candidate_search_comparisons.csv",
+      "sha256": "140f38efae850c77006ffd87f5a31860cae4f38df93112535b3f3e615bc53872",
+      "bytes": 725,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_2_3_4__Qpeak_ge20__linear/matrices.npz",
+      "source": "loss-design-search/bolshoip_tree_2_3_4__Qpeak_ge20__linear/matrices.npz",
+      "sha256": "a506d355f2609d90310b8a9e341dce4559c1393bebd0994ea457f9f86c66962a",
+      "bytes": 3991397,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_2_3_4__Qpeak_ge20__linear/null_all_gamma.npz",
+      "source": "loss-design-search/bolshoip_tree_2_3_4__Qpeak_ge20__linear/null_all_gamma.npz",
+      "sha256": "9302440dafbee20945aaf9b03b5ab1db9b693ef02fe0d748887055a89affb5ae",
+      "bytes": 391011,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_2_3_4__Qpeak_ge20__linear/observed_all_gamma.csv",
+      "source": "loss-design-search/bolshoip_tree_2_3_4__Qpeak_ge20__linear/observed_all_gamma.csv",
+      "sha256": "a19aaf6b2ae3ea220ead7c5cf0505b608ef3fbd98d2e100a323455e0a531fcf8",
+      "bytes": 5065,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_2_3_4__Qpeak_ge20__linear/permutations.csv",
+      "source": "loss-design-search/bolshoip_tree_2_3_4__Qpeak_ge20__linear/permutations.csv",
+      "sha256": "9d01f8747eb08661116734ddf706c5fd99e0c1e2483aac87d9d38a19212989ae",
+      "bytes": 91313,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_2_3_4__Qpeak_ge50__indicator_quadratic/CASE_COMPLETE.json",
+      "source": "loss-design-search/bolshoip_tree_2_3_4__Qpeak_ge50__indicator_quadratic/CASE_COMPLETE.json",
+      "sha256": "cda67ef0779ab2ada8994c55f39584e5166ac363298fb02d4a94d75fab41a362",
+      "bytes": 886,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_2_3_4__Qpeak_ge50__indicator_quadratic/DESIGN.json",
+      "source": "loss-design-search/bolshoip_tree_2_3_4__Qpeak_ge50__indicator_quadratic/DESIGN.json",
+      "sha256": "67453ddd815d5e2bf762d48075bfa5bf1e93a97fd2f45e65f8538170dc53ad1b",
+      "bytes": 737,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_2_3_4__Qpeak_ge50__indicator_quadratic/RNG_FINAL.json",
+      "source": "loss-design-search/bolshoip_tree_2_3_4__Qpeak_ge50__indicator_quadratic/RNG_FINAL.json",
+      "sha256": "a55b421e6e6c8f63cadb88ce70f1250671b9223440615d9d6b52940312f04a3e",
+      "bytes": 199,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_2_3_4__Qpeak_ge50__indicator_quadratic/RNG_INITIAL.json",
+      "source": "loss-design-search/bolshoip_tree_2_3_4__Qpeak_ge50__indicator_quadratic/RNG_INITIAL.json",
+      "sha256": "14f48ffecc30a1ced9f61037d197352f247e426f7d1ff4908e93183d708611ff",
+      "bytes": 189,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_2_3_4__Qpeak_ge50__indicator_quadratic/RNG_SPEC.json",
+      "source": "loss-design-search/bolshoip_tree_2_3_4__Qpeak_ge50__indicator_quadratic/RNG_SPEC.json",
+      "sha256": "d2eb02fc06d5fd25b7fc6bdbc7e10c045c1b8ef91bfce58fae52b5334a50cbf9",
+      "bytes": 148,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_2_3_4__Qpeak_ge50__indicator_quadratic/candidate_search_comparisons.csv",
+      "source": "loss-design-search/bolshoip_tree_2_3_4__Qpeak_ge50__indicator_quadratic/candidate_search_comparisons.csv",
+      "sha256": "1a13c0b94a50f801bb6cfd054f206c0ed847da266cd0d9a7e0dd0538e2197698",
+      "bytes": 738,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_2_3_4__Qpeak_ge50__indicator_quadratic/matrices.npz",
+      "source": "loss-design-search/bolshoip_tree_2_3_4__Qpeak_ge50__indicator_quadratic/matrices.npz",
+      "sha256": "8ee247b404e370b3cce773819cd7cf1be5be721b854bcfaee6736eab3fc58108",
+      "bytes": 1821185,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_2_3_4__Qpeak_ge50__indicator_quadratic/null_all_gamma.npz",
+      "source": "loss-design-search/bolshoip_tree_2_3_4__Qpeak_ge50__indicator_quadratic/null_all_gamma.npz",
+      "sha256": "56891e1837f2473213c9fa8157a18d3fd108c0d940abd8e407af22dc8fa51604",
+      "bytes": 392174,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_2_3_4__Qpeak_ge50__indicator_quadratic/observed_all_gamma.csv",
+      "source": "loss-design-search/bolshoip_tree_2_3_4__Qpeak_ge50__indicator_quadratic/observed_all_gamma.csv",
+      "sha256": "94661cd4f639f04dc31219095112c03319b61f5b66fc9ac8733960c4e5f8198a",
+      "bytes": 5013,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_2_3_4__Qpeak_ge50__indicator_quadratic/permutations.csv",
+      "source": "loss-design-search/bolshoip_tree_2_3_4__Qpeak_ge50__indicator_quadratic/permutations.csv",
+      "sha256": "c08bdfa5b75f56bc355b87482b72d0ccf1352d1abfd56c1c201c2e347f5d32ff",
+      "bytes": 91416,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_2_3_4__Qpeak_ge50__linear/CASE_COMPLETE.json",
+      "source": "loss-design-search/bolshoip_tree_2_3_4__Qpeak_ge50__linear/CASE_COMPLETE.json",
+      "sha256": "94a4a738f195805ce3ed02843e31f17a4f3652d0b117378edc08a52dddc132e7",
+      "bytes": 872,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_2_3_4__Qpeak_ge50__linear/DESIGN.json",
+      "source": "loss-design-search/bolshoip_tree_2_3_4__Qpeak_ge50__linear/DESIGN.json",
+      "sha256": "73fbe5064e88491708fcef782e531ffbf4f0ef297ee864b94a510ce6bd7897c2",
+      "bytes": 681,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_2_3_4__Qpeak_ge50__linear/RNG_FINAL.json",
+      "source": "loss-design-search/bolshoip_tree_2_3_4__Qpeak_ge50__linear/RNG_FINAL.json",
+      "sha256": "38a1f97bbb44c18de30005092834640e290dea178465f3029523a58ba9fb1d7c",
+      "bytes": 199,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_2_3_4__Qpeak_ge50__linear/RNG_INITIAL.json",
+      "source": "loss-design-search/bolshoip_tree_2_3_4__Qpeak_ge50__linear/RNG_INITIAL.json",
+      "sha256": "5180d5219c59cecac248dbcf167bbc5535ab9a6898ea31193a400e3d97a6229a",
+      "bytes": 190,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_2_3_4__Qpeak_ge50__linear/RNG_SPEC.json",
+      "source": "loss-design-search/bolshoip_tree_2_3_4__Qpeak_ge50__linear/RNG_SPEC.json",
+      "sha256": "8ea555971c776b5d456b196b4bbe80948e920873a833b32327b6c8f9ad88b782",
+      "bytes": 149,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_2_3_4__Qpeak_ge50__linear/candidate_search_comparisons.csv",
+      "source": "loss-design-search/bolshoip_tree_2_3_4__Qpeak_ge50__linear/candidate_search_comparisons.csv",
+      "sha256": "a9132837a69500482e8ed429e1c93bb08184f2b81eda7d468a960d0c2d079216",
+      "bytes": 739,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_2_3_4__Qpeak_ge50__linear/matrices.npz",
+      "source": "loss-design-search/bolshoip_tree_2_3_4__Qpeak_ge50__linear/matrices.npz",
+      "sha256": "ba02613d8151e22e2d65875409638e343804bf1c6af36c8b3cfd9f17f3f694e3",
+      "bytes": 1806791,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_2_3_4__Qpeak_ge50__linear/null_all_gamma.npz",
+      "source": "loss-design-search/bolshoip_tree_2_3_4__Qpeak_ge50__linear/null_all_gamma.npz",
+      "sha256": "9758223c04622bf50a8badd2c8d5de42d64e1822fbbc0d6d184dc907d1d7841d",
+      "bytes": 392511,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_2_3_4__Qpeak_ge50__linear/observed_all_gamma.csv",
+      "source": "loss-design-search/bolshoip_tree_2_3_4__Qpeak_ge50__linear/observed_all_gamma.csv",
+      "sha256": "968ad6104e4efef423c89badaff51a835a6004b5b0511021b974e4f9b779f360",
+      "bytes": 5004,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_2_3_4__Qpeak_ge50__linear/permutations.csv",
+      "source": "loss-design-search/bolshoip_tree_2_3_4__Qpeak_ge50__linear/permutations.csv",
+      "sha256": "ca9fbaa40b80ff215571f3346bed53274f7ab7389c1d774b8c5cabea3698fca5",
+      "bytes": 91400,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_2_3_4__baseline__indicator_quadratic/CASE_COMPLETE.json",
+      "source": "loss-design-search/bolshoip_tree_2_3_4__baseline__indicator_quadratic/CASE_COMPLETE.json",
+      "sha256": "98b4b234a8daf1570e2a9097cde058b67d4209b3963131daffcfa34ac44b1314",
+      "bytes": 886,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_2_3_4__baseline__indicator_quadratic/DESIGN.json",
+      "source": "loss-design-search/bolshoip_tree_2_3_4__baseline__indicator_quadratic/DESIGN.json",
+      "sha256": "017ec3000a9aa6d1500490171679d78d5404ed3194e16e8627f29e2e86f9a8dd",
+      "bytes": 743,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_2_3_4__baseline__indicator_quadratic/RNG_FINAL.json",
+      "source": "loss-design-search/bolshoip_tree_2_3_4__baseline__indicator_quadratic/RNG_FINAL.json",
+      "sha256": "0ca51bad1cb5c88ce5c3e81877b79fb1f29a50e9076c3874eaf745aec58b6201",
+      "bytes": 198,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_2_3_4__baseline__indicator_quadratic/RNG_INITIAL.json",
+      "source": "loss-design-search/bolshoip_tree_2_3_4__baseline__indicator_quadratic/RNG_INITIAL.json",
+      "sha256": "8a557cc440d7815f17953444d2dafa1ba756257b163eb09dc1f1322e3da277e6",
+      "bytes": 189,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_2_3_4__baseline__indicator_quadratic/RNG_SPEC.json",
+      "source": "loss-design-search/bolshoip_tree_2_3_4__baseline__indicator_quadratic/RNG_SPEC.json",
+      "sha256": "ae309edc38a934c20b395650384b786bb76649b399d68f2a28b601b19d9dd2b6",
+      "bytes": 148,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_2_3_4__baseline__indicator_quadratic/candidate_search_comparisons.csv",
+      "source": "loss-design-search/bolshoip_tree_2_3_4__baseline__indicator_quadratic/candidate_search_comparisons.csv",
+      "sha256": "1f2fa35297058c61ced6f3735c367e1886cdfd36ecd7166c2fec904e789c2aa3",
+      "bytes": 727,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_2_3_4__baseline__indicator_quadratic/matrices.npz",
+      "source": "loss-design-search/bolshoip_tree_2_3_4__baseline__indicator_quadratic/matrices.npz",
+      "sha256": "9c5a5059e9de36a3f965a3b8f043246debfea851c937e4ef2dbdf05abadd7632",
+      "bytes": 8177343,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_2_3_4__baseline__indicator_quadratic/null_all_gamma.npz",
+      "source": "loss-design-search/bolshoip_tree_2_3_4__baseline__indicator_quadratic/null_all_gamma.npz",
+      "sha256": "9e9c2bef6ab6c2742d05fc15e67dab8faae88f9a59432df7fd06fcc824bee80d",
+      "bytes": 390757,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_2_3_4__baseline__indicator_quadratic/observed_all_gamma.csv",
+      "source": "loss-design-search/bolshoip_tree_2_3_4__baseline__indicator_quadratic/observed_all_gamma.csv",
+      "sha256": "894128e3c2caccdd4ddd3fee461d972f64ae5ab509c6543b1934a8ab4388c0d2",
+      "bytes": 5071,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_2_3_4__baseline__indicator_quadratic/permutations.csv",
+      "source": "loss-design-search/bolshoip_tree_2_3_4__baseline__indicator_quadratic/permutations.csv",
+      "sha256": "9ace3177b0b6b85834db521ea873eaeb6ea05a57bff26a78e66a6d3f0820df9a",
+      "bytes": 91258,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_2_3_4__baseline__linear/CASE_COMPLETE.json",
+      "source": "loss-design-search/bolshoip_tree_2_3_4__baseline__linear/CASE_COMPLETE.json",
+      "sha256": "dacaa9a9750907d0347383620ce61cced93c012d86b7955f339ceeaf11128d7b",
+      "bytes": 874,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_2_3_4__baseline__linear/DESIGN.json",
+      "source": "loss-design-search/bolshoip_tree_2_3_4__baseline__linear/DESIGN.json",
+      "sha256": "6c7627f19bb6fc554705642968df314ee85e436969ef667c4c0669cb7b1a9ee4",
+      "bytes": 686,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_2_3_4__baseline__linear/RNG_FINAL.json",
+      "source": "loss-design-search/bolshoip_tree_2_3_4__baseline__linear/RNG_FINAL.json",
+      "sha256": "2cd160339b2984caefb629271d65abbebd44cd9d54c76ff56f18121a41c1acca",
+      "bytes": 197,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_2_3_4__baseline__linear/RNG_INITIAL.json",
+      "source": "loss-design-search/bolshoip_tree_2_3_4__baseline__linear/RNG_INITIAL.json",
+      "sha256": "71a43c133813039a04ba712b3748b85ed040624a953699bf64fb2b8de7be591a",
+      "bytes": 188,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_2_3_4__baseline__linear/RNG_SPEC.json",
+      "source": "loss-design-search/bolshoip_tree_2_3_4__baseline__linear/RNG_SPEC.json",
+      "sha256": "79e7f323b12162016ddd4a7ab2b9457bf300b82b81c7d458e4ece93077909423",
+      "bytes": 148,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_2_3_4__baseline__linear/candidate_search_comparisons.csv",
+      "source": "loss-design-search/bolshoip_tree_2_3_4__baseline__linear/candidate_search_comparisons.csv",
+      "sha256": "add7edb0d076584e2771b2c054afa98147e39e0448e1c5963a8acb036882261a",
+      "bytes": 739,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_2_3_4__baseline__linear/matrices.npz",
+      "source": "loss-design-search/bolshoip_tree_2_3_4__baseline__linear/matrices.npz",
+      "sha256": "f941bcc98e02792947c7d8fd6d1732b1cfc33c3d0d11007e9cba83264d38ff3c",
+      "bytes": 8124843,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_2_3_4__baseline__linear/null_all_gamma.npz",
+      "source": "loss-design-search/bolshoip_tree_2_3_4__baseline__linear/null_all_gamma.npz",
+      "sha256": "70d8b416b55ad3dab301eabd298a9f02d19c1bf8a46c924019fa97f1076dbf32",
+      "bytes": 391018,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_2_3_4__baseline__linear/observed_all_gamma.csv",
+      "source": "loss-design-search/bolshoip_tree_2_3_4__baseline__linear/observed_all_gamma.csv",
+      "sha256": "2bc731a3e940deb13b2a77ace2737efae176499811948b462ecf735f2ac0963e",
+      "bytes": 5060,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_2_3_4__baseline__linear/permutations.csv",
+      "source": "loss-design-search/bolshoip_tree_2_3_4__baseline__linear/permutations.csv",
+      "sha256": "74a935617955dff750ba20775fcc4a5c5f1f7a9a3fc58acec3167dfc22b46ccb",
+      "bytes": 91242,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_3_2_1__Qpeak_ge20__indicator_quadratic/CASE_COMPLETE.json",
+      "source": "loss-design-search/bolshoip_tree_3_2_1__Qpeak_ge20__indicator_quadratic/CASE_COMPLETE.json",
+      "sha256": "5dcccd16c745b8dc451677269079604f6105a2f79123c55ed6718551ed90daa2",
+      "bytes": 890,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_3_2_1__Qpeak_ge20__indicator_quadratic/DESIGN.json",
+      "source": "loss-design-search/bolshoip_tree_3_2_1__Qpeak_ge20__indicator_quadratic/DESIGN.json",
+      "sha256": "7c0c18387a919544702120723ccb7612435d9bba1bcd7062cc872574cda44ba9",
+      "bytes": 736,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_3_2_1__Qpeak_ge20__indicator_quadratic/RNG_FINAL.json",
+      "source": "loss-design-search/bolshoip_tree_3_2_1__Qpeak_ge20__indicator_quadratic/RNG_FINAL.json",
+      "sha256": "7d8f8a8d579b9491f87185da3f2e95d503d2cbaf3c40bbff929565342673cf5b",
+      "bytes": 199,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_3_2_1__Qpeak_ge20__indicator_quadratic/RNG_INITIAL.json",
+      "source": "loss-design-search/bolshoip_tree_3_2_1__Qpeak_ge20__indicator_quadratic/RNG_INITIAL.json",
+      "sha256": "6c6aa89f0936bfac1c1f794c38cd6eca740444d32c489f4e1ad6595da5df1fad",
+      "bytes": 190,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_3_2_1__Qpeak_ge20__indicator_quadratic/RNG_SPEC.json",
+      "source": "loss-design-search/bolshoip_tree_3_2_1__Qpeak_ge20__indicator_quadratic/RNG_SPEC.json",
+      "sha256": "ac5f511fbe1614108d8015d0aab978fa456dee1e0af237b18e214d6ab7aa8ebf",
+      "bytes": 149,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_3_2_1__Qpeak_ge20__indicator_quadratic/candidate_search_comparisons.csv",
+      "source": "loss-design-search/bolshoip_tree_3_2_1__Qpeak_ge20__indicator_quadratic/candidate_search_comparisons.csv",
+      "sha256": "3560fd7d66a6d34b02fb925cc8de76afe3c445f34866678d85ad0f223b2a90de",
+      "bytes": 738,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_3_2_1__Qpeak_ge20__indicator_quadratic/matrices.npz",
+      "source": "loss-design-search/bolshoip_tree_3_2_1__Qpeak_ge20__indicator_quadratic/matrices.npz",
+      "sha256": "f590c31e895d8683ccd64c7a3e1ec51e41e843d4ae9efa37adbcb2bc6f7f54cd",
+      "bytes": 4123299,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_3_2_1__Qpeak_ge20__indicator_quadratic/null_all_gamma.npz",
+      "source": "loss-design-search/bolshoip_tree_3_2_1__Qpeak_ge20__indicator_quadratic/null_all_gamma.npz",
+      "sha256": "8dc1db4d90c47e845d6b3275b32dc27deacf7d5193ec31e6e47c1d055ad6ccd2",
+      "bytes": 391237,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_3_2_1__Qpeak_ge20__indicator_quadratic/observed_all_gamma.csv",
+      "source": "loss-design-search/bolshoip_tree_3_2_1__Qpeak_ge20__indicator_quadratic/observed_all_gamma.csv",
+      "sha256": "162afe3581e11ccecdaf83f3889b5e0dfff6e5c1f2c3d70afb72019c1a241902",
+      "bytes": 5077,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_3_2_1__Qpeak_ge20__indicator_quadratic/permutations.csv",
+      "source": "loss-design-search/bolshoip_tree_3_2_1__Qpeak_ge20__indicator_quadratic/permutations.csv",
+      "sha256": "e2e3139ff02b0b6daddcf58a9cc33d5ad42c873b597e4cffa82bce1a84d7ead7",
+      "bytes": 91329,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_3_2_1__Qpeak_ge20__linear/CASE_COMPLETE.json",
+      "source": "loss-design-search/bolshoip_tree_3_2_1__Qpeak_ge20__linear/CASE_COMPLETE.json",
+      "sha256": "a019749c63592bf45a46e8ac79bf6e2f05fd3c4d7f4cc0abd97455bb7d23a7f0",
+      "bytes": 875,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_3_2_1__Qpeak_ge20__linear/DESIGN.json",
+      "source": "loss-design-search/bolshoip_tree_3_2_1__Qpeak_ge20__linear/DESIGN.json",
+      "sha256": "04be7332e74612ed1a0b92c38e40f48406f9744e12a63daf6f746d84f7dd7c6f",
+      "bytes": 674,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_3_2_1__Qpeak_ge20__linear/RNG_FINAL.json",
+      "source": "loss-design-search/bolshoip_tree_3_2_1__Qpeak_ge20__linear/RNG_FINAL.json",
+      "sha256": "303fad2eb8b7930a3dbab48b2cc8980031a8cfdb82b6810d5dcb8003214650e2",
+      "bytes": 198,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_3_2_1__Qpeak_ge20__linear/RNG_INITIAL.json",
+      "source": "loss-design-search/bolshoip_tree_3_2_1__Qpeak_ge20__linear/RNG_INITIAL.json",
+      "sha256": "757f9dc9c8f3e341c8898e21ead9b74e4a2705b33cd91c6624e9bea5e3b04917",
+      "bytes": 189,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_3_2_1__Qpeak_ge20__linear/RNG_SPEC.json",
+      "source": "loss-design-search/bolshoip_tree_3_2_1__Qpeak_ge20__linear/RNG_SPEC.json",
+      "sha256": "fb5c5aa0fcbd330609ae45e4a627c36081eaffc6d66206a5e666038e05d36871",
+      "bytes": 148,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_3_2_1__Qpeak_ge20__linear/candidate_search_comparisons.csv",
+      "source": "loss-design-search/bolshoip_tree_3_2_1__Qpeak_ge20__linear/candidate_search_comparisons.csv",
+      "sha256": "0bc2109bb5625c0fdb11e5ab76657212ef74a295e9f19c4a6371bffa6675cf68",
+      "bytes": 722,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_3_2_1__Qpeak_ge20__linear/matrices.npz",
+      "source": "loss-design-search/bolshoip_tree_3_2_1__Qpeak_ge20__linear/matrices.npz",
+      "sha256": "7efa0eaa192454d75f822597fb3a59e437230b5ce1d3d1e1265dc78b366933fb",
+      "bytes": 4088282,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_3_2_1__Qpeak_ge20__linear/null_all_gamma.npz",
+      "source": "loss-design-search/bolshoip_tree_3_2_1__Qpeak_ge20__linear/null_all_gamma.npz",
+      "sha256": "b409f0723e17af929cb8b745b1d3e43ab6d555df3ca38d92c833d966e98e67c9",
+      "bytes": 390651,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_3_2_1__Qpeak_ge20__linear/observed_all_gamma.csv",
+      "source": "loss-design-search/bolshoip_tree_3_2_1__Qpeak_ge20__linear/observed_all_gamma.csv",
+      "sha256": "c2ffa8936823ea938b0e1b0340add41e213c75eac71cd6933bac6286e8f2f263",
+      "bytes": 5074,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_3_2_1__Qpeak_ge20__linear/permutations.csv",
+      "source": "loss-design-search/bolshoip_tree_3_2_1__Qpeak_ge20__linear/permutations.csv",
+      "sha256": "da9f45298d63ca21c2942e64e2b7a2d756282608f49cf2669e9da5c3b65300b0",
+      "bytes": 91323,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_3_2_1__Qpeak_ge50__indicator_quadratic/CASE_COMPLETE.json",
+      "source": "loss-design-search/bolshoip_tree_3_2_1__Qpeak_ge50__indicator_quadratic/CASE_COMPLETE.json",
+      "sha256": "f0c21d25fbf199036875d7d10adf0fb33e53766195f3d232899270dbbf440df0",
+      "bytes": 891,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_3_2_1__Qpeak_ge50__indicator_quadratic/DESIGN.json",
+      "source": "loss-design-search/bolshoip_tree_3_2_1__Qpeak_ge50__indicator_quadratic/DESIGN.json",
+      "sha256": "6ec1faa654268c5bc618a8acedd6156f9662f488bda3cb2031520f67b582e10a",
+      "bytes": 739,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_3_2_1__Qpeak_ge50__indicator_quadratic/RNG_FINAL.json",
+      "source": "loss-design-search/bolshoip_tree_3_2_1__Qpeak_ge50__indicator_quadratic/RNG_FINAL.json",
+      "sha256": "89b089a40d120366faed181425f0f69fbdd3adc5634f5f8aade9312f583108b9",
+      "bytes": 198,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_3_2_1__Qpeak_ge50__indicator_quadratic/RNG_INITIAL.json",
+      "source": "loss-design-search/bolshoip_tree_3_2_1__Qpeak_ge50__indicator_quadratic/RNG_INITIAL.json",
+      "sha256": "6dc4c82b16737400bef4366839b6c37c4b31b1ccd3beb6fbea26dc2842e358eb",
+      "bytes": 190,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_3_2_1__Qpeak_ge50__indicator_quadratic/RNG_SPEC.json",
+      "source": "loss-design-search/bolshoip_tree_3_2_1__Qpeak_ge50__indicator_quadratic/RNG_SPEC.json",
+      "sha256": "33429829728edefc55b4f7f46a26476e065dbf13ae5b32507652c1eaa9e1f696",
+      "bytes": 148,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_3_2_1__Qpeak_ge50__indicator_quadratic/candidate_search_comparisons.csv",
+      "source": "loss-design-search/bolshoip_tree_3_2_1__Qpeak_ge50__indicator_quadratic/candidate_search_comparisons.csv",
+      "sha256": "9346062940cd52b5232a96c2ba575e751abea999b3c39ca85493ad7dd9fafca0",
+      "bytes": 736,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_3_2_1__Qpeak_ge50__indicator_quadratic/matrices.npz",
+      "source": "loss-design-search/bolshoip_tree_3_2_1__Qpeak_ge50__indicator_quadratic/matrices.npz",
+      "sha256": "c49724f1e269f5aa7a92fbc92385677ca9c35146bd9188eabeba4625d684bc63",
+      "bytes": 1862251,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_3_2_1__Qpeak_ge50__indicator_quadratic/null_all_gamma.npz",
+      "source": "loss-design-search/bolshoip_tree_3_2_1__Qpeak_ge50__indicator_quadratic/null_all_gamma.npz",
+      "sha256": "4146a4d7e1bbacd6e32fd8069c4dbbebf908d89cc8be87fa44936ad7d1f8d475",
+      "bytes": 392134,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_3_2_1__Qpeak_ge50__indicator_quadratic/observed_all_gamma.csv",
+      "source": "loss-design-search/bolshoip_tree_3_2_1__Qpeak_ge50__indicator_quadratic/observed_all_gamma.csv",
+      "sha256": "1f2a406187de70e4372d3cb8139db489fc72aceccd5b2ab0f219c8b62fa4e461",
+      "bytes": 5016,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_3_2_1__Qpeak_ge50__indicator_quadratic/permutations.csv",
+      "source": "loss-design-search/bolshoip_tree_3_2_1__Qpeak_ge50__indicator_quadratic/permutations.csv",
+      "sha256": "b6a68ff53ac7eed713a546f3b1edb2084f9d34cdac5d48283dccd3341e3b1f5c",
+      "bytes": 91413,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_3_2_1__Qpeak_ge50__linear/CASE_COMPLETE.json",
+      "source": "loss-design-search/bolshoip_tree_3_2_1__Qpeak_ge50__linear/CASE_COMPLETE.json",
+      "sha256": "fd87795182ae5bf57613e58592637279cccd07d0d1ecdcea4b008139d7e31e1c",
+      "bytes": 875,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_3_2_1__Qpeak_ge50__linear/DESIGN.json",
+      "source": "loss-design-search/bolshoip_tree_3_2_1__Qpeak_ge50__linear/DESIGN.json",
+      "sha256": "1017977c3bd60f0c88c32ee55e4f1dc43db1583bded8cbcfd66d7f6a0d725792",
+      "bytes": 681,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_3_2_1__Qpeak_ge50__linear/RNG_FINAL.json",
+      "source": "loss-design-search/bolshoip_tree_3_2_1__Qpeak_ge50__linear/RNG_FINAL.json",
+      "sha256": "868860188d74e766ad4ab714f892ac2a01e2c03ff9ab73970f3acb911c9acc93",
+      "bytes": 198,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_3_2_1__Qpeak_ge50__linear/RNG_INITIAL.json",
+      "source": "loss-design-search/bolshoip_tree_3_2_1__Qpeak_ge50__linear/RNG_INITIAL.json",
+      "sha256": "d4b97be5201a9332b10d11e0586157ad6ee16e242f5c0483d8f5220d69384136",
+      "bytes": 189,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_3_2_1__Qpeak_ge50__linear/RNG_SPEC.json",
+      "source": "loss-design-search/bolshoip_tree_3_2_1__Qpeak_ge50__linear/RNG_SPEC.json",
+      "sha256": "9ad0ab0bd25f5af414dfe9d4e61d84c675418237961c228cbd2c8dbfb35b0883",
+      "bytes": 148,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_3_2_1__Qpeak_ge50__linear/candidate_search_comparisons.csv",
+      "source": "loss-design-search/bolshoip_tree_3_2_1__Qpeak_ge50__linear/candidate_search_comparisons.csv",
+      "sha256": "94ebf4c4bdb5c09013d3680adac4b2461f17ef90fe8a4f9df8bfe7e8f1b40e8f",
+      "bytes": 711,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_3_2_1__Qpeak_ge50__linear/matrices.npz",
+      "source": "loss-design-search/bolshoip_tree_3_2_1__Qpeak_ge50__linear/matrices.npz",
+      "sha256": "b0c4319f0155c9ed7bc1af4c4b5e20405da1bf68645c2aaadd7d37b8df98cbb9",
+      "bytes": 1847302,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_3_2_1__Qpeak_ge50__linear/null_all_gamma.npz",
+      "source": "loss-design-search/bolshoip_tree_3_2_1__Qpeak_ge50__linear/null_all_gamma.npz",
+      "sha256": "817a0d3b8c9fe8db817a50160c90b31400a833dff1dd462fd5a45ce5eaa241d3",
+      "bytes": 392430,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_3_2_1__Qpeak_ge50__linear/observed_all_gamma.csv",
+      "source": "loss-design-search/bolshoip_tree_3_2_1__Qpeak_ge50__linear/observed_all_gamma.csv",
+      "sha256": "c975b3b5a73a7933bf5661135760cf2afdd83baf285b54884bc799a35b7e6f1c",
+      "bytes": 5053,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_3_2_1__Qpeak_ge50__linear/permutations.csv",
+      "source": "loss-design-search/bolshoip_tree_3_2_1__Qpeak_ge50__linear/permutations.csv",
+      "sha256": "23e2a78cfc1a140e91bf606e748c76f1b73bd216f930976e513cea18e2de22d5",
+      "bytes": 91399,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_3_2_1__baseline__indicator_quadratic/CASE_COMPLETE.json",
+      "source": "loss-design-search/bolshoip_tree_3_2_1__baseline__indicator_quadratic/CASE_COMPLETE.json",
+      "sha256": "328a12eb04459b967dc624a7b3f9f6e9b5333e249e765860761083f9fcd1cea1",
+      "bytes": 881,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_3_2_1__baseline__indicator_quadratic/DESIGN.json",
+      "source": "loss-design-search/bolshoip_tree_3_2_1__baseline__indicator_quadratic/DESIGN.json",
+      "sha256": "954c19ed19fcaf94400644b029dbd9b57234d03e3e41a286c1f91419daab9039",
+      "bytes": 741,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_3_2_1__baseline__indicator_quadratic/RNG_FINAL.json",
+      "source": "loss-design-search/bolshoip_tree_3_2_1__baseline__indicator_quadratic/RNG_FINAL.json",
+      "sha256": "b67354dba74b14c7863ccbe471898f3c4a6a34188b6b3f232f42d8d5136883c3",
+      "bytes": 199,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_3_2_1__baseline__indicator_quadratic/RNG_INITIAL.json",
+      "source": "loss-design-search/bolshoip_tree_3_2_1__baseline__indicator_quadratic/RNG_INITIAL.json",
+      "sha256": "b6ff82e796597f87b5e09e4889edfe21eb3b0a2963bb5c6f3733db0e0d7600c7",
+      "bytes": 190,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_3_2_1__baseline__indicator_quadratic/RNG_SPEC.json",
+      "source": "loss-design-search/bolshoip_tree_3_2_1__baseline__indicator_quadratic/RNG_SPEC.json",
+      "sha256": "2512dba75945f05412c290f021c4d8be5beeeaddbf14e4721e8cd55d86f33714",
+      "bytes": 149,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_3_2_1__baseline__indicator_quadratic/candidate_search_comparisons.csv",
+      "source": "loss-design-search/bolshoip_tree_3_2_1__baseline__indicator_quadratic/candidate_search_comparisons.csv",
+      "sha256": "ddc1ce2b2992f58cb4fc2227e4d20712d8f4755805440ad1abe6332eaf145ffa",
+      "bytes": 741,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_3_2_1__baseline__indicator_quadratic/matrices.npz",
+      "source": "loss-design-search/bolshoip_tree_3_2_1__baseline__indicator_quadratic/matrices.npz",
+      "sha256": "9edef598c0e84a716063c1790764a3747dfe650236a5c891475effac1becf07a",
+      "bytes": 8311728,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_3_2_1__baseline__indicator_quadratic/null_all_gamma.npz",
+      "source": "loss-design-search/bolshoip_tree_3_2_1__baseline__indicator_quadratic/null_all_gamma.npz",
+      "sha256": "ac5607b0d2c646e077350934db8f90f1dd175a93c22f640210c60584567c9724",
+      "bytes": 390651,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_3_2_1__baseline__indicator_quadratic/observed_all_gamma.csv",
+      "source": "loss-design-search/bolshoip_tree_3_2_1__baseline__indicator_quadratic/observed_all_gamma.csv",
+      "sha256": "c29c6e2f9d99fad4e0bf4bbc01b401ceb3defc1d1b6b018ca3eec8a23617e61c",
+      "bytes": 5066,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_3_2_1__baseline__indicator_quadratic/permutations.csv",
+      "source": "loss-design-search/bolshoip_tree_3_2_1__baseline__indicator_quadratic/permutations.csv",
+      "sha256": "c73dbd77240219c6b36167672f911effe7b36e3b9b4e09dd4cda2548d3760c8b",
+      "bytes": 91254,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_3_2_1__baseline__linear/CASE_COMPLETE.json",
+      "source": "loss-design-search/bolshoip_tree_3_2_1__baseline__linear/CASE_COMPLETE.json",
+      "sha256": "50b139d5a9e6583847cca783ee0bffd8d99f54f60888263b3ca38dfa3a5d8748",
+      "bytes": 870,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_3_2_1__baseline__linear/DESIGN.json",
+      "source": "loss-design-search/bolshoip_tree_3_2_1__baseline__linear/DESIGN.json",
+      "sha256": "09f49896a352609560048b130838b529c6b8bdedf862925af2538e5f04a43e25",
+      "bytes": 683,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_3_2_1__baseline__linear/RNG_FINAL.json",
+      "source": "loss-design-search/bolshoip_tree_3_2_1__baseline__linear/RNG_FINAL.json",
+      "sha256": "380a0a60653af00091d94598f040287a207753beb566a760ec41a5300bec9acf",
+      "bytes": 199,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_3_2_1__baseline__linear/RNG_INITIAL.json",
+      "source": "loss-design-search/bolshoip_tree_3_2_1__baseline__linear/RNG_INITIAL.json",
+      "sha256": "2d63c96b51c35d06561a6ef0d8343eebdf6fb0b91abda68c2dfdc3a96b978fe2",
+      "bytes": 190,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_3_2_1__baseline__linear/RNG_SPEC.json",
+      "source": "loss-design-search/bolshoip_tree_3_2_1__baseline__linear/RNG_SPEC.json",
+      "sha256": "f64e14908c8f5aa8d62c79ba6b642dabcde66ae46ecf243f5660560255662113",
+      "bytes": 148,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_3_2_1__baseline__linear/candidate_search_comparisons.csv",
+      "source": "loss-design-search/bolshoip_tree_3_2_1__baseline__linear/candidate_search_comparisons.csv",
+      "sha256": "7e7b021eb48b782f7f8ee6a2f4343fc4bd6b66c6bb844033ba616dac87fa64e3",
+      "bytes": 737,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_3_2_1__baseline__linear/matrices.npz",
+      "source": "loss-design-search/bolshoip_tree_3_2_1__baseline__linear/matrices.npz",
+      "sha256": "7f91bb9bd8062c1e322c57a36e92a357ee205a89bf2f170fafabf70e7d95666b",
+      "bytes": 8257503,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_3_2_1__baseline__linear/null_all_gamma.npz",
+      "source": "loss-design-search/bolshoip_tree_3_2_1__baseline__linear/null_all_gamma.npz",
+      "sha256": "22a9f237c21498e5d3fe1983865fcf5753b25aae23e2ed84f3a8d4e7229dda7d",
+      "bytes": 390905,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_3_2_1__baseline__linear/observed_all_gamma.csv",
+      "source": "loss-design-search/bolshoip_tree_3_2_1__baseline__linear/observed_all_gamma.csv",
+      "sha256": "11694fd7051666ea4a2bdf47335f1943516c72defbff65510c3e0d596a6eedf4",
+      "bytes": 5066,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/bolshoip_tree_3_2_1__baseline__linear/permutations.csv",
+      "source": "loss-design-search/bolshoip_tree_3_2_1__baseline__linear/permutations.csv",
+      "sha256": "8d527b626015a0aa4f97dd5454ecaa715744215daea0632e319b318cfd1b1be9",
+      "bytes": 91229,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_power_n2000__centrals_C4__indicator_quadratic/CASE_COMPLETE.json",
+      "source": "loss-design-search/tng_power_n2000__centrals_C4__indicator_quadratic/CASE_COMPLETE.json",
+      "sha256": "465b4a4d2afe268fe3247b613a549785b0b61953c8dfb1a2a3065ba50e0c2329",
+      "bytes": 885,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_power_n2000__centrals_C4__indicator_quadratic/DESIGN.json",
+      "source": "loss-design-search/tng_power_n2000__centrals_C4__indicator_quadratic/DESIGN.json",
+      "sha256": "82b5ac508c652ad2f5868461754c30f1e273bc510f070999932f7db6dc603f98",
+      "bytes": 736,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_power_n2000__centrals_C4__indicator_quadratic/RNG_FINAL.json",
+      "source": "loss-design-search/tng_power_n2000__centrals_C4__indicator_quadratic/RNG_FINAL.json",
+      "sha256": "68b117de4a6d8a826d5b537d956f7b528a7ccdd2a9439bd1ee03c29184e22514",
+      "bytes": 199,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_power_n2000__centrals_C4__indicator_quadratic/RNG_INITIAL.json",
+      "source": "loss-design-search/tng_power_n2000__centrals_C4__indicator_quadratic/RNG_INITIAL.json",
+      "sha256": "e580ce92cb4ca22e30f334d907b239302c1e37193130c002117af647ac986f35",
+      "bytes": 190,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_power_n2000__centrals_C4__indicator_quadratic/RNG_SPEC.json",
+      "source": "loss-design-search/tng_power_n2000__centrals_C4__indicator_quadratic/RNG_SPEC.json",
+      "sha256": "7dbacaa15c6846a540eff3da7a2051b101c2c548c8b20f572a5be178a173eb45",
+      "bytes": 148,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_power_n2000__centrals_C4__indicator_quadratic/candidate_search_comparisons.csv",
+      "source": "loss-design-search/tng_power_n2000__centrals_C4__indicator_quadratic/candidate_search_comparisons.csv",
+      "sha256": "a03193d4bd60c612d7ca0c2810029dd689c4cdca78ef063e0f80f0b3ba430af0",
+      "bytes": 725,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_power_n2000__centrals_C4__indicator_quadratic/matrices.npz",
+      "source": "loss-design-search/tng_power_n2000__centrals_C4__indicator_quadratic/matrices.npz",
+      "sha256": "d2b8a6141599be7836d9fd937bc5ee07ca652b23a15397b918c5601526b6228b",
+      "bytes": 1178213,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_power_n2000__centrals_C4__indicator_quadratic/null_all_gamma.npz",
+      "source": "loss-design-search/tng_power_n2000__centrals_C4__indicator_quadratic/null_all_gamma.npz",
+      "sha256": "fbd06decd79a607434094e767c74d1ce7089202764be85ea8c23d6532ae6b620",
+      "bytes": 392980,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_power_n2000__centrals_C4__indicator_quadratic/observed_all_gamma.csv",
+      "source": "loss-design-search/tng_power_n2000__centrals_C4__indicator_quadratic/observed_all_gamma.csv",
+      "sha256": "c07a93493d1eeeb383db664c499e70ebd4482562702ef189945f3a0972844075",
+      "bytes": 5039,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_power_n2000__centrals_C4__indicator_quadratic/permutations.csv",
+      "source": "loss-design-search/tng_power_n2000__centrals_C4__indicator_quadratic/permutations.csv",
+      "sha256": "8c147aaa3cbc1e465f7ff95eb2accc9abb76e9fe36837b82369092e0df3f6c31",
+      "bytes": 91433,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_power_n2000__centrals_C4__linear/CASE_COMPLETE.json",
+      "source": "loss-design-search/tng_power_n2000__centrals_C4__linear/CASE_COMPLETE.json",
+      "sha256": "6ff899bc214637288c268f0fa030e11838f37a85dbc239a9144133af4b2ac632",
+      "bytes": 872,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_power_n2000__centrals_C4__linear/DESIGN.json",
+      "source": "loss-design-search/tng_power_n2000__centrals_C4__linear/DESIGN.json",
+      "sha256": "7a9875516667f79d663771e76d0f18969bc42febb765d6071889219565344a76",
+      "bytes": 674,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_power_n2000__centrals_C4__linear/RNG_FINAL.json",
+      "source": "loss-design-search/tng_power_n2000__centrals_C4__linear/RNG_FINAL.json",
+      "sha256": "467830babf1f1d9cd3b8b3b42237f69bb6490d3b89eb494ab3528baa31695d51",
+      "bytes": 198,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_power_n2000__centrals_C4__linear/RNG_INITIAL.json",
+      "source": "loss-design-search/tng_power_n2000__centrals_C4__linear/RNG_INITIAL.json",
+      "sha256": "1f6c08dc58160972153ce54e04e62221bb2d8ed93d99e617b193c85dabd42073",
+      "bytes": 190,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_power_n2000__centrals_C4__linear/RNG_SPEC.json",
+      "source": "loss-design-search/tng_power_n2000__centrals_C4__linear/RNG_SPEC.json",
+      "sha256": "0e2efadc8d3b088ccc83c2846a5537f9c61ee9c8c24493224890e15f7f9a2bbb",
+      "bytes": 148,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_power_n2000__centrals_C4__linear/candidate_search_comparisons.csv",
+      "source": "loss-design-search/tng_power_n2000__centrals_C4__linear/candidate_search_comparisons.csv",
+      "sha256": "b4940091f1d2110425f42478eab1bca26b6c04661e8277f5e29636902bf43f2b",
+      "bytes": 735,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_power_n2000__centrals_C4__linear/matrices.npz",
+      "source": "loss-design-search/tng_power_n2000__centrals_C4__linear/matrices.npz",
+      "sha256": "a4055a7c3bb18e08d5fa71542040b3ca029bfa7bc34508d48b3f11c3b1b4857b",
+      "bytes": 1170660,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_power_n2000__centrals_C4__linear/null_all_gamma.npz",
+      "source": "loss-design-search/tng_power_n2000__centrals_C4__linear/null_all_gamma.npz",
+      "sha256": "fa88ab49d789185f76e3daac819bcd9bd855b47fa4c37c58571955c51f93ba3e",
+      "bytes": 392721,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_power_n2000__centrals_C4__linear/observed_all_gamma.csv",
+      "source": "loss-design-search/tng_power_n2000__centrals_C4__linear/observed_all_gamma.csv",
+      "sha256": "5b0a6aa1decc15c23c2d78c95d0105b53fe6af03bff2f9b96d4496e7d180c2f0",
+      "bytes": 5060,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_power_n2000__centrals_C4__linear/permutations.csv",
+      "source": "loss-design-search/tng_power_n2000__centrals_C4__linear/permutations.csv",
+      "sha256": "36a41dfeb2184dbbb1f9a8d40a29df22916e8cffdb2c2496f4755b1357fa77ed",
+      "bytes": 91458,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_power_n2000__full_C4__indicator_quadratic/CASE_COMPLETE.json",
+      "source": "loss-design-search/tng_power_n2000__full_C4__indicator_quadratic/CASE_COMPLETE.json",
+      "sha256": "891683b20004a7ac395d44c19cd48b9eec98ae556fcc456d5fe8a64733790dd8",
+      "bytes": 880,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_power_n2000__full_C4__indicator_quadratic/DESIGN.json",
+      "source": "loss-design-search/tng_power_n2000__full_C4__indicator_quadratic/DESIGN.json",
+      "sha256": "29da2f7315cfcf95a2c03804f1eca6df1980c6276c997cc341500bce2fd6c137",
+      "bytes": 726,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_power_n2000__full_C4__indicator_quadratic/RNG_FINAL.json",
+      "source": "loss-design-search/tng_power_n2000__full_C4__indicator_quadratic/RNG_FINAL.json",
+      "sha256": "6a42e589db30384578c9c29ff36ad7ebc7c28206d11df2a60e9f07f21a30288e",
+      "bytes": 199,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_power_n2000__full_C4__indicator_quadratic/RNG_INITIAL.json",
+      "source": "loss-design-search/tng_power_n2000__full_C4__indicator_quadratic/RNG_INITIAL.json",
+      "sha256": "d2993aede24b0a442a63bad8c782c2a5981b6d070b7ffaa4bca5a16df46bd488",
+      "bytes": 190,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_power_n2000__full_C4__indicator_quadratic/RNG_SPEC.json",
+      "source": "loss-design-search/tng_power_n2000__full_C4__indicator_quadratic/RNG_SPEC.json",
+      "sha256": "0ca1816562d92e8d139da3d49e989928925b64caa658c9b129baf1d5bb80053e",
+      "bytes": 149,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_power_n2000__full_C4__indicator_quadratic/candidate_search_comparisons.csv",
+      "source": "loss-design-search/tng_power_n2000__full_C4__indicator_quadratic/candidate_search_comparisons.csv",
+      "sha256": "0e531b726c76fa7edd14bb45340c9718307d50f139a126e2411dafdae7a7ca48",
+      "bytes": 741,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_power_n2000__full_C4__indicator_quadratic/matrices.npz",
+      "source": "loss-design-search/tng_power_n2000__full_C4__indicator_quadratic/matrices.npz",
+      "sha256": "cbb92be3917fd1482ce3c7a33639284ca6a2a8a3acaee2bec54ab8e3e2520515",
+      "bytes": 1225255,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_power_n2000__full_C4__indicator_quadratic/null_all_gamma.npz",
+      "source": "loss-design-search/tng_power_n2000__full_C4__indicator_quadratic/null_all_gamma.npz",
+      "sha256": "a4a9475040bc9f808382d8c66083fae5efcad414f9144713518828a271886ed6",
+      "bytes": 392899,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_power_n2000__full_C4__indicator_quadratic/observed_all_gamma.csv",
+      "source": "loss-design-search/tng_power_n2000__full_C4__indicator_quadratic/observed_all_gamma.csv",
+      "sha256": "818b1bb302549063e933f12926f3105b2ae9223de40f67062d903ef838f88aac",
+      "bytes": 5038,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_power_n2000__full_C4__indicator_quadratic/permutations.csv",
+      "source": "loss-design-search/tng_power_n2000__full_C4__indicator_quadratic/permutations.csv",
+      "sha256": "51a1361b486a7c609d8f113d5c79afc8c84fe6a111e531939a30f90c166756c9",
+      "bytes": 91425,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_power_n2000__full_C4__linear/CASE_COMPLETE.json",
+      "source": "loss-design-search/tng_power_n2000__full_C4__linear/CASE_COMPLETE.json",
+      "sha256": "4af4a4b95af3c125aa9ec06f7ee3b698a1d2f8f2abb1618e85477bddb9f65ef7",
+      "bytes": 867,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_power_n2000__full_C4__linear/DESIGN.json",
+      "source": "loss-design-search/tng_power_n2000__full_C4__linear/DESIGN.json",
+      "sha256": "0e452959c8ba1fe384fbdc3fd85d053a29a393a066eaea8bfadd44db94e3e3e0",
+      "bytes": 673,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_power_n2000__full_C4__linear/RNG_FINAL.json",
+      "source": "loss-design-search/tng_power_n2000__full_C4__linear/RNG_FINAL.json",
+      "sha256": "f4afa0cef5c732c68e6d00a195c66f2b7e23cef3fd05ca38d2f559f075af5969",
+      "bytes": 196,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_power_n2000__full_C4__linear/RNG_INITIAL.json",
+      "source": "loss-design-search/tng_power_n2000__full_C4__linear/RNG_INITIAL.json",
+      "sha256": "e4ce40b78e2c25965fb9f4448e41fcf1d1428320a81481cad8632914f5481792",
+      "bytes": 189,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_power_n2000__full_C4__linear/RNG_SPEC.json",
+      "source": "loss-design-search/tng_power_n2000__full_C4__linear/RNG_SPEC.json",
+      "sha256": "e459d661b9283017743657e5175f21f15fa187aa78eb356199ccdd355faf97bb",
+      "bytes": 149,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_power_n2000__full_C4__linear/candidate_search_comparisons.csv",
+      "source": "loss-design-search/tng_power_n2000__full_C4__linear/candidate_search_comparisons.csv",
+      "sha256": "d5041cbc533de7483a2217d9fbe469120339c03e474d5199794d3937253d51a0",
+      "bytes": 738,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_power_n2000__full_C4__linear/matrices.npz",
+      "source": "loss-design-search/tng_power_n2000__full_C4__linear/matrices.npz",
+      "sha256": "8c63199f4da48a494cf182a626fd0e5b7682782c0bd5b91a26b291f1e7a58298",
+      "bytes": 1217070,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_power_n2000__full_C4__linear/null_all_gamma.npz",
+      "source": "loss-design-search/tng_power_n2000__full_C4__linear/null_all_gamma.npz",
+      "sha256": "b60642475c4b9776e228ebbdd1c179b2a8299ea44fc222cf84cc5d398f19fe6d",
+      "bytes": 392828,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_power_n2000__full_C4__linear/observed_all_gamma.csv",
+      "source": "loss-design-search/tng_power_n2000__full_C4__linear/observed_all_gamma.csv",
+      "sha256": "43a617d5264d4f382997b4e4a37e0f9c0d37e2edcf6159760374cf3b6a9e9d19",
+      "bytes": 5016,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_power_n2000__full_C4__linear/permutations.csv",
+      "source": "loss-design-search/tng_power_n2000__full_C4__linear/permutations.csv",
+      "sha256": "499027ad74cc818c6c0aa3079400bfda41f67d1e220360e9f39feeffa2d7c86b",
+      "bytes": 91403,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_replication__centrals_C4__indicator_quadratic/CASE_COMPLETE.json",
+      "source": "loss-design-search/tng_replication__centrals_C4__indicator_quadratic/CASE_COMPLETE.json",
+      "sha256": "33be25a58e0c5c8ecafa0f0e2015ab3a5d8b1ee7b8e3bd0e62604aa21e0758fb",
+      "bytes": 884,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_replication__centrals_C4__indicator_quadratic/DESIGN.json",
+      "source": "loss-design-search/tng_replication__centrals_C4__indicator_quadratic/DESIGN.json",
+      "sha256": "c0bea8c5cfa3a241738f4aaee1d1be27b88b39c1068e96e5379657fe90e95f21",
+      "bytes": 756,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_replication__centrals_C4__indicator_quadratic/RNG_FINAL.json",
+      "source": "loss-design-search/tng_replication__centrals_C4__indicator_quadratic/RNG_FINAL.json",
+      "sha256": "21d1512592b40904b89dd056c9a0f30a5564d1a8b33921dca63f803c001c7658",
+      "bytes": 199,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_replication__centrals_C4__indicator_quadratic/RNG_INITIAL.json",
+      "source": "loss-design-search/tng_replication__centrals_C4__indicator_quadratic/RNG_INITIAL.json",
+      "sha256": "a39f5fa708f128872a303dc0a15d428a9b4421b125ba3310b9a692159db88d24",
+      "bytes": 190,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_replication__centrals_C4__indicator_quadratic/RNG_SPEC.json",
+      "source": "loss-design-search/tng_replication__centrals_C4__indicator_quadratic/RNG_SPEC.json",
+      "sha256": "9bddbeb4548717905babc37c99fbd92897d211532622e9f0d9cebb6fcb6f3d13",
+      "bytes": 149,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_replication__centrals_C4__indicator_quadratic/candidate_search_comparisons.csv",
+      "source": "loss-design-search/tng_replication__centrals_C4__indicator_quadratic/candidate_search_comparisons.csv",
+      "sha256": "3c086f398c60f9ba324951405b870133ef0f9b4797fac09729c7ad5497ff3215",
+      "bytes": 725,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_replication__centrals_C4__indicator_quadratic/matrices.npz",
+      "source": "loss-design-search/tng_replication__centrals_C4__indicator_quadratic/matrices.npz",
+      "sha256": "57287c560eb7ab509d2679dd24923e6e7b66220dee7030ace761a58866ffb555",
+      "bytes": 474448,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_replication__centrals_C4__indicator_quadratic/null_all_gamma.npz",
+      "source": "loss-design-search/tng_replication__centrals_C4__indicator_quadratic/null_all_gamma.npz",
+      "sha256": "1455688fffd1f38fca0d0ee3a44f8f1a1ebe9a13ee12eaf4ea940c2ddb82a857",
+      "bytes": 392882,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_replication__centrals_C4__indicator_quadratic/observed_all_gamma.csv",
+      "source": "loss-design-search/tng_replication__centrals_C4__indicator_quadratic/observed_all_gamma.csv",
+      "sha256": "fe8b56ad332255ba2a4869607d7208ce71e3c5b7d597f24b64ebe61307462cb1",
+      "bytes": 5036,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_replication__centrals_C4__indicator_quadratic/permutations.csv",
+      "source": "loss-design-search/tng_replication__centrals_C4__indicator_quadratic/permutations.csv",
+      "sha256": "e320d13755ffe381732176a7e8f9db5aed694e11da4991d16416c7cefe7e1b60",
+      "bytes": 91543,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_replication__centrals_C4__linear/CASE_COMPLETE.json",
+      "source": "loss-design-search/tng_replication__centrals_C4__linear/CASE_COMPLETE.json",
+      "sha256": "2abcbffe8a86b09af5adfd1a45552267d052f6b57440126679c056837d76fddf",
+      "bytes": 872,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_replication__centrals_C4__linear/DESIGN.json",
+      "source": "loss-design-search/tng_replication__centrals_C4__linear/DESIGN.json",
+      "sha256": "c43d515bbe433f6d7c401980c2dcea715da90cb96695021c1136b93238d14ec6",
+      "bytes": 699,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_replication__centrals_C4__linear/RNG_FINAL.json",
+      "source": "loss-design-search/tng_replication__centrals_C4__linear/RNG_FINAL.json",
+      "sha256": "cb5eed0dbce9f34f0c6533a01772595047d746703f391eb4b95a7d0c48e75f07",
+      "bytes": 198,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_replication__centrals_C4__linear/RNG_INITIAL.json",
+      "source": "loss-design-search/tng_replication__centrals_C4__linear/RNG_INITIAL.json",
+      "sha256": "b7e3731073a52c4f6937f1c6424a15a39e71ce4013a25333dcc0af1908abef49",
+      "bytes": 189,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_replication__centrals_C4__linear/RNG_SPEC.json",
+      "source": "loss-design-search/tng_replication__centrals_C4__linear/RNG_SPEC.json",
+      "sha256": "9871c1713b0e15e43e4eeebf72b031256c9a825e2ed2b19492576f398ee0a22c",
+      "bytes": 149,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_replication__centrals_C4__linear/candidate_search_comparisons.csv",
+      "source": "loss-design-search/tng_replication__centrals_C4__linear/candidate_search_comparisons.csv",
+      "sha256": "546ed72b3000ce4f4c4e63f8c00538ae9016606e1028a9f05bbf2334bbaae15d",
+      "bytes": 729,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_replication__centrals_C4__linear/matrices.npz",
+      "source": "loss-design-search/tng_replication__centrals_C4__linear/matrices.npz",
+      "sha256": "3141dee12386903cc73940eb93ba4d277d89b0736f820cde0a1663b85e3610a0",
+      "bytes": 471477,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_replication__centrals_C4__linear/null_all_gamma.npz",
+      "source": "loss-design-search/tng_replication__centrals_C4__linear/null_all_gamma.npz",
+      "sha256": "190fb0edf858a28475eb7faaa6222e5ebeb6024fc6df4dad2af3cc093b82321d",
+      "bytes": 393127,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_replication__centrals_C4__linear/observed_all_gamma.csv",
+      "source": "loss-design-search/tng_replication__centrals_C4__linear/observed_all_gamma.csv",
+      "sha256": "53f41dae56dc1740ed65b051cb500d54b159326c4bb93d984ac7a5cf2cb946ce",
+      "bytes": 5022,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_replication__centrals_C4__linear/permutations.csv",
+      "source": "loss-design-search/tng_replication__centrals_C4__linear/permutations.csv",
+      "sha256": "21a7c7dfc1059794a66310d6ab2c15334148ddcbcea79e1ed3063c6e8d091f5c",
+      "bytes": 91572,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_replication__full_C4__indicator_quadratic/CASE_COMPLETE.json",
+      "source": "loss-design-search/tng_replication__full_C4__indicator_quadratic/CASE_COMPLETE.json",
+      "sha256": "fd0e8678dd92a6cb9d458aa6a8c1fc6fc36cb3d8423e036cb8e941204437acdc",
+      "bytes": 881,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_replication__full_C4__indicator_quadratic/DESIGN.json",
+      "source": "loss-design-search/tng_replication__full_C4__indicator_quadratic/DESIGN.json",
+      "sha256": "f0e8024b642c13447649d39054af6df953c96c99b12d27b002b451efcb7d63fa",
+      "bytes": 757,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_replication__full_C4__indicator_quadratic/RNG_FINAL.json",
+      "source": "loss-design-search/tng_replication__full_C4__indicator_quadratic/RNG_FINAL.json",
+      "sha256": "3e9d6f3b285d054b6dedb2662e5db9e5c1acdd3a88f860b3209221612795c9b4",
+      "bytes": 198,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_replication__full_C4__indicator_quadratic/RNG_INITIAL.json",
+      "source": "loss-design-search/tng_replication__full_C4__indicator_quadratic/RNG_INITIAL.json",
+      "sha256": "76a6bc86ad633330173d2cee42191c98500eeae34a0e6d01c23b810df7c742b9",
+      "bytes": 189,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_replication__full_C4__indicator_quadratic/RNG_SPEC.json",
+      "source": "loss-design-search/tng_replication__full_C4__indicator_quadratic/RNG_SPEC.json",
+      "sha256": "23bcbf41d97441bb73680c5f4ce74d4f5b4f9e060c462650b352262f716d8d58",
+      "bytes": 147,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_replication__full_C4__indicator_quadratic/candidate_search_comparisons.csv",
+      "source": "loss-design-search/tng_replication__full_C4__indicator_quadratic/candidate_search_comparisons.csv",
+      "sha256": "bb403be4a970546db477b9fbd8c4af8f27aec53644f739b33de775077a7f9a40",
+      "bytes": 723,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_replication__full_C4__indicator_quadratic/matrices.npz",
+      "source": "loss-design-search/tng_replication__full_C4__indicator_quadratic/matrices.npz",
+      "sha256": "9fa0bf0137a5ee36aaa540caab6625df3a06718952158ac2ebebbd294a216d9b",
+      "bytes": 494020,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_replication__full_C4__indicator_quadratic/null_all_gamma.npz",
+      "source": "loss-design-search/tng_replication__full_C4__indicator_quadratic/null_all_gamma.npz",
+      "sha256": "74e94c01d965cc8c6471a87ce53274c5df686dc085899e26cdff58c5be08d08e",
+      "bytes": 393167,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_replication__full_C4__indicator_quadratic/observed_all_gamma.csv",
+      "source": "loss-design-search/tng_replication__full_C4__indicator_quadratic/observed_all_gamma.csv",
+      "sha256": "7d03845418f6dce36c2fc2e12e1959fcbac220fd4553507fa5e8ef6436af8ee7",
+      "bytes": 5043,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_replication__full_C4__indicator_quadratic/permutations.csv",
+      "source": "loss-design-search/tng_replication__full_C4__indicator_quadratic/permutations.csv",
+      "sha256": "0a2a19ea9c446d8ff1602824fb648573e3fd7e28a3b27f5c56d8922fc359fc28",
+      "bytes": 91472,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_replication__full_C4__linear/CASE_COMPLETE.json",
+      "source": "loss-design-search/tng_replication__full_C4__linear/CASE_COMPLETE.json",
+      "sha256": "9c59bfa242b993b0e9237f09fc8df282b37397843ff07be4b06ed85f21c6ae57",
+      "bytes": 869,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_replication__full_C4__linear/DESIGN.json",
+      "source": "loss-design-search/tng_replication__full_C4__linear/DESIGN.json",
+      "sha256": "abea70ed9a62032473291a28e80e2f6978817adab68f83ab6b84cfa4bbec8a6a",
+      "bytes": 698,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_replication__full_C4__linear/RNG_FINAL.json",
+      "source": "loss-design-search/tng_replication__full_C4__linear/RNG_FINAL.json",
+      "sha256": "675783868f9720e64eae7f01454b5cffd2d5c9d07b556a1628986cf1a7c05cbf",
+      "bytes": 199,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_replication__full_C4__linear/RNG_INITIAL.json",
+      "source": "loss-design-search/tng_replication__full_C4__linear/RNG_INITIAL.json",
+      "sha256": "3f4ab81b3ffbc5059efc71477cbec1e1644b3e76668b92808fc8797371323d9d",
+      "bytes": 190,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_replication__full_C4__linear/RNG_SPEC.json",
+      "source": "loss-design-search/tng_replication__full_C4__linear/RNG_SPEC.json",
+      "sha256": "2efa24910e98b029a24b4257ca508dc55265ab55e8f9e25adcc71ece5a0186af",
+      "bytes": 149,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_replication__full_C4__linear/candidate_search_comparisons.csv",
+      "source": "loss-design-search/tng_replication__full_C4__linear/candidate_search_comparisons.csv",
+      "sha256": "b972c67d4937421db83a8a8d016a6f510ac3e8193ace526c5fef4e234be4fdbb",
+      "bytes": 726,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_replication__full_C4__linear/matrices.npz",
+      "source": "loss-design-search/tng_replication__full_C4__linear/matrices.npz",
+      "sha256": "77f8adf0723b52aa25d8601ed377f5b5a6d243027abfcedbff575270453c2fbb",
+      "bytes": 490825,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_replication__full_C4__linear/null_all_gamma.npz",
+      "source": "loss-design-search/tng_replication__full_C4__linear/null_all_gamma.npz",
+      "sha256": "7ad5997fbd98868910af0b4edb48145883ec9b2e041103ad64a8648841df945f",
+      "bytes": 393060,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_replication__full_C4__linear/observed_all_gamma.csv",
+      "source": "loss-design-search/tng_replication__full_C4__linear/observed_all_gamma.csv",
+      "sha256": "23d00bc2bab43e2f9fa2540c6c059476410e44456490e1c5a09ba10928f9b56a",
+      "bytes": 5046,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_replication__full_C4__linear/permutations.csv",
+      "source": "loss-design-search/tng_replication__full_C4__linear/permutations.csv",
+      "sha256": "ca49e7319ef843bb65ac5e0da927d82850a034ca4c225ac39041d7918f62ee64",
+      "bytes": 91495,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_scaled__centrals_C4__indicator_quadratic/CASE_COMPLETE.json",
+      "source": "loss-design-search/tng_scaled__centrals_C4__indicator_quadratic/CASE_COMPLETE.json",
+      "sha256": "b21c4e09715e603f19d67ab9171355fd0a0f8904f794439e2b1c5549c758ae29",
+      "bytes": 879,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_scaled__centrals_C4__indicator_quadratic/DESIGN.json",
+      "source": "loss-design-search/tng_scaled__centrals_C4__indicator_quadratic/DESIGN.json",
+      "sha256": "308304ee8db1c6a09efe98f61f86e4ef83c853d71966ecf4165f924e45ccb367",
+      "bytes": 755,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_scaled__centrals_C4__indicator_quadratic/RNG_FINAL.json",
+      "source": "loss-design-search/tng_scaled__centrals_C4__indicator_quadratic/RNG_FINAL.json",
+      "sha256": "68cd4b12839d30113a3f188dd0dd9f94dd8e399d01fad75bea104cb759f01f0d",
+      "bytes": 198,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_scaled__centrals_C4__indicator_quadratic/RNG_INITIAL.json",
+      "source": "loss-design-search/tng_scaled__centrals_C4__indicator_quadratic/RNG_INITIAL.json",
+      "sha256": "f2158e71d00ef511de2333e5a413c81a692230b875036a841e9125bcfdf0978a",
+      "bytes": 189,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_scaled__centrals_C4__indicator_quadratic/RNG_SPEC.json",
+      "source": "loss-design-search/tng_scaled__centrals_C4__indicator_quadratic/RNG_SPEC.json",
+      "sha256": "b00c79aa4b6456f31ddd7f4240ee1055c9cef3a2eaf5b967b33f1e369e9fee71",
+      "bytes": 149,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_scaled__centrals_C4__indicator_quadratic/candidate_search_comparisons.csv",
+      "source": "loss-design-search/tng_scaled__centrals_C4__indicator_quadratic/candidate_search_comparisons.csv",
+      "sha256": "3a356472e5797245d08575460a49091ea7e4028495ba5f1823193f7cd766e3ac",
+      "bytes": 709,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_scaled__centrals_C4__indicator_quadratic/matrices.npz",
+      "source": "loss-design-search/tng_scaled__centrals_C4__indicator_quadratic/matrices.npz",
+      "sha256": "e6098a85f95cdee849c586de83b5e61878c2295f75c47c42cc2af5331e3d8299",
+      "bytes": 230124,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_scaled__centrals_C4__indicator_quadratic/null_all_gamma.npz",
+      "source": "loss-design-search/tng_scaled__centrals_C4__indicator_quadratic/null_all_gamma.npz",
+      "sha256": "e1382feb6c1d9bf5cdabdbf892313e84ded6489c6892770ac810dff6b75a8970",
+      "bytes": 393748,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_scaled__centrals_C4__indicator_quadratic/observed_all_gamma.csv",
+      "source": "loss-design-search/tng_scaled__centrals_C4__indicator_quadratic/observed_all_gamma.csv",
+      "sha256": "37955580f719b183a4976e6ddf385dc529f193eda7ebb43dbef37bb59b111cc3",
+      "bytes": 4988,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_scaled__centrals_C4__indicator_quadratic/permutations.csv",
+      "source": "loss-design-search/tng_scaled__centrals_C4__indicator_quadratic/permutations.csv",
+      "sha256": "7b2ee1741be6d6d56a01483bac219a7f9228e46c29d56c19800700c344e53741",
+      "bytes": 91663,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_scaled__centrals_C4__linear/CASE_COMPLETE.json",
+      "source": "loss-design-search/tng_scaled__centrals_C4__linear/CASE_COMPLETE.json",
+      "sha256": "c5411414f6f762b0d3064aeea2364cb6b4f14df0035a059ef0f5d5367e63993f",
+      "bytes": 866,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_scaled__centrals_C4__linear/DESIGN.json",
+      "source": "loss-design-search/tng_scaled__centrals_C4__linear/DESIGN.json",
+      "sha256": "043e059ca14cc7b2ac84eef095a0c926821909a6c6500c492a73bf92da9189a4",
+      "bytes": 698,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_scaled__centrals_C4__linear/RNG_FINAL.json",
+      "source": "loss-design-search/tng_scaled__centrals_C4__linear/RNG_FINAL.json",
+      "sha256": "9f37accc7b27725ee87eef7c80acf6a121bb955920eb8fce51e1117f4cf4e4ec",
+      "bytes": 196,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_scaled__centrals_C4__linear/RNG_INITIAL.json",
+      "source": "loss-design-search/tng_scaled__centrals_C4__linear/RNG_INITIAL.json",
+      "sha256": "bac8febca8461d08be95ec46b4d388b622f36ed04ac1948c55d6000ddd74a494",
+      "bytes": 190,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_scaled__centrals_C4__linear/RNG_SPEC.json",
+      "source": "loss-design-search/tng_scaled__centrals_C4__linear/RNG_SPEC.json",
+      "sha256": "e169d4dc1cc95682342b1307519024212fe0f72df1de28e0ab05e554837cd448",
+      "bytes": 148,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_scaled__centrals_C4__linear/candidate_search_comparisons.csv",
+      "source": "loss-design-search/tng_scaled__centrals_C4__linear/candidate_search_comparisons.csv",
+      "sha256": "0d2f06039d3eac9e41500157cd35beb325a95fcd8cc4357a0abba1055a9b03db",
+      "bytes": 709,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_scaled__centrals_C4__linear/matrices.npz",
+      "source": "loss-design-search/tng_scaled__centrals_C4__linear/matrices.npz",
+      "sha256": "c5251a78937ac297e3d2af59456dd945c8adfbf331e7bb6766767c3f87a866cb",
+      "bytes": 228695,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_scaled__centrals_C4__linear/null_all_gamma.npz",
+      "source": "loss-design-search/tng_scaled__centrals_C4__linear/null_all_gamma.npz",
+      "sha256": "f5ed5613b1f0f41bbb701b60212ff2633ae83d9d795eb9678e5a686fa96d33b0",
+      "bytes": 393576,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_scaled__centrals_C4__linear/observed_all_gamma.csv",
+      "source": "loss-design-search/tng_scaled__centrals_C4__linear/observed_all_gamma.csv",
+      "sha256": "6292eb31d448d91623c16071a28f977884658b013fd856acbdc1e0bda3b641e8",
+      "bytes": 5025,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_scaled__centrals_C4__linear/permutations.csv",
+      "source": "loss-design-search/tng_scaled__centrals_C4__linear/permutations.csv",
+      "sha256": "0c05814277af230d2df0b8630d18c6ecb4e39417e885eec996333703181a8e80",
+      "bytes": 91690,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_scaled__full_C4__indicator_quadratic/CASE_COMPLETE.json",
+      "source": "loss-design-search/tng_scaled__full_C4__indicator_quadratic/CASE_COMPLETE.json",
+      "sha256": "bf15bc36ab4700dfff009f53a5c5c51fe21fe2e089c84e3b7a6555ebd67082a1",
+      "bytes": 872,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_scaled__full_C4__indicator_quadratic/DESIGN.json",
+      "source": "loss-design-search/tng_scaled__full_C4__indicator_quadratic/DESIGN.json",
+      "sha256": "2f9eed5229360d32bf2a801e47eb261ed7d7dbec43596c3be7aee17b4d6b6963",
+      "bytes": 750,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_scaled__full_C4__indicator_quadratic/RNG_FINAL.json",
+      "source": "loss-design-search/tng_scaled__full_C4__indicator_quadratic/RNG_FINAL.json",
+      "sha256": "e8ce465144840943d3375566e72377e1b84df10995c70fc7d56238ef982b9075",
+      "bytes": 197,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_scaled__full_C4__indicator_quadratic/RNG_INITIAL.json",
+      "source": "loss-design-search/tng_scaled__full_C4__indicator_quadratic/RNG_INITIAL.json",
+      "sha256": "e7f7db47be0ed320d09a52dd83e25ae3f7a7525ba3d166d61a973b4e7c3096aa",
+      "bytes": 188,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_scaled__full_C4__indicator_quadratic/RNG_SPEC.json",
+      "source": "loss-design-search/tng_scaled__full_C4__indicator_quadratic/RNG_SPEC.json",
+      "sha256": "6e1375aaabbf7336ff5049e9ad0ee5c3dc00626cb5966ea4ac72e9024a5bcc0e",
+      "bytes": 148,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_scaled__full_C4__indicator_quadratic/candidate_search_comparisons.csv",
+      "source": "loss-design-search/tng_scaled__full_C4__indicator_quadratic/candidate_search_comparisons.csv",
+      "sha256": "d6035136af7709db72d25ba7844f8dcc70b43ae3b3a3e8f4b477b830c17c285a",
+      "bytes": 727,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_scaled__full_C4__indicator_quadratic/matrices.npz",
+      "source": "loss-design-search/tng_scaled__full_C4__indicator_quadratic/matrices.npz",
+      "sha256": "8ba9b3efa478c2412ac103a1891df8b38f180c15dcc11fb458db25033daf53cd",
+      "bytes": 237540,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_scaled__full_C4__indicator_quadratic/null_all_gamma.npz",
+      "source": "loss-design-search/tng_scaled__full_C4__indicator_quadratic/null_all_gamma.npz",
+      "sha256": "5057b68333d1d568b3e4f67dc10cb515939283a817965fe421d4566692b8cf26",
+      "bytes": 393393,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_scaled__full_C4__indicator_quadratic/observed_all_gamma.csv",
+      "source": "loss-design-search/tng_scaled__full_C4__indicator_quadratic/observed_all_gamma.csv",
+      "sha256": "0f4d84e302ed8909df110646d3ec49a80a9faa15193aa8797b2bbda9432358d9",
+      "bytes": 5011,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_scaled__full_C4__indicator_quadratic/permutations.csv",
+      "source": "loss-design-search/tng_scaled__full_C4__indicator_quadratic/permutations.csv",
+      "sha256": "f7823d978f37e4b1765adf1728db90ff01c39491df7d5e3da64e617d8879f505",
+      "bytes": 91673,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_scaled__full_C4__linear/CASE_COMPLETE.json",
+      "source": "loss-design-search/tng_scaled__full_C4__linear/CASE_COMPLETE.json",
+      "sha256": "d665e1a17e0bf7032c9a557b73a66f6458cc038fa84e648d482ffa96c896d9d2",
+      "bytes": 860,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_scaled__full_C4__linear/DESIGN.json",
+      "source": "loss-design-search/tng_scaled__full_C4__linear/DESIGN.json",
+      "sha256": "068f2a3c1d0c5e9af5d23f671a4a35d9a1d76d953b4143d37f33b071b52ee74f",
+      "bytes": 690,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_scaled__full_C4__linear/RNG_FINAL.json",
+      "source": "loss-design-search/tng_scaled__full_C4__linear/RNG_FINAL.json",
+      "sha256": "7f116812dcdab605b0594216d1dd0d311cd2017a25f78cd731bfaf5139a37c45",
+      "bytes": 198,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_scaled__full_C4__linear/RNG_INITIAL.json",
+      "source": "loss-design-search/tng_scaled__full_C4__linear/RNG_INITIAL.json",
+      "sha256": "9aad49b89a18edc00d29aa370fc089a68a08145e0fec375cded98a8f6439dddf",
+      "bytes": 190,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_scaled__full_C4__linear/RNG_SPEC.json",
+      "source": "loss-design-search/tng_scaled__full_C4__linear/RNG_SPEC.json",
+      "sha256": "ce7cd93ae0377f0c6395f941ccb3b8121cc04baf3d794f190e5274cbacbb75ac",
+      "bytes": 148,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_scaled__full_C4__linear/candidate_search_comparisons.csv",
+      "source": "loss-design-search/tng_scaled__full_C4__linear/candidate_search_comparisons.csv",
+      "sha256": "87dfbbed70de689264b89fccea0cf6556f3ff6a362beaec2e696836256a5b90e",
+      "bytes": 697,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_scaled__full_C4__linear/matrices.npz",
+      "source": "loss-design-search/tng_scaled__full_C4__linear/matrices.npz",
+      "sha256": "619a11128b1dca6355082dacc67acc1e4da11e9cd83c28b36b41a98d3db5fe58",
+      "bytes": 236016,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_scaled__full_C4__linear/null_all_gamma.npz",
+      "source": "loss-design-search/tng_scaled__full_C4__linear/null_all_gamma.npz",
+      "sha256": "5ff8597cbfcbe3755164dab4bd809d5b6f8b0a79bc3b10c76bc69ae7a732a022",
+      "bytes": 393390,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_scaled__full_C4__linear/observed_all_gamma.csv",
+      "source": "loss-design-search/tng_scaled__full_C4__linear/observed_all_gamma.csv",
+      "sha256": "ead52e08971ccb95188394cf76b5621263221c2b88df431530d7e596bac6dc37",
+      "bytes": 5021,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/tng_scaled__full_C4__linear/permutations.csv",
+      "source": "loss-design-search/tng_scaled__full_C4__linear/permutations.csv",
+      "sha256": "58652308baf4bd0649151d75e7706ddde0c118f5d571ffd224bee62e14936355",
+      "bytes": 91595,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/SUMMARY.csv",
+      "source": "loss-design-search/SUMMARY.csv",
+      "sha256": "3f3d239e365d08da25e1bb2c2f7d5cab895a0fb6c4e5bfec5bb1c8e825985e89",
+      "bytes": 15027,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/search/OBSERVED_ALL_GAMMA.csv",
+      "source": "loss-design-search/OBSERVED_ALL_GAMMA.csv",
+      "sha256": "9e8f71abfc4e200ca386d018094ee07af6c915599b1e34e499202e2053c5bec2",
+      "bytes": 186342,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "src/core.py",
+      "source": "loss-design-search-numerical-core/core.py",
+      "sha256": "bfbe5d0f34137a239f9b943537ea68d44c5254656a98e7683cb5ee8567856b13",
+      "bytes": 5848,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "src/sensitivity.py",
+      "source": "region-sensitivity-numerical-core",
+      "sha256": "b873b15ca47b77de3306e0e2448ccb2cf46a2582470513b534747f4fd0a8b8a4",
+      "bytes": 4628,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "tests/test_sensitivity.py",
+      "source": "region-sensitivity-tests/test_sensitivity.py",
+      "sha256": "e79742dce3c9e1def50e12cd468089bc06306f315d3ad58f227f9c8aab32a458",
+      "bytes": 4305,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/spatial/GEOMETRY.json",
+      "source": "spatial-evidence/GEOMETRY.json",
+      "sha256": "926cb6810d01d52b8af13b049dcd50b33c684e6315ed66e7185ec98977ac1d88",
+      "bytes": 2112,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/spatial/baseline_reproduction.csv",
+      "source": "spatial-evidence/baseline_reproduction.csv",
+      "sha256": "68fb0dc030378e3630a8cba71fa9f3b249fdf5853f078954637190b213b293d1",
+      "bytes": 6620,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/spatial/bolshoip_tree_0_2_2__baseline__q2_membership.csv.gz",
+      "source": "spatial-evidence/bolshoip_tree_0_2_2__baseline__q2_membership.csv.gz",
+      "sha256": "c3fb58f861122b31718f3bc0a189aad162b9be62dba66e8d5759516870b44a92",
+      "bytes": 52611,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/spatial/bolshoip_tree_0_2_2__baseline__q2_occupancy.json",
+      "source": "spatial-evidence/bolshoip_tree_0_2_2__baseline__q2_occupancy.json",
+      "sha256": "7446f67a384d268ab1e15222c4be22b3e7e5c395789ff599989b3fcc1ed0cb90",
+      "bytes": 143,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/spatial/bolshoip_tree_0_2_2__baseline__q3_membership.csv.gz",
+      "source": "spatial-evidence/bolshoip_tree_0_2_2__baseline__q3_membership.csv.gz",
+      "sha256": "eaf488ff817ae2d73b5a59b74c21e3e14fc9ba22895337f2e143fb1a4e45394b",
+      "bytes": 58857,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/spatial/bolshoip_tree_0_2_2__baseline__q3_occupancy.json",
+      "source": "spatial-evidence/bolshoip_tree_0_2_2__baseline__q3_occupancy.json",
+      "sha256": "cce1ef829158c679166d46b515482654683acea1bc0390a140301a077fddbc8a",
+      "bytes": 310,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/spatial/bolshoip_tree_0_2_2__coordinates.csv.gz",
+      "source": "spatial-evidence/bolshoip_tree_0_2_2__coordinates.csv.gz",
+      "sha256": "d61b1f93407aec457df45f8f71f66c9ec3c871eb952aa6fc0a8232a5e120d13d",
+      "bytes": 1319768,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/spatial/bolshoip_tree_2_3_4__baseline__q2_membership.csv.gz",
+      "source": "spatial-evidence/bolshoip_tree_2_3_4__baseline__q2_membership.csv.gz",
+      "sha256": "b064d74ce2e564b1ef238863fe9e61b77d98d13128425aae2a27d51701ea5bd1",
+      "bytes": 53110,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/spatial/bolshoip_tree_2_3_4__baseline__q2_occupancy.json",
+      "source": "spatial-evidence/bolshoip_tree_2_3_4__baseline__q2_occupancy.json",
+      "sha256": "69943c1cc3cca7fdd17da4bfa1153fe9950c88d11fdbedeb5028d412fcc87370",
+      "bytes": 143,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/spatial/bolshoip_tree_2_3_4__baseline__q3_membership.csv.gz",
+      "source": "spatial-evidence/bolshoip_tree_2_3_4__baseline__q3_membership.csv.gz",
+      "sha256": "6c85dda66ed3723335bd43516f6d97d674ed304bf9c3be55a9f6c15d6b17f9ed",
+      "bytes": 58917,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/spatial/bolshoip_tree_2_3_4__baseline__q3_occupancy.json",
+      "source": "spatial-evidence/bolshoip_tree_2_3_4__baseline__q3_occupancy.json",
+      "sha256": "5370792d82b4c0b97d535da5d37239570fd44ea0d8c027d6e44da2568267d38b",
+      "bytes": 309,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/spatial/bolshoip_tree_2_3_4__coordinates.csv.gz",
+      "source": "spatial-evidence/bolshoip_tree_2_3_4__coordinates.csv.gz",
+      "sha256": "65017b11a18ed3bd868b55a8853cb450ca9d53083071f3dc0c621f670c54dcef",
+      "bytes": 1319811,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/spatial/bolshoip_tree_3_2_1__baseline__q2_membership.csv.gz",
+      "source": "spatial-evidence/bolshoip_tree_3_2_1__baseline__q2_membership.csv.gz",
+      "sha256": "7b75b13be35841f45d2bc4bc3d3b896fb3a4cca1e7bddd081f38569faf99e674",
+      "bytes": 56348,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/spatial/bolshoip_tree_3_2_1__baseline__q2_occupancy.json",
+      "source": "spatial-evidence/bolshoip_tree_3_2_1__baseline__q2_occupancy.json",
+      "sha256": "0f8c1b4de67a68422444f181c8b3bf16b7e757e9a48a9d566100bba2eb8eea16",
+      "bytes": 143,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/spatial/bolshoip_tree_3_2_1__baseline__q3_membership.csv.gz",
+      "source": "spatial-evidence/bolshoip_tree_3_2_1__baseline__q3_membership.csv.gz",
+      "sha256": "6f96a770bbf428c099eb6df02971833911edfa0d7bc8a67e3d4df59454e082e0",
+      "bytes": 62423,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/spatial/bolshoip_tree_3_2_1__baseline__q3_occupancy.json",
+      "source": "spatial-evidence/bolshoip_tree_3_2_1__baseline__q3_occupancy.json",
+      "sha256": "0ddd42fb7001d8061bf57568f56bdcd4b3cf74d1d5e8e4642349032c50948147",
+      "bytes": 310,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/spatial/bolshoip_tree_3_2_1__coordinates.csv.gz",
+      "source": "spatial-evidence/bolshoip_tree_3_2_1__coordinates.csv.gz",
+      "sha256": "9da5b32c9bc9e76b1ea711700004e43f37d6068a10d9a046fbb0b201eaafe22b",
+      "bytes": 1344503,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/spatial/spatial_delete_region_fits.csv",
+      "source": "spatial-evidence/spatial_delete_region_fits.csv",
+      "sha256": "488ea85e0cb2a066951b309d975775bd637f4fc004d040c2606b2f720dbacbf9",
+      "bytes": 294935,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/spatial/spatial_summary.csv",
+      "source": "spatial-evidence/spatial_summary.csv",
+      "sha256": "0da7e3924553c1e8a6d0d8d2a36b616a8f329d574e771b0b74cef74124d57b03",
+      "bytes": 18972,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/spatial/tng_power_n2000__centrals_C4__q2_membership.csv.gz",
+      "source": "spatial-evidence/tng_power_n2000__centrals_C4__q2_membership.csv.gz",
+      "sha256": "29ea9615b763410b06b6dab7f118d5570e59d615473dec18059d7db3b4fa1a6e",
+      "bytes": 8758,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/spatial/tng_power_n2000__centrals_C4__q2_occupancy.json",
+      "source": "spatial-evidence/tng_power_n2000__centrals_C4__q2_occupancy.json",
+      "sha256": "660be67d2a8b0771c8aa0f7b8dbc16be5e45b7f6ccf239590531fc8bafbbece1",
+      "bytes": 135,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/spatial/tng_power_n2000__centrals_C4__q3_membership.csv.gz",
+      "source": "spatial-evidence/tng_power_n2000__centrals_C4__q3_membership.csv.gz",
+      "sha256": "078015376dce03518014146696b90c49519b12d894dc6c3740cb5c5424cd3569",
+      "bytes": 9491,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/spatial/tng_power_n2000__centrals_C4__q3_occupancy.json",
+      "source": "spatial-evidence/tng_power_n2000__centrals_C4__q3_occupancy.json",
+      "sha256": "04416bb725391d68ddad29d77d6185e1f4f9c4df20ddabc7a54450cf9b1f8462",
+      "bytes": 283,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/spatial/tng_power_n2000__coordinates.csv.gz",
+      "source": "spatial-evidence/tng_power_n2000__coordinates.csv.gz",
+      "sha256": "c1645ba422cddad86d9c78a1898e7e5a87cea8c637b0e2d82abf2a2f87fe1ad1",
+      "bytes": 155612,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/spatial/tng_power_n2000__full_C4__q2_membership.csv.gz",
+      "source": "spatial-evidence/tng_power_n2000__full_C4__q2_membership.csv.gz",
+      "sha256": "e529539ad833afc2d9efc6be4672a01d5e673c077b2062801f91aed1bcaafc74",
+      "bytes": 9091,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/spatial/tng_power_n2000__full_C4__q2_occupancy.json",
+      "source": "spatial-evidence/tng_power_n2000__full_C4__q2_occupancy.json",
+      "sha256": "db739a88ee39bf6a583d093a9a5f625ab0d05d00ea779e0233ededc55b7126ff",
+      "bytes": 135,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/spatial/tng_power_n2000__full_C4__q3_membership.csv.gz",
+      "source": "spatial-evidence/tng_power_n2000__full_C4__q3_membership.csv.gz",
+      "sha256": "e50d974baeb8e39fa02f0a80526b617a3989187c0b38080989235b437f20b22d",
+      "bytes": 9864,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/spatial/tng_power_n2000__full_C4__q3_occupancy.json",
+      "source": "spatial-evidence/tng_power_n2000__full_C4__q3_occupancy.json",
+      "sha256": "a62f52e77c496f342385dcc70cf85a3171e3d1936f218a93e0079ae9f68a7d34",
+      "bytes": 285,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/spatial/tng_replication__centrals_C4__q2_membership.csv.gz",
+      "source": "spatial-evidence/tng_replication__centrals_C4__q2_membership.csv.gz",
+      "sha256": "404a938e4529ec326dddcb030c1e80566928e4a38422f46550211237ddc3e062",
+      "bytes": 3594,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/spatial/tng_replication__centrals_C4__q2_occupancy.json",
+      "source": "spatial-evidence/tng_replication__centrals_C4__q2_occupancy.json",
+      "sha256": "6b414ee8a8d088d390ac39eebe383c1e6a6f36891251abfd90334a8708383b38",
+      "bytes": 132,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/spatial/tng_replication__centrals_C4__q3_membership.csv.gz",
+      "source": "spatial-evidence/tng_replication__centrals_C4__q3_membership.csv.gz",
+      "sha256": "2be6ac9bcccffe3085c518a4e9c064a1fac35ff7098213d1984ba542c6c22be4",
+      "bytes": 3889,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/spatial/tng_replication__centrals_C4__q3_occupancy.json",
+      "source": "spatial-evidence/tng_replication__centrals_C4__q3_occupancy.json",
+      "sha256": "eec5bc490449b5b7b2bf9aa84f1bf04c3e68fecfc02588210acf8a2c0565d37f",
+      "bytes": 280,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/spatial/tng_replication__coordinates.csv.gz",
+      "source": "spatial-evidence/tng_replication__coordinates.csv.gz",
+      "sha256": "0c47ead91c72618b8a8ab0591e7586b3460e65c96f9271024b676e9b6162860d",
+      "bytes": 62805,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/spatial/tng_replication__full_C4__q2_membership.csv.gz",
+      "source": "spatial-evidence/tng_replication__full_C4__q2_membership.csv.gz",
+      "sha256": "e1c039ab082a3b390dcaafea0338fac9d20cb4bc73e82ccb2fe0f536d28b6e90",
+      "bytes": 3731,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/spatial/tng_replication__full_C4__q2_occupancy.json",
+      "source": "spatial-evidence/tng_replication__full_C4__q2_occupancy.json",
+      "sha256": "5eef6f480e74415538724c9afef43d8df6d8a2b7e06c273c9334d6e4adb40c6e",
+      "bytes": 133,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/spatial/tng_replication__full_C4__q3_membership.csv.gz",
+      "source": "spatial-evidence/tng_replication__full_C4__q3_membership.csv.gz",
+      "sha256": "1ba6f3dca0b0138d5507de80dca7a2d1cfa71aa090177680188c4ff87972a6b9",
+      "bytes": 4037,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/spatial/tng_replication__full_C4__q3_occupancy.json",
+      "source": "spatial-evidence/tng_replication__full_C4__q3_occupancy.json",
+      "sha256": "8d42b33c6105f6a49ccc9c3c092631d2d5f970b3a6d69aee66de49b4341ad79b",
+      "bytes": 280,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/spatial/tng_scaled__centrals_C4__q2_membership.csv.gz",
+      "source": "spatial-evidence/tng_scaled__centrals_C4__q2_membership.csv.gz",
+      "sha256": "a5391bfe4bdf36f9d34ed83fd0dff625c42fee10da73fbf81a8652cdce46d565",
+      "bytes": 1777,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/spatial/tng_scaled__centrals_C4__q2_occupancy.json",
+      "source": "spatial-evidence/tng_scaled__centrals_C4__q2_occupancy.json",
+      "sha256": "fa6f2aaafc227f55762d4c7e47b52e94acae5506b2e1847f52fcedf3b8830a8d",
+      "bytes": 127,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/spatial/tng_scaled__centrals_C4__q3_membership.csv.gz",
+      "source": "spatial-evidence/tng_scaled__centrals_C4__q3_membership.csv.gz",
+      "sha256": "50ae832497be12a75f672330c82ef0c67e9e244dfbd1707398e5b1d21d1eed43",
+      "bytes": 1927,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/spatial/tng_scaled__centrals_C4__q3_occupancy.json",
+      "source": "spatial-evidence/tng_scaled__centrals_C4__q3_occupancy.json",
+      "sha256": "da156d03528adc83d56d92d8ef95a213c51e51d79145c6c2e92defa52f8d79c1",
+      "bytes": 278,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/spatial/tng_scaled__coordinates.csv.gz",
+      "source": "spatial-evidence/tng_scaled__coordinates.csv.gz",
+      "sha256": "61b1290ef350b6694b351c311e693d8042e76bd8b8c2626d71902bfea1eb7e19",
+      "bytes": 30429,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/spatial/tng_scaled__full_C4__q2_membership.csv.gz",
+      "source": "spatial-evidence/tng_scaled__full_C4__q2_membership.csv.gz",
+      "sha256": "733b408acf3e9779cc66a9aa2ed143c22be669d9ad3cf0ce0cf8741073a06394",
+      "bytes": 1828,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/spatial/tng_scaled__full_C4__q2_occupancy.json",
+      "source": "spatial-evidence/tng_scaled__full_C4__q2_occupancy.json",
+      "sha256": "6778d29ad032813519af4a1950b81b91fcc8c6080a142f41ae4624b21ae1c97b",
+      "bytes": 127,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/spatial/tng_scaled__full_C4__q3_membership.csv.gz",
+      "source": "spatial-evidence/tng_scaled__full_C4__q3_membership.csv.gz",
+      "sha256": "eb8ab65bbc76d4bf0a2bc5a0c3086c353a24c779cb228cf83ed2355c6a994c1b",
+      "bytes": 1985,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/spatial/tng_scaled__full_C4__q3_occupancy.json",
+      "source": "spatial-evidence/tng_scaled__full_C4__q3_occupancy.json",
+      "sha256": "b1df02f736220e613a9e38ccae905a5623a0fa2bc752258c436f6cd4d268ecbd",
+      "bytes": 278,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/populations/bolshoip_tree_0_2_2__Qpeak_ge20__matrices.npz",
+      "source": "continuous-loss/bolshoip_tree_0_2_2__Qpeak_ge20__matrices.npz",
+      "sha256": "896df83f47cbe76dec91528902d59b19400f352f01ab38a34b7301450f5cec37",
+      "bytes": 621384,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/populations/bolshoip_tree_0_2_2__Qpeak_ge50__matrices.npz",
+      "source": "continuous-loss/bolshoip_tree_0_2_2__Qpeak_ge50__matrices.npz",
+      "sha256": "df81cbd1d08e30283850d41820c32c3f3a5b1e87b9655e8e38e78519b1624ade",
+      "bytes": 317741,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/populations/bolshoip_tree_0_2_2__baseline__matrices.npz",
+      "source": "continuous-loss/bolshoip_tree_0_2_2__baseline__matrices.npz",
+      "sha256": "6a20d6fb8532932e01374bb0575f30821b6cae6f6f2c11c98ac594bca3075f5a",
+      "bytes": 1141744,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/populations/bolshoip_tree_2_3_4__Qpeak_ge20__matrices.npz",
+      "source": "continuous-loss/bolshoip_tree_2_3_4__Qpeak_ge20__matrices.npz",
+      "sha256": "9a507f9271107859186fdc20fcac8d410eb097b63e686cb9a993f3280d37a2de",
+      "bytes": 620014,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/populations/bolshoip_tree_2_3_4__Qpeak_ge50__matrices.npz",
+      "source": "continuous-loss/bolshoip_tree_2_3_4__Qpeak_ge50__matrices.npz",
+      "sha256": "f5232d1133f28a92be2f7af78d6a36fae83c6468343d748a1a38c9f33aa49731",
+      "bytes": 313727,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/populations/bolshoip_tree_2_3_4__baseline__matrices.npz",
+      "source": "continuous-loss/bolshoip_tree_2_3_4__baseline__matrices.npz",
+      "sha256": "6b02db3949adf2af37bcc22be83dee637c1063203304585bb80f1bf2ef2d5da1",
+      "bytes": 1139416,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/populations/bolshoip_tree_3_2_1__Qpeak_ge20__matrices.npz",
+      "source": "continuous-loss/bolshoip_tree_3_2_1__Qpeak_ge20__matrices.npz",
+      "sha256": "6125a7e42e0ee4a925125619112d363e42c672181183710220ed0e36958e334a",
+      "bytes": 636016,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/populations/bolshoip_tree_3_2_1__Qpeak_ge50__matrices.npz",
+      "source": "continuous-loss/bolshoip_tree_3_2_1__Qpeak_ge50__matrices.npz",
+      "sha256": "4abcc0a30c4625edcb9038205be2210f17ef478ccae45d85b33c371d93820bc8",
+      "bytes": 321907,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/populations/bolshoip_tree_3_2_1__baseline__matrices.npz",
+      "source": "continuous-loss/bolshoip_tree_3_2_1__baseline__matrices.npz",
+      "sha256": "35181a5deacb6d53114ff7290b956ddd2be756cfa3d414d997540f76c9e9af36",
+      "bytes": 1161136,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/populations/tng_power_n2000__centrals_C4__matrices.npz",
+      "source": "continuous-loss/tng_power_n2000__centrals_C4__matrices.npz",
+      "sha256": "5845cba650edb3dedab8f1565abd0c40c1fb1d74970c861ce41b5e906ef75c68",
+      "bytes": 233266,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/populations/tng_power_n2000__full_C4__matrices.npz",
+      "source": "continuous-loss/tng_power_n2000__full_C4__matrices.npz",
+      "sha256": "c336d83bca9cfd94a87e7eed19ad164ac9b01a20209fae958eaaa3dd8bb0480c",
+      "bytes": 242574,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/populations/tng_replication__centrals_C4__matrices.npz",
+      "source": "continuous-loss/tng_replication__centrals_C4__matrices.npz",
+      "sha256": "48d1b5abf362284e3a9194af3a9bccf80e5988d8e3bc0cb28c22640dc65ed3e6",
+      "bytes": 95737,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/populations/tng_replication__full_C4__matrices.npz",
+      "source": "continuous-loss/tng_replication__full_C4__matrices.npz",
+      "sha256": "5313947b73c0010d0a1ee1f50192be3b170e3160590aec9ede71e572fb28104a",
+      "bytes": 99648,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/populations/tng_scaled__centrals_C4__matrices.npz",
+      "source": "continuous-loss/tng_scaled__centrals_C4__matrices.npz",
+      "sha256": "87730635680f9054146897e6bacc132b62ca5f7183d7af77710730151e6fdb51",
+      "bytes": 47482,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/populations/tng_scaled__full_C4__matrices.npz",
+      "source": "continuous-loss/tng_scaled__full_C4__matrices.npz",
+      "sha256": "c55fb5fa2b9ee46c6c497ede810a506f99306562121317965db979642f715cd7",
+      "bytes": 48972,
+      "representation": "byte-exact"
+    },
+    {
+      "path": "analysis_data/catalogues/bolshoip_tree_0_2_2/feature.csv.gz",
+      "source": "source-to-feature/catalogues/bolshoip_tree_0_2_2/feature.csv",
+      "sha256": "026465c0c22203d5d006a17c8064f9ce1d8771a00ee9336f13b4a9506b7c7c50",
+      "bytes": 6765737,
+      "representation": "lossless-gzip",
+      "decoded_sha256": "5fedbe8a25cabd309af7f137e0ea466760e540e38c77b3fdcf10210617afad5e",
+      "decoded_bytes": 18476357
+    },
+    {
+      "path": "analysis_data/catalogues/bolshoip_tree_0_2_2/formation.csv.gz",
+      "source": "source-to-feature/catalogues/bolshoip_tree_0_2_2/formation.csv",
+      "sha256": "e7e7dcfca5208c48ee526bb8579103e7aae5874d6118fac84f0163737efabf98",
+      "bytes": 1601768,
+      "representation": "lossless-gzip",
+      "decoded_sha256": "4110921f7761b66edac5e7becf60e54692e930f6a0dc251af09e3694d4a1b7bd",
+      "decoded_bytes": 4367519
+    },
+    {
+      "path": "analysis_data/catalogues/bolshoip_tree_2_3_4/feature.csv.gz",
+      "source": "source-to-feature/catalogues/bolshoip_tree_2_3_4/feature.csv",
+      "sha256": "8b90bc527b7acbe108c2af5025b5b63fcc947dbb5dd07c4a980738f17fea70f6",
+      "bytes": 6704807,
+      "representation": "lossless-gzip",
+      "decoded_sha256": "398358454953e21ffd3feb41c59dd4b7aa75a734836f15f9db3d2ba7b525203d",
+      "decoded_bytes": 18301853
+    },
+    {
+      "path": "analysis_data/catalogues/bolshoip_tree_2_3_4/formation.csv.gz",
+      "source": "source-to-feature/catalogues/bolshoip_tree_2_3_4/formation.csv",
+      "sha256": "f83ddc738d11762c3c8abb16983824c38ccc6618ca4d445255a6d7ffea9e4829",
+      "bytes": 1585285,
+      "representation": "lossless-gzip",
+      "decoded_sha256": "646355d68752ed4ac5a3279ce6206355db7cb605b084feb687405deb8d6a0654",
+      "decoded_bytes": 4318896
+    },
+    {
+      "path": "analysis_data/catalogues/bolshoip_tree_3_2_1/feature.csv.gz",
+      "source": "source-to-feature/catalogues/bolshoip_tree_3_2_1/feature.csv",
+      "sha256": "2dc37432c9d77b464e3a0bf374b79bf0de22eaf313f2fa1f3fbbf85b5d64005c",
+      "bytes": 6863290,
+      "representation": "lossless-gzip",
+      "decoded_sha256": "d3d38f9d6df787c941c143a5c777ae0a085c36911322a39bb3713a98b37d87b0",
+      "decoded_bytes": 18728019
+    },
+    {
+      "path": "analysis_data/catalogues/bolshoip_tree_3_2_1/formation.csv.gz",
+      "source": "source-to-feature/catalogues/bolshoip_tree_3_2_1/formation.csv",
+      "sha256": "1acbb2a5995e4e89370d9bf6edc00f2e3a03841ac17133eb3b5d19267d84c6b1",
+      "bytes": 1623721,
+      "representation": "lossless-gzip",
+      "decoded_sha256": "15eb16a2e917f31c1ba6a6b5732af77d63e633eb40dbb5e4a08c1b2bbd1390cb",
+      "decoded_bytes": 4420420
+    },
+    {
+      "path": "analysis_data/catalogues/tng_power_n2000/extended.csv.gz",
+      "source": "source-to-feature/catalogues/tng_power_n2000/extended.csv",
+      "sha256": "bed7c8de8a6ae71ff421cddb9046ff79542beb1ae48b002811a3a7a9579561e2",
+      "bytes": 254114,
+      "representation": "lossless-gzip",
+      "decoded_sha256": "86b3089b4453cdd1a520e114a5390cacc943b4f85fc9a0531fe54462b64409a9",
+      "decoded_bytes": 574098
+    },
+    {
+      "path": "analysis_data/catalogues/tng_power_n2000/feature.csv.gz",
+      "source": "source-to-feature/catalogues/tng_power_n2000/feature.csv",
+      "sha256": "1cb994bcff1f07d40efef28610f53d1161518ee8fb79aac3ba5daef78c4d1f85",
+      "bytes": 676316,
+      "representation": "lossless-gzip",
+      "decoded_sha256": "6eec91416b0b679f1a68cc1e4951984a6f8fbd6d0b98e78bca0319851b27bbe8",
+      "decoded_bytes": 1537232
+    },
+    {
+      "path": "analysis_data/catalogues/tng_power_n2000/formation.csv.gz",
+      "source": "source-to-feature/catalogues/tng_power_n2000/formation.csv",
+      "sha256": "265e5dd13372755cbfd120d9215fcd893fdefd909885bb17e602f2728d8bb102",
+      "bytes": 262524,
+      "representation": "lossless-gzip",
+      "decoded_sha256": "6c935cecc3582b49abc3a859d78c3c086a2c1d12d944ce6d59e7ffb437b2f4f2",
+      "decoded_bytes": 707050
+    },
+    {
+      "path": "analysis_data/catalogues/tng_power_n2000/history.csv.gz",
+      "source": "source-to-feature/catalogues/tng_power_n2000/history.csv",
+      "sha256": "ffd8e7bcb9ea2c4da90e5dc60efe971844a3ac2bdc50093ede21f9d0fde003c5",
+      "bytes": 6099967,
+      "representation": "lossless-gzip",
+      "decoded_sha256": "42ba54b774909b5ae27b2f881deda293e8a58a044b47988053946488c1ec6cbf",
+      "decoded_bytes": 21289511
+    },
+    {
+      "path": "analysis_data/catalogues/tng_replication/extended.csv.gz",
+      "source": "source-to-feature/catalogues/tng_replication/extended.csv",
+      "sha256": "56f48194c0520354e058d958ab942baf49677b3fad5501df4b26bf2f94d9d80d",
+      "bytes": 102648,
+      "representation": "lossless-gzip",
+      "decoded_sha256": "459268e8ba813e82e1ce7d5a799242115b045f7128031aebbc1b4c7ea844f748",
+      "decoded_bytes": 230109
+    },
+    {
+      "path": "analysis_data/catalogues/tng_replication/feature.csv.gz",
+      "source": "source-to-feature/catalogues/tng_replication/feature.csv",
+      "sha256": "9c32b21b0ff654582452a9ee0a56e88feff2958675fa04a74d7c0b13bd128eea",
+      "bytes": 271390,
+      "representation": "lossless-gzip",
+      "decoded_sha256": "ba72c07b297c445a3773093a4b1d689bc6e39e4591d969a6a962c7742dcde1ba",
+      "decoded_bytes": 612268
+    },
+    {
+      "path": "analysis_data/catalogues/tng_replication/formation.csv.gz",
+      "source": "source-to-feature/catalogues/tng_replication/formation.csv",
+      "sha256": "5c0c690d8c3a79dedcb13060e85e9ec5114a08e7b0c3e7ed143c45406947fbcc",
+      "bytes": 106259,
+      "representation": "lossless-gzip",
+      "decoded_sha256": "edbc8c08f2ab76535633ab75dbb693366dca46fec872f61d4ac766e07a8d2442",
+      "decoded_bytes": 283315
+    },
+    {
+      "path": "analysis_data/catalogues/tng_replication/history.csv.gz",
+      "source": "source-to-feature/catalogues/tng_replication/history.csv",
+      "sha256": "c9429ea5748b1496b16da395352068b0d71899736a3bccf7f64faa8df915a168",
+      "bytes": 2445559,
+      "representation": "lossless-gzip",
+      "decoded_sha256": "cea0f49c98289754183f0ae92f26c9389ec8a2e57dfba22f97aa30f461d6083f",
+      "decoded_bytes": 8533421
+    },
+    {
+      "path": "analysis_data/catalogues/tng_scaled/extended.csv.gz",
+      "source": "source-to-feature/catalogues/tng_scaled/extended.csv",
+      "sha256": "a9e91cab89a4cb92b9ef68ca0011173e3f13f0a36a8cf3bd5dfa2fe886b2152d",
+      "bytes": 49584,
+      "representation": "lossless-gzip",
+      "decoded_sha256": "8f58ac12e4a73c0487c58565cec2afab3d2d6a824aaa072ec90ce02a91f0dbdf",
+      "decoded_bytes": 109836
+    },
+    {
+      "path": "analysis_data/catalogues/tng_scaled/feature.csv.gz",
+      "source": "source-to-feature/catalogues/tng_scaled/feature.csv",
+      "sha256": "1f3e3ff4a75e2537028be7ec7c6e1a00ac14f2235a31ff94fa514bf738e1bd6d",
+      "bytes": 130287,
+      "representation": "lossless-gzip",
+      "decoded_sha256": "58941ef833189f28c7baafc6c2d2562ebcda06221704e9245b2f808ac9803047",
+      "decoded_bytes": 292530
+    },
+    {
+      "path": "analysis_data/catalogues/tng_scaled/formation.csv.gz",
+      "source": "source-to-feature/catalogues/tng_scaled/formation.csv",
+      "sha256": "858977b92e3266982b6530daaf7873296762d36896988a58c9c70c8146b4bef8",
+      "bytes": 51261,
+      "representation": "lossless-gzip",
+      "decoded_sha256": "c07a92e6bf93aa59f717e913170d181d77ec22efe25ebb288db7a7b010cbd5d5",
+      "decoded_bytes": 133098
+    },
+    {
+      "path": "analysis_data/catalogues/tng_scaled/history.csv.gz",
+      "source": "source-to-feature/catalogues/tng_scaled/history.csv",
+      "sha256": "6998c787216bd04569dc7b2b9eaeb05bfa4d23dbb046571e9e26f313740cce1b",
+      "bytes": 1163512,
+      "representation": "lossless-gzip",
+      "decoded_sha256": "5a243ebd21c4ba8553df97db4093f1bd0fc8c63ac3656a09ea4a1f15449c56e4",
+      "decoded_bytes": 4059068
+    }
+  ]
+}

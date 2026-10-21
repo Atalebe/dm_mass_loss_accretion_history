@@ -1,0 +1,7 @@
+* text=auto
+*.npz -text
+*.gz -text
+*.pdf -text
+*.png -text
+*.csv -text
+*.json -text

@@ -1,0 +1,19 @@
+{
+  "schema": "halo-paper-release-logbook-v1",
+  "entries": [
+    {
+      "entry_number": 1,
+      "id": "DM-PAPER-RELEASE-REPOSITORY-001",
+      "at_utc": "2026-10-21T02:14:52.144956+00:00",
+      "what_was_tested": "Standalone paper-repository extraction, privacy, source integrity, numerical replay, document build and failure paths.",
+      "methods": "49 deterministic tests in three interpreter modes; independent directory with supplied catalogues and matrices; all 30,000 original permutation-index digests and 780,000 candidate statistics replayed; 945 spatial deletions; 9 mass-bin weighted comparisons; 54 nominal t references and 3 cube summaries.",
+      "results": "Reproduction passed; maximum checked absolute numerical difference 4.217781679471955e-11. Both v12 PDFs reproduced byte-for-byte with the existing compiler.",
+      "failures": "No numerical reproduction failure. Three local-path metadata cells were replaced by basenames before qualification; all scientific field strings retained. Private corruption and overwrite fixtures were correctly rejected.",
+      "next_steps": "Push and verify this new repository only. Complete older-analysis archive coverage and owner-approved licence/visibility decisions before a public release and DOI.",
+      "publication_performed": false,
+      "original_repository_modified": false,
+      "v176_started": false,
+      "scope": "Repository-preparation milestone, not a new scientific experiment or a completed public archive."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "schema": "halo-paper-release-status-v1",
+  "phase": "verified_private_release_candidate",
+  "public_visibility_authorized_in_this_step": false,
+  "licence_selected": false,
+  "zenodo_deposited": false,
+  "archive_doi": null,
+  "full_raw_reconstruction_claimed": false,
+  "old_git_history_imported": false,
+  "paper_version": "v12",
+  "v176_started": false,
+  "standalone_replay_verified": true,
+  "public_archive_complete": false
+}

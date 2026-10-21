@@ -1,0 +1,44 @@
+{
+  "figures": [
+    {
+      "figure": "01_joint_search_null",
+      "axes": 1,
+      "in_panel_title": false
+    },
+    {
+      "figure": "population_integrated",
+      "axes": 1,
+      "in_panel_title": false
+    },
+    {
+      "figure": "bp_population_integrated",
+      "axes": 1,
+      "in_panel_title": false
+    },
+    {
+      "figure": "loss_control_comparison",
+      "axes": 1,
+      "in_panel_title": false
+    },
+    {
+      "figure": "tng_I_influence_logL",
+      "axes": 1,
+      "in_panel_title": false
+    },
+    {
+      "figure": "03_euler_multipliers",
+      "axes": 1,
+      "in_panel_title": false
+    },
+    {
+      "figure": "04_censoring_resolution",
+      "axes": 1,
+      "in_panel_title": false
+    }
+  ],
+  "font_family": "Latin Modern Roman",
+  "font_files_distributed": false,
+  "original_data_files_unchanged": 31,
+  "new_fits": 0,
+  "new_permutations": 0
+}

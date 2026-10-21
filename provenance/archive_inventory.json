@@ -1,0 +1,13 @@
+{
+  "retained_external_spatial_archive": {
+    "filename": "DM_SUPP006_Spatial_Full_Evidence_20261020.zip",
+    "sha256": "49d2689193aa862fcb03b0d2ea72190b333c11f91a73d5de48e242a4759c840f",
+    "manifest_payload_files": 66,
+    "public_download_available": false
+  },
+  "source_manuscript_archive": {
+    "filename": "DM_Manuscript_v12_Public_Source_and_Data_tectonic.zip",
+    "sha256": "42a709d735ac2f91fcfad09adddde36552412432b6ae75706f83ff6ed47fa4b7"
+  },
+  "source_snapshot_identifier": "06d5ed3437cf3e082b741c31a7a4c78962ff276c"
+}

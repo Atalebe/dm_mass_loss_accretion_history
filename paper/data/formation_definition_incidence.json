@@ -1,0 +1,29 @@
+{
+  "scope": "Reported whole-sample execution; verified archival arithmetic, not independent raw-history replay.",
+  "samples": [
+    {
+      "sample": "tng_scaled",
+      "n_halos": 420,
+      "n_peak_exceeds_terminal": 206,
+      "fraction_peak_exceeds_terminal": 0.49047619047619045,
+      "history_rows": 39723,
+      "max_peak_to_terminal_ratio": 9.176734825454878
+    },
+    {
+      "sample": "tng_replication",
+      "n_halos": 881,
+      "n_peak_exceeds_terminal": 428,
+      "fraction_peak_exceeds_terminal": 0.4858115777525539,
+      "history_rows": 83580,
+      "max_peak_to_terminal_ratio": 10.106676107635247
+    },
+    {
+      "sample": "tng_power_n2000",
+      "n_halos": 2199,
+      "n_peak_exceeds_terminal": 1065,
+      "fraction_peak_exceeds_terminal": 0.4843110504774898,
+      "history_rows": 208369,
+      "max_peak_to_terminal_ratio": 11.589114669382308
+    }
+  ]
+}

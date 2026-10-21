@@ -1,0 +1,128 @@
+[
+  {
+    "sample": "tng_scaled",
+    "n_available": 420,
+    "unit": "ckpc/h",
+    "footprint": "full periodic TNG100 box",
+    "lo": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hi": [
+      75000.0,
+      75000.0,
+      75000.0
+    ],
+    "extent": [
+      75000.0,
+      75000.0,
+      75000.0
+    ]
+  },
+  {
+    "sample": "tng_replication",
+    "n_available": 881,
+    "unit": "ckpc/h",
+    "footprint": "full periodic TNG100 box",
+    "lo": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hi": [
+      75000.0,
+      75000.0,
+      75000.0
+    ],
+    "extent": [
+      75000.0,
+      75000.0,
+      75000.0
+    ]
+  },
+  {
+    "sample": "tng_power_n2000",
+    "n_available": 2199,
+    "unit": "ckpc/h",
+    "footprint": "full periodic TNG100 box",
+    "lo": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hi": [
+      75000.0,
+      75000.0,
+      75000.0
+    ],
+    "extent": [
+      75000.0,
+      75000.0,
+      75000.0
+    ]
+  },
+  {
+    "sample": "bolshoip_tree_0_2_2",
+    "n_available": 20678,
+    "unit": "Mpc/h",
+    "footprint": "coordinate-wise bounds of all available selected roots",
+    "lo": [
+      0.00869,
+      100.00648,
+      100.00285
+    ],
+    "hi": [
+      49.99755,
+      149.99922,
+      149.99675
+    ],
+    "extent": [
+      49.988859999999995,
+      49.99274000000001,
+      49.9939
+    ]
+  },
+  {
+    "sample": "bolshoip_tree_2_3_4",
+    "n_available": 20466,
+    "unit": "Mpc/h",
+    "footprint": "coordinate-wise bounds of all available selected roots",
+    "lo": [
+      100.00244,
+      150.00288,
+      200.00003
+    ],
+    "hi": [
+      149.99905,
+      199.99765,
+      249.99821
+    ],
+    "extent": [
+      49.996610000000004,
+      49.99476999999999,
+      49.99817999999999
+    ]
+  },
+  {
+    "sample": "bolshoip_tree_3_2_1",
+    "n_available": 20929,
+    "unit": "Mpc/h",
+    "footprint": "coordinate-wise bounds of all available selected roots",
+    "lo": [
+      150.00017,
+      100.00998,
+      50.00033
+    ],
+    "hi": [
+      199.9982,
+      149.99809,
+      99.99892
+    ],
+    "extent": [
+      49.99803,
+      49.98810999999999,
+      49.99859
+    ]
+  }
+]

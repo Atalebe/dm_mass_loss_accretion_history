@@ -1,0 +1,131 @@
+{
+  "quick": {
+    "checks": 9656190,
+    "completed_at_utc": "2026-10-21T02:08:12.594379+00:00",
+    "cube_references": 3,
+    "elapsed_seconds": 10.788474750996102,
+    "maximum_absolute_comparison_difference": 4.217781679471955e-11,
+    "mode": "observed_and_selected_null_replay",
+    "new_scientific_settings": false,
+    "new_simulations": 0,
+    "nominal_references": 54,
+    "numpy": "2.4.6",
+    "pandas": "3.0.3",
+    "python": "3.13.9",
+    "search": {
+      "designs": 30,
+      "null_candidates_recomputed": 2340,
+      "observed_candidates": 780,
+      "populations": 15,
+      "random_permutation_digests": 30000,
+      "saved_candidate_nulls_checked_for_minima_and_counts": 780000
+    },
+    "source_inputs_unchanged": true,
+    "spatial": {
+      "deletion_fits": 945,
+      "new_spatial_probabilities": 0,
+      "nuisance_rank_reductions": 12,
+      "summaries": 54
+    },
+    "status": "REPRODUCTION_VERIFIED",
+    "weighted_fits": 9
+  },
+  "full_saved_null_replay": {
+    "checks": 11331150,
+    "completed_at_utc": "2026-10-21T02:10:45.255347+00:00",
+    "cube_references": 3,
+    "elapsed_seconds": 24.34377898799721,
+    "maximum_absolute_comparison_difference": 4.217781679471955e-11,
+    "mode": "full_saved_null_replay",
+    "new_scientific_settings": false,
+    "new_simulations": 0,
+    "nominal_references": 54,
+    "numpy": "2.4.6",
+    "pandas": "3.0.3",
+    "python": "3.13.9",
+    "search": {
+      "designs": 30,
+      "null_candidates_recomputed": 780000,
+      "observed_candidates": 780,
+      "populations": 15,
+      "random_permutation_digests": 30000,
+      "saved_candidate_nulls_checked_for_minima_and_counts": 780000
+    },
+    "source_inputs_unchanged": true,
+    "spatial": {
+      "deletion_fits": 945,
+      "new_spatial_probabilities": 0,
+      "nuisance_rank_reductions": 12,
+      "summaries": 54
+    },
+    "status": "REPRODUCTION_VERIFIED",
+    "weighted_fits": 9
+  },
+  "unit_tests_per_mode": 49,
+  "unit_modes": [
+    "normal",
+    "-O",
+    "-OO"
+  ],
+  "failure_checks": {
+    "failure_tests": [
+      {
+        "test": "modified numerical source",
+        "rejected": true,
+        "returncode": 2
+      },
+      {
+        "test": "modified data",
+        "rejected": true,
+        "returncode": 2
+      },
+      {
+        "test": "modified null array",
+        "rejected": true,
+        "returncode": 2
+      },
+      {
+        "test": "strict calling shell survives a rejected bundle",
+        "passed": true
+      },
+      {
+        "test": "existing completed output rejected without alteration",
+        "passed": true
+      }
+    ],
+    "metadata_cells_redacted": [
+      [
+        0,
+        "feature_path"
+      ],
+      [
+        1,
+        "feature_path"
+      ],
+      [
+        2,
+        "feature_path"
+      ]
+    ],
+    "scientific_field_strings_changed": 0,
+    "text_and_gzip_files_scanned": 400,
+    "credential_or_local_machine_path_findings": [],
+    "no_publication_performed": true
+  },
+  "document_build": {
+    "status": "BOTH_PRESERVED_PDFS_REPRODUCED",
+    "documents": [
+      {
+        "document": "main",
+        "sha256": "adfeafb1231e7fe673f0d68167b2a168b62dd53581348084422a9c33d35ed8c1",
+        "byte_identical_to_v12": true
+      },
+      {
+        "document": "supplementary",
+        "sha256": "e69fbd0e66c91d57859ebfda4e557b590d550f623fc30567590eada59daa1d66",
+        "byte_identical_to_v12": true
+      }
+    ],
+    "new_manuscript_version": false
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "generator": "PCG64",
+  "method": "permutation(n) once per replicate",
+  "root": 2026101905,
+  "seed": 123574450648473720138730723223047498012
+}
