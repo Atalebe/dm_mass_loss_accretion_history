@@ -10,6 +10,7 @@ if (
     PY="${PYTHON:-python3}"
     cd "$R" || exit 2
     "$PY" -B tools/verify_integrity.py || exit 2
+    "$PY" -B tools/verify_release_coverage.py || exit 2
     "$PY" -B -m unittest discover -s tests -v || exit 2
     mkdir -p outputs || exit 2
     OUT="outputs/reproduction_$(date -u +%Y%m%dT%H%M%SZ)_$$"

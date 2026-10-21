@@ -6,7 +6,7 @@ This is a standalone repository with a new Git history. It is not a mirror of th
 
 ## Status
 
-This first snapshot is a **release-preparation candidate**, not a published archival release. The repository remains private until the owner approves public visibility and licensing. There is no analysis DOI yet. The manuscript is the checked v12 rendering; its scientific content is unchanged. See `docs/release_status.json` and `docs/reproduction_scope.md` for the precise coverage and remaining work.
+This first snapshot is a **release-preparation candidate**, not a published archival release. The repository remains private until the owner approves public visibility and licensing. There is no analysis DOI yet. The manuscript is the checked v12 rendering; its scientific content is unchanged. See `docs/release_status.json`, `docs/reproduction_scope.md` and the complete `docs/reproducibility_map.md` for the precise coverage and remaining work. The branch-specific audit follow-up records completed reporting actions without closing the two scientific limitations. Earlier resampling and spline materials have been recovered and verified in a separate companion, whose import is still pending.
 
 ## Start here
 

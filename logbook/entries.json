@@ -14,6 +14,21 @@
       "original_repository_modified": false,
       "v176_started": false,
       "scope": "Repository-preparation milestone, not a new scientific experiment or a completed public archive."
+    },
+    {
+      "entry_number": 2,
+      "id": "DM-PAPER-AUDIT-CONTINUITY-AND-COVERAGE-002",
+      "at_utc": "2026-10-21T06:23:27.110086+00:00",
+      "what_was_tested": "Branch-only audit disposition,32-asset reproduction map, exact available/complete/omitted identity mapping, old numerical byte preservation and failure guards.",
+      "methods": "57 deterministic tests in normal/-O/-OO modes;124379 coverage and identity checks; three deliberately invalid metadata fixtures and strict-caller failure test. Recovered legacy materials were separately replayed in the chat workspace with original streams.",
+      "results": "Reporting actions verified; ABA26-001 and ABA26-002 scientifically OPEN. All32 assets mapped. Available62073,complete48556,omitted13517 with zero imputed epochs. Existing manuscript and numerical payload unchanged. Legacy companion verified but transfer into this repository remains pending.",
+      "failures": "Local archival selection initially named original111.py instead of the actual original111.py.txt member; the attempt stopped and was retained, then exact member selection was repaired before successful replay. No scientific value, stream or criterion changed. Intentional metadata-corruption fixtures were rejected.",
+      "next_steps": "Transfer the verified55.45-MB legacy companion for additive import and clean-checkout replay; finish remaining explicit provenance/secondary-runner coverage, owner licence/redistribution decision, public visibility and an archival DOI. No new inference campaign or v176 authorized.",
+      "new_scientific_random_streams": 0,
+      "original_repository_modified": false,
+      "master_audit_register_modified": false,
+      "public_deposit_performed": false,
+      "scientific_findings_closed": []
     }
   ]
 }

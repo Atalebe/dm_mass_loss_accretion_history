@@ -1,0 +1,28 @@
+{
+  "archive": "DM_Legacy_Reproduction_Materials_20261021.zip",
+  "bytes": 55454139,
+  "sha256": "52c99eb9ecc821cecc6009f8886f13fda2d75425733b47d6abc1624b3c4f9dac",
+  "payload_files": 238,
+  "manifest_file_count": 239,
+  "verified_location": "current ChatGPT execution workspace, not this repository",
+  "imported_into_repository": false,
+  "formation_search_cases": 12,
+  "threshold_search_cases": 6,
+  "formation_threshold_null_candidates_replayed": 468000,
+  "separate_10000_draw_crosscheck_cases": 36,
+  "separate_joint_null_minima_replayed": 360000,
+  "mass_loss_fits_replayed": 27,
+  "full_replay_max_abs_difference": 3.865352482534945e-12,
+  "legacy_unit_tests_per_mode": 12,
+  "unit_modes": [
+    "normal",
+    "-O",
+    "-OO"
+  ],
+  "new_scientific_random_streams": 0,
+  "raw_tree_scans": 0,
+  "private_corrupt_null_rejected": true,
+  "strict_caller_preserved": true,
+  "licence_assigned": false,
+  "public_deposit": false
+}

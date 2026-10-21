@@ -1,0 +1,30 @@
+{
+  "schema": "halo-branch-inventory-followup-v1",
+  "baseline": "ABA-0001-20261020",
+  "entries": [
+    {
+      "id": "D-01",
+      "role": "private continuing scientific development",
+      "head": "06d5ed3437cf3e082b741c31a7a4c78962ff276c",
+      "branch": "dm-residual-bias-001-g0-fullbox-acquisition",
+      "modified_by_followup": false
+    },
+    {
+      "id": "D-02",
+      "role": "preserved off-repository manuscript and sensitivity evidence",
+      "git_checkout": false,
+      "activity_determined_from_evidence_not_only_development_commit_date": true
+    },
+    {
+      "id": "D-03",
+      "id_scope": "branch-local proposed inventory addition",
+      "role": "standalone paper release preparation",
+      "repository": "Atalebe/dm_mass_loss_accretion_history",
+      "branch": "main",
+      "pre_update_commit": "b22335bc4f3e7c0d82bf45988db2057b7da2ed4f",
+      "visibility": "private",
+      "public_archive_complete": false
+    }
+  ],
+  "master_register_modified": false
+}

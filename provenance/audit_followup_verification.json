@@ -1,0 +1,35 @@
+{
+  "status": "AUDIT_FOLLOWUP_AND_MAP_QUALIFIED",
+  "old_payload_files_preserved": 501,
+  "scientific_and_paper_files_preserved": 484,
+  "unit_tests_per_mode": 57,
+  "unit_modes": [
+    "normal",
+    "O",
+    "OO"
+  ],
+  "failure_tests": [
+    {
+      "test": "scientific finding falsely closed",
+      "rejected": true
+    },
+    {
+      "test": "displayed asset missing",
+      "rejected": true
+    },
+    {
+      "test": "omitted denominator altered",
+      "rejected": true
+    },
+    {
+      "test": "strict caller survives rejected metadata bundle",
+      "passed": true
+    }
+  ],
+  "original_development_state_preserved": true,
+  "reservations_preserved": 18,
+  "paper_bytes_changed": false,
+  "archive_imported": false,
+  "master_audit_register_changed": false,
+  "new_experiments": 0
+}

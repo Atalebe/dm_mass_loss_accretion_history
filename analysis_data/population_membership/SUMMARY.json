@@ -1,0 +1,58 @@
+{
+  "schema": "halo-population-membership-v1",
+  "method": "Identity joins and finite checks of existing released catalogues only; no fitting or imputation.",
+  "available_total": 62073,
+  "complete_total": 48556,
+  "omitted_total": 13517,
+  "cases": [
+    {
+      "sample": "bolshoip_tree_0_2_2",
+      "available": 20678,
+      "complete": 16126,
+      "omitted": 4552,
+      "omitted_status_counts": {
+        "left_censored": 4552
+      },
+      "ordered_fit_ids_sha256": "27ed13b515bbc42dc9a447645b054f49f7a329cfcbd06825544dbcfcf213c2ab",
+      "available_ordered_ids_sha256": "7242316b525ef4922324fd16fca578346af89777b8eccb6de765c664269c0cdc",
+      "file": "analysis_data/population_membership/bolshoip_tree_0_2_2.csv.gz",
+      "bytes": 112116,
+      "sha256": "430a089c85d0be79b4f97d3ed3f73161697015b8335eb1b25979755bd882576d",
+      "complete_matches_released_matrix": true,
+      "imputed_epochs": 0
+    },
+    {
+      "sample": "bolshoip_tree_2_3_4",
+      "available": 20466,
+      "complete": 16090,
+      "omitted": 4376,
+      "omitted_status_counts": {
+        "left_censored": 4376
+      },
+      "ordered_fit_ids_sha256": "94a5b7f8a02968d84c4d847e769ece9113674ba9c1e6005ab41b86b229dab1b9",
+      "available_ordered_ids_sha256": "9922a9abf469d560b50df21dcb62ce40bba57d752c238e347b022fd441239c01",
+      "file": "analysis_data/population_membership/bolshoip_tree_2_3_4.csv.gz",
+      "bytes": 111850,
+      "sha256": "8c7371ad175ef5e1483f87dfecd8c53c06dca9bba2567d4b2581f1e37ac85094",
+      "complete_matches_released_matrix": true,
+      "imputed_epochs": 0
+    },
+    {
+      "sample": "bolshoip_tree_3_2_1",
+      "available": 20929,
+      "complete": 16340,
+      "omitted": 4589,
+      "omitted_status_counts": {
+        "left_censored": 4589
+      },
+      "ordered_fit_ids_sha256": "88e616de5ed7052ad32210e1dfc0eca945463a08f79995e53fb9fd25af6152ac",
+      "available_ordered_ids_sha256": "75938603b167d1c65889f3c35350dda2211eccf780702d53a3f35391f52be4be",
+      "file": "analysis_data/population_membership/bolshoip_tree_3_2_1.csv.gz",
+      "bytes": 116253,
+      "sha256": "5dfe389ead94c0cbd1bece488a62bfb76120bf0d686a1dc68e7edea9996e76f9",
+      "complete_matches_released_matrix": true,
+      "imputed_epochs": 0
+    }
+  ],
+  "scientific_population_identification_claimed": false
+}

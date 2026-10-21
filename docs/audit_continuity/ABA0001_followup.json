@@ -1,0 +1,44 @@
+{
+  "schema": "halo-audit-continuity-v1",
+  "baseline": "ABA-0001-20261020",
+  "baseline_pdf_sha256": "d306716a0996a5f0f7fd3ef77906a22e6187f420dd921177134432f6306d1d34",
+  "scope": "Dark-matter paper branch only; additive follow-up, not an overwrite of the multi-project findings register.",
+  "source_pages": [
+    2,
+    3,
+    6,
+    7
+  ],
+  "findings": [
+    {
+      "id": "ABA26-001",
+      "severity": "MAJOR",
+      "reporting_action_status": "VERIFIED_IN_V12",
+      "scientific_acceptance_status": "OPEN_NOT_JOINTLY_CALIBRATED",
+      "joint_calibration_established": false,
+      "evidence": [
+        "paper/manuscript/main.tex:abstract;6.9;7.2",
+        "paper/manuscript/supplementary.tex:S5.1-S5.2;Tables S7-S9"
+      ],
+      "remaining_acceptance": "Predeclared spatial covariance or independent-unit model, validated weighting-search-adjusted procedure or independent-box evidence, seed/partition/multiplicity specification and coverage verification.",
+      "current_action": "Retain both nominal grids and all pointwise references without an upgraded physical claim."
+    },
+    {
+      "id": "ABA26-002",
+      "severity": "MAJOR",
+      "reporting_action_status": "VERIFIED_IN_V12",
+      "scientific_acceptance_status": "OPEN_FULL_POPULATION_ASSOCIATION_UNIDENTIFIED",
+      "missing_epochs_recovered": false,
+      "evidence": [
+        "paper/manuscript/main.tex:6.9;7.2",
+        "paper/manuscript/supplementary.tex:S6;Table S10",
+        "analysis_data/population_membership/SUMMARY.json"
+      ],
+      "remaining_acceptance": "Defensible declared missingness model or partial-identification assumptions/bounds, plus independently verified denominators and selected identities. Identity verification alone does not satisfy scientific identification.",
+      "current_action": "Preserve complete-case interpretation, omitted identities and exact denominators; no imputation or generalization from weighted complete cases."
+    }
+  ],
+  "new_scientific_authorization": false,
+  "new_experiments": 0,
+  "v176_started": false
+}

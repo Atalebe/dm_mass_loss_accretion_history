@@ -1,0 +1,864 @@
+{
+  "schema": "halo-table-figure-map-v1",
+  "paper_version": "v12",
+  "manuscript_changed": false,
+  "main_tables": 14,
+  "supplementary_tables": 10,
+  "figures": 8,
+  "all_assets_mapped": true,
+  "companion_transfer_status": "PENDING_LOCAL_TO_RESEARCH_PC",
+  "assets": [
+    {
+      "id": "T1",
+      "document": "main",
+      "type": "table",
+      "number": 1,
+      "topic": "TNG selection and central classification",
+      "artifacts": [
+        {
+          "path": "paper/manuscript/tables/population_audit.tex",
+          "sha256": "9ec6b4aaaf88a242197ce83e1b965888c93a35d9ffd3add863c6cf696df958ef"
+        },
+        {
+          "path": "paper/data/formation_definition_incidence.json",
+          "sha256": "4fc96b2965a2b2a49db3c2dfa2c5f0048b156356278df6e01b4a459d56970845"
+        }
+      ],
+      "coverage_status": "PRESERVED_INPUTS_OR_SUMMARY_NOT_DEFAULT_END_TO_END",
+      "numerical_layer": "catalogues",
+      "reproduction_command": null,
+      "random_stream": null,
+      "boundary": "Recorded counts and catalogue flags; original failed-download acquisition receipts are an external provenance layer.",
+      "rendered_asset_unchanged": true,
+      "latex_label": "tab:population",
+      "caption_and_block_sha256": "b7bc90ce9c5b96f55adad63aed155a15024edf36200650e990d5ef419aa18f54"
+    },
+    {
+      "id": "T2",
+      "document": "main",
+      "type": "table",
+      "number": 2,
+      "topic": "Available and formation-complete populations",
+      "artifacts": [
+        {
+          "path": "paper/manuscript/tables/samples.tex",
+          "sha256": "776ec58dae4231adc3b233d53bd9f2e6bf8cbd2206b5fa23c63ab724ce038582"
+        },
+        {
+          "path": "paper/data/formation_definition_incidence.json",
+          "sha256": "4fc96b2965a2b2a49db3c2dfa2c5f0048b156356278df6e01b4a459d56970845"
+        }
+      ],
+      "coverage_status": "PRESERVED_INPUTS_OR_SUMMARY_NOT_DEFAULT_END_TO_END",
+      "numerical_layer": "membership",
+      "reproduction_command": null,
+      "random_stream": null,
+      "boundary": "Exact BolshoiP denominator membership now included; fiducial parameters are fixed metadata.",
+      "rendered_asset_unchanged": true,
+      "latex_label": "tab:samples",
+      "caption_and_block_sha256": "0d9942961de6e02da212a42d32e1cd04466f8ab2e0ee5d34d8797a14d3f2e379"
+    },
+    {
+      "id": "T3",
+      "document": "main",
+      "type": "table",
+      "number": 3,
+      "topic": "Principal four-epoch fits",
+      "artifacts": [
+        {
+          "path": "paper/manuscript/tables/primary.tex",
+          "sha256": "052210475d4d3a000874b0ffbf7066390d49a534a506a89e5d53703b25dc8daa"
+        },
+        {
+          "path": "paper/data/formation_controlled_primary_yv_strict_summary.csv",
+          "sha256": "b55fd38230e983e4038a87499fdd6ef397731ad569b735935780289771f3de19"
+        },
+        {
+          "path": "paper/data/search_population_summary.csv",
+          "sha256": "d3cbf7f4669136459827f4f5d4311b10a67e1b032e6ce2fbe1cecd523a2058cd"
+        }
+      ],
+      "coverage_status": "RECOVERED_COMPANION_PENDING_IMPORT",
+      "numerical_layer": "formation_search",
+      "reproduction_command": "python -B tools/replay_legacy.py --full-nulls --output outputs/legacy_<new_id> (after verified companion import)",
+      "random_stream": "12 original PCG64 streams",
+      "boundary": "12 original formation-search streams recovered; import pending. Earlier pointwise probabilities remain historical, not current joint tests.",
+      "rendered_asset_unchanged": true,
+      "latex_label": "tab:primary",
+      "caption_and_block_sha256": "2ab0eec8c7073cd3c34693d7f2cb33c44e649cfc630f6a9fa310fd87f141b5e8"
+    },
+    {
+      "id": "T4",
+      "document": "main",
+      "type": "table",
+      "number": 4,
+      "topic": "Same-population formation attenuation",
+      "artifacts": [
+        {
+          "path": "paper/manuscript/tables/matched.tex",
+          "sha256": "52542d50d432b14efcd6664584586cdb51f79d8f48d004ad6ebd8f23c53f1204"
+        },
+        {
+          "path": "paper/data/same_sample_summary.csv",
+          "sha256": "4f7973c94e542608d5612d3c8a7b72bc8b881d6af432118e1ec366e01c7d23f0"
+        }
+      ],
+      "coverage_status": "PRESERVED_INPUTS_OR_SUMMARY_NOT_DEFAULT_END_TO_END",
+      "numerical_layer": "stored",
+      "reproduction_command": null,
+      "random_stream": null,
+      "boundary": "Raw-versus-controlled attenuation summaries retained; full raw/control producer replay is a separate legacy layer.",
+      "rendered_asset_unchanged": true,
+      "latex_label": "tab:matched",
+      "caption_and_block_sha256": "53e99fbe16f9072bec0648ea6ade4b0c648505798d69226a13c95fd91826aacb"
+    },
+    {
+      "id": "T5",
+      "document": "main",
+      "type": "table",
+      "number": 5,
+      "topic": "Four/six-epoch paired fits",
+      "artifacts": [
+        {
+          "path": "paper/manuscript/tables/extended.tex",
+          "sha256": "cbc2a642684ab24ff9c6595253a12f9627760c4e900fe1a4830ccd711b5ccd25"
+        },
+        {
+          "path": "paper/data/extended_ladder_fits.csv",
+          "sha256": "c2e84e30e83d815ce1d6d66712ac7476106604ebcb24951b555d2cc8c20640ee"
+        },
+        {
+          "path": "paper/data/extended_ladder_l1_to_l2_increment.csv",
+          "sha256": "75db9d683527ed837e1b30bae29a75bb303700bb13bce45109190a514579594f"
+        }
+      ],
+      "coverage_status": "RECOVERED_COMPANION_PENDING_IMPORT",
+      "numerical_layer": "formation_search",
+      "reproduction_command": "python -B tools/replay_legacy.py --full-nulls --output outputs/legacy_<new_id> (after verified companion import)",
+      "random_stream": "3 six-epoch streams within the 12 formation streams",
+      "boundary": "Matched four-epoch and six-epoch populations and three six-epoch streams recovered.",
+      "rendered_asset_unchanged": true,
+      "latex_label": "tab:extended",
+      "caption_and_block_sha256": "5e33b03bf01d60da5a37b1af35253b2239bab9d6620746c02fa1d725c426ba22"
+    },
+    {
+      "id": "T6",
+      "document": "main",
+      "type": "table",
+      "number": 6,
+      "topic": "Weighting-family sensitivity",
+      "artifacts": [
+        {
+          "path": "paper/manuscript/tables/gamma_integrated.tex",
+          "sha256": "d520f089ad261110528a57c632abf4878e96a6cbc865c8cb258b5a1992987ee9"
+        },
+        {
+          "path": "paper/data/gamma_sensitivity_summary.csv",
+          "sha256": "383e6b35c75743fd179cc354ed8adc49e9913ad69199200ea21ca8fbba0e6ea1"
+        },
+        {
+          "path": "paper/data/candidate_specific_search_adjusted.csv",
+          "sha256": "35068fff51843b89af1fcd26f602567d8bd8033f779d198149d08b12171e6a96"
+        }
+      ],
+      "coverage_status": "RECOVERED_COMPANION_PENDING_IMPORT",
+      "numerical_layer": "formation_search",
+      "reproduction_command": "python -B tools/replay_legacy.py --full-nulls --output outputs/legacy_<new_id> (after verified companion import)",
+      "random_stream": "Per-population formation-search stream",
+      "boundary": "Six displayed values are compared against the 26-candidate joint reference; no copied pointwise probability.",
+      "rendered_asset_unchanged": true,
+      "latex_label": "tab:gamma",
+      "caption_and_block_sha256": "104e6706cad222f42b20ed9709f40f7129f4230bec0b6ff3aab049b016944412"
+    },
+    {
+      "id": "T7",
+      "document": "main",
+      "type": "table",
+      "number": 7,
+      "topic": "Central-only fits",
+      "artifacts": [
+        {
+          "path": "paper/manuscript/tables/central_integrated.tex",
+          "sha256": "c8ac122e8260c4f410496d209189ebbf47e7ab2eb6adb30e6af341e7d3389339"
+        },
+        {
+          "path": "paper/data/central_population_comparison.csv",
+          "sha256": "f46aa4c1a1269fd921345b396c90dab387916d70b1629903bc3f0b4bce8d596d"
+        },
+        {
+          "path": "paper/data/search_population_summary.csv",
+          "sha256": "d3cbf7f4669136459827f4f5d4311b10a67e1b032e6ce2fbe1cecd523a2058cd"
+        }
+      ],
+      "coverage_status": "RECOVERED_COMPANION_PENDING_IMPORT",
+      "numerical_layer": "formation_search",
+      "reproduction_command": "python -B tools/replay_legacy.py --full-nulls --output outputs/legacy_<new_id> (after verified companion import)",
+      "random_stream": "3 central-only streams within the 12 formation streams",
+      "boundary": "Three central-only formation streams and all 26 observed candidates recovered.",
+      "rendered_asset_unchanged": true,
+      "latex_label": "tab:central",
+      "caption_and_block_sha256": "999da33f8602fb875c8a51bfb11a6b031e6ca53747f1f9f4631a0cb85d4149ce"
+    },
+    {
+      "id": "T8",
+      "document": "main",
+      "type": "table",
+      "number": 8,
+      "topic": "Central-only large-loss exclusions",
+      "artifacts": [
+        {
+          "path": "paper/manuscript/tables/tng_loss_refits.tex",
+          "sha256": "ebcec5c61652bc2bae86f6bee66ef3ef3a31e85032dea32bbc0e5f677374eac3"
+        },
+        {
+          "path": "paper/data/mass_loss_sensitivity.csv",
+          "sha256": "115060d19ae3658fc3d60946aec06bb8e45120d3ce6eb7daad8b206eb222cb07"
+        }
+      ],
+      "coverage_status": "RECOVERED_COMPANION_PENDING_IMPORT",
+      "numerical_layer": "mass_loss",
+      "reproduction_command": "python -B tools/replay_legacy.py --full-nulls --output outputs/legacy_<new_id> (after verified companion import)",
+      "random_stream": null,
+      "boundary": "Fixed-parameter descriptive fits; no permutation assigned.",
+      "rendered_asset_unchanged": true,
+      "latex_label": "tab:tngloss",
+      "caption_and_block_sha256": "ee000853751e2392df5ed92d597bd7e68c9b214e2a807dae14c7f23dbfcff5ea"
+    },
+    {
+      "id": "T9",
+      "document": "main",
+      "type": "table",
+      "number": 9,
+      "topic": "BolshoiP formation-threshold restrictions",
+      "artifacts": [
+        {
+          "path": "paper/manuscript/tables/bp_thresholds.tex",
+          "sha256": "66957c8f11f34d90ea4b326ca07d796d21dd8f2aa9da23e78c8531e56b68f739"
+        },
+        {
+          "path": "paper/data/threshold_sensitivity.csv",
+          "sha256": "3a5f6eb461eab602800cf7459a9abca5afedad81052d31208be4309482871042"
+        }
+      ],
+      "coverage_status": "RECOVERED_COMPANION_PENDING_IMPORT",
+      "numerical_layer": "threshold_search",
+      "reproduction_command": "python -B tools/replay_legacy.py --full-nulls --output outputs/legacy_<new_id> (after verified companion import)",
+      "random_stream": "6 original PCG64 streams",
+      "boundary": "Six threshold-search streams plus nine observed-population matrices recovered.",
+      "rendered_asset_unchanged": true,
+      "latex_label": "tab:threshold",
+      "caption_and_block_sha256": "8e29b0481dcc5c87b6bfcbc61583935e64dbd7b80ffdb2554427c81e7726f209"
+    },
+    {
+      "id": "T10",
+      "document": "main",
+      "type": "table",
+      "number": 10,
+      "topic": "Recorded-loss counts",
+      "artifacts": [
+        {
+          "path": "paper/manuscript/tables/bp_loss_counts.tex",
+          "sha256": "349981d79606aa7178e70d5b97a4c7d4d898ebf5870b8d5b7b1ee076452e4849"
+        },
+        {
+          "path": "paper/data/mass_loss_population_counts.csv",
+          "sha256": "e23d40312a46799c439852f9da6acd0a8f8ffd868169e2f87bb0d5edb8259109"
+        }
+      ],
+      "coverage_status": "RECOVERED_COMPANION_PENDING_IMPORT",
+      "numerical_layer": "mass_loss",
+      "reproduction_command": "python -B tools/replay_legacy.py --full-nulls --output outputs/legacy_<new_id> (after verified companion import)",
+      "random_stream": null,
+      "boundary": "Stored threshold selections and exact original identity lists recovered; this is not a tidal classification.",
+      "rendered_asset_unchanged": true,
+      "latex_label": "tab:losscount",
+      "caption_and_block_sha256": "6768c0cbca87238cdc5ca7e470d5d79dcccdb1de5c8aff6c197da1dd379a003b"
+    },
+    {
+      "id": "T11",
+      "document": "main",
+      "type": "table",
+      "number": 11,
+      "topic": "BolshoiP mass-loss/terminal selections",
+      "artifacts": [
+        {
+          "path": "paper/manuscript/tables/bp_loss_refits.tex",
+          "sha256": "7997bcb143683c82d5a76721721ea94422ba8f235b1de54e0c44bb4674583ff4"
+        },
+        {
+          "path": "paper/data/mass_loss_sensitivity.csv",
+          "sha256": "115060d19ae3658fc3d60946aec06bb8e45120d3ce6eb7daad8b206eb222cb07"
+        }
+      ],
+      "coverage_status": "RECOVERED_COMPANION_PENDING_IMPORT",
+      "numerical_layer": "mass_loss",
+      "reproduction_command": "python -B tools/replay_legacy.py --full-nulls --output outputs/legacy_<new_id> (after verified companion import)",
+      "random_stream": null,
+      "boundary": "Preserved 27-fit matrices cover the displayed descriptive populations.",
+      "rendered_asset_unchanged": true,
+      "latex_label": "tab:lossfits",
+      "caption_and_block_sha256": "da4d5e8573bf228f1f945b88c8845773b4e4c00c151b0e52f01f93327429db83"
+    },
+    {
+      "id": "T12",
+      "document": "main",
+      "type": "table",
+      "number": 12,
+      "topic": "Continuous loss adjustment",
+      "artifacts": [
+        {
+          "path": "paper/manuscript/tables/logloss.tex",
+          "sha256": "3f56f31243f95f76ea22b3f51de01352a30c4ad10e7043ade0f80c69ddc7b049"
+        },
+        {
+          "path": "paper/data/continuous_logL_summary.csv",
+          "sha256": "1df71187fb4f3a1c9d2da7343c62ba8164c3f5ae1414bc92edfffc0f38d89eca"
+        }
+      ],
+      "coverage_status": "EXECUTABLE_IN_CURRENT_REPOSITORY",
+      "numerical_layer": "current",
+      "reproduction_command": "python -B tools/reproduce.py --output outputs/replay_<new_id>",
+      "random_stream": null,
+      "boundary": "Same-row linear-loss increments executable in tools/reproduce.py; original before/after summary retained.",
+      "rendered_asset_unchanged": true,
+      "latex_label": "tab:logloss",
+      "caption_and_block_sha256": "9779d567bc880a4408fad22c0e7a0bead234593da6d857a2d9378a812bc2fd19"
+    },
+    {
+      "id": "T13",
+      "document": "main",
+      "type": "table",
+      "number": 13,
+      "topic": "Linear/flexible designs and searches",
+      "artifacts": [
+        {
+          "path": "paper/manuscript/tables/loss_designs.tex",
+          "sha256": "c625e31108fe5c7dbe22b0be76987662ead7859ce23b3e4b94a867ca4f1ede8d"
+        },
+        {
+          "path": "paper/data/supp005_loss_design_summary.csv",
+          "sha256": "3f3d239e365d08da25e1bb2c2f7d5cab895a0fb6c4e5bfec5bb1c8e825985e89"
+        }
+      ],
+      "coverage_status": "EXECUTABLE_IN_CURRENT_REPOSITORY",
+      "numerical_layer": "current",
+      "reproduction_command": "python -B tools/reproduce.py --output outputs/replay_<new_id>",
+      "random_stream": "30 separate 1,000-draw PCG64 specifications under analysis_data/search/*/RNG_SPEC.json",
+      "boundary": "30 designs, original permutation digests and full candidate arrays are in the repository.",
+      "rendered_asset_unchanged": true,
+      "latex_label": "tab:loss_designs",
+      "caption_and_block_sha256": "29436d887c4c99ef1d5bccd9f012254b62e8632b0064c89e33f31e4128b46861"
+    },
+    {
+      "id": "T14",
+      "document": "main",
+      "type": "table",
+      "number": 14,
+      "topic": "Restricted cubic spline cross-check",
+      "artifacts": [
+        {
+          "path": "paper/manuscript/tables/independent_spline.tex",
+          "sha256": "20de5ffb9dcbe93ac5ba7e938a1a87a780fda3d3d91605e6171123c9f655f52f"
+        },
+        {
+          "path": "paper/data/independent_replay_summary.csv",
+          "sha256": "17a1162352b33c99ce06ea5bde497defa1843ca531f8fec152500fa2ad1dd3fa"
+        }
+      ],
+      "coverage_status": "RECOVERED_COMPANION_PENDING_IMPORT",
+      "numerical_layer": "spline_crosscheck",
+      "reproduction_command": "python -B tools/replay_legacy.py --full-nulls --output outputs/legacy_<new_id> (after verified companion import)",
+      "random_stream": "36 original saved seeds; 15 spline,15 linear and6 four-epoch cases",
+      "boundary": "Separate AI-assisted implementation and 36 original 10,000-minimum arrays recovered; not pooled with author 1,000-draw tests.",
+      "rendered_asset_unchanged": true,
+      "latex_label": "tab:independent_spline",
+      "caption_and_block_sha256": "e8edb75b53c935ca168fd5e4d0872b48ab242e3d58a16c83ba9df52bf827ac7e"
+    },
+    {
+      "id": "TS1",
+      "document": "supplementary",
+      "type": "table",
+      "number": 1,
+      "topic": "Physical mass ranges",
+      "artifacts": [
+        {
+          "path": "paper/manuscript/tables/mass_ranges_audit.tex",
+          "sha256": "de6c767e57c9851dfdf9649758818c11b34fb16ba59879e359734188481abfc3"
+        },
+        {
+          "path": "paper/data/formation_definition_incidence.json",
+          "sha256": "4fc96b2965a2b2a49db3c2dfa2c5f0048b156356278df6e01b4a459d56970845"
+        }
+      ],
+      "coverage_status": "PRESERVED_INPUTS_OR_SUMMARY_NOT_DEFAULT_END_TO_END",
+      "numerical_layer": "catalogues",
+      "reproduction_command": null,
+      "random_stream": null,
+      "boundary": "Catalogue masses are included; physical units follow each family, not a common native mass cut.",
+      "rendered_asset_unchanged": true,
+      "latex_label": "tab:massranges",
+      "caption_and_block_sha256": "e94957f212f4f5af474d3fbd478867052a1c7c8d64250f4cda9e9f6a498dde51"
+    },
+    {
+      "id": "TS2",
+      "document": "supplementary",
+      "type": "table",
+      "number": 2,
+      "topic": "Direct TNG particle counts",
+      "artifacts": [
+        {
+          "path": "paper/manuscript/tables/particle_counts_audit.tex",
+          "sha256": "5102d31b58dc4ed6810f4614109dafafef2178b5da5c331e9d71a683464d753b"
+        }
+      ],
+      "coverage_status": "PRESERVED_INPUTS_OR_SUMMARY_NOT_DEFAULT_END_TO_END",
+      "numerical_layer": "external",
+      "reproduction_command": null,
+      "random_stream": null,
+      "boundary": "Summary and original source-to-feature verification retained outside this candidate; direct HDF5 count reconstruction requires provider trees.",
+      "rendered_asset_unchanged": true,
+      "latex_label": "tab:particles",
+      "caption_and_block_sha256": "c70380624e80b5d734e88f6b07d6c453d910c6eedf3f6775717dbad7ebaa6cbe"
+    },
+    {
+      "id": "TS3",
+      "document": "supplementary",
+      "type": "table",
+      "number": 3,
+      "topic": "Occupied bins and ranks",
+      "artifacts": [
+        {
+          "path": "paper/manuscript/tables/rank_counts.tex",
+          "sha256": "efd987099f9f4fb7e9dc9ca8cd6034652bd19c435ad352a07876d5c5e54b54ed"
+        },
+        {
+          "path": "paper/data/mass_loss_sensitivity.csv",
+          "sha256": "115060d19ae3658fc3d60946aec06bb8e45120d3ce6eb7daad8b206eb222cb07"
+        }
+      ],
+      "coverage_status": "RECOVERED_COMPANION_PENDING_IMPORT",
+      "numerical_layer": "mass_loss",
+      "reproduction_command": "python -B tools/replay_legacy.py --full-nulls --output outputs/legacy_<new_id> (after verified companion import)",
+      "random_stream": null,
+      "boundary": "Stored original design-rank audit and all population matrices recovered.",
+      "rendered_asset_unchanged": true,
+      "latex_label": "tab:rank",
+      "caption_and_block_sha256": "55bfaa82068f3563fd5b0d46d0165bbecb631f0003e293492d57c975e496508f"
+    },
+    {
+      "id": "TS4",
+      "document": "supplementary",
+      "type": "table",
+      "number": 4,
+      "topic": "Five-object influence diagnostics",
+      "artifacts": [
+        {
+          "path": "paper/manuscript/tables/influence_logloss.tex",
+          "sha256": "82b127290df29ff3dfb05b5a2db944a1b05b7925f12ba47b70705f58f5bd6f5e"
+        },
+        {
+          "path": "paper/data/TNG_I_centrals_influence_after.csv",
+          "sha256": "31dbb40c4050aa9c54acee8e1d9f73eeaf8c7a60919d568e158a2997a8060eb8"
+        },
+        {
+          "path": "paper/data/TNG_I_centrals_influence_before.csv",
+          "sha256": "8f2fc6f15c56214656fd8bd445dd442a668d268a132691704e0b9e4020e10b63"
+        },
+        {
+          "path": "paper/data/INDEPENDENT_LEAVE_ONE_OUT.csv",
+          "sha256": "67aa6d8e96a1fab59f77b1d588945e3fa3d1e68fc43beb927ba695b176cbaf0e"
+        }
+      ],
+      "coverage_status": "PRESERVED_INPUTS_OR_SUMMARY_NOT_DEFAULT_END_TO_END",
+      "numerical_layer": "stored",
+      "reproduction_command": null,
+      "random_stream": null,
+      "boundary": "Pure src/logloss.py and population matrix are included; full explicit leave-one-out runner not in the default combined command.",
+      "rendered_asset_unchanged": true,
+      "latex_label": "tab:influence_logloss",
+      "caption_and_block_sha256": "5c6af6431d4ec98f4a9ee5a742a85a9707c631bf27ab6a32eb3255bb08bc8c88"
+    },
+    {
+      "id": "TS5",
+      "document": "supplementary",
+      "type": "table",
+      "number": 5,
+      "topic": "TNG mass subsets",
+      "artifacts": [
+        {
+          "path": "paper/manuscript/tables/mass_split.tex",
+          "sha256": "302b9c37f3b183f41ffaf34ab6712b2f8c339e5a50b8fc6e9c38e002910ef032"
+        },
+        {
+          "path": "paper/data/tng_primary_yv_mass_split_analog_summary.csv",
+          "sha256": "fc1637a8729981d41634dbf3f82f04dd9a830e912b8cd5ffb89228fd86d9d224"
+        }
+      ],
+      "coverage_status": "PRESERVED_INPUTS_OR_SUMMARY_NOT_DEFAULT_END_TO_END",
+      "numerical_layer": "stored",
+      "reproduction_command": null,
+      "random_stream": null,
+      "boundary": "Historical summary retained; no probability is assigned in the paper and subset runner is outside default coverage.",
+      "rendered_asset_unchanged": true,
+      "latex_label": "tab:mass",
+      "caption_and_block_sha256": "88a3622a65db19d642fa30c18de6693af00b9d583d41dfa146017efc652d6981"
+    },
+    {
+      "id": "TS6",
+      "document": "supplementary",
+      "type": "table",
+      "number": 6,
+      "topic": "Spatial deletion sensitivity",
+      "artifacts": [
+        {
+          "path": "paper/manuscript/tables/spatial_sensitivity.tex",
+          "sha256": "69b58d6f5e2f0ed5be478d401c858010b74f98df4621cac3a9fbee642bc8cd8f"
+        },
+        {
+          "path": "paper/data/spatial_summary.csv",
+          "sha256": "0da7e3924553c1e8a6d0d8d2a36b616a8f329d574e771b0b74cef74124d57b03"
+        }
+      ],
+      "coverage_status": "EXECUTABLE_IN_CURRENT_REPOSITORY",
+      "numerical_layer": "current",
+      "reproduction_command": "python -B tools/reproduce.py --output outputs/replay_<new_id>",
+      "random_stream": null,
+      "boundary": "945 fits with fixed full-population covariates, both grids and exact memberships.",
+      "rendered_asset_unchanged": true,
+      "latex_label": "tab:spatial",
+      "caption_and_block_sha256": "8660b395b5d181a28f3426b401ba270ea5e782eb17ebd71ffad0029f111281ba"
+    },
+    {
+      "id": "TS7",
+      "document": "supplementary",
+      "type": "table",
+      "number": 7,
+      "topic": "Eight-region nominal references",
+      "artifacts": [
+        {
+          "path": "paper/manuscript/tables/spatial_nominal_G8.tex",
+          "sha256": "6f11e291748699deda6ff37d3511393a8c8e0672c60c136853cf363cbbc6e2e1"
+        },
+        {
+          "path": "paper/data/DM_Spatial_Nominal_t_Reference.csv",
+          "sha256": "6195a3cf4c78581d180148f610dbfae6e2065e1c8fea6b53f5ce1380bbd8485a"
+        }
+      ],
+      "coverage_status": "EXECUTABLE_IN_CURRENT_REPOSITORY",
+      "numerical_layer": "current",
+      "reproduction_command": "python -B tools/reproduce.py --output outputs/replay_<new_id>",
+      "random_stream": null,
+      "boundary": "27 rows; pointwise fixed-parameter t reference with7 degrees of freedom.",
+      "rendered_asset_unchanged": true,
+      "latex_label": "tab:nominal8",
+      "caption_and_block_sha256": "7295f5baa12d9507b524bae28608e032851723bf0bdf48c77207dcab2c9f6350"
+    },
+    {
+      "id": "TS8",
+      "document": "supplementary",
+      "type": "table",
+      "number": 8,
+      "topic": "Twenty-seven-region nominal references",
+      "artifacts": [
+        {
+          "path": "paper/manuscript/tables/spatial_nominal_G27.tex",
+          "sha256": "a8c568313871a6689a0fcb0015fc1a942ee2b6e26fc80d32528d666002c4edfe"
+        },
+        {
+          "path": "paper/data/DM_Spatial_Nominal_t_Reference.csv",
+          "sha256": "6195a3cf4c78581d180148f610dbfae6e2065e1c8fea6b53f5ce1380bbd8485a"
+        }
+      ],
+      "coverage_status": "EXECUTABLE_IN_CURRENT_REPOSITORY",
+      "numerical_layer": "current",
+      "reproduction_command": "python -B tools/reproduce.py --output outputs/replay_<new_id>",
+      "random_stream": null,
+      "boundary": "27 rows; pointwise fixed-parameter t reference with26 degrees of freedom.",
+      "rendered_asset_unchanged": true,
+      "latex_label": "tab:nominal27",
+      "caption_and_block_sha256": "17906e379e62726da5414a008f0183510f8752f05b4aaf97309e3a118889df35"
+    },
+    {
+      "id": "TS9",
+      "document": "supplementary",
+      "type": "table",
+      "number": 9,
+      "topic": "Between-domain compatibility",
+      "artifacts": [
+        {
+          "path": "paper/manuscript/tables/bolshoip_cube_compatibility.tex",
+          "sha256": "76acdfb2cd5bec56d7b3ceaa0527e437f66037c1b1648e403f7e60d29366f391"
+        },
+        {
+          "path": "paper/data/DM_BolshoiP_Cube_Compatibility.csv",
+          "sha256": "5762c62ffa76c53a89f444ca0c9d2050ae5ab6e8326acd2d1806b59d6765ccee"
+        }
+      ],
+      "coverage_status": "EXECUTABLE_IN_CURRENT_REPOSITORY",
+      "numerical_layer": "current",
+      "reproduction_command": "python -B tools/reproduce.py --output outputs/replay_<new_id>",
+      "random_stream": null,
+      "boundary": "Three model-based compatibility calculations, not equivalence or independent-box inference.",
+      "rendered_asset_unchanged": true,
+      "latex_label": "tab:cubes",
+      "caption_and_block_sha256": "603a771a09f9866996c6c5338e4d1c0160fc55da3674eab7ca71e8712895451f"
+    },
+    {
+      "id": "TS10",
+      "document": "supplementary",
+      "type": "table",
+      "number": 10,
+      "topic": "Mass-bin reweighting",
+      "artifacts": [
+        {
+          "path": "paper/manuscript/tables/mass_reweighting.tex",
+          "sha256": "4de39e48c26f4bc61780e142c19124211d97f30fbf6be33941bc3de227f9bb63"
+        },
+        {
+          "path": "paper/data/mass_reweight_summary.csv",
+          "sha256": "f343da8ff6705a60b42ee625ee1f18e407e599626bda57e13e7dc006d20e48e8"
+        },
+        {
+          "path": "paper/data/mass_bin_weights.csv",
+          "sha256": "4185427b78e74c224e93b1212f45bea2cd49825635df40e58e56e72a4094d494"
+        },
+        {
+          "path": "paper/data/POPULATION_BALANCE.json",
+          "sha256": "21f48288a5e39d7bfd693ae3adb920aadba68de5904157a783dc2b0d726dbbbe"
+        }
+      ],
+      "coverage_status": "EXECUTABLE_IN_CURRENT_REPOSITORY",
+      "numerical_layer": "current",
+      "reproduction_command": "python -B tools/reproduce.py --output outputs/replay_<new_id>",
+      "random_stream": null,
+      "boundary": "Nine WLS sensitivities on observed complete cases; no missing epochs recovered.",
+      "rendered_asset_unchanged": true,
+      "latex_label": "tab:reweight",
+      "caption_and_block_sha256": "1b9d1ea8d51a79ad8a149a61ec223759f04a1fa93b0c01c97aad379b1de3900a"
+    },
+    {
+      "id": "F1",
+      "document": "main",
+      "type": "figure",
+      "number": 1,
+      "topic": "01_joint_search_null.pdf",
+      "artifacts": [
+        {
+          "path": "paper/figures/01_joint_search_null.pdf",
+          "sha256": "84e6557e214e3df3337fcb8b247dfb6e7a7a8b0f3c49f272b92a7be0df68706a"
+        },
+        {
+          "path": "paper/figure_data/joint_search_plot.csv",
+          "sha256": "35b08c32df69564621eaaf972fecf91797a518a6ca5179e2fe821cbd511b74ac"
+        },
+        {
+          "path": "paper/figure_data/joint_search_quantiles.json",
+          "sha256": "04d314e85caa957aa560a6fd8408926ba9ca955eddbc9752a2b32ea1fd655b58"
+        }
+      ],
+      "coverage_status": "RECOVERED_COMPANION_PENDING_IMPORT",
+      "numerical_layer": "formation_search",
+      "reproduction_command": "python -B tools/replay_legacy.py --full-nulls --output outputs/legacy_<new_id> (after verified companion import)",
+      "random_stream": null,
+      "boundary": "Observed/reference summaries from the original formation search.",
+      "rendered_asset_unchanged": true,
+      "latex_label": "fig:joint",
+      "caption_and_block_sha256": "6048211cb00011b8b0e2af149f9fbab8eb4c8d36c82f024c6ed15b3aeda88284"
+    },
+    {
+      "id": "F2",
+      "document": "main",
+      "type": "figure",
+      "number": 2,
+      "topic": "population_integrated.pdf",
+      "artifacts": [
+        {
+          "path": "paper/figures/population_integrated.pdf",
+          "sha256": "6afb51c8ea8fc6f1d1bd2e875aae3123a0425959cfa8a8a5dedb4e377c2ef516"
+        },
+        {
+          "path": "paper/figure_data/population_plot.csv",
+          "sha256": "de10bd03b09dc9bef33d6e775d18c5d7e7f3bfed2b21724e5481e02a99653f32"
+        }
+      ],
+      "coverage_status": "RECOVERED_COMPANION_PENDING_IMPORT",
+      "numerical_layer": "mass_loss",
+      "reproduction_command": "python -B tools/replay_legacy.py --full-nulls --output outputs/legacy_<new_id> (after verified companion import)",
+      "random_stream": null,
+      "boundary": "Current-central and large-loss population comparisons.",
+      "rendered_asset_unchanged": true,
+      "latex_label": "fig:central",
+      "caption_and_block_sha256": "57ffc8fc06c5976ad784296ea65459becc6d3e4c5f699164718850c3fa14323c"
+    },
+    {
+      "id": "F3",
+      "document": "main",
+      "type": "figure",
+      "number": 3,
+      "topic": "bp_population_integrated.pdf",
+      "artifacts": [
+        {
+          "path": "paper/figures/bp_population_integrated.pdf",
+          "sha256": "582f48cf046a5659d64b2588e1b98f5c37601584460a1bc0a5390e2db9a91ce2"
+        },
+        {
+          "path": "paper/figure_data/bp_population_plot.csv",
+          "sha256": "c7d32bf9394caefce7e875664ffed42852c9d518f473d7f86d3c973e97546e56"
+        }
+      ],
+      "coverage_status": "RECOVERED_COMPANION_PENDING_IMPORT",
+      "numerical_layer": "mass_loss",
+      "reproduction_command": "python -B tools/replay_legacy.py --full-nulls --output outputs/legacy_<new_id> (after verified companion import)",
+      "random_stream": null,
+      "boundary": "Threshold, large-loss and terminal-mass comparisons.",
+      "rendered_asset_unchanged": true,
+      "latex_label": "fig:bp",
+      "caption_and_block_sha256": "5162258306a98108c2f66679229fa0cef8004ee9b121d6dec5004b5bff6e5afa"
+    },
+    {
+      "id": "F4",
+      "document": "main",
+      "type": "figure",
+      "number": 4,
+      "topic": "loss_control_comparison.pdf",
+      "artifacts": [
+        {
+          "path": "paper/figures/loss_control_comparison.pdf",
+          "sha256": "792bf4f7423706a069135e63298ef6c24c86aeb015063b4b4f31aee52a1f1d2b"
+        },
+        {
+          "path": "paper/figure_data/loss_control_plot.csv",
+          "sha256": "60a39750a21c8c29b202c1e78b207a52d26b4f2cebc58fa338262b93fbc4d4f7"
+        }
+      ],
+      "coverage_status": "EXECUTABLE_IN_CURRENT_REPOSITORY",
+      "numerical_layer": "current",
+      "reproduction_command": "python -B tools/reproduce.py --output outputs/replay_<new_id>",
+      "random_stream": null,
+      "boundary": "Formation-only, linear and indicator-plus-quadratic coefficient comparison.",
+      "rendered_asset_unchanged": true,
+      "latex_label": "fig:logloss",
+      "caption_and_block_sha256": "3f6765de58e89c5737e1951b625fde94ee49fb0ab4b58d25c2befb1d2722aa9d"
+    },
+    {
+      "id": "FS1",
+      "document": "supplementary",
+      "type": "figure",
+      "number": 1,
+      "topic": "03_euler_multipliers.pdf",
+      "artifacts": [
+        {
+          "path": "paper/figures/03_euler_multipliers.pdf",
+          "sha256": "13c7ece0127d086aba488b952b045d3c05fedf16ede214487904e4e22f2898ac"
+        }
+      ],
+      "coverage_status": "RECOVERED_COMPANION_PENDING_IMPORT",
+      "numerical_layer": "formation_search",
+      "reproduction_command": "python -B tools/replay_legacy.py --full-nulls --output outputs/legacy_<new_id> (after verified companion import)",
+      "random_stream": null,
+      "boundary": "Full interval/object counts are recovered; raw HDF5 re-extraction is separate.",
+      "rendered_asset_unchanged": true,
+      "latex_label": "fig:euler",
+      "caption_and_block_sha256": "097f4a21bd80965c86d6e8d4cb0958d4bb33c912b6402f45d01e6fbe1ed084e0"
+    },
+    {
+      "id": "FS2",
+      "document": "supplementary",
+      "type": "figure",
+      "number": 2,
+      "topic": "04_censoring_resolution.pdf",
+      "artifacts": [
+        {
+          "path": "paper/figures/04_censoring_resolution.pdf",
+          "sha256": "78aa597a6c9f446dcf9c0919b1581bd39f6417bc6ce08ef85e3f1c96400ecf0a"
+        }
+      ],
+      "coverage_status": "RECOVERED_COMPANION_PENDING_IMPORT",
+      "numerical_layer": "formation_search",
+      "reproduction_command": "python -B tools/replay_legacy.py --full-nulls --output outputs/legacy_<new_id> (after verified companion import)",
+      "random_stream": null,
+      "boundary": "Recovered per-object censoring and mass-equivalent thresholds, not measured BolshoiP particle counts.",
+      "rendered_asset_unchanged": true,
+      "latex_label": "fig:censoring",
+      "caption_and_block_sha256": "22fcbc594419b71548b4fe6c53e7a366b95e8fa7bb7a13edbc958632818a5b71"
+    },
+    {
+      "id": "FS3",
+      "document": "supplementary",
+      "type": "figure",
+      "number": 3,
+      "topic": "tng_I_influence_logL.pdf",
+      "artifacts": [
+        {
+          "path": "paper/figures/tng_I_influence_logL.pdf",
+          "sha256": "f2a59fec3ae3a7d4fcff3ad8a4a5e9ab9f084b9fae22b05c07b325d6400d29bd"
+        },
+        {
+          "path": "paper/figure_data/influence_plot.csv",
+          "sha256": "1f7407c685592280eab91482acf0c38174996612a129b9f7f54411c81e8dbd72"
+        }
+      ],
+      "coverage_status": "PRESERVED_INPUTS_OR_SUMMARY_NOT_DEFAULT_END_TO_END",
+      "numerical_layer": "stored",
+      "reproduction_command": null,
+      "random_stream": null,
+      "boundary": "Existing influence CSVs and pure numerical source; no newly excluded objects.",
+      "rendered_asset_unchanged": true,
+      "latex_label": "fig:influence_logloss",
+      "caption_and_block_sha256": "569d063653093a64fd45582f543712e3fe0292ede79b58a880edfddfd6d93eca"
+    },
+    {
+      "id": "FS4",
+      "document": "supplementary",
+      "type": "figure",
+      "number": 4,
+      "topic": "spatial_sensitivity.pdf",
+      "artifacts": [
+        {
+          "path": "paper/figures/spatial_sensitivity.pdf",
+          "sha256": "c196098750a5b2829e134f9be2d5c967ffa6a5092effd5a054516263dc342b0f"
+        },
+        {
+          "path": "paper/figure_data/spatial_plot_data.csv",
+          "sha256": "d1774fd2e5c7725eb07ddd511994379564c3ea6f95390ab18bd429f528b0f164"
+        }
+      ],
+      "coverage_status": "EXECUTABLE_IN_CURRENT_REPOSITORY",
+      "numerical_layer": "current",
+      "reproduction_command": "python -B tools/reproduce.py --output outputs/replay_<new_id>",
+      "random_stream": null,
+      "boundary": "Ranges are sensitivity ranges, not confidence intervals.",
+      "rendered_asset_unchanged": true,
+      "latex_label": "fig:spatial",
+      "caption_and_block_sha256": "7553bd136720a9e22fad29e2de1d22c283d3a14ede83aefb01c9c875ea924d72"
+    }
+  ],
+  "recovered_companion": {
+    "archive": "DM_Legacy_Reproduction_Materials_20261021.zip",
+    "bytes": 55454139,
+    "sha256": "52c99eb9ecc821cecc6009f8886f13fda2d75425733b47d6abc1624b3c4f9dac",
+    "payload_files": 238,
+    "manifest_file_count": 239,
+    "verified_location": "current ChatGPT execution workspace, not this repository",
+    "imported_into_repository": false,
+    "formation_search_cases": 12,
+    "threshold_search_cases": 6,
+    "formation_threshold_null_candidates_replayed": 468000,
+    "separate_10000_draw_crosscheck_cases": 36,
+    "separate_joint_null_minima_replayed": 360000,
+    "mass_loss_fits_replayed": 27,
+    "full_replay_max_abs_difference": 3.865352482534945e-12,
+    "legacy_unit_tests_per_mode": 12,
+    "unit_modes": [
+      "normal",
+      "-O",
+      "-OO"
+    ],
+    "new_scientific_random_streams": 0,
+    "raw_tree_scans": 0,
+    "private_corrupt_null_rejected": true,
+    "strict_caller_preserved": true,
+    "licence_assigned": false,
+    "public_deposit": false
+  }
+}
