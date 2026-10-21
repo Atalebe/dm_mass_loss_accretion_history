@@ -1,0 +1,46 @@
+{
+  "status": "SCOPED_CODE_AND_FIGURE_LICENSING_QUALIFIED",
+  "parent_commit": "1581fad32fb946896aed2cff7abcfbbd81ee975c",
+  "original_code_files": 28,
+  "original_figures": 8,
+  "figure_representations": 24,
+  "licences": {
+    "original_code": "MIT",
+    "original_figures": "CC-BY-4.0"
+  },
+  "existing_figure_files_changed": 0,
+  "existing_scientific_source_files_changed": 0,
+  "existing_scientific_data_files_changed": 0,
+  "manuscript_bytes_changed": false,
+  "original_payload_files_preserved_before_logbook": 764,
+  "unit_tests_per_mode": 85,
+  "unit_modes": [
+    "normal",
+    "-O",
+    "-OO"
+  ],
+  "failure_tests": [
+    {
+      "test": "unapproved dataset licence rejected",
+      "passed": true
+    },
+    {
+      "test": "altered licence rejected; strict caller survives; no false success",
+      "passed": true
+    }
+  ],
+  "whole_repository_licence": null,
+  "unapproved_documentation_or_dataset_grants": 0,
+  "new_fits": 0,
+  "new_permutations": 0,
+  "scientific_findings_closed": [],
+  "original_development_unchanged": true,
+  "reservations_preserved": 18,
+  "packages_installed": 0,
+  "github_release_created": false,
+  "zenodo_deposit_created": false,
+  "archive_doi": null,
+  "official_cc_download_sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
+  "included_cc_text_sha256": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94",
+  "precommit_formatting_repair": "Git whitespace check rejected a terminal blank line in the official download; removed only surplus terminal newlines, preserving every text token. No gate was relaxed."
+}

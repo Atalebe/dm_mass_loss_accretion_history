@@ -1,0 +1,191 @@
+{
+  "schema": "halo-scoped-licensing-v1",
+  "licensor": "Stephen Atalebe",
+  "copyright_year": 2026,
+  "effective_date": "2026-10-21",
+  "authorization_scope": "MIT previously confirmed for original code/scripts; current confirmation approves CC BY 4.0 for original figures only.",
+  "licences": {
+    "original_code": {
+      "spdx": "MIT",
+      "text": "LICENSES/MIT.txt",
+      "files": [
+        "build_paper_no_exit.sh",
+        "reference/original_ols.py",
+        "run_all_no_exit.sh",
+        "run_legacy_no_exit.sh",
+        "run_licensing_checks_no_exit.sh",
+        "run_reproduce_no_exit.sh",
+        "src/core.py",
+        "src/legacy/bp_core.py",
+        "src/legacy/original_functions.py",
+        "src/legacy/spline_crosscheck.py",
+        "src/legacy/supp_core.py",
+        "src/logloss.py",
+        "src/sensitivity.py",
+        "tests/test_core.py",
+        "tests/test_legacy_import.py",
+        "tests/test_legacy_materials.py",
+        "tests/test_licensing.py",
+        "tests/test_release_coverage.py",
+        "tests/test_sensitivity.py",
+        "tools/build_paper.py",
+        "tools/replay_legacy.py",
+        "tools/reproduce.py",
+        "tools/reproduce_all.py",
+        "tools/verify_integrity.py",
+        "tools/verify_legacy_import.py",
+        "tools/verify_legacy_materials.py",
+        "tools/verify_licensing.py",
+        "tools/verify_release_coverage.py"
+      ]
+    },
+    "original_figures": {
+      "spdx": "CC-BY-4.0",
+      "text": "LICENSES/CC-BY-4.0.txt",
+      "files": [
+        "paper/figures/01_joint_search_null.pdf",
+        "paper/figures/01_joint_search_null.png",
+        "paper/figures/01_joint_search_null.svg",
+        "paper/figures/03_euler_multipliers.pdf",
+        "paper/figures/03_euler_multipliers.png",
+        "paper/figures/03_euler_multipliers.svg",
+        "paper/figures/04_censoring_resolution.pdf",
+        "paper/figures/04_censoring_resolution.png",
+        "paper/figures/04_censoring_resolution.svg",
+        "paper/figures/bp_population_integrated.pdf",
+        "paper/figures/bp_population_integrated.png",
+        "paper/figures/bp_population_integrated.svg",
+        "paper/figures/loss_control_comparison.pdf",
+        "paper/figures/loss_control_comparison.png",
+        "paper/figures/loss_control_comparison.svg",
+        "paper/figures/population_integrated.pdf",
+        "paper/figures/population_integrated.png",
+        "paper/figures/population_integrated.svg",
+        "paper/figures/spatial_sensitivity.pdf",
+        "paper/figures/spatial_sensitivity.png",
+        "paper/figures/spatial_sensitivity.svg",
+        "paper/figures/tng_I_influence_logL.pdf",
+        "paper/figures/tng_I_influence_logL.png",
+        "paper/figures/tng_I_influence_logL.svg"
+      ]
+    }
+  },
+  "figure_identities": [
+    {
+      "path": "paper/figures/01_joint_search_null.pdf",
+      "sha256": "84e6557e214e3df3337fcb8b247dfb6e7a7a8b0f3c49f272b92a7be0df68706a"
+    },
+    {
+      "path": "paper/figures/01_joint_search_null.png",
+      "sha256": "995a00f7327e2a74e997cbbcd3aeee7e644834d1fa8a5f3242efad4556f84975"
+    },
+    {
+      "path": "paper/figures/01_joint_search_null.svg",
+      "sha256": "7f838a4d5a46b192c5b8973efc13b33fa6c3f8556f2fe397009a28725c533751"
+    },
+    {
+      "path": "paper/figures/03_euler_multipliers.pdf",
+      "sha256": "13c7ece0127d086aba488b952b045d3c05fedf16ede214487904e4e22f2898ac"
+    },
+    {
+      "path": "paper/figures/03_euler_multipliers.png",
+      "sha256": "5ca1e9c170c02335ebacc5b1ef7006c5546447a37afa650c10085270c8494a4c"
+    },
+    {
+      "path": "paper/figures/03_euler_multipliers.svg",
+      "sha256": "156644e22e2fba41a639e7b00430cf1c1a76cfe91fae635851c2712a444f0e0c"
+    },
+    {
+      "path": "paper/figures/04_censoring_resolution.pdf",
+      "sha256": "78aa597a6c9f446dcf9c0919b1581bd39f6417bc6ce08ef85e3f1c96400ecf0a"
+    },
+    {
+      "path": "paper/figures/04_censoring_resolution.png",
+      "sha256": "508222117a56263b35779a1a633e88ece626ff853ee651193d3271d0e28ea46e"
+    },
+    {
+      "path": "paper/figures/04_censoring_resolution.svg",
+      "sha256": "a40a3c23743469c5aecb6f163be8c2565329721b1e5be98d87a23df9ec639b28"
+    },
+    {
+      "path": "paper/figures/bp_population_integrated.pdf",
+      "sha256": "582f48cf046a5659d64b2588e1b98f5c37601584460a1bc0a5390e2db9a91ce2"
+    },
+    {
+      "path": "paper/figures/bp_population_integrated.png",
+      "sha256": "df4e727aa70b6e33b051b33f63230093ce724d88b8933ca0a98a73c93e189526"
+    },
+    {
+      "path": "paper/figures/bp_population_integrated.svg",
+      "sha256": "12d5791e6121c0976d5c2084b433eb7e10c1ba5863fa98e3654d39f38fa353e7"
+    },
+    {
+      "path": "paper/figures/loss_control_comparison.pdf",
+      "sha256": "792bf4f7423706a069135e63298ef6c24c86aeb015063b4b4f31aee52a1f1d2b"
+    },
+    {
+      "path": "paper/figures/loss_control_comparison.png",
+      "sha256": "ad0bc4ae289e99223d920d184f1cea12ec287e4f68242bb788b0332fa8632697"
+    },
+    {
+      "path": "paper/figures/loss_control_comparison.svg",
+      "sha256": "3a613064a127cb5f6c7986751e8a0476b25eae8dcf052c1b7b0ed23c32c4a44a"
+    },
+    {
+      "path": "paper/figures/population_integrated.pdf",
+      "sha256": "6afb51c8ea8fc6f1d1bd2e875aae3123a0425959cfa8a8a5dedb4e377c2ef516"
+    },
+    {
+      "path": "paper/figures/population_integrated.png",
+      "sha256": "042bb7e56ebd3dd9d1123cf4f89c181ee6d56a1db46bc3f56fdd86134e3eef7a"
+    },
+    {
+      "path": "paper/figures/population_integrated.svg",
+      "sha256": "1f131ea7f3793339203714db657eaf17eae2020867c24a86f18be00e0f8f014b"
+    },
+    {
+      "path": "paper/figures/spatial_sensitivity.pdf",
+      "sha256": "c196098750a5b2829e134f9be2d5c967ffa6a5092effd5a054516263dc342b0f"
+    },
+    {
+      "path": "paper/figures/spatial_sensitivity.png",
+      "sha256": "de446d333a28e399f866dc7823d1d4af413225ca5b59963a55797030737b7c4c"
+    },
+    {
+      "path": "paper/figures/spatial_sensitivity.svg",
+      "sha256": "13e64642f1b01a067a227c983d99942aa00e795592e5857ed4e9ba057896b68c"
+    },
+    {
+      "path": "paper/figures/tng_I_influence_logL.pdf",
+      "sha256": "f2a59fec3ae3a7d4fcff3ad8a4a5e9ab9f084b9fae22b05c07b325d6400d29bd"
+    },
+    {
+      "path": "paper/figures/tng_I_influence_logL.png",
+      "sha256": "d92941362c07977ef9c018ad7d803e413bcb61ba0d5115ef4bb2e25b9f7468cd"
+    },
+    {
+      "path": "paper/figures/tng_I_influence_logL.svg",
+      "sha256": "37c41c867fa758248c8ffb460e42c26aaa3338df1adb40764ebef0d01bab0acb"
+    }
+  ],
+  "legal_texts": [
+    {
+      "path": "LICENSES/MIT.txt",
+      "reference_url": "https://opensource.org/license/mit",
+      "sha256": "b895be2ffb69ed2208a61471135f22768a4a84eb32b0d50e62c2d681ebcfab22",
+      "representation": "Standard MIT text with author/year filled; line wrapping only"
+    },
+    {
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "reference_url": "https://creativecommons.org/licenses/by/4.0/legalcode.txt",
+      "sha256": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94",
+      "representation": "Official legal-code text with only surplus terminal blank lines removed; all text tokens and terms unchanged",
+      "download_sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    }
+  ],
+  "whole_repository_licence": null,
+  "third_party_rights_relicensed": false,
+  "standalone_manuscript_documentation_licence": null,
+  "standalone_datasets_licence": null,
+  "release_published_by_this_operation": false
+}

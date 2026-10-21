@@ -46,6 +46,22 @@
       "scientific_findings_closed": [],
       "zenodo_deposit_performed": false,
       "v176_started": false
+    },
+    {
+      "entry_number": 4,
+      "id": "DM-PAPER-SCOPED-LICENSING-004",
+      "at_utc": "2026-10-21T07:10:41.702738+00:00",
+      "what_was_tested": "Owner-selected MIT code and CC BY 4.0 figure scope; exact legal text, file identities, bounds and failure paths.",
+      "methods": "Manifest and import checks; explicit material map; 85 deterministic tests in normal/-O/-OO modes; unauthorized dataset-grant fixture and strict-caller corrupt-licence fixture.",
+      "results": "MIT assigned to 28 original source/script files; CC BY 4.0 assigned to eight original figures in 24 representations. Prior source, scientific data, figures and manuscript bytes unchanged.",
+      "failures": "Initial precommit whitespace check rejected a terminal blank line in the official CC legal-code download. Only surplus terminal newlines were removed; legal text tokens unchanged. All gates rechecked before commit. Deliberately invalid private fixtures were rejected.",
+      "next_steps": "Resolve manuscript/documentation and standalone dataset rights/licensing; approve the complete release scope and upstream redistribution; only then publish an approved tagged release and verify its Zenodo DOI.",
+      "whole_repository_licence": null,
+      "original_repository_modified": false,
+      "packages_installed": 0,
+      "new_scientific_random_streams": 0,
+      "public_release_published": false,
+      "v176_started": false
     }
   ]
 }

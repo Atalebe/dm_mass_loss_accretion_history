@@ -17,9 +17,24 @@
       "sha256": "fdde52a041f2e8a70175f306549b66771f33699175ad979a96d4faa2aa48d0c3"
     },
     {
+      "path": "LICENSE.md",
+      "bytes": 2752,
+      "sha256": "502d925ea7214c4eabc3d2184664df1a5d2064259be7bb4db0175e832387d0ba"
+    },
+    {
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "bytes": 18656,
+      "sha256": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94"
+    },
+    {
+      "path": "LICENSES/MIT.txt",
+      "bytes": 1072,
+      "sha256": "b895be2ffb69ed2208a61471135f22768a4a84eb32b0d50e62c2d681ebcfab22"
+    },
+    {
       "path": "README.md",
-      "bytes": 5714,
-      "sha256": "b1a6917ed7581d533d814eb773bb4158141a3757626b065919d3007f3e887820"
+      "bytes": 6084,
+      "sha256": "d2ec98d0b8cd0decf1555741c00313734d4e72ef1e87747cbbd488faf390dbd5"
     },
     {
       "path": "analysis_data/catalogues/bolshoip_tree_0_2_2/feature.csv.gz",
@@ -3073,8 +3088,8 @@
     },
     {
       "path": "docs/RIGHTS_AND_RELEASE.md",
-      "bytes": 1770,
-      "sha256": "443461d206dc0788d7af35c0e0755fc6e92280ebfbbd3d723a73ff53de695802"
+      "bytes": 2336,
+      "sha256": "e15136a0bfebb254eb9de3fea8f0edb4a151e0cb2cd88b4c21643d57e95fa5c6"
     },
     {
       "path": "docs/audit_continuity/ABA0001_followup.json",
@@ -3107,9 +3122,14 @@
       "sha256": "5d9028c83e1a90d4705aeafd1592e5a9c0237847203e359db720b9884be6d568"
     },
     {
+      "path": "docs/licensing.json",
+      "bytes": 7450,
+      "sha256": "6b508d48c5f3cd317cc0ebff0964b5c7f960ceb6b7b3899138afbce81ed4f1b6"
+    },
+    {
       "path": "docs/release_status.json",
-      "bytes": 1328,
-      "sha256": "c25fd2877bdf4beaf54bbece8ff076d3081cb97f06624f7d500ad8c25871fb38"
+      "bytes": 1638,
+      "sha256": "05f862a2aa0a6fbbeda3a0c4d98a5730f55af422488d04991c32eb40e0afde7b"
     },
     {
       "path": "docs/reproducibility_map.json",
@@ -3133,8 +3153,8 @@
     },
     {
       "path": "logbook/entries.json",
-      "bytes": 5068,
-      "sha256": "e1a06bf91c582f6fba50026d90c2ef8f27caea7b23212e801a8ca7eb8c749449"
+      "bytes": 6497,
+      "sha256": "1154e60349591a075c2fc97343bd9a5efb3c369d2bda27f9280eff7b9c190e96"
     },
     {
       "path": "logbook/entry_0001.tex",
@@ -3150,6 +3170,11 @@
       "path": "logbook/entry_0003.tex",
       "bytes": 988,
       "sha256": "b5ee462168696da55efb96d3535ade732cd43b3e9efebe6c430d2c8ba9685923"
+    },
+    {
+      "path": "logbook/entry_0004.tex",
+      "bytes": 931,
+      "sha256": "af8921de05fd3516006a173121fe937058c25cb1459c6b56cc1240aa733b6c6d"
     },
     {
       "path": "paper/Mass_Loss_Accretion_History.pdf",
@@ -3437,6 +3462,11 @@
       "sha256": "a40a3c23743469c5aecb6f163be8c2565329721b1e5be98d87a23df9ec639b28"
     },
     {
+      "path": "paper/figures/LICENSE.md",
+      "bytes": 694,
+      "sha256": "d8dae93299138990b6f83b7857a108dcc7f9567e41c0e4b2798f5775db90c237"
+    },
+    {
       "path": "paper/figures/bp_population_integrated.pdf",
       "bytes": 23082,
       "sha256": "582f48cf046a5659d64b2588e1b98f5c37601584460a1bc0a5390e2db9a91ce2"
@@ -3702,6 +3732,11 @@
       "sha256": "53ecc536c1026deee88f764b1f14b3b344e549d0ba30041af8fdb778a949a07d"
     },
     {
+      "path": "provenance/scoped_licensing_verification.json",
+      "bytes": 1601,
+      "sha256": "78c32e46d5e1a01c3a558fc46bfc8264851ce0d39d85201f41140c1e83e67a6a"
+    },
+    {
       "path": "provenance/source_map.json",
       "bytes": 163639,
       "sha256": "345bd922561a73b9c6f4853238bbc57c3272db14db931eec83fbf1b3acb91753"
@@ -3730,6 +3765,11 @@
       "path": "run_legacy_no_exit.sh",
       "bytes": 865,
       "sha256": "7c708b24da8316ccbe066054d81d64d4f65f70db5627e7447033c8fb20879ec3"
+    },
+    {
+      "path": "run_licensing_checks_no_exit.sh",
+      "bytes": 907,
+      "sha256": "ee402f990fc01f3c89d34d36ca6eb92e331530c1cd20e7e53a73f75fc8b4114c"
     },
     {
       "path": "run_reproduce_no_exit.sh",
@@ -3787,6 +3827,11 @@
       "sha256": "a3fc0dd1327ee466461aab09f1e7ea0fcce6c6f6d2741a475c34acd272b9123e"
     },
     {
+      "path": "tests/test_licensing.py",
+      "bytes": 1616,
+      "sha256": "29521aa2ef24fc978e817db4f5910a0c827287971d7f892f995ca6b9a0e19e20"
+    },
+    {
       "path": "tests/test_release_coverage.py",
       "bytes": 1524,
       "sha256": "4f89286587d3b671e8b1acc0cab08543df326795e9c2ecd625d729c1eb86e1ec"
@@ -3830,6 +3875,11 @@
       "path": "tools/verify_legacy_materials.py",
       "bytes": 1010,
       "sha256": "d311605754bcb1e9423eb924908c6b2fc0c4c2d6f47aa34d5edb9d33f57fdb7a"
+    },
+    {
+      "path": "tools/verify_licensing.py",
+      "bytes": 4093,
+      "sha256": "6040b82839aa544f2cd6e2fd31454b60672deb2b6ab472bc0ccfe64a2eb292a7"
     },
     {
       "path": "tools/verify_release_coverage.py",

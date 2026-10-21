@@ -1,22 +1,24 @@
 # Rights and archival-release boundary
 
-The author made this paper repository public on 21 October 2026. The continuing development repository remains private. Public visibility does not select a reuse licence or complete an archival release.
+The author made this paper repository public on 21 October 2026. The continuing development repository remains private. The author has selected **MIT for original source code and executable scripts** and **CC BY 4.0 for original figures**. Exact material scope is recorded in `../LICENSE.md` and `licensing.json`.
+
+The user's confirmation specifically names figures. It is not extended to the whole manuscript, standalone documentation, synthetic reference datasets, or simulation-derived data. The source comments/docstrings and embedded synthetic test fixtures belong to the original code scope. The figures' data provenance and provider acknowledgements are retained; the licence does not claim ownership of upstream simulation products.
 
 Before publishing a GitHub Release and triggering the Zenodo deposit:
-1. Obtain the author's licence choice for original code and manuscript/author-owned derived outputs. No licence for third-party simulation products is inferred from this choice.
-2. Complete the redistribution review for selected TNG/BolshoiP derivatives and retain the provider acknowledgements and access conditions.
-3. Approve the exact source tree and the explicit reproduction limits in `reproduction_scope.md`. Stored summaries are not relabelled raw-data reconstruction.
-4. Confirm that only the intended paper repository is enabled in Zenodo. A local document cannot verify the owner's account setting.
-5. Publish the approved release, verify the Zenodo record and DOI, then update Data Availability. Do not invent a DOI or present a reserved identifier as an accessible archive.
+1. Resolve the licence and redistribution treatment of material outside the confirmed code/figure grants, including the manuscript/documentation and standalone numerical datasets. Preserve third-party notices and applicable exceptions.
+2. Complete the redistribution review for selected TNG/BolshoiP derivatives and retain provider acknowledgements and access conditions.
+3. Approve the exact source tree and the explicit reproduction limits in `reproduction_scope.md`.
+4. The owner reports that the paper repository is enabled and resynced in Zenodo. This is an owner-reported account setting, not an independently verified deposit or DOI.
+5. Use Zenodo's mixed-license description with explicit material scope rather than a blanket CC BY default. Publish only an approved release, verify the record and DOI, then update Data Availability.
 
-The import creates no licence, release tag, GitHub Release or Zenodo record. A deposit-service default must not silently choose a licence on the author's behalf.
+This licensing commit does not publish a release tag, GitHub Release or Zenodo record. It does not create a DOI or change scientific acceptance status.
 
-Provider and deposit documentation:
-- https://www.tng-project.org/data/
-- https://www.tng-project.org/data/docs/specifications/
-- https://www.cosmosim.org/metadata/bolshoip/
-- https://help.zenodo.org/docs/github/enable-repository/
-- https://help.zenodo.org/docs/github/archive-software/github-upload/
+Authoritative references:
+- https://opensource.org/license/mit
+- https://creativecommons.org/licenses/by/4.0/
+- https://creativecommons.org/licenses/by/4.0/legalcode.txt
 - https://help.zenodo.org/docs/deposit/describe-records/licenses/
+- https://www.tng-project.org/data/
+- https://www.cosmosim.org/metadata/bolshoip/
 
-The manuscript retains data/computing acknowledgements. They do not assert personal receipt of simulation-project funding by the author.
+Historical receipts describing the earlier unlicensed state are preserved as dated records. Current licence information is in `licensing.json` and `release_status.json`.

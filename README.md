@@ -6,7 +6,7 @@ This is a standalone repository with a new Git history. It is not a mirror of th
 
 ## Status
 
-This is a **public release-preparation repository**, made public by the author. It is not yet a tagged GitHub/Zenodo archival release and no analysis DOI has been issued. Licensing and the final redistribution/release review remain pending. The checked v12 manuscript and previous scientific values are unchanged.
+This is a **public release-preparation repository**, made public by the author. It is not yet a tagged GitHub/Zenodo archival release and no analysis DOI has been issued. MIT is selected for original code and CC BY 4.0 for original figures. Licensing of other material and the final redistribution/release review remain pending. The checked v12 manuscript and previous scientific values are unchanged.
 
 The recovered formation, threshold, recorded-loss and separate spline materials are now included. See `docs/reproduction_scope.md`, the 32-asset `docs/reproducibility_map.md`, and `provenance/legacy_import_verification.json` for what was replayed and what remains a preserved or external provenance layer. Both scientific audit findings remain open despite their completed reporting actions.
 
@@ -69,6 +69,6 @@ The results concern contemporaneous, population-dependent accretion-history corr
 
 ## Data, attribution and licence
 
-The upstream TNG and BolshoiP products retain their providers' terms and acknowledgement requirements. Raw multi-gigabyte BolshoiP trees and TNG HDF5 products are not included. This candidate contains selected derived inputs and preserved numerical results; public redistribution review and an owner-selected licence remain required. No open-source or Creative Commons licence is assigned by this preparation. See `docs/RIGHTS_AND_RELEASE.md`.
+The upstream TNG and BolshoiP products retain their providers' terms and acknowledgement requirements. Raw multi-gigabyte BolshoiP trees and TNG HDF5 products are not included. Original source code and executable scripts are licensed under **MIT**; the eight original figures (24 PDF/PNG/SVG files) are licensed under **CC BY 4.0**. See `LICENSE.md` and `docs/licensing.json` for the exact paths and attribution. These are material-specific grants, not an alternative dual licence for the entire repository. Manuscript/documentation and standalone dataset licensing remain separate; the simulation-derived data are not covered by the figure licence. See `docs/RIGHTS_AND_RELEASE.md` for the remaining archival-release review.
 
 AI assistance is disclosed in the manuscript. Additional numerical reproduction does not represent independent human peer review.
