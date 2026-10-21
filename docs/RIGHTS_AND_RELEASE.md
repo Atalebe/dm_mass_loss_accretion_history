@@ -1,18 +1,22 @@
-# Rights and public-release boundary
+# Rights and archival-release boundary
 
-The author has selected this repository as the separate publication destination. Its initial preparation does not grant a new licence, change repository visibility, publish a GitHub Release, or mint a DOI.
+The author made this paper repository public on 21 October 2026. The continuing development repository remains private. Public visibility does not select a reuse licence or complete an archival release.
 
-Before public publication:
-1. Obtain the owner's licence choice for original code and for manuscript/derived outputs. No licence for third-party simulation products is inferred from that choice.
-2. Complete the redistribution review for selected TNG/BolshoiP data. Public source pages establish access/citation requirements, not automatically a blanket licence for every derivative.
-3. Confirm the reproduction coverage in `reproduction_scope.md` and assemble any outstanding older search/reimplementation outputs into the final archive.
-4. Approve the exact release tree; make only this paper repository public. Keep the development repository private.
-5. Publish the approved GitHub/Zenodo record, verify its actual identifier and access, then update the manuscript's availability paragraph. Do not insert an invented DOI or treat a reserved identifier as a published archive.
+Before publishing a GitHub Release and triggering the Zenodo deposit:
+1. Obtain the author's licence choice for original code and manuscript/author-owned derived outputs. No licence for third-party simulation products is inferred from this choice.
+2. Complete the redistribution review for selected TNG/BolshoiP derivatives and retain the provider acknowledgements and access conditions.
+3. Approve the exact source tree and the explicit reproduction limits in `reproduction_scope.md`. Stored summaries are not relabelled raw-data reconstruction.
+4. Confirm that only the intended paper repository is enabled in Zenodo. A local document cannot verify the owner's account setting.
+5. Publish the approved release, verify the Zenodo record and DOI, then update Data Availability. Do not invent a DOI or present a reserved identifier as an accessible archive.
 
-Provider references:
+The import creates no licence, release tag, GitHub Release or Zenodo record. A deposit-service default must not silently choose a licence on the author's behalf.
+
+Provider and deposit documentation:
 - https://www.tng-project.org/data/
 - https://www.tng-project.org/data/docs/specifications/
 - https://www.cosmosim.org/metadata/bolshoip/
-- https://help.zenodo.org/docs/github/
+- https://help.zenodo.org/docs/github/enable-repository/
+- https://help.zenodo.org/docs/github/archive-software/github-upload/
+- https://help.zenodo.org/docs/deposit/describe-records/licenses/
 
-The manuscript already contains the TNG, CosmoSim, MultiDark and simulation-computing acknowledgements. Those acknowledgements are not a claim that the author personally received simulation-project funding.
+The manuscript retains data/computing acknowledgements. They do not assert personal receipt of simulation-project funding by the author.

@@ -1,0 +1,54 @@
+{
+  "case": "centrals_C4",
+  "conditional_scientific_disposition": "ASSOCIATION_WITHIN_DECLARED_RESAMPLING_MODEL",
+  "historical_gamma": 3.0,
+  "ids_sha256": "bee74d9e94073f74b82c359b606437e68f8dd81739018a1166ccf0995113ff6d",
+  "k_controls": 15,
+  "n": 2117,
+  "null_summary": {
+    "full26": {
+      "historical_against_joint_null": {
+        "B": 1000,
+        "exceedances": 0,
+        "p": 0.000999000999000999
+      },
+      "historical_gamma_delta_bic": -51.43504911151105,
+      "minimum_against_joint_null": {
+        "B": 1000,
+        "exceedances": 0,
+        "p": 0.000999000999000999
+      },
+      "null_median": 5.919595943442213,
+      "null_min": -12.03846207658018,
+      "null_q01": -1.5454481004035807,
+      "null_q99": 7.512143974375488,
+      "observed_argmin_gamma": 1.2,
+      "observed_min_delta_bic": -124.83925456304048
+    },
+    "historical_pointwise": {
+      "B": 1000,
+      "exceedances": 0,
+      "p": 0.000999000999000999
+    },
+    "published6": {
+      "historical_against_joint_null": {
+        "B": 1000,
+        "exceedances": 0,
+        "p": 0.000999000999000999
+      },
+      "historical_gamma_delta_bic": -51.43504911151105,
+      "minimum_against_joint_null": {
+        "B": 1000,
+        "exceedances": 0,
+        "p": 0.000999000999000999
+      },
+      "null_median": 6.475692879852685,
+      "null_min": -11.13055074798393,
+      "null_q01": 0.1594101321344677,
+      "null_q99": 7.619575738516687,
+      "observed_argmin_gamma": 1.2,
+      "observed_min_delta_bic": -124.83925456304048
+    }
+  },
+  "sample": "tng_power_n2000"
+}

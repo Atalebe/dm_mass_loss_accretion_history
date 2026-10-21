@@ -1,0 +1,54 @@
+{
+  "case": "full_C4",
+  "conditional_scientific_disposition": "ASSOCIATION_WITHIN_DECLARED_RESAMPLING_MODEL",
+  "historical_gamma": 1.2,
+  "ids_sha256": "88e616de5ed7052ad32210e1dfc0eca945463a08f79995e53fb9fd25af6152ac",
+  "k_controls": 15,
+  "n": 16340,
+  "null_summary": {
+    "full26": {
+      "historical_against_joint_null": {
+        "B": 1000,
+        "exceedances": 0,
+        "p": 0.000999000999000999
+      },
+      "historical_gamma_delta_bic": -1543.5793857162525,
+      "minimum_against_joint_null": {
+        "B": 1000,
+        "exceedances": 0,
+        "p": 0.000999000999000999
+      },
+      "null_median": 8.15050615700246,
+      "null_min": -1.8718333122323152,
+      "null_q01": 1.343020208670063,
+      "null_q99": 9.640167702491143,
+      "observed_argmin_gamma": 1.2,
+      "observed_min_delta_bic": -1543.5793857162525
+    },
+    "historical_pointwise": {
+      "B": 1000,
+      "exceedances": 0,
+      "p": 0.000999000999000999
+    },
+    "published6": {
+      "historical_against_joint_null": {
+        "B": 1000,
+        "exceedances": 0,
+        "p": 0.000999000999000999
+      },
+      "historical_gamma_delta_bic": -1543.5793857162525,
+      "minimum_against_joint_null": {
+        "B": 1000,
+        "exceedances": 0,
+        "p": 0.000999000999000999
+      },
+      "null_median": 8.649594871222092,
+      "null_min": -1.8718333122323152,
+      "null_q01": 1.602297181439783,
+      "null_q99": 9.686471595430907,
+      "observed_argmin_gamma": 1.2,
+      "observed_min_delta_bic": -1543.5793857162525
+    }
+  },
+  "sample": "bolshoip_tree_3_2_1"
+}

@@ -4,8 +4,8 @@
   "sha256": "52c99eb9ecc821cecc6009f8886f13fda2d75425733b47d6abc1624b3c4f9dac",
   "payload_files": 238,
   "manifest_file_count": 239,
-  "verified_location": "current ChatGPT execution workspace, not this repository",
-  "imported_into_repository": false,
+  "verified_location": "Included in this repository; full replay verified in an isolated research-PC copy",
+  "imported_into_repository": true,
   "formation_search_cases": 12,
   "threshold_search_cases": 6,
   "formation_threshold_null_candidates_replayed": 468000,
@@ -24,5 +24,10 @@
   "private_corrupt_null_rejected": true,
   "strict_caller_preserved": true,
   "licence_assigned": false,
-  "public_deposit": false
+  "public_deposit": false,
+  "import_verification": "provenance/legacy_import_verification.json",
+  "research_pc_full_replay": "provenance/legacy_pc_full_replay.json",
+  "original_workspace_verification": "provenance/legacy_replay_verification.json",
+  "public_repository_visibility": "public",
+  "source_archive_bytes_preserved": true
 }

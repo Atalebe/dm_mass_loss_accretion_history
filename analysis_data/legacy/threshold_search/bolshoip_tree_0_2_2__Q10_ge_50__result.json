@@ -1,0 +1,203 @@
+{
+  "candidate_adjusted_comparisons": [
+    {
+      "B": 1000,
+      "exceedances": 0,
+      "p": 0.000999000999000999
+    },
+    {
+      "B": 1000,
+      "exceedances": 0,
+      "p": 0.000999000999000999
+    },
+    {
+      "B": 1000,
+      "exceedances": 0,
+      "p": 0.000999000999000999
+    },
+    {
+      "B": 1000,
+      "exceedances": 0,
+      "p": 0.000999000999000999
+    },
+    {
+      "B": 1000,
+      "exceedances": 0,
+      "p": 0.000999000999000999
+    },
+    {
+      "B": 1000,
+      "exceedances": 0,
+      "p": 0.000999000999000999
+    },
+    {
+      "B": 1000,
+      "exceedances": 0,
+      "p": 0.000999000999000999
+    },
+    {
+      "B": 1000,
+      "exceedances": 0,
+      "p": 0.000999000999000999
+    },
+    {
+      "B": 1000,
+      "exceedances": 0,
+      "p": 0.000999000999000999
+    },
+    {
+      "B": 1000,
+      "exceedances": 0,
+      "p": 0.000999000999000999
+    },
+    {
+      "B": 1000,
+      "exceedances": 0,
+      "p": 0.000999000999000999
+    },
+    {
+      "B": 1000,
+      "exceedances": 0,
+      "p": 0.000999000999000999
+    },
+    {
+      "B": 1000,
+      "exceedances": 0,
+      "p": 0.000999000999000999
+    },
+    {
+      "B": 1000,
+      "exceedances": 0,
+      "p": 0.000999000999000999
+    },
+    {
+      "B": 1000,
+      "exceedances": 0,
+      "p": 0.000999000999000999
+    },
+    {
+      "B": 1000,
+      "exceedances": 0,
+      "p": 0.000999000999000999
+    },
+    {
+      "B": 1000,
+      "exceedances": 0,
+      "p": 0.000999000999000999
+    },
+    {
+      "B": 1000,
+      "exceedances": 0,
+      "p": 0.000999000999000999
+    },
+    {
+      "B": 1000,
+      "exceedances": 0,
+      "p": 0.000999000999000999
+    },
+    {
+      "B": 1000,
+      "exceedances": 0,
+      "p": 0.000999000999000999
+    },
+    {
+      "B": 1000,
+      "exceedances": 0,
+      "p": 0.000999000999000999
+    },
+    {
+      "B": 1000,
+      "exceedances": 0,
+      "p": 0.000999000999000999
+    },
+    {
+      "B": 1000,
+      "exceedances": 0,
+      "p": 0.000999000999000999
+    },
+    {
+      "B": 1000,
+      "exceedances": 2,
+      "p": 0.002997002997002997
+    },
+    {
+      "B": 1000,
+      "exceedances": 27,
+      "p": 0.027972027972027972
+    },
+    {
+      "B": 1000,
+      "exceedances": 104,
+      "p": 0.1048951048951049
+    }
+  ],
+  "case": "Q10_ge_50",
+  "null_summary": {
+    "full26": {
+      "historical_against_joint_null": {
+        "B": 1000,
+        "exceedances": 0,
+        "p": 0.000999000999000999
+      },
+      "historical_gamma_delta_bic": -356.3330925582538,
+      "minimum_against_joint_null": {
+        "B": 1000,
+        "exceedances": 0,
+        "p": 0.000999000999000999
+      },
+      "null_median": 6.64201340020756,
+      "null_min": -9.50321154197394,
+      "null_q01": -1.0208012416088388,
+      "null_q99": 8.024924488604128,
+      "observed_argmin_gamma": 0.8,
+      "observed_min_delta_bic": -363.5838051710025
+    },
+    "historical_pointwise": {
+      "B": 1000,
+      "exceedances": 0,
+      "p": 0.000999000999000999
+    },
+    "published6": {
+      "historical_against_joint_null": {
+        "B": 1000,
+        "exceedances": 0,
+        "p": 0.000999000999000999
+      },
+      "historical_gamma_delta_bic": -356.3330925582538,
+      "minimum_against_joint_null": {
+        "B": 1000,
+        "exceedances": 0,
+        "p": 0.000999000999000999
+      },
+      "null_median": 7.019360735747071,
+      "null_min": -9.33656544455673,
+      "null_q01": -0.43275898822530967,
+      "null_q99": 8.103068998934225,
+      "observed_argmin_gamma": 1.2,
+      "observed_min_delta_bic": -356.3330925582538
+    }
+  },
+  "oracle_checks": [
+    {
+      "fits": 26,
+      "max_BIC_error": 1.3917755836700962e-12,
+      "permutation": 0
+    },
+    {
+      "fits": 26,
+      "max_BIC_error": 1.4459544672718039e-12,
+      "permutation": 1
+    },
+    {
+      "fits": 26,
+      "max_BIC_error": 1.3731238368563936e-12,
+      "permutation": 2
+    },
+    {
+      "fits": 26,
+      "max_BIC_error": 1.531219595563016e-12,
+      "permutation": 999
+    }
+  ],
+  "sample": "bolshoip_tree_0_2_2"
+}

@@ -29,6 +29,23 @@
       "master_audit_register_modified": false,
       "public_deposit_performed": false,
       "scientific_findings_closed": []
+    },
+    {
+      "entry_number": 3,
+      "id": "DM-PAPER-LEGACY-COMPANION-IMPORT-003",
+      "at_utc": "2026-10-21T06:49:10.365594+00:00",
+      "what_was_tested": "Verified additive import of the recovered older-analysis companion, full original-stream replay, combined public checkout interface, file preservation and safe failure behavior.",
+      "methods": "239 exact companion files; 77 tests in normal/-O/-OO; 15 formation grids and 9 threshold grids; all 468,000 archived candidate statistics; 27 recorded-loss fits; all 360,000 archived minima in 36 separate cross-checks. Combined main and companion default replay also passed.",
+      "results": "All required import gates passed. Maximum legacy numerical difference 3.865352482534945e-12. Existing scientific and paper files remain byte-exact. Public visibility was changed by the owner and verified; no release was published by this step.",
+      "failures": "An attempted metadata-script construction had a quoting SyntaxError before executing or writing a script. It was retained and repaired by direct heredoc execution; numerical code, data, seeds and thresholds were unchanged. Deliberate private corruptions were rejected.",
+      "next_steps": "Verify push and anonymous fresh-clone replay. Obtain licence and redistribution decisions, approve the explicit reproduction scope and finalize release metadata after the owner enables Zenodo. Publish an approved release only with separate authorization and verify its actual DOI.",
+      "new_scientific_random_streams": 0,
+      "original_repository_modified": false,
+      "master_audit_register_modified": false,
+      "manuscript_modified": false,
+      "scientific_findings_closed": [],
+      "zenodo_deposit_performed": false,
+      "v176_started": false
     }
   ]
 }

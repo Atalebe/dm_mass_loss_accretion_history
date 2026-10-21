@@ -1,7 +1,7 @@
 {
   "schema": "halo-paper-release-status-v1",
-  "phase": "verified_private_candidate_with_audit_followup",
-  "public_visibility_authorized_in_this_step": false,
+  "phase": "public_repository_candidate_with_recovered_materials",
+  "public_visibility_authorized_in_this_step": true,
   "licence_selected": false,
   "zenodo_deposited": false,
   "archive_doi": null,
@@ -22,5 +22,18 @@
   "table_figure_map_assets": 32,
   "population_denominators_verified": true,
   "legacy_materials_recovered": true,
-  "legacy_materials_imported": false
+  "legacy_materials_imported": true,
+  "repository_visibility": "public",
+  "visibility_changed_by": "owner",
+  "visibility_last_verified_utc": "2026-10-21T06:44:00.942141+00:00",
+  "legacy_full_saved_replay_verified": true,
+  "zenodo_integration_status": "OWNER_REPORTED_INTENT_TO_ENABLE_NOT_VERIFIED",
+  "github_release_created": false,
+  "remaining_release_requirements": [
+    "owner-approved licence for original material",
+    "upstream-data redistribution review",
+    "approval of explicit reproduction scope",
+    "approved release tag and GitHub Release",
+    "verified Zenodo archival record and DOI"
+  ]
 }

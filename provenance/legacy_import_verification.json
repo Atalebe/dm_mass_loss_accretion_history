@@ -1,0 +1,44 @@
+{
+  "schema": "halo-legacy-import-verification-v1",
+  "status": "ADDITIVE_IMPORT_AND_FULL_SAVED_REPLAY_VERIFIED",
+  "base_commit": "64e0ade1b6e11520a5fc618e296790330fc268f8",
+  "source_archive": "DM_Legacy_Reproduction_Materials_20261021.zip",
+  "archive_sha256": "52c99eb9ecc821cecc6009f8886f13fda2d75425733b47d6abc1624b3c4f9dac",
+  "archive_files": 239,
+  "archive_manifest_payloads": 238,
+  "overwritten_existing_paths": 0,
+  "all_companion_bytes_preserved": true,
+  "new_random_streams": 0,
+  "raw_tree_scans": 0,
+  "scientific_findings_closed": [],
+  "manuscript_modified": false,
+  "counts": {
+    "formation_models": 15,
+    "formation_candidates": 390,
+    "formation_null_candidates": 312000,
+    "threshold_models": 9,
+    "threshold_candidates": 234,
+    "threshold_null_candidates": 156000,
+    "mass_loss_models": 27,
+    "crosscheck_models": 36,
+    "crosscheck_minima": 360000
+  },
+  "maximum_absolute_difference": 3.865352482534945e-12,
+  "full_saved_null_replay": true,
+  "runtime": {
+    "python": "3.13.9",
+    "numpy": "2.4.6",
+    "pandas": "3.0.3"
+  },
+  "verified_at_utc": "2026-10-21T06:44:00.942141+00:00",
+  "repository_visibility": {
+    "observed": "public",
+    "changed_by": "owner",
+    "source": "GitHub REST repository metadata",
+    "repository_id": 1427761050
+  },
+  "original_development_visibility": "private",
+  "licence_assigned": false,
+  "github_release_created": false,
+  "doi": null
+}

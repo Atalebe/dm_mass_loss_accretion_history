@@ -2,32 +2,24 @@
 
 ## Included and executable
 
-The default combined check verifies file integrity, scientific source-map identities, all 30 linear/flexible observed designs over 26 weighting values, saved joint-null minima/exceedances/multiplicity, the same-row four-epoch comparisons, all 945 spatial region deletions, nine mass-bin-weighted comparisons, all 54 nominal spatial references, and three cube-compatibility calculations. Fifteen native-unit population matrices and eighteen losslessly compressed catalogue/history files are included. The full-null option reconstructs every recorded PCG64 permutation and all 780,000 saved candidate statistics.
+Both the main loss-design/spatial materials and the recovered earlier-analysis companion are included. `bash run_all_no_exit.sh` checks integrity, audit scope and tests before running both numerical paths in fresh output directories. `--full-nulls` replays complete saved streams instead of three selected draws per stream.
 
-The reconstruction begins at the supplied numerical catalogues and matrices. Those are measured simulation-derived inputs, not synthetic fixtures. The test fixtures are clearly separate under `tests/`.
+The main path reproduces 30 linear/flexible models over 26 weighting values, 30,000 original permutations (780,000 candidate statistics), same-row four-epoch comparisons, 945 spatial deletions, nine mass-bin-weighted fits, 54 nominal spatial references and three cube comparisons.
 
-## Preserved reported outputs, not a claim of complete raw reconstruction
+The companion reproduces 15 formation/central/extended model grids, nine threshold grids, 27 recorded-loss fits and 36 separately implemented cross-checks. Its full replay evaluates the original 12 formation and six threshold streams (468,000 candidate statistics), and all 360,000 saved joint-null minima in the 10,000-draw cross-checks. The second implementation did not archive every candidate value; none is claimed recovered. The 1,000-draw and 10,000-draw experiments remain separate.
 
-The paper directory retains the earlier primary, formation-ladder, population, influence, threshold and spline summary files and figures. This first standalone snapshot does not claim to recreate every earlier acquisition step, all source-to-feature audits, the entire historical July runtime, every pre-loss permutation stream, or the separately supplied 10,000-draw spline implementation. The main 30 loss-design streams are included in full; earlier resampling results remain reported evidence until their complete release inputs/runners are added and checked.
+Both paths begin at included simulation-derived catalogues, ordered IDs and matrices, not fabricated test fixtures. No acquisition service, token or development checkout is required. Package installation remains an explicit user action; importing this material did not change the research environment.
 
-The full 66-file spatial evidence ZIP is retained in the author's verified delivery set. This repository includes its scientific coordinates, memberships, deletion fits and geometry, but excludes its development-machine paths, repository state and old operational logbooks. The original archive SHA256 is recorded in `provenance/archive_inventory.json`; that is not a download URL or an assertion of public availability.
+## Explicit limits
 
-Large upstream raw trees, API authentication and scientific-service access are not required by the portable replay. Raw-tree-to-feature reconstruction is a distinct reproduction layer and must not be confused with refitting the released matrices.
+The 32-asset map separates executable numerical layers from preserved estimates and external raw-product provenance. This import does not recreate every acquisition or raw-tree feature calculation, failed-download receipt, historical pointwise stream, direct HDF5 particle-count extraction, raw/control attenuation or mass-subset producer, or the complete explicit influence-deletion producer. Figure PDFs are preserved; numerical replay does not regenerate plotting layout. The Euler/censoring records are included and hash-verified, not newly extracted by the legacy fit runner.
 
-## Preservation and sanitization
+The complete 66-file spatial evidence archive remains in the author's verified delivery set. Its scientific coordinates, memberships, deletion fits and geometry are included here, excluding local-machine repository records and operational logbooks. Large upstream simulation trees remain provider products. The separately reported per-root reviewer traversal is not silently reclassified as another raw-tree reproduction.
 
-Scientific numerical files are copied byte-for-byte or stored with lossless gzip compression, with decoded SHA256 values in `provenance/source_map.json`. The sole CSV metadata sanitization replaces three local `feature_path` values in `yv_concentration_proxy_audit.csv` with basenames. All other field strings are unchanged. No coefficient, epoch, selection rule, weighting parameter, tolerance or saved random stream is changed.
+These boundaries describe what a clean checkout can execute, what remains inspectable evidence, and what requires upstream products or additional producer material. No new stream replaces an archival output.
 
-No old `.git` directory, development branch, credentials, job reservation, environment, corrupt-fixture directory or unrelated project is imported. The release logbook starts at 0001 for this repository and does not copy the operational research logbook.
+## Preservation
 
-Historical source-table column labels (including older `role` and shuffle labels) are retained as recorded metadata, not as stronger present-day claims. The manuscript defines the current inferential scope.
+All 239 companion files are copied exactly and have their own manifest. Earlier manuscript, table, figure, array and random-stream files remain unchanged. The previous metadata-only redaction of three local feature-path cells is documented in `provenance/source_map.json`; scientific field strings were preserved.
 
-## Audit continuity and recovered earlier material
-
-The branch-specific audit follow-up is in `docs/audit_continuity/`. Both ABA26-001 and ABA26-002 remain scientifically open; their reporting actions are verified in v12. The exact 62,073 available /48,556 complete /13,517 omitted BolshoiP identity mappings are now in `analysis_data/population_membership/`. This is identity verification, not recovery of missing epochs.
-
-`docs/reproducibility_map.json` maps all24 tables and8 figures to source/output identities and executable coverage. It distinguishes current executable material from preserved summaries and materials recovered in a separate companion.
-
-Earlier formation and threshold searches,27 recorded-loss population fits, and the AI-assisted10,000-draw linear/spline cross-check have now been recovered and fully replayed in a separate execution workspace. The original arrays, seeds and numerical function bodies are retained in a curated companion; no replacement stream was generated. The55.45-MB archive has not yet been transferred to this checkout. `docs/legacy_recovery_status.json` gives its exact identity. Until verified additive import, the preceding in-repository reproduction boundary remains in force.
-
-No full raw-tree-to-feature reconstruction, spatial calibration, missing-population identification, public licence or DOI is established by archive recovery. The protected scientific source/data in the repository and the v12 document bytes are unchanged.
+No development Git history, credentials, reservations, private corruption fixtures, research environment or unrelated projects are imported. Historical labels remain evidence, not stronger current claims. Spatial calibration and full-population formation identification remain open; public visibility and reproducibility do not close them.

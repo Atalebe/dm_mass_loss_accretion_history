@@ -6,7 +6,9 @@ This is a standalone repository with a new Git history. It is not a mirror of th
 
 ## Status
 
-This first snapshot is a **release-preparation candidate**, not a published archival release. The repository remains private until the owner approves public visibility and licensing. There is no analysis DOI yet. The manuscript is the checked v12 rendering; its scientific content is unchanged. See `docs/release_status.json`, `docs/reproduction_scope.md` and the complete `docs/reproducibility_map.md` for the precise coverage and remaining work. The branch-specific audit follow-up records completed reporting actions without closing the two scientific limitations. Earlier resampling and spline materials have been recovered and verified in a separate companion, whose import is still pending.
+This is a **public release-preparation repository**, made public by the author. It is not yet a tagged GitHub/Zenodo archival release and no analysis DOI has been issued. Licensing and the final redistribution/release review remain pending. The checked v12 manuscript and previous scientific values are unchanged.
+
+The recovered formation, threshold, recorded-loss and separate spline materials are now included. See `docs/reproduction_scope.md`, the 32-asset `docs/reproducibility_map.md`, and `provenance/legacy_import_verification.json` for what was replayed and what remains a preserved or external provenance layer. Both scientific audit findings remain open despite their completed reporting actions.
 
 ## Start here
 
@@ -27,23 +29,27 @@ Use a separate Python environment. The versions in `requirements.txt` are those 
 python3 -m venv .venv
 . .venv/bin/activate
 python -m pip install -r requirements.txt
-bash run_reproduce_no_exit.sh
+bash run_all_no_exit.sh
 ```
 
-The combined launcher verifies the package hashes, runs deterministic tests, refits the included observed models, reconstructs the spatial and mass-bin sensitivities, and checks the saved search distributions. It uses a new timestamped directory under `outputs/`. Successful completion is stated in `COMPLETION.json`; a failed child produces a diagnostic receipt and no completion entry. The outer launcher intentionally keeps the calling shell open: **its zero shell return must not be mistaken for numerical success**.
+The combined launcher verifies package and companion hashes, audit/coverage metadata and deterministic tests, then runs both the main loss-design/spatial pipeline and the recovered earlier-analysis pipeline. It uses a new timestamped directory under `outputs/`. Successful completion is stated in `COMPLETION.json`; a failed child produces a diagnostic receipt and no completion entry. The outer launcher intentionally keeps the calling shell open: **its zero shell return must not be mistaken for numerical success**.
 
 For automation, use the direct command and its nonzero-on-failure exit status:
 
 ```bash
 python -B tools/verify_integrity.py
-python -B tools/reproduce.py --output /absolute/path/to/a/new/reproduction
+python -B tools/reproduce_all.py --output /absolute/path/to/a/new/reproduction
 ```
 
-The default run checks every saved-null minimum and exceedance count and directly recalculates three selected permutations per design. To recalculate all 30,000 saved permutations (780,000 candidate statistics), retaining their original PCG64 streams:
+The default run checks the saved summaries and recalculates three selected draws per original stream. The full replay evaluates the 30,000 main loss-design permutations, 18,000 recovered formation/threshold permutations and 360,000 saved minima in the separate 10,000-draw cross-checks:
 
 ```bash
-bash run_reproduce_no_exit.sh --full-nulls
+bash run_all_no_exit.sh --full-nulls
 ```
+
+The main 48,000 draws retain all 26 candidate values (1,248,000 in total). The second implementation saved a joint minimum per draw, not every candidate-wise null value. Its 10,000-draw experiments are not pooled with the 1,000-draw experiments into a new probability.
+
+The narrower `run_reproduce_no_exit.sh` and `run_legacy_no_exit.sh` remain available. The companion's original replay environment is in `requirements-legacy-replay.txt`; replay was also checked under the research-PC versions in `requirements.txt`, without installing or changing scientific packages.
 
 This is replay of the original samples and streams, not a new confirmation, fresh simulation, or new permutation budget. Platform and numerical-library differences are reported and comparisons use fixed numerical tolerances; raw PDF or floating-point byte identity across different platforms is not promised.
 

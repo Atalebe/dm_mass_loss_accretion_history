@@ -6,7 +6,7 @@
   "supplementary_tables": 10,
   "figures": 8,
   "all_assets_mapped": true,
-  "companion_transfer_status": "PENDING_LOCAL_TO_RESEARCH_PC",
+  "companion_transfer_status": "IMPORTED_AND_FULL_REPLAY_VERIFIED",
   "assets": [
     {
       "id": "T1",
@@ -76,13 +76,21 @@
         {
           "path": "paper/data/search_population_summary.csv",
           "sha256": "d3cbf7f4669136459827f4f5d4311b10a67e1b032e6ce2fbe1cecd523a2058cd"
+        },
+        {
+          "path": "analysis_data/legacy/formation_search/observed_fits.csv",
+          "sha256": "5cd25fdd8c44e53e046bd955b15fc74006c4811b68b99880b4972dff03265ab2"
+        },
+        {
+          "path": "analysis_data/legacy/formation_search/supplementary_summary.csv",
+          "sha256": "d3cbf7f4669136459827f4f5d4311b10a67e1b032e6ce2fbe1cecd523a2058cd"
         }
       ],
-      "coverage_status": "RECOVERED_COMPANION_PENDING_IMPORT",
+      "coverage_status": "EXECUTABLE_IN_CURRENT_REPOSITORY",
       "numerical_layer": "formation_search",
-      "reproduction_command": "python -B tools/replay_legacy.py --full-nulls --output outputs/legacy_<new_id> (after verified companion import)",
+      "reproduction_command": "python -B tools/replay_legacy.py --full-nulls --output outputs/legacy_NEW",
       "random_stream": "12 original PCG64 streams",
-      "boundary": "12 original formation-search streams recovered; import pending. Earlier pointwise probabilities remain historical, not current joint tests.",
+      "boundary": "12 original formation-search streams included and replayed. Earlier pointwise probabilities remain historical, not current joint tests.",
       "rendered_asset_unchanged": true,
       "latex_label": "tab:primary",
       "caption_and_block_sha256": "2ab0eec8c7073cd3c34693d7f2cb33c44e649cfc630f6a9fa310fd87f141b5e8"
@@ -130,13 +138,17 @@
         {
           "path": "paper/data/extended_ladder_l1_to_l2_increment.csv",
           "sha256": "75db9d683527ed837e1b30bae29a75bb303700bb13bce45109190a514579594f"
+        },
+        {
+          "path": "analysis_data/legacy/formation_search/observed_fits.csv",
+          "sha256": "5cd25fdd8c44e53e046bd955b15fc74006c4811b68b99880b4972dff03265ab2"
         }
       ],
-      "coverage_status": "RECOVERED_COMPANION_PENDING_IMPORT",
+      "coverage_status": "EXECUTABLE_IN_CURRENT_REPOSITORY",
       "numerical_layer": "formation_search",
-      "reproduction_command": "python -B tools/replay_legacy.py --full-nulls --output outputs/legacy_<new_id> (after verified companion import)",
+      "reproduction_command": "python -B tools/replay_legacy.py --full-nulls --output outputs/legacy_NEW",
       "random_stream": "3 six-epoch streams within the 12 formation streams",
-      "boundary": "Matched four-epoch and six-epoch populations and three six-epoch streams recovered.",
+      "boundary": "Matched four-epoch and six-epoch populations and three six-epoch streams included.",
       "rendered_asset_unchanged": true,
       "latex_label": "tab:extended",
       "caption_and_block_sha256": "5e33b03bf01d60da5a37b1af35253b2239bab9d6620746c02fa1d725c426ba22"
@@ -159,11 +171,15 @@
         {
           "path": "paper/data/candidate_specific_search_adjusted.csv",
           "sha256": "35068fff51843b89af1fcd26f602567d8bd8033f779d198149d08b12171e6a96"
+        },
+        {
+          "path": "analysis_data/legacy/formation_search/observed_fits.csv",
+          "sha256": "5cd25fdd8c44e53e046bd955b15fc74006c4811b68b99880b4972dff03265ab2"
         }
       ],
-      "coverage_status": "RECOVERED_COMPANION_PENDING_IMPORT",
+      "coverage_status": "EXECUTABLE_IN_CURRENT_REPOSITORY",
       "numerical_layer": "formation_search",
-      "reproduction_command": "python -B tools/replay_legacy.py --full-nulls --output outputs/legacy_<new_id> (after verified companion import)",
+      "reproduction_command": "python -B tools/replay_legacy.py --full-nulls --output outputs/legacy_NEW",
       "random_stream": "Per-population formation-search stream",
       "boundary": "Six displayed values are compared against the 26-candidate joint reference; no copied pointwise probability.",
       "rendered_asset_unchanged": true,
@@ -188,13 +204,17 @@
         {
           "path": "paper/data/search_population_summary.csv",
           "sha256": "d3cbf7f4669136459827f4f5d4311b10a67e1b032e6ce2fbe1cecd523a2058cd"
+        },
+        {
+          "path": "analysis_data/legacy/formation_search/observed_fits.csv",
+          "sha256": "5cd25fdd8c44e53e046bd955b15fc74006c4811b68b99880b4972dff03265ab2"
         }
       ],
-      "coverage_status": "RECOVERED_COMPANION_PENDING_IMPORT",
+      "coverage_status": "EXECUTABLE_IN_CURRENT_REPOSITORY",
       "numerical_layer": "formation_search",
-      "reproduction_command": "python -B tools/replay_legacy.py --full-nulls --output outputs/legacy_<new_id> (after verified companion import)",
+      "reproduction_command": "python -B tools/replay_legacy.py --full-nulls --output outputs/legacy_NEW",
       "random_stream": "3 central-only streams within the 12 formation streams",
-      "boundary": "Three central-only formation streams and all 26 observed candidates recovered.",
+      "boundary": "Three central-only formation streams and all 26 observed candidates included.",
       "rendered_asset_unchanged": true,
       "latex_label": "tab:central",
       "caption_and_block_sha256": "999da33f8602fb875c8a51bfb11a6b031e6ca53747f1f9f4631a0cb85d4149ce"
@@ -213,11 +233,15 @@
         {
           "path": "paper/data/mass_loss_sensitivity.csv",
           "sha256": "115060d19ae3658fc3d60946aec06bb8e45120d3ce6eb7daad8b206eb222cb07"
+        },
+        {
+          "path": "analysis_data/legacy/mass_loss/mass_loss_sensitivity.csv",
+          "sha256": "115060d19ae3658fc3d60946aec06bb8e45120d3ce6eb7daad8b206eb222cb07"
         }
       ],
-      "coverage_status": "RECOVERED_COMPANION_PENDING_IMPORT",
+      "coverage_status": "EXECUTABLE_IN_CURRENT_REPOSITORY",
       "numerical_layer": "mass_loss",
-      "reproduction_command": "python -B tools/replay_legacy.py --full-nulls --output outputs/legacy_<new_id> (after verified companion import)",
+      "reproduction_command": "python -B tools/replay_legacy.py --full-nulls --output outputs/legacy_NEW",
       "random_stream": null,
       "boundary": "Fixed-parameter descriptive fits; no permutation assigned.",
       "rendered_asset_unchanged": true,
@@ -238,13 +262,21 @@
         {
           "path": "paper/data/threshold_sensitivity.csv",
           "sha256": "3a5f6eb461eab602800cf7459a9abca5afedad81052d31208be4309482871042"
+        },
+        {
+          "path": "analysis_data/legacy/threshold_search/observed_fits.csv",
+          "sha256": "85e99fab8ac7db6465a76599cea5679c16555ab0dd658d14f809ec26f7626b20"
+        },
+        {
+          "path": "analysis_data/legacy/threshold_search/sensitivity_summary.csv",
+          "sha256": "3a5f6eb461eab602800cf7459a9abca5afedad81052d31208be4309482871042"
         }
       ],
-      "coverage_status": "RECOVERED_COMPANION_PENDING_IMPORT",
+      "coverage_status": "EXECUTABLE_IN_CURRENT_REPOSITORY",
       "numerical_layer": "threshold_search",
-      "reproduction_command": "python -B tools/replay_legacy.py --full-nulls --output outputs/legacy_<new_id> (after verified companion import)",
+      "reproduction_command": "python -B tools/replay_legacy.py --full-nulls --output outputs/legacy_NEW",
       "random_stream": "6 original PCG64 streams",
-      "boundary": "Six threshold-search streams plus nine observed-population matrices recovered.",
+      "boundary": "Six threshold-search streams plus nine observed-population matrices included.",
       "rendered_asset_unchanged": true,
       "latex_label": "tab:threshold",
       "caption_and_block_sha256": "8e29b0481dcc5c87b6bfcbc61583935e64dbd7b80ffdb2554427c81e7726f209"
@@ -263,13 +295,17 @@
         {
           "path": "paper/data/mass_loss_population_counts.csv",
           "sha256": "e23d40312a46799c439852f9da6acd0a8f8ffd868169e2f87bb0d5edb8259109"
+        },
+        {
+          "path": "analysis_data/legacy/mass_loss/mass_loss_sensitivity.csv",
+          "sha256": "115060d19ae3658fc3d60946aec06bb8e45120d3ce6eb7daad8b206eb222cb07"
         }
       ],
-      "coverage_status": "RECOVERED_COMPANION_PENDING_IMPORT",
+      "coverage_status": "PRESERVED_INPUTS_OR_SUMMARY_NOT_DEFAULT_END_TO_END",
       "numerical_layer": "mass_loss",
-      "reproduction_command": "python -B tools/replay_legacy.py --full-nulls --output outputs/legacy_<new_id> (after verified companion import)",
+      "reproduction_command": null,
       "random_stream": null,
-      "boundary": "Stored threshold selections and exact original identity lists recovered; this is not a tidal classification.",
+      "boundary": "Stored threshold selections and exact original identity lists included; this is not a tidal classification. The underlying diagnostic records are preserved and hash-checked; the fit replay does not execute their full producer.",
       "rendered_asset_unchanged": true,
       "latex_label": "tab:losscount",
       "caption_and_block_sha256": "6768c0cbca87238cdc5ca7e470d5d79dcccdb1de5c8aff6c197da1dd379a003b"
@@ -288,11 +324,15 @@
         {
           "path": "paper/data/mass_loss_sensitivity.csv",
           "sha256": "115060d19ae3658fc3d60946aec06bb8e45120d3ce6eb7daad8b206eb222cb07"
+        },
+        {
+          "path": "analysis_data/legacy/mass_loss/mass_loss_sensitivity.csv",
+          "sha256": "115060d19ae3658fc3d60946aec06bb8e45120d3ce6eb7daad8b206eb222cb07"
         }
       ],
-      "coverage_status": "RECOVERED_COMPANION_PENDING_IMPORT",
+      "coverage_status": "EXECUTABLE_IN_CURRENT_REPOSITORY",
       "numerical_layer": "mass_loss",
-      "reproduction_command": "python -B tools/replay_legacy.py --full-nulls --output outputs/legacy_<new_id> (after verified companion import)",
+      "reproduction_command": "python -B tools/replay_legacy.py --full-nulls --output outputs/legacy_NEW",
       "random_stream": null,
       "boundary": "Preserved 27-fit matrices cover the displayed descriptive populations.",
       "rendered_asset_unchanged": true,
@@ -363,13 +403,17 @@
         {
           "path": "paper/data/independent_replay_summary.csv",
           "sha256": "17a1162352b33c99ce06ea5bde497defa1843ca531f8fec152500fa2ad1dd3fa"
+        },
+        {
+          "path": "analysis_data/legacy/spline_crosscheck/REPLAY_SUMMARY.json",
+          "sha256": "7762e6c4aeb503aae1354acf44d5877af9c518258fd820e6277da65cdfa82aa6"
         }
       ],
-      "coverage_status": "RECOVERED_COMPANION_PENDING_IMPORT",
+      "coverage_status": "EXECUTABLE_IN_CURRENT_REPOSITORY",
       "numerical_layer": "spline_crosscheck",
-      "reproduction_command": "python -B tools/replay_legacy.py --full-nulls --output outputs/legacy_<new_id> (after verified companion import)",
+      "reproduction_command": "python -B tools/replay_legacy.py --full-nulls --output outputs/legacy_NEW",
       "random_stream": "36 original saved seeds; 15 spline,15 linear and6 four-epoch cases",
-      "boundary": "Separate AI-assisted implementation and 36 original 10,000-minimum arrays recovered; not pooled with author 1,000-draw tests.",
+      "boundary": "Separate AI-assisted implementation and 36 original 10,000-minimum arrays included; not pooled with author 1,000-draw tests.",
       "rendered_asset_unchanged": true,
       "latex_label": "tab:independent_spline",
       "caption_and_block_sha256": "e8edb75b53c935ca168fd5e4d0872b48ab242e3d58a16c83ba9df52bf827ac7e"
@@ -434,13 +478,17 @@
         {
           "path": "paper/data/mass_loss_sensitivity.csv",
           "sha256": "115060d19ae3658fc3d60946aec06bb8e45120d3ce6eb7daad8b206eb222cb07"
+        },
+        {
+          "path": "analysis_data/legacy/mass_loss/DESIGN_RANK_AUDIT.json",
+          "sha256": "aa718ba5fd4e295a70840385c89997f453f306392ad3ee2c1309b5211c10b17b"
         }
       ],
-      "coverage_status": "RECOVERED_COMPANION_PENDING_IMPORT",
+      "coverage_status": "EXECUTABLE_IN_CURRENT_REPOSITORY",
       "numerical_layer": "mass_loss",
-      "reproduction_command": "python -B tools/replay_legacy.py --full-nulls --output outputs/legacy_<new_id> (after verified companion import)",
+      "reproduction_command": "python -B tools/replay_legacy.py --full-nulls --output outputs/legacy_NEW",
       "random_stream": null,
-      "boundary": "Stored original design-rank audit and all population matrices recovered.",
+      "boundary": "Stored original design-rank audit and all population matrices included.",
       "rendered_asset_unchanged": true,
       "latex_label": "tab:rank",
       "caption_and_block_sha256": "55bfaa82068f3563fd5b0d46d0165bbecb631f0003e293492d57c975e496508f"
@@ -656,14 +704,15 @@
           "sha256": "04d314e85caa957aa560a6fd8408926ba9ca955eddbc9752a2b32ea1fd655b58"
         }
       ],
-      "coverage_status": "RECOVERED_COMPANION_PENDING_IMPORT",
+      "coverage_status": "EXECUTABLE_IN_CURRENT_REPOSITORY",
       "numerical_layer": "formation_search",
-      "reproduction_command": "python -B tools/replay_legacy.py --full-nulls --output outputs/legacy_<new_id> (after verified companion import)",
+      "reproduction_command": "python -B tools/replay_legacy.py --full-nulls --output outputs/legacy_NEW",
       "random_stream": null,
-      "boundary": "Observed/reference summaries from the original formation search.",
+      "boundary": "Observed/reference summaries from the original formation search. Numerical comparison inputs are replayed; plot layout is preserved, not regenerated.",
       "rendered_asset_unchanged": true,
       "latex_label": "fig:joint",
-      "caption_and_block_sha256": "6048211cb00011b8b0e2af149f9fbab8eb4c8d36c82f024c6ed15b3aeda88284"
+      "caption_and_block_sha256": "6048211cb00011b8b0e2af149f9fbab8eb4c8d36c82f024c6ed15b3aeda88284",
+      "rendering_reproduction": "Preserved rendering; the numerical command does not regenerate plot layout."
     },
     {
       "id": "F2",
@@ -681,14 +730,15 @@
           "sha256": "de10bd03b09dc9bef33d6e775d18c5d7e7f3bfed2b21724e5481e02a99653f32"
         }
       ],
-      "coverage_status": "RECOVERED_COMPANION_PENDING_IMPORT",
+      "coverage_status": "EXECUTABLE_IN_CURRENT_REPOSITORY",
       "numerical_layer": "mass_loss",
-      "reproduction_command": "python -B tools/replay_legacy.py --full-nulls --output outputs/legacy_<new_id> (after verified companion import)",
+      "reproduction_command": "python -B tools/replay_legacy.py --full-nulls --output outputs/legacy_NEW",
       "random_stream": null,
-      "boundary": "Current-central and large-loss population comparisons.",
+      "boundary": "Current-central and large-loss population comparisons. Numerical comparison inputs are replayed; plot layout is preserved, not regenerated.",
       "rendered_asset_unchanged": true,
       "latex_label": "fig:central",
-      "caption_and_block_sha256": "57ffc8fc06c5976ad784296ea65459becc6d3e4c5f699164718850c3fa14323c"
+      "caption_and_block_sha256": "57ffc8fc06c5976ad784296ea65459becc6d3e4c5f699164718850c3fa14323c",
+      "rendering_reproduction": "Preserved rendering; the numerical command does not regenerate plot layout."
     },
     {
       "id": "F3",
@@ -706,14 +756,15 @@
           "sha256": "c7d32bf9394caefce7e875664ffed42852c9d518f473d7f86d3c973e97546e56"
         }
       ],
-      "coverage_status": "RECOVERED_COMPANION_PENDING_IMPORT",
+      "coverage_status": "EXECUTABLE_IN_CURRENT_REPOSITORY",
       "numerical_layer": "mass_loss",
-      "reproduction_command": "python -B tools/replay_legacy.py --full-nulls --output outputs/legacy_<new_id> (after verified companion import)",
+      "reproduction_command": "python -B tools/replay_legacy.py --full-nulls --output outputs/legacy_NEW",
       "random_stream": null,
-      "boundary": "Threshold, large-loss and terminal-mass comparisons.",
+      "boundary": "Threshold, large-loss and terminal-mass comparisons. Numerical comparison inputs are replayed; plot layout is preserved, not regenerated.",
       "rendered_asset_unchanged": true,
       "latex_label": "fig:bp",
-      "caption_and_block_sha256": "5162258306a98108c2f66679229fa0cef8004ee9b121d6dec5004b5bff6e5afa"
+      "caption_and_block_sha256": "5162258306a98108c2f66679229fa0cef8004ee9b121d6dec5004b5bff6e5afa",
+      "rendering_reproduction": "Preserved rendering; the numerical command does not regenerate plot layout."
     },
     {
       "id": "F4",
@@ -735,10 +786,11 @@
       "numerical_layer": "current",
       "reproduction_command": "python -B tools/reproduce.py --output outputs/replay_<new_id>",
       "random_stream": null,
-      "boundary": "Formation-only, linear and indicator-plus-quadratic coefficient comparison.",
+      "boundary": "Formation-only, linear and indicator-plus-quadratic coefficient comparison. Numerical comparison inputs are replayed; plot layout is preserved, not regenerated.",
       "rendered_asset_unchanged": true,
       "latex_label": "fig:logloss",
-      "caption_and_block_sha256": "3f6765de58e89c5737e1951b625fde94ee49fb0ab4b58d25c2befb1d2722aa9d"
+      "caption_and_block_sha256": "3f6765de58e89c5737e1951b625fde94ee49fb0ab4b58d25c2befb1d2722aa9d",
+      "rendering_reproduction": "Preserved rendering; the numerical command does not regenerate plot layout."
     },
     {
       "id": "FS1",
@@ -750,16 +802,25 @@
         {
           "path": "paper/figures/03_euler_multipliers.pdf",
           "sha256": "13c7ece0127d086aba488b952b045d3c05fedf16ede214487904e4e22f2898ac"
+        },
+        {
+          "path": "analysis_data/legacy/formation_search/euler_summary.csv",
+          "sha256": "77c26d8289d569172e17c78c176495fdd21fa8885ff1dee252fd95a2aad435d7"
+        },
+        {
+          "path": "analysis_data/legacy/formation_search/euler_per_object.csv.gz",
+          "sha256": "28a332a0cdd523972c89df25d423f7d850ecf2d30aa5e770c307e069a3fd86af"
         }
       ],
-      "coverage_status": "RECOVERED_COMPANION_PENDING_IMPORT",
+      "coverage_status": "PRESERVED_INPUTS_OR_SUMMARY_NOT_DEFAULT_END_TO_END",
       "numerical_layer": "formation_search",
-      "reproduction_command": "python -B tools/replay_legacy.py --full-nulls --output outputs/legacy_<new_id> (after verified companion import)",
+      "reproduction_command": null,
       "random_stream": null,
-      "boundary": "Full interval/object counts are recovered; raw HDF5 re-extraction is separate.",
+      "boundary": "Full interval/object counts are included; raw HDF5 re-extraction is separate. The underlying diagnostic records are preserved and hash-checked; the fit replay does not execute their full producer.",
       "rendered_asset_unchanged": true,
       "latex_label": "fig:euler",
-      "caption_and_block_sha256": "097f4a21bd80965c86d6e8d4cb0958d4bb33c912b6402f45d01e6fbe1ed084e0"
+      "caption_and_block_sha256": "097f4a21bd80965c86d6e8d4cb0958d4bb33c912b6402f45d01e6fbe1ed084e0",
+      "rendering_reproduction": "Preserved rendering; the numerical command does not regenerate plot layout."
     },
     {
       "id": "FS2",
@@ -771,16 +832,25 @@
         {
           "path": "paper/figures/04_censoring_resolution.pdf",
           "sha256": "78aa597a6c9f446dcf9c0919b1581bd39f6417bc6ce08ef85e3f1c96400ecf0a"
+        },
+        {
+          "path": "analysis_data/legacy/formation_search/censoring_binned.csv",
+          "sha256": "df61ca2dc66f2c8f2310cacad724d22801ede51722f5f5637f27ffde49c53402"
+        },
+        {
+          "path": "analysis_data/legacy/formation_search/censoring_summary.json",
+          "sha256": "d58563b0ddcdeeb52a6eb162d6470df4abb90730c776e1ae041a7396fc0119a8"
         }
       ],
-      "coverage_status": "RECOVERED_COMPANION_PENDING_IMPORT",
+      "coverage_status": "PRESERVED_INPUTS_OR_SUMMARY_NOT_DEFAULT_END_TO_END",
       "numerical_layer": "formation_search",
-      "reproduction_command": "python -B tools/replay_legacy.py --full-nulls --output outputs/legacy_<new_id> (after verified companion import)",
+      "reproduction_command": null,
       "random_stream": null,
-      "boundary": "Recovered per-object censoring and mass-equivalent thresholds, not measured BolshoiP particle counts.",
+      "boundary": "Included per-object censoring and mass-equivalent thresholds, not measured BolshoiP particle counts. The underlying diagnostic records are preserved and hash-checked; the fit replay does not execute their full producer.",
       "rendered_asset_unchanged": true,
       "latex_label": "fig:censoring",
-      "caption_and_block_sha256": "22fcbc594419b71548b4fe6c53e7a366b95e8fa7bb7a13edbc958632818a5b71"
+      "caption_and_block_sha256": "22fcbc594419b71548b4fe6c53e7a366b95e8fa7bb7a13edbc958632818a5b71",
+      "rendering_reproduction": "Preserved rendering; the numerical command does not regenerate plot layout."
     },
     {
       "id": "FS3",
@@ -805,7 +875,8 @@
       "boundary": "Existing influence CSVs and pure numerical source; no newly excluded objects.",
       "rendered_asset_unchanged": true,
       "latex_label": "fig:influence_logloss",
-      "caption_and_block_sha256": "569d063653093a64fd45582f543712e3fe0292ede79b58a880edfddfd6d93eca"
+      "caption_and_block_sha256": "569d063653093a64fd45582f543712e3fe0292ede79b58a880edfddfd6d93eca",
+      "rendering_reproduction": "Preserved rendering; the numerical command does not regenerate plot layout."
     },
     {
       "id": "FS4",
@@ -827,10 +898,11 @@
       "numerical_layer": "current",
       "reproduction_command": "python -B tools/reproduce.py --output outputs/replay_<new_id>",
       "random_stream": null,
-      "boundary": "Ranges are sensitivity ranges, not confidence intervals.",
+      "boundary": "Ranges are sensitivity ranges, not confidence intervals. Numerical comparison inputs are replayed; plot layout is preserved, not regenerated.",
       "rendered_asset_unchanged": true,
       "latex_label": "fig:spatial",
-      "caption_and_block_sha256": "7553bd136720a9e22fad29e2de1d22c283d3a14ede83aefb01c9c875ea924d72"
+      "caption_and_block_sha256": "7553bd136720a9e22fad29e2de1d22c283d3a14ede83aefb01c9c875ea924d72",
+      "rendering_reproduction": "Preserved rendering; the numerical command does not regenerate plot layout."
     }
   ],
   "recovered_companion": {
@@ -839,8 +911,8 @@
     "sha256": "52c99eb9ecc821cecc6009f8886f13fda2d75425733b47d6abc1624b3c4f9dac",
     "payload_files": 238,
     "manifest_file_count": 239,
-    "verified_location": "current ChatGPT execution workspace, not this repository",
-    "imported_into_repository": false,
+    "verified_location": "Included in this repository; full replay verified in an isolated research-PC copy",
+    "imported_into_repository": true,
     "formation_search_cases": 12,
     "threshold_search_cases": 6,
     "formation_threshold_null_candidates_replayed": 468000,
@@ -859,6 +931,12 @@
     "private_corrupt_null_rejected": true,
     "strict_caller_preserved": true,
     "licence_assigned": false,
-    "public_deposit": false
-  }
+    "public_deposit": false,
+    "import_verification": "provenance/legacy_import_verification.json",
+    "research_pc_full_replay": "provenance/legacy_pc_full_replay.json",
+    "original_workspace_verification": "provenance/legacy_replay_verification.json",
+    "public_repository_visibility": "public",
+    "source_archive_bytes_preserved": true
+  },
+  "legacy_import_verification": "provenance/legacy_import_verification.json"
 }

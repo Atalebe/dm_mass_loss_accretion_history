@@ -1,0 +1,60 @@
+{
+  "status": "LEGACY_COMPANION_INTEGRATION_QUALIFIED",
+  "companion_files_byte_exact": 239,
+  "earlier_scientific_and_paper_files_byte_exact": 489,
+  "unit_tests_per_mode": 77,
+  "unit_modes": [
+    "normal",
+    "-O",
+    "-OO"
+  ],
+  "full_legacy_replay_counts": {
+    "formation_models": 15,
+    "formation_candidates": 390,
+    "formation_null_candidates": 312000,
+    "threshold_models": 9,
+    "threshold_candidates": 234,
+    "threshold_null_candidates": 156000,
+    "mass_loss_models": 27,
+    "crosscheck_models": 36,
+    "crosscheck_minima": 360000
+  },
+  "full_legacy_max_absolute_difference": 3.865352482534945e-12,
+  "full_legacy_runtime": {
+    "python": "3.13.9",
+    "numpy": "2.4.6",
+    "pandas": "3.0.3"
+  },
+  "combined_default_replay_verified": true,
+  "combined_main_max_absolute_difference": 4.217781679471955e-11,
+  "failure_tests": [
+    {
+      "target": "analysis_data/legacy/formation_search/tng_scaled__full_C4__null.npz",
+      "rejected": true
+    },
+    {
+      "target": "src/legacy/spline_crosscheck.py",
+      "rejected": true
+    },
+    {
+      "target": "provenance/legacy_import_verification.json",
+      "rejected": true
+    },
+    {
+      "test": "strict caller survives rejected combined bundle without success receipt",
+      "passed": true
+    }
+  ],
+  "text_files_scanned": 573,
+  "npz_string_arrays_scanned": 60,
+  "credential_or_local_path_findings": [],
+  "research_environment_installations": 0,
+  "development_repository_unchanged": true,
+  "reservations_preserved": 18,
+  "scientific_findings_closed": [],
+  "new_scientific_random_streams": 0,
+  "raw_tree_scans": 0,
+  "manuscript_modified": false,
+  "release_published": false,
+  "doi": null
+}

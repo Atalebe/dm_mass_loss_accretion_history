@@ -71,6 +71,9 @@ def verify(root=ROOT):
         ordered=[x[1] for x in observed];need(hashlib.sha256(('\n'.join(ordered)+'\n').encode()).hexdigest()==case['ordered_fit_ids_sha256'],'Fit row identities')
         for j,k in enumerate(['available','complete','omitted']):totals[j]+=case[k]
         count+=6
+    if mapping['companion_transfer_status']=='IMPORTED_AND_FULL_REPLAY_VERIFIED':
+        from verify_legacy_import import verify as verify_import
+        verify_import(root);count+=1
     need(totals==[62073,48556,13517],'Total denominators')
     need(summary['scientific_population_identification_claimed'] is False,'Identity check relabelled as scientific identification')
     return {'status':'AUDIT_CONTINUITY_AND_RELEASE_MAP_VERIFIED','checks':count,'assets':32,'population_counts':totals,'reporting_actions_complete':2,'scientific_findings_open':['ABA26-001','ABA26-002'],'new_fits':0,'new_permutations':0,'raw_tree_scans':0,'manuscript_changed':False,'companion_transfer_status':mapping['companion_transfer_status']}

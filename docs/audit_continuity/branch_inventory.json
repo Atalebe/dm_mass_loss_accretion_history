@@ -21,9 +21,12 @@
       "role": "standalone paper release preparation",
       "repository": "Atalebe/dm_mass_loss_accretion_history",
       "branch": "main",
-      "pre_update_commit": "b22335bc4f3e7c0d82bf45988db2057b7da2ed4f",
-      "visibility": "private",
-      "public_archive_complete": false
+      "pre_update_commit": "64e0ade1b6e11520a5fc618e296790330fc268f8",
+      "visibility": "public",
+      "public_archive_complete": false,
+      "visibility_changed_by": "owner",
+      "visibility_verified_utc": "2026-10-21T06:44:00.942141+00:00",
+      "legacy_materials_imported": true
     }
   ],
   "master_register_modified": false

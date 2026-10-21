@@ -1,0 +1,61 @@
+{
+  "unit_tests_per_mode": 12,
+  "modes": [
+    "normal",
+    "-O",
+    "-OO"
+  ],
+  "full_replay": {
+    "status": "PRESERVED_LEGACY_RESULTS_REPRODUCED",
+    "full_saved_null_replay": true,
+    "formation_observed_models": 15,
+    "formation_observed_candidates": 390,
+    "formation_null_candidates_replayed": 312000,
+    "threshold_observed_models": 9,
+    "threshold_null_candidates_replayed": 156000,
+    "mass_loss_models": 27,
+    "separate_crosscheck_models": 36,
+    "separate_joint_null_minima_replayed": 360000,
+    "maximum_absolute_difference": 3.865352482534945e-12,
+    "checks": 2619501,
+    "new_scientific_random_streams": 0,
+    "raw_tree_scans": 0,
+    "python": "3.13.5",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "elapsed_seconds": 293.92414637699994
+  },
+  "source_archive_manifests": {
+    "archives": [
+      {
+        "archive": "DM_PAPER_SUPP_001_Complete_v1.zip",
+        "sha256": "c8b4f578344beb6a7c2263a934dfdc02c07adf25eb330ef0673257ca9964757b",
+        "manifest_files": 200,
+        "zip_crc": true
+      },
+      {
+        "archive": "DM_PAPER_SUPP_002_Complete_v1.zip",
+        "sha256": "0f41998289eae423d88a3a7f5a2a95aa1471a5392a82bd5f73a7684fbf0d0f41",
+        "manifest_files": 142,
+        "zip_crc": true
+      },
+      {
+        "archive": "DM_PAPER_SUPP_003_Mass_Loss_and_Rank_Checks.zip",
+        "sha256": "4a02b774a224f73185e6410d064739731f380bb4a1dd6fbb38163051a984d459",
+        "manifest_files": 105,
+        "zip_crc": true
+      },
+      {
+        "archive": "DM_V9_Independent_Audit_and_Build_Evidence.zip",
+        "sha256": "36a31d8d7e39a763905380db3ba89fcf8e97efca5357d81d48f93a4aab552e7c",
+        "manifest_files": 77,
+        "zip_crc": true
+      }
+    ],
+    "copied_or_extracted_files": 228,
+    "privacy_findings": [],
+    "all_original_archives_unchanged": true
+  },
+  "scientific_settings_changed": false,
+  "imported_into_research_pc_repository": false
+}
