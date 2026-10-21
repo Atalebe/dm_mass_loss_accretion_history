@@ -1,0 +1,56 @@
+{
+  "status": "CODE_MIT_ALL_OTHER_AUTHOR_MATERIAL_CC_BY_4_0_QUALIFIED",
+  "parent_commit": "371adae74008f1b51b7d4e0ce6f3897d537a5e49",
+  "code_licence": "MIT",
+  "non_code_licence": "CC-BY-4.0",
+  "covers_manuscript_documentation_figures_datasets_and_outputs": true,
+  "grant_limited_to_author_rights": true,
+  "third_party_rights_relicensed": false,
+  "licence_selection_complete_for_author_material": true,
+  "unit_tests_per_mode": 95,
+  "unit_modes": [
+    "normal",
+    "-O",
+    "-OO"
+  ],
+  "existing_payload_files_preserved_before_logbook": 769,
+  "changed_policy_and_validation_files": [
+    "LICENSE.md",
+    "README.md",
+    "docs/RIGHTS_AND_RELEASE.md",
+    "docs/licensing.json",
+    "docs/release_status.json",
+    "paper/figures/LICENSE.md",
+    "tests/test_licensing.py",
+    "tools/verify_licensing.py"
+  ],
+  "existing_scientific_routines_changed": 0,
+  "existing_scientific_data_files_changed": 0,
+  "manuscript_and_supplementary_pdf_bytes_changed": false,
+  "existing_figures_changed": 0,
+  "original_legal_texts_changed": false,
+  "failure_tests": [
+    {
+      "case": "asserted third-party relicensing",
+      "rejected": true
+    },
+    {
+      "case": "code reassigned CC BY",
+      "rejected": true
+    },
+    {
+      "case": "altered legal terms rejected and strict calling shell preserved",
+      "passed": true
+    }
+  ],
+  "new_fits": 0,
+  "new_permutations": 0,
+  "packages_installed": 0,
+  "development_state_preserved": true,
+  "reservations_preserved": 18,
+  "github_release_created": false,
+  "zenodo_deposit_created": false,
+  "archive_doi": null,
+  "v176_started": false,
+  "verified_at_utc": "2026-10-21T07:26:31.010982+00:00"
+}

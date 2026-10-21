@@ -1,9 +1,9 @@
 {
-  "schema": "halo-scoped-licensing-v1",
+  "schema": "halo-material-licensing-v2",
   "licensor": "Stephen Atalebe",
   "copyright_year": 2026,
   "effective_date": "2026-10-21",
-  "authorization_scope": "MIT previously confirmed for original code/scripts; current confirmation approves CC BY 4.0 for original figures only.",
+  "authorization_scope": "Author clarification: keep original code MIT and everything else CC BY 4.0. Grants extend only to rights held by the author; existing third-party rights are preserved.",
   "licences": {
     "original_code": {
       "spdx": "MIT",
@@ -39,34 +39,18 @@
         "tools/verify_release_coverage.py"
       ]
     },
-    "original_figures": {
+    "other_author_owned_material": {
       "spdx": "CC-BY-4.0",
       "text": "LICENSES/CC-BY-4.0.txt",
-      "files": [
-        "paper/figures/01_joint_search_null.pdf",
-        "paper/figures/01_joint_search_null.png",
-        "paper/figures/01_joint_search_null.svg",
-        "paper/figures/03_euler_multipliers.pdf",
-        "paper/figures/03_euler_multipliers.png",
-        "paper/figures/03_euler_multipliers.svg",
-        "paper/figures/04_censoring_resolution.pdf",
-        "paper/figures/04_censoring_resolution.png",
-        "paper/figures/04_censoring_resolution.svg",
-        "paper/figures/bp_population_integrated.pdf",
-        "paper/figures/bp_population_integrated.png",
-        "paper/figures/bp_population_integrated.svg",
-        "paper/figures/loss_control_comparison.pdf",
-        "paper/figures/loss_control_comparison.png",
-        "paper/figures/loss_control_comparison.svg",
-        "paper/figures/population_integrated.pdf",
-        "paper/figures/population_integrated.png",
-        "paper/figures/population_integrated.svg",
-        "paper/figures/spatial_sensitivity.pdf",
-        "paper/figures/spatial_sensitivity.png",
-        "paper/figures/spatial_sensitivity.svg",
-        "paper/figures/tng_I_influence_logL.pdf",
-        "paper/figures/tng_I_influence_logL.png",
-        "paper/figures/tng_I_influence_logL.svg"
+      "scope_rule": "ALL_NON_CODE_AUTHOR_OWNED_MATERIAL",
+      "examples": [
+        "manuscript and supplementary text, including PDF and LaTeX",
+        "standalone documentation",
+        "figures and tables",
+        "metadata and reference datasets",
+        "original synthetic datasets",
+        "original analytical and permutation outputs",
+        "author-owned contributions to simulation-derived datasets"
       ]
     }
   },
@@ -185,7 +169,37 @@
   ],
   "whole_repository_licence": null,
   "third_party_rights_relicensed": false,
-  "standalone_manuscript_documentation_licence": null,
-  "standalone_datasets_licence": null,
-  "release_published_by_this_operation": false
+  "standalone_manuscript_documentation_licence": "CC-BY-4.0",
+  "standalone_datasets_licence": "CC-BY-4.0",
+  "release_published_by_this_operation": false,
+  "non_code_default": "CC-BY-4.0",
+  "grant_limited_to_licensor_rights": true,
+  "licence_texts_retain_existing_terms": true,
+  "standalone_datasets_grant_scope": "Only rights held by the author; underlying provider rights and applicable terms remain unchanged.",
+  "figure_files": [
+    "paper/figures/01_joint_search_null.pdf",
+    "paper/figures/01_joint_search_null.png",
+    "paper/figures/01_joint_search_null.svg",
+    "paper/figures/03_euler_multipliers.pdf",
+    "paper/figures/03_euler_multipliers.png",
+    "paper/figures/03_euler_multipliers.svg",
+    "paper/figures/04_censoring_resolution.pdf",
+    "paper/figures/04_censoring_resolution.png",
+    "paper/figures/04_censoring_resolution.svg",
+    "paper/figures/bp_population_integrated.pdf",
+    "paper/figures/bp_population_integrated.png",
+    "paper/figures/bp_population_integrated.svg",
+    "paper/figures/loss_control_comparison.pdf",
+    "paper/figures/loss_control_comparison.png",
+    "paper/figures/loss_control_comparison.svg",
+    "paper/figures/population_integrated.pdf",
+    "paper/figures/population_integrated.png",
+    "paper/figures/population_integrated.svg",
+    "paper/figures/spatial_sensitivity.pdf",
+    "paper/figures/spatial_sensitivity.png",
+    "paper/figures/spatial_sensitivity.svg",
+    "paper/figures/tng_I_influence_logL.pdf",
+    "paper/figures/tng_I_influence_logL.png",
+    "paper/figures/tng_I_influence_logL.svg"
+  ]
 }

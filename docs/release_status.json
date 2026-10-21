@@ -1,6 +1,6 @@
 {
   "schema": "halo-paper-release-status-v1",
-  "phase": "public_candidate_with_scoped_code_and_figure_licences",
+  "phase": "public_candidate_with_code_mit_and_noncode_cc_by_4_0",
   "public_visibility_authorized_in_this_step": true,
   "licence_selected": true,
   "zenodo_deposited": false,
@@ -30,16 +30,17 @@
   "zenodo_integration_status": "OWNER_REPORTED_ENABLED_AND_RESYNCED_NOT_INDEPENDENTLY_VERIFIED",
   "github_release_created": false,
   "remaining_release_requirements": [
-    "licence and rights decisions for material outside the confirmed code/figure grants",
     "upstream-data redistribution review",
     "approval of explicit reproduction scope",
     "approved release tag and GitHub Release",
     "verified Zenodo archival record and DOI"
   ],
-  "licence_selection_complete_for_entire_package": false,
-  "licence_selection_scope": "Original source/executable scripts: MIT; original figure works: CC-BY-4.0 only",
+  "licence_selection_complete_for_entire_package": true,
+  "licence_selection_scope": "Original code/scripts: MIT; all other author-owned material: CC-BY-4.0; third-party rights preserved.",
   "licences": {
     "original_code": "MIT",
-    "original_figures": "CC-BY-4.0"
-  }
+    "other_author_owned_material": "CC-BY-4.0"
+  },
+  "licence_selection_completion_scope": "The author licence choice is complete for all original contributions. It is not third-party rights clearance.",
+  "third_party_redistribution_review_complete": false
 }

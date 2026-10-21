@@ -69,6 +69,8 @@ The results concern contemporaneous, population-dependent accretion-history corr
 
 ## Data, attribution and licence
 
-The upstream TNG and BolshoiP products retain their providers' terms and acknowledgement requirements. Raw multi-gigabyte BolshoiP trees and TNG HDF5 products are not included. Original source code and executable scripts are licensed under **MIT**; the eight original figures (24 PDF/PNG/SVG files) are licensed under **CC BY 4.0**. See `LICENSE.md` and `docs/licensing.json` for the exact paths and attribution. These are material-specific grants, not an alternative dual licence for the entire repository. Manuscript/documentation and standalone dataset licensing remain separate; the simulation-derived data are not covered by the figure licence. See `docs/RIGHTS_AND_RELEASE.md` for the remaining archival-release review.
+**Original code and executable scripts: MIT. Everything else the author owns: CC BY 4.0.** The latter includes the manuscript and supplementary text, documentation, figures, tables, metadata, synthetic reference datasets and original analytical outputs. See `LICENSE.md` for attribution and the default non-code rule, and `docs/licensing.json` for the machine-readable scope.
+
+Upstream TNG/BolshoiP products and other third-party material retain their existing rights, conditions and notices. The CC BY grant applies only to rights the author holds in original non-code contributions; it does not relicense provider-owned content. The licensing choice does not itself complete the separate redistribution review or create a DOI. See `docs/RIGHTS_AND_RELEASE.md`.
 
 AI assistance is disclosed in the manuscript. Additional numerical reproduction does not represent independent human peer review.

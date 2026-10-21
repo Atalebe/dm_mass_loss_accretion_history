@@ -18,8 +18,8 @@
     },
     {
       "path": "LICENSE.md",
-      "bytes": 2752,
-      "sha256": "502d925ea7214c4eabc3d2184664df1a5d2064259be7bb4db0175e832387d0ba"
+      "bytes": 3276,
+      "sha256": "448ada6ad8b9ba8bd5f11e392a1c05ff301daf733a3067c4bd43b1e02b992763"
     },
     {
       "path": "LICENSES/CC-BY-4.0.txt",
@@ -33,8 +33,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 6084,
-      "sha256": "d2ec98d0b8cd0decf1555741c00313734d4e72ef1e87747cbbd488faf390dbd5"
+      "bytes": 6121,
+      "sha256": "cda58557221de48acd2e8818daaa31051d7b386f98aa96de6253e265cb4a75a2"
     },
     {
       "path": "analysis_data/catalogues/bolshoip_tree_0_2_2/feature.csv.gz",
@@ -3088,8 +3088,8 @@
     },
     {
       "path": "docs/RIGHTS_AND_RELEASE.md",
-      "bytes": 2336,
-      "sha256": "e15136a0bfebb254eb9de3fea8f0edb4a151e0cb2cd88b4c21643d57e95fa5c6"
+      "bytes": 2361,
+      "sha256": "bb8546d43c4a9d34790826d31b78e5924c672d7a7e1eb00ac4c1ae76649791a1"
     },
     {
       "path": "docs/audit_continuity/ABA0001_followup.json",
@@ -3123,13 +3123,13 @@
     },
     {
       "path": "docs/licensing.json",
-      "bytes": 7450,
-      "sha256": "6b508d48c5f3cd317cc0ebff0964b5c7f960ceb6b7b3899138afbce81ed4f1b6"
+      "bytes": 8121,
+      "sha256": "c5f4c811be36aa1eaefa4d1992edaeafd06e225957e23b71aafba30128e01248"
     },
     {
       "path": "docs/release_status.json",
-      "bytes": 1638,
-      "sha256": "05f862a2aa0a6fbbeda3a0c4d98a5730f55af422488d04991c32eb40e0afde7b"
+      "bytes": 1788,
+      "sha256": "20a00af31c6bbd8411db09ccb1b363866f6040b91c17d87d63a2baeedfa9d45a"
     },
     {
       "path": "docs/reproducibility_map.json",
@@ -3153,8 +3153,8 @@
     },
     {
       "path": "logbook/entries.json",
-      "bytes": 6497,
-      "sha256": "1154e60349591a075c2fc97343bd9a5efb3c369d2bda27f9280eff7b9c190e96"
+      "bytes": 8001,
+      "sha256": "5f6daa620337584bc3bf1ffea9b6af6ebf9ad323d12926ec9da29ff8ba22bd43"
     },
     {
       "path": "logbook/entry_0001.tex",
@@ -3175,6 +3175,11 @@
       "path": "logbook/entry_0004.tex",
       "bytes": 931,
       "sha256": "af8921de05fd3516006a173121fe937058c25cb1459c6b56cc1240aa733b6c6d"
+    },
+    {
+      "path": "logbook/entry_0005.tex",
+      "bytes": 912,
+      "sha256": "1a9f68337bb6bda652638bf8043fe6cd34061f594ce50ad4d7a10eeca95f68b5"
     },
     {
       "path": "paper/Mass_Loss_Accretion_History.pdf",
@@ -3463,8 +3468,8 @@
     },
     {
       "path": "paper/figures/LICENSE.md",
-      "bytes": 694,
-      "sha256": "d8dae93299138990b6f83b7857a108dcc7f9567e41c0e4b2798f5775db90c237"
+      "bytes": 773,
+      "sha256": "fa36e87244970dd6953a039c798db4ca8573b2c91a34ef1a52d93797172c6550"
     },
     {
       "path": "paper/figures/bp_population_integrated.pdf",
@@ -3692,6 +3697,11 @@
       "sha256": "ee839f4c71afcac52010b921e4d2f805a2853455ae02c0be940d35d88d9619e3"
     },
     {
+      "path": "provenance/code_noncode_licensing_verification.json",
+      "bytes": 1666,
+      "sha256": "29b85bc9ee5499aca0e97e2a4f1b9b26aaf1ffd2b72ac37456a859b5e856a728"
+    },
+    {
       "path": "provenance/legacy_import_verification.json",
       "bytes": 1428,
       "sha256": "aa8cb0172ec5850ccccae124f27d97e3bf9f622e699ce18003d40b1c6140d077"
@@ -3828,8 +3838,8 @@
     },
     {
       "path": "tests/test_licensing.py",
-      "bytes": 1616,
-      "sha256": "29521aa2ef24fc978e817db4f5910a0c827287971d7f892f995ca6b9a0e19e20"
+      "bytes": 2995,
+      "sha256": "9bfe33862b2ed7891e72ed0562e38dadee37c67a9482f9fd97f4290775a9c5ef"
     },
     {
       "path": "tests/test_release_coverage.py",
@@ -3878,8 +3888,8 @@
     },
     {
       "path": "tools/verify_licensing.py",
-      "bytes": 4093,
-      "sha256": "6040b82839aa544f2cd6e2fd31454b60672deb2b6ab472bc0ccfe64a2eb292a7"
+      "bytes": 5689,
+      "sha256": "f270a655e512c2cf03e628c9f8d63a386dfd4a5f3a742eb191af6f16bb08d0b7"
     },
     {
       "path": "tools/verify_release_coverage.py",

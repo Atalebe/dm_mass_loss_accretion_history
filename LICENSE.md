@@ -1,26 +1,30 @@
 # Licensing by material
 
-Copyright (c) 2026 Stephen Atalebe, for original contributions to which copyright applies.
+Copyright (c) 2026 Stephen Atalebe, for original contributions to which copyright or similar rights apply.
 
-This repository contains differently licensed material. **It is not licensed wholesale under either MIT or CC BY 4.0, and the two licences are not alternatives for the same files.**
+**Original source code and executable scripts are licensed under MIT. All other author-owned material in this repository is licensed under Creative Commons Attribution 4.0 International (CC BY 4.0).**
 
-| Material | Licence | Exact scope |
-| --- | --- | --- |
-| Original source code and executable scripts | MIT | The source/script files listed under `MIT` in `docs/licensing.json`; includes their inline comments and docstrings. Full terms: `LICENSES/MIT.txt`. |
-| Original figures | Creative Commons Attribution 4.0 International (CC BY 4.0) | The 24 PDF/PNG/SVG files representing eight figures under `paper/figures/`, listed under `CC-BY-4.0` in `docs/licensing.json`. Full terms: `LICENSES/CC-BY-4.0.txt`. |
+The two licences cover different materials; they are not alternative licences for the same work. Third-party material retains its existing terms.
 
-## Figure attribution
+| Material | Licence |
+| --- | --- |
+| Original source code, executable scripts, and their inline comments, docstrings and embedded test fixtures | MIT; full terms in `LICENSES/MIT.txt`. |
+| All other original material, including the manuscript and supplementary text (PDF and LaTeX), standalone documentation, figures, tables, metadata, reference datasets and analytical results | CC BY 4.0; full terms in `LICENSES/CC-BY-4.0.txt`. |
 
-Credit Stephen Atalebe, identify the figure and its source paper, link to the licence, and indicate any changes. A suitable example is:
+The explicit code list and the non-code default rule are recorded in `docs/licensing.json`. The non-code grant includes original standalone synthetic datasets, numerical outputs, permutation results, and the author's own contributions to selected or processed simulation-derived datasets. Original LaTeX manuscript sources and tables are manuscript material under CC BY 4.0, rather than analysis software under MIT.
 
-> Stephen Atalebe (2026), [figure number/title], from *Mass-loss dependence of accretion-history correlations in dark-matter halo velocity structure*. Source: https://github.com/Atalebe/dm_mass_loss_accretion_history (identify the commit used). Licensed under CC BY 4.0: https://creativecommons.org/licenses/by/4.0/. [Unmodified / adapted; describe changes].
+## Attribution
 
-Sharing and adapting the licensed figures, including for commercial purposes, is permitted under the licence. Attribution must not imply endorsement. Reuse of an original figure extracted from the article uses the same figure licence; that does not license the entire article.
+For CC BY 4.0 material, credit Stephen Atalebe, identify the work and source, provide a licence link, retain supplied notices, and indicate changes. A suitable example is:
 
-## What these grants do not cover
+> Stephen Atalebe (2026), *Mass-loss dependence of accretion-history correlations in dark-matter halo velocity structure*, [material or figure/table identifier]. Source: https://github.com/Atalebe/dm_mass_loss_accretion_history (identify the commit or published DOI used). CC BY 4.0: https://creativecommons.org/licenses/by/4.0/. [Unmodified / adapted; describe changes].
 
-The author grants only rights held in the original code and figure works identified above. Third-party rights, notices and provider conditions remain separate. These grants do not relicense upstream TNG/BolshoiP products, simulation-derived catalogues, per-object histories, model matrices, permutation arrays, standalone numerical result files, or separately credited material.
+For MIT-covered code, retain the copyright and permission notice as required by `LICENSES/MIT.txt`.
 
-The manuscript text, standalone documentation, and any separately distributed synthetic reference datasets have not been assigned an additional licence by this figure-specific confirmation. Synthetic fixtures embedded in the original source are covered as code under MIT; simulation-derived data are not relabelled as synthetic fixtures. Materials outside the explicit grants remain subject to their applicable existing rights and permissions, including any statutory exceptions; no new restrictions on public-domain elements are asserted.
+## Third-party material and data provenance
 
-A public GitHub repository is not itself an archival DOI or a declaration that all redistribution questions are settled. See `docs/RIGHTS_AND_RELEASE.md` for the remaining deposit steps.
+These grants extend only to rights the author holds. They do not replace or expand third-party rights, licences, notices, access conditions or attribution requirements. Upstream IllustrisTNG/TNG and BolshoiP/CosmoSim simulation products remain subject to their providers' applicable terms. The author's original selection, arrangement, annotations, analysis and derived outputs are offered under CC BY 4.0 to the extent those rights exist and are held by the author; underlying third-party content is not relicensed. Simulation-derived data are not represented as independently generated synthetic data.
+
+Third-party licence texts in `LICENSES/` are reproduced as legal notices under their existing terms, not relicensed as original author text. Separately identified third-party material retains its own notices. No copyright or database right is asserted over facts or other public-domain elements merely because they occur here, and no statutory exception or limitation is restricted.
+
+The licence selection is complete for the author's contributions. It is not a claim that upstream redistribution review, a tagged GitHub Release or a Zenodo deposit has been completed. See `docs/RIGHTS_AND_RELEASE.md` for those distinct steps.

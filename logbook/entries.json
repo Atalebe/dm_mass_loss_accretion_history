@@ -62,6 +62,25 @@
       "new_scientific_random_streams": 0,
       "public_release_published": false,
       "v176_started": false
+    },
+    {
+      "entry_number": 5,
+      "id": "DM-CODE-NONCODE-LICENSING-005",
+      "at_utc": "2026-10-21T07:27:46.987533+00:00",
+      "what_was_tested": "Author clarification: original code MIT; all other author-owned material CC BY 4.0.",
+      "methods": "Material-scope validator; 95 deterministic tests in normal/-O/-OO modes; input/legacy/coverage checks; altered-policy and legal-text failure fixtures; strict-shell preservation; existing-file hashes.",
+      "results": "MIT retained for all 28 original source/scripts. CC BY 4.0 extended to all non-code author contributions including manuscript, documentation, figures, tables, metadata, datasets and analytical outputs. Existing third-party rights and legal texts preserved. Scientific routines, inputs, outputs and manuscript PDF bytes unchanged.",
+      "failures": "No failed implementation gate. Intentional third-party relicensing, wrong code licence and altered legal text were rejected.",
+      "next_steps": "Verify the licensing commit and push. Complete upstream redistribution review and approved archival-release metadata; publish a release only after separate approval and verify its DOI.",
+      "author_licence_choice_complete": true,
+      "third_party_rights_relicensed": false,
+      "scientific_findings_closed": [],
+      "new_fits": 0,
+      "new_permutations": 0,
+      "original_repository_modified": false,
+      "github_release_created": false,
+      "zenodo_deposit_created": false,
+      "v176_started": false
     }
   ]
 }
