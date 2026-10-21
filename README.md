@@ -10,6 +10,8 @@ This is a standalone repository with a new Git history. It is not a mirror of th
 
 The immutable `v1.0.0` tag points to commit `11da155816d72342ce162ecdd7e07d9f492ce072`. All 793 archived files were downloaded and verified. The current main-branch article includes a DOI-only Data Availability amendment made after the deposit; the archived tag and numerical results are unchanged. The supplement is byte-identical. See `provenance/zenodo_release_receipt.json` and `provenance/availability_update_verification.json`.
 
+The current article also carries the author-reserved **manuscript DOI `10.5281/zenodo.23530614`** on its first page and in its PDF metadata. This is separate from the analysis DOI above. The manuscript upload is in preparation; reservation is not verification of publication. Only bibliographic text is added, all scientific prose and other pages are unchanged, and the supplement is unchanged. See `provenance/manuscript_doi_update_verification.json`.
+
 Original software and executable workflows are MIT; other author-owned material is CC BY 4.0. The generic Other (Open) catalogue entry on Zenodo represents this mixed collection; the description and `LICENSE.md` specify each material's grant. Third-party conditions remain separate. Reproduction boundaries are in `docs/reproduction_scope.md` and the 32-asset map. The two scientific inference/population findings remain open.
 
 ## Start here

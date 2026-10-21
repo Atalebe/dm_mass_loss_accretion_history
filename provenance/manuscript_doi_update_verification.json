@@ -1,0 +1,44 @@
+{
+  "schema": "halo-manuscript-doi-update-v1",
+  "status": "MANUSCRIPT_DOI_INSERTION_VERIFIED",
+  "manuscript_doi": "10.5281/zenodo.23530614",
+  "doi_status": "OWNER_REPORTED_RESERVED_PUBLICATION_NOT_VERIFIED",
+  "publication_verified": false,
+  "base_commit": "69a7797cb528bb13ba57b50500786ff79eb76054",
+  "archived_commit": "11da155816d72342ce162ecdd7e07d9f492ce072",
+  "analysis_doi": "10.5281/zenodo.23529740",
+  "files": [
+    {
+      "path": "paper/manuscript/main.tex",
+      "before_sha256": "2c4abfe579f57587d61fa7dd6719ca4137b3d7a56f1669980b4fa7e8c9d2ed20",
+      "before_bytes": 60713,
+      "current_sha256": "60b91eb3b168460efee13e9ba715556017989f05e89a4137d8bd352dc3c84743",
+      "current_bytes": 61120
+    },
+    {
+      "path": "paper/Mass_Loss_Accretion_History.pdf",
+      "before_sha256": "bf4a69639a5bc778286dd9c4d2efb39a8e4db3a3cdd08bc5501c4d660890c749",
+      "before_bytes": 250063,
+      "current_sha256": "de36f45ebf94530c7fb336080b82f34877848fef4b36f9f78ae4a238b3076cc0",
+      "current_bytes": 252230
+    }
+  ],
+  "changed_main_pages": [
+    1
+  ],
+  "main_pages_before": 22,
+  "main_pages_after": 22,
+  "all_other_main_pages_pixel_identical": true,
+  "first_page_scientific_text_unchanged": true,
+  "supplementary_byte_identical": true,
+  "changed_page_visually_inspected": true,
+  "analysis_availability_unchanged": true,
+  "scientific_content_changed": false,
+  "tag_or_zenodo_archive_modified": false,
+  "new_release_created": false,
+  "zenodo_manuscript_uploaded_or_published_by_this_operation": false,
+  "public_record_and_resolver_status_observed": 404,
+  "rendered_manuscript_doi_link": "https://doi.org/10.5281/zenodo.23530614",
+  "pdf_keywords": "Manuscript DOI: 10.5281/zenodo.23530614",
+  "checked_at_utc": "2026-10-21T09:38:47.814982+00:00"
+}

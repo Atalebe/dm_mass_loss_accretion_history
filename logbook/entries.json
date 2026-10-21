@@ -111,6 +111,22 @@
       "scientific_findings_closed": [],
       "original_repository_modified": false,
       "v176_started": false
+    },
+    {
+      "entry_number": 8,
+      "id": "DM-MANUSCRIPT-DOI-008",
+      "at_utc": "2026-10-21T09:42:08.833297+00:00",
+      "what_was_tested": "Insertion of the author-reserved manuscript DOI, distinct from the published analysis DOI.",
+      "methods": "131 tests in normal/-O/-OO; exact reverse reconstruction of prior TeX; SHA256 preservation checks; clean document rebuild; 22-page rendered comparison and hyperlink/metadata inspection; strict-caller failure fixture.",
+      "results": "Manuscript DOI 10.5281/zenodo.23530614 added only to the first-page header and PDF keywords. All other 21 article pages are pixel-identical; supplement byte-identical. Analysis DOI 10.5281/zenodo.23529740 retained. Publication of the reserved manuscript DOI is not claimed.",
+      "failures": "The existing builder initially rejected the changed TeX against the previous source map. The map now explicitly records the DOI-only derivative and retains its pre-edit identity; exact reverse-edit verification guards the scientific source. The first unit-suite attempt used base Conda, which lacks NumPy. The existing dark-matter .venv matches the established runtime and all 131 tests pass in three modes without package installation.",
+      "next_steps": "Commit and verify push on main only; deliver the amended PDF and source ZIP for the existing author-created Zenodo draft. Do not retag or create another software release. The author completes manuscript upload/publication.",
+      "manuscript_publication_verified": false,
+      "analysis_archive_modified": false,
+      "scientific_findings_closed": [],
+      "new_scientific_random_streams": 0,
+      "original_development_repository_modified": false,
+      "v176_started": false
     }
   ]
 }

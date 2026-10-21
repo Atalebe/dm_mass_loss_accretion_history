@@ -1,0 +1,39 @@
+{
+  "status": "MANUSCRIPT_DOI_QUALIFIED",
+  "manuscript_doi": "10.5281/zenodo.23530614",
+  "analysis_archive_doi": "10.5281/zenodo.23529740",
+  "unit_tests_per_mode": 131,
+  "interpreter_modes": [
+    "normal",
+    "-O",
+    "-OO"
+  ],
+  "clean_build_byte_identical": true,
+  "changed_main_pages": [
+    1
+  ],
+  "all_other_21_pages_pixel_identical": true,
+  "supplementary_byte_identical": true,
+  "first_page_visually_inspected": true,
+  "source_reverse_edit_exact": true,
+  "strict_calling_shell_preserved": true,
+  "science_values_tables_figures_changed": false,
+  "new_scientific_random_streams": 0,
+  "packages_installed": 0,
+  "new_release_or_manuscript_publication_performed": false,
+  "changed_existing_paths": [
+    "README.md",
+    "docs/release_status.json",
+    "paper/Mass_Loss_Accretion_History.pdf",
+    "paper/manuscript/main.tex",
+    "provenance/source_map.json",
+    "tests/test_publication_update.py",
+    "tools/verify_archival_release.py",
+    "tools/verify_publication_update.py"
+  ],
+  "failures_repaired": [
+    "The existing builder initially rejected the changed TeX against the previous source map. The map now explicitly records the DOI-only derivative and retains its pre-edit identity; exact reverse-edit verification guards the scientific source.",
+    "The first unit-suite attempt used base Conda, which lacks NumPy. The existing dark-matter .venv matches the established runtime and all 131 tests pass in three modes without package installation."
+  ],
+  "checked_at_utc": "2026-10-21T09:42:08.833297+00:00"
+}

@@ -48,5 +48,8 @@
   "zenodo_record_id": 23529740,
   "public_archive_completion_scope": "Verified v1.0.0 archive of the declared input-to-result reproduction scope; upstream raw-data reconstruction boundaries remain.",
   "release_source_commit": "11da155816d72342ce162ecdd7e07d9f492ce072",
-  "availability_updated_after_deposit": true
+  "availability_updated_after_deposit": true,
+  "manuscript_doi": "10.5281/zenodo.23530614",
+  "manuscript_doi_status": "OWNER_REPORTED_RESERVED_PUBLICATION_NOT_VERIFIED",
+  "manuscript_publication_verified": false
 }

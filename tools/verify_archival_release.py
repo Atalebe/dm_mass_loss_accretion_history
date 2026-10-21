@@ -32,6 +32,10 @@ def verify(root=ROOT):
         from verify_publication_update import verify as publication
         publication(root)
         publication_updates = {e['path']:e for e in json.loads((root/'provenance/availability_update_verification.json').read_text())['files']}
+    if (root/'provenance/manuscript_doi_update_verification.json').exists():
+        from verify_publication_update import verify_manuscript_doi
+        verify_manuscript_doi(root)
+        publication_updates.update({e['path']:e for e in json.loads((root/'provenance/manuscript_doi_update_verification.json').read_text())['files']})
     for e in old['files']:
         p=root/e['path'];update=publication_updates.get(e['path'])
         expected_sha=update['current_sha256'] if update else e['sha256']

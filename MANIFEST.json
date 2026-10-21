@@ -43,8 +43,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 6471,
-      "sha256": "92c34739a992dd7d553f481bb4b99a1d2f274c74e3af14f4b66e573a6ddb0794"
+      "bytes": 6925,
+      "sha256": "67c0e824aee40eb2f982aced7636572558faeddbc059be463d44132904e12d69"
     },
     {
       "path": "analysis_data/catalogues/bolshoip_tree_0_2_2/feature.csv.gz",
@@ -3148,8 +3148,8 @@
     },
     {
       "path": "docs/release_status.json",
-      "bytes": 2330,
-      "sha256": "c1854544efbbe3b6eb5fe9025a15c0624516b6634e792649031547587a578b70"
+      "bytes": 2500,
+      "sha256": "80df9350d61509eeaee468da024670e906f2b13f5483c384d5a2bd1621d69a90"
     },
     {
       "path": "docs/reproducibility_map.json",
@@ -3178,8 +3178,8 @@
     },
     {
       "path": "logbook/entries.json",
-      "bytes": 11004,
-      "sha256": "aa7c50de29f152c0aadd9f9a39972cf08c56d61691629bfed614b67725dae502"
+      "bytes": 12742,
+      "sha256": "9ccc7b565ffdca99dada221f047ce127874a2212c7070d0c76eb678e7e418279"
     },
     {
       "path": "logbook/entry_0001.tex",
@@ -3217,9 +3217,14 @@
       "sha256": "e70654fb5d9b1067acdd90e2a511862f1f83bb7d6fa9ab9f07b5c7fca6e1a3a5"
     },
     {
+      "path": "logbook/entry_0008.tex",
+      "bytes": 1146,
+      "sha256": "2838a9ce5924d88726368739aac23fe2263ffbde579ffc8224938107c00cea8f"
+    },
+    {
       "path": "paper/Mass_Loss_Accretion_History.pdf",
-      "bytes": 250063,
-      "sha256": "bf4a69639a5bc778286dd9c4d2efb39a8e4db3a3cdd08bc5501c4d660890c749"
+      "bytes": 252230,
+      "sha256": "de36f45ebf94530c7fb336080b82f34877848fef4b36f9f78ae4a238b3076cc0"
     },
     {
       "path": "paper/Supplementary_Material.pdf",
@@ -3588,8 +3593,8 @@
     },
     {
       "path": "paper/manuscript/main.tex",
-      "bytes": 60713,
-      "sha256": "2c4abfe579f57587d61fa7dd6719ca4137b3d7a56f1669980b4fa7e8c9d2ed20"
+      "bytes": 61120,
+      "sha256": "60b91eb3b168460efee13e9ba715556017989f05e89a4137d8bd352dc3c84743"
     },
     {
       "path": "paper/manuscript/references.tex",
@@ -3797,6 +3802,16 @@
       "sha256": "02db6fc83e93970792b40e2ef372486339ad8442221431237f53521a719c63d4"
     },
     {
+      "path": "provenance/manuscript_doi_qualification.json",
+      "bytes": 1546,
+      "sha256": "1c60529087c4e47c92a3617fe0ce3fc263d4037dabcab21107eec109794cc023"
+    },
+    {
+      "path": "provenance/manuscript_doi_update_verification.json",
+      "bytes": 1784,
+      "sha256": "4e238a5f4771393b526a076948701cb320a6b9edce619d7979ed70d1e907defe"
+    },
+    {
       "path": "provenance/reproduction_verification.json",
       "bytes": 3451,
       "sha256": "53ecc536c1026deee88f764b1f14b3b344e549d0ba30041af8fdb778a949a07d"
@@ -3808,8 +3823,8 @@
     },
     {
       "path": "provenance/source_map.json",
-      "bytes": 163977,
-      "sha256": "d9081bf459d711ffb5ecbeed9b007f13f820f3c7d9c31c703b43e7d180729196"
+      "bytes": 164373,
+      "sha256": "efdb124f8bb2ec98b5c982bb8881cc7a59e62bf75259e862e5066ec0e08a00f0"
     },
     {
       "path": "provenance/upstream_distribution_review.json",
@@ -3923,8 +3938,8 @@
     },
     {
       "path": "tests/test_publication_update.py",
-      "bytes": 1639,
-      "sha256": "f20131ed833ee92f951e5656beee417d049188f8b76389031ddfe89a93315fe7"
+      "bytes": 4925,
+      "sha256": "435eb2a0f59b5bc406b687e2b1f4cc1a3847826dc118045f9d768128d0c0a487"
     },
     {
       "path": "tests/test_release_coverage.py",
@@ -3963,8 +3978,8 @@
     },
     {
       "path": "tools/verify_archival_release.py",
-      "bytes": 4234,
-      "sha256": "06030f19427baa7d0b51306b5af042488c41e445f492add8c032cb4580b88c93"
+      "bytes": 4567,
+      "sha256": "801b2a26be7819cdbde23cbb4b2355f962ac36fdd07022067160625ea34229ed"
     },
     {
       "path": "tools/verify_integrity.py",
@@ -3988,8 +4003,8 @@
     },
     {
       "path": "tools/verify_publication_update.py",
-      "bytes": 2475,
-      "sha256": "9c8f7b9ea1ad288673244ab8193677ad16aabdd030057cf421104d04e5c9497d"
+      "bytes": 8386,
+      "sha256": "91e1a3e8cea1820d66d24103167f7d53e287d773953de71e4694b57a37c90569"
     },
     {
       "path": "tools/verify_release_coverage.py",

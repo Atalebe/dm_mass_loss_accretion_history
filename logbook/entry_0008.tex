@@ -1,0 +1,10 @@
+\section*{Release logbook entry 0008}
+\textbf{Tested:} Author-reserved manuscript DOI 10.5281/zenodo.23530614, kept distinct from analysis DOI 10.5281/zenodo.23529740.
+
+\textbf{Methods:} 131 deterministic tests in normal, -O and -OO modes; exact reverse-source identity; clean PDF rebuild; page-render, hyperlink and metadata checks; strict-caller failure fixture.
+
+\textbf{Results:} Only the first-page bibliographic header and PDF keywords change. The other 21 article pages and the entire supplement are unchanged. No scientific content changes and no archived tag is rewritten. Manuscript publication remains unverified.
+
+\textbf{Failures and repair:} The original source map correctly rejected the new bibliographic derivative. Its new representation retains the prior identity and is protected by exact reverse-edit verification. Base Conda lacked NumPy; the established dark-matter virtual environment passed all tests without installation.
+
+\textbf{Next steps:} Verify the main-branch commit and push. Deliver the PDF and source for the author's existing Zenodo draft. No new software release or manuscript publication is performed here.
