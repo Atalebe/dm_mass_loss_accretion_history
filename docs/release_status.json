@@ -50,6 +50,10 @@
   "release_source_commit": "11da155816d72342ce162ecdd7e07d9f492ce072",
   "availability_updated_after_deposit": true,
   "manuscript_doi": "10.5281/zenodo.23530614",
-  "manuscript_doi_status": "OWNER_REPORTED_RESERVED_PUBLICATION_NOT_VERIFIED",
-  "manuscript_publication_verified": false
+  "manuscript_doi_status": "PUBLISHED_EXACT_PDF_VERIFIED",
+  "manuscript_publication_verified": true,
+  "manuscript_concept_doi": "10.5281/zenodo.23530613",
+  "manuscript_checkpoint": "checkpoints/manuscript_pre_v176_20261022/CHECKPOINT_VERIFICATION.json",
+  "overleaf_project_prepared": true,
+  "overleaf_hosted_compilation_verified": false
 }

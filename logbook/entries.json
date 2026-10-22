@@ -127,6 +127,22 @@
       "new_scientific_random_streams": 0,
       "original_development_repository_modified": false,
       "v176_started": false
+    },
+    {
+      "entry_number": 9,
+      "id": "DM-OVERLEAF-CHECKPOINT-009",
+      "at_utc": "2026-10-22T03:53:26.718708+00:00",
+      "what_was_tested": "Document-only Overleaf packaging and frozen manuscript preservation before resuming the main workflow.",
+      "methods": "Exact source/PDF/publication identities; 24 table dependencies and eight figures; two clean builds of both documents; 33-page text/pixel comparison; 139 tests in normal/-O/-OO modes; corruption rejection and strict-caller preservation.",
+      "results": "45-file Overleaf ZIP and complete 101-paper-file checkpoint assembled. Reference article and supplement reproduced byte-for-byte. The manuscript is publicly published under its distinct DOI.",
+      "failures": "No document or scientific gate failed. Intentionally corrupted TeX, figure and table fixtures were rejected. The chat container could not fetch raw GitHub binaries directly; a checked hosted export is used solely for delivery.",
+      "next_steps": "Verify commit and push, verify the hosted transfer copy and deliver the ZIPs. Leave the published v1.0.0 tag and all scientific results unchanged. v176 has not been started.",
+      "new_scientific_random_streams": 0,
+      "scientific_findings_closed": [],
+      "new_github_release_or_zenodo_version": false,
+      "original_repository_modified": false,
+      "reservations_preserved": 18,
+      "v176_started": false
     }
   ]
 }

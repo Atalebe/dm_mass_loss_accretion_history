@@ -1,0 +1,19 @@
+{
+  "analysis_concept_doi": "10.5281/zenodo.23529739",
+  "analysis_doi": "10.5281/zenodo.23529740",
+  "article_sha256": "de36f45ebf94530c7fb336080b82f34877848fef4b36f9f78ae4a238b3076cc0",
+  "checked_at_utc": "2026-10-22T03:51:03.200251+00:00",
+  "manuscript_concept_doi": "10.5281/zenodo.23530613",
+  "manuscript_doi": "10.5281/zenodo.23530614",
+  "metadata_edited": false,
+  "observations_retained": [
+    "Published record affiliation is Masaryk University; PDF says Independent researcher. No affiliation was inferred or changed.",
+    "Publication record description/keywords retain copying artefacts; preserved without editorial changes.",
+    "The manuscript record contains the article; the supplement is preserved here and in the separate analysis archive."
+  ],
+  "published_article_matches_checkpoint": true,
+  "published_manuscript_record_status": "published",
+  "source_commit": "c46f207dad827ad44d4af2aa8958b6dba81a76dd",
+  "status": "PUBLIC_MANUSCRIPT_AND_EXACT_PDF_VERIFIED",
+  "supplement_sha256": "e69fbd0e66c91d57859ebfda4e557b590d550f623fc30567590eada59daa1d66"
+}

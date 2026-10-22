@@ -9,6 +9,7 @@
       "spdx": "MIT",
       "text": "LICENSES/MIT.txt",
       "files": [
+        ".github/workflows/manuscript-checkpoint.yml",
         ".github/workflows/publish-v1.yml",
         "build_paper_no_exit.sh",
         "reference/original_ols.py",
@@ -29,6 +30,7 @@
         "tests/test_legacy_import.py",
         "tests/test_legacy_materials.py",
         "tests/test_licensing.py",
+        "tests/test_overleaf_checkpoint.py",
         "tests/test_publication_update.py",
         "tests/test_release_coverage.py",
         "tests/test_sensitivity.py",
@@ -42,6 +44,7 @@
         "tools/verify_legacy_import.py",
         "tools/verify_legacy_materials.py",
         "tools/verify_licensing.py",
+        "tools/verify_overleaf_checkpoint.py",
         "tools/verify_publication_update.py",
         "tools/verify_release_coverage.py"
       ]

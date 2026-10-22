@@ -8,11 +8,19 @@ This is a standalone repository with a new Git history. It is not a mirror of th
 
 **Version 1.0.0 is publicly archived on Zenodo:** [10.5281/zenodo.23529740](https://doi.org/10.5281/zenodo.23529740). Cite that version-specific DOI for the exact analysis snapshot. The [all-versions DOI](https://doi.org/10.5281/zenodo.23529739) resolves to the version collection.
 
-The immutable `v1.0.0` tag points to commit `11da155816d72342ce162ecdd7e07d9f492ce072`. All 793 archived files were downloaded and verified. The current main-branch article includes a DOI-only Data Availability amendment made after the deposit; the archived tag and numerical results are unchanged. The supplement is byte-identical. See `provenance/zenodo_release_receipt.json` and `provenance/availability_update_verification.json`.
+The immutable `v1.0.0` tag points to commit `11da155816d72342ce162ecdd7e07d9f492ce072`. All 793 archived files were downloaded and verified. The current main-branch article includes DOI-only Data Availability and manuscript-header amendments made after the deposit; the archived tag and numerical results are unchanged. The supplement is byte-identical. See `provenance/zenodo_release_receipt.json` and `provenance/availability_update_verification.json`.
 
 The current article also carries the author-reserved **manuscript DOI `10.5281/zenodo.23530614`** on its first page and in its PDF metadata. This is separate from the analysis DOI above. The manuscript upload is in preparation; reservation is not verification of publication. Only bibliographic text is added, all scientific prose and other pages are unchanged, and the supplement is unchanged. See `provenance/manuscript_doi_update_verification.json`.
 
 Original software and executable workflows are MIT; other author-owned material is CC BY 4.0. The generic Other (Open) catalogue entry on Zenodo represents this mixed collection; the description and `LICENSE.md` specify each material's grant. Third-party conditions remain separate. Reproduction boundaries are in `docs/reproduction_scope.md` and the 32-asset map. The two scientific inference/population findings remain open.
+
+## Frozen manuscript / Overleaf checkpoint
+
+The manuscript is published as V1 at DOI **10.5281/zenodo.23530614**, separate from the analysis DOI above. The exact 22-page PDF was downloaded from the published record and verified.
+
+`checkpoints/manuscript_pre_v176_20261022/` contains a compact Overleaf project ZIP and a full document-preservation ZIP. The latter includes all 101 paper artefacts, published/reference PDFs, summary and figure data, licensing and source/build checks. The source identity is `c46f207dad827ad44d4af2aa8958b6dba81a76dd`. Select XeLaTeX and `main.tex` or `supplementary.tex`; no simulation runtime or private files are needed. Both documents rebuild byte-identically under the checked isolated Tectonic engine. Actual hosted Overleaf execution is not claimed.
+
+The bundles are committed for preservation; the Actions artifact is only a convenient transfer copy, not the sole archive. No v176 execution or new public release is performed by this checkpoint.
 
 ## Start here
 

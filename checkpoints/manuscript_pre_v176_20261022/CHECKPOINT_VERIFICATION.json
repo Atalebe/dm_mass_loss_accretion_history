@@ -1,0 +1,128 @@
+{
+  "analysis_doi": "10.5281/zenodo.23529740",
+  "build_verification": {
+    "all_other_page_layouts_verified_by_exact_pixel_comparison": true,
+    "altered_table_figure_and_tex_rejected": true,
+    "builds": [
+      {
+        "all_pages_pixel_identical": true,
+        "build": "build01",
+        "document": "main",
+        "nonoverflow_warnings": 3,
+        "pages": 22,
+        "same_bytes_as_canonical": true,
+        "sha256": "de36f45ebf94530c7fb336080b82f34877848fef4b36f9f78ae4a238b3076cc0",
+        "text_identical": true
+      },
+      {
+        "all_pages_pixel_identical": true,
+        "build": "build01",
+        "document": "supplementary",
+        "nonoverflow_warnings": 0,
+        "pages": 11,
+        "same_bytes_as_canonical": true,
+        "sha256": "e69fbd0e66c91d57859ebfda4e557b590d550f623fc30567590eada59daa1d66",
+        "text_identical": true
+      },
+      {
+        "all_pages_pixel_identical": true,
+        "build": "build02",
+        "document": "main",
+        "nonoverflow_warnings": 3,
+        "pages": 22,
+        "same_bytes_as_canonical": true,
+        "sha256": "de36f45ebf94530c7fb336080b82f34877848fef4b36f9f78ae4a238b3076cc0",
+        "text_identical": true
+      },
+      {
+        "all_pages_pixel_identical": true,
+        "build": "build02",
+        "document": "supplementary",
+        "nonoverflow_warnings": 0,
+        "pages": 11,
+        "same_bytes_as_canonical": true,
+        "sha256": "e69fbd0e66c91d57859ebfda4e557b590d550f623fc30567590eada59daa1d66",
+        "text_identical": true
+      }
+    ],
+    "engine": "Tectonic 0.17.0",
+    "overleaf_hosted_execution": false,
+    "packages_installed": 0,
+    "representative_pages_visually_inspected": [
+      "article page 1",
+      "supplement page 7"
+    ],
+    "same_engine_clean_rebuild_byte_identical": true,
+    "scientific_execution": false,
+    "status": "CLEAN_TYPESSETTING_AND_FAILURE_CHECKS_PASSED",
+    "strict_calling_shell_preserved": true,
+    "total_reference_pages": 33,
+    "visual_inspection_pending": false
+  },
+  "bundles": [
+    {
+      "bytes": 207677,
+      "filename": "DM_Overleaf_Compilation_20261022.zip",
+      "sha256": "202b9198465cc427a9ff4a4d0e42200bafdc0d254cf5abd16411102b70cfd03d"
+    },
+    {
+      "bytes": 1865666,
+      "filename": "DM_Manuscript_Checkpoint_Pre_v176_20261022.zip",
+      "sha256": "0cd2f1e65eaaf58fb21452454aa00d8c1c3cfe6f84c80be037284adf46df86a4"
+    }
+  ],
+  "byte_identical_clean_compilation": true,
+  "canonical_paper_files": 101,
+  "figure_data_files": 8,
+  "figure_formats": [
+    "pdf",
+    "png",
+    "svg"
+  ],
+  "figures": 8,
+  "hosted_overleaf_build_claimed": false,
+  "id": "DM-OVERLEAF-CHECKPOINT-009",
+  "main_pages": 22,
+  "manuscript_doi": "10.5281/zenodo.23530614",
+  "new_release_or_tag_created": false,
+  "numerical_summary_files": 38,
+  "original_science_head": "06d5ed3437cf3e082b741c31a7a4c78962ff276c",
+  "overleaf_project_files": 45,
+  "public_paper_modified": false,
+  "publication_verification": {
+    "analysis_concept_doi": "10.5281/zenodo.23529739",
+    "analysis_doi": "10.5281/zenodo.23529740",
+    "article_sha256": "de36f45ebf94530c7fb336080b82f34877848fef4b36f9f78ae4a238b3076cc0",
+    "checked_at_utc": "2026-10-22T03:51:03.200251+00:00",
+    "manuscript_concept_doi": "10.5281/zenodo.23530613",
+    "manuscript_doi": "10.5281/zenodo.23530614",
+    "metadata_edited": false,
+    "observations_retained": [
+      "Published record affiliation is Masaryk University; PDF says Independent researcher. No affiliation was inferred or changed.",
+      "Publication record description/keywords retain copying artefacts; preserved without editorial changes.",
+      "The manuscript record contains the article; the supplement is preserved here and in the separate analysis archive."
+    ],
+    "published_article_matches_checkpoint": true,
+    "published_manuscript_record_status": "published",
+    "source_commit": "c46f207dad827ad44d4af2aa8958b6dba81a76dd",
+    "status": "PUBLIC_MANUSCRIPT_AND_EXACT_PDF_VERIFIED",
+    "supplement_sha256": "e69fbd0e66c91d57859ebfda4e557b590d550f623fc30567590eada59daa1d66"
+  },
+  "reservations_preserved": 18,
+  "scientific_findings_closed": [],
+  "source_changes_only": "Two figure-directory path substitutions in the Overleaf copy",
+  "source_commit": "c46f207dad827ad44d4af2aa8958b6dba81a76dd",
+  "status": "DOCUMENT_CHECKPOINT_VERIFIED",
+  "supplement_pages": 11,
+  "table_fragments": 24,
+  "v176_started": false,
+  "repository_tests_per_mode": 139,
+  "repository_test_modes": [
+    "normal",
+    "-O",
+    "-OO"
+  ],
+  "canonical_paper_files_preserved": 101,
+  "original_development_state_unchanged": true,
+  "checkpoint_preparation_completed_utc": "2026-10-22T03:53:26.717877+00:00"
+}

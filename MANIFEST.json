@@ -7,6 +7,11 @@
       "sha256": "3b4edca5366aed6e1eb81786db965ff171625fe14a58215b01be8f707072f04c"
     },
     {
+      "path": ".github/workflows/manuscript-checkpoint.yml",
+      "bytes": 1313,
+      "sha256": "d13904a7bbabffa3dd608c281ad7f091811cd48e5f0c5f0133c2964304d1efb2"
+    },
+    {
       "path": ".github/workflows/publish-v1.yml",
       "bytes": 1206,
       "sha256": "16c7d6eaa2c8d08b44d1524d4edcb7982d5e6cec303a703f140f0d35a213f5d7"
@@ -43,8 +48,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 6925,
-      "sha256": "67c0e824aee40eb2f982aced7636572558faeddbc059be463d44132904e12d69"
+      "bytes": 7932,
+      "sha256": "cac62a00d318c0da05ec0c3ecd6a6ada024074d64c6bdf7c286f8acf866bee07"
     },
     {
       "path": "analysis_data/catalogues/bolshoip_tree_0_2_2/feature.csv.gz",
@@ -3097,6 +3102,26 @@
       "sha256": "7686424c689104ed7416aebf8f5d51a4d2ec35c93dabedd0ccd4681eeb4617f4"
     },
     {
+      "path": "checkpoints/manuscript_pre_v176_20261022/CHECKPOINT_VERIFICATION.json",
+      "bytes": 4715,
+      "sha256": "f093f07b09e90c03976550d52a58d747ea8e52624e5d030055b1f027c354ccc3"
+    },
+    {
+      "path": "checkpoints/manuscript_pre_v176_20261022/DM_Manuscript_Checkpoint_Pre_v176_20261022.zip",
+      "bytes": 1865666,
+      "sha256": "0cd2f1e65eaaf58fb21452454aa00d8c1c3cfe6f84c80be037284adf46df86a4"
+    },
+    {
+      "path": "checkpoints/manuscript_pre_v176_20261022/DM_Overleaf_Compilation_20261022.zip",
+      "bytes": 207677,
+      "sha256": "202b9198465cc427a9ff4a4d0e42200bafdc0d254cf5abd16411102b70cfd03d"
+    },
+    {
+      "path": "checkpoints/manuscript_pre_v176_20261022/README.md",
+      "bytes": 3498,
+      "sha256": "795047396a78aac98f69b06adf8368f44b35f477716872666a65fca8ba585791"
+    },
+    {
       "path": "docs/RELEASE_NOTES_v1.0.0.md",
       "bytes": 1810,
       "sha256": "5957e6d0157315e727aacd01e1f9ce03e476b67dcb2eb1c798926d31a47b4f8f"
@@ -3143,13 +3168,13 @@
     },
     {
       "path": "docs/licensing.json",
-      "bytes": 8427,
-      "sha256": "12279ef9e2626527eb56cdb006d6da703ed4ae8bf0b9d00f2bd9cc99a676d0b2"
+      "bytes": 8574,
+      "sha256": "ee2d78c9c6687d2f208cde2a6efb273c17281c05eca9ff9e4cf9c31c571d0bf2"
     },
     {
       "path": "docs/release_status.json",
-      "bytes": 2500,
-      "sha256": "80df9350d61509eeaee468da024670e906f2b13f5483c384d5a2bd1621d69a90"
+      "bytes": 2720,
+      "sha256": "9eeb802d5b10635eee2cde37f7431c48721091b7ae26920ab9cef39ab426246e"
     },
     {
       "path": "docs/reproducibility_map.json",
@@ -3178,8 +3203,8 @@
     },
     {
       "path": "logbook/entries.json",
-      "bytes": 12742,
-      "sha256": "9ccc7b565ffdca99dada221f047ce127874a2212c7070d0c76eb678e7e418279"
+      "bytes": 14161,
+      "sha256": "28fd14d39492eb93d01b6a58fbcf8b0a07a230c8eedfcd9512364e4467ec6a7b"
     },
     {
       "path": "logbook/entry_0001.tex",
@@ -3220,6 +3245,11 @@
       "path": "logbook/entry_0008.tex",
       "bytes": 1146,
       "sha256": "2838a9ce5924d88726368739aac23fe2263ffbde579ffc8224938107c00cea8f"
+    },
+    {
+      "path": "logbook/entry_0009.tex",
+      "bytes": 755,
+      "sha256": "8538d582c558137252f47cc571a59d33d3d9d11854b67b33d22f74b15b118c6a"
     },
     {
       "path": "paper/Mass_Loss_Accretion_History.pdf",
@@ -3812,6 +3842,11 @@
       "sha256": "4e238a5f4771393b526a076948701cb320a6b9edce619d7979ed70d1e907defe"
     },
     {
+      "path": "provenance/manuscript_publication_verification.json",
+      "bytes": 1083,
+      "sha256": "7947891e500c7668b44a4f8672204eecb89dfe31d519e125d3db2d26938c5f1e"
+    },
+    {
       "path": "provenance/reproduction_verification.json",
       "bytes": 3451,
       "sha256": "53ecc536c1026deee88f764b1f14b3b344e549d0ba30041af8fdb778a949a07d"
@@ -3937,6 +3972,11 @@
       "sha256": "9bfe33862b2ed7891e72ed0562e38dadee37c67a9482f9fd97f4290775a9c5ef"
     },
     {
+      "path": "tests/test_overleaf_checkpoint.py",
+      "bytes": 1736,
+      "sha256": "d66fce989e253499f3fb40bacd28a956b501cc461d9c58f6f1f0945826c89789"
+    },
+    {
       "path": "tests/test_publication_update.py",
       "bytes": 4925,
       "sha256": "435eb2a0f59b5bc406b687e2b1f4cc1a3847826dc118045f9d768128d0c0a487"
@@ -4000,6 +4040,11 @@
       "path": "tools/verify_licensing.py",
       "bytes": 6207,
       "sha256": "cbc70c904282a6f474fc0d6489101a783cc34f84750f998ddc6faf9488be88b7"
+    },
+    {
+      "path": "tools/verify_overleaf_checkpoint.py",
+      "bytes": 4321,
+      "sha256": "e7b33f62fb0ffba340408263663da16f944f50fee2b5581db04bc49803fc1e8d"
     },
     {
       "path": "tools/verify_publication_update.py",

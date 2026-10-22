@@ -1,0 +1,36 @@
+name: Verify and export frozen manuscript checkpoint
+on:
+  push:
+    branches: [main]
+    paths: ['checkpoints/manuscript_pre_v176_20261022/**']
+permissions:
+  contents: read
+jobs:
+  export:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Fetch exact public source
+        env:
+          EXPECTED_REPOSITORY: Atalebe/dm_mass_loss_accretion_history
+        run: |
+          set -euo pipefail
+          test "$GITHUB_REPOSITORY" = "$EXPECTED_REPOSITORY"
+          git init source
+          git -C source remote add origin "https://github.com/$EXPECTED_REPOSITORY.git"
+          git -C source fetch --depth=1 origin "$GITHUB_SHA"
+          git -C source checkout --detach FETCH_HEAD
+          test "$(git -C source rev-parse HEAD)" = "$GITHUB_SHA"
+      - name: Verify saved document bundles
+        working-directory: source
+        run: |
+          set -euo pipefail
+          python3 -B tools/verify_integrity.py
+          python3 -B tools/verify_overleaf_checkpoint.py
+      - name: Export checked bundles
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: DM-Manuscript-Pre-v176-Checkpoint
+          path: source/checkpoints/manuscript_pre_v176_20261022/
+          if-no-files-found: error
+          retention-days: 90
+          compression-level: 0
